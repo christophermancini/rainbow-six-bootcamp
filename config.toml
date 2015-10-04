@@ -1,0 +1,13 @@
+#baseurl = "http://rainbowsixbootcamp.com/"
+baseurl = "http://localhost:1313"
+
+theme = 'bootstrap-gaming-theme'
+
+languageCode = "en-us"
+title = "Rainbow Six Bootcamp"
+
+watch = true
+
+[taxonomies]
+  news = "/:year/:month/:slug/"
+  post = "/:year/:month/:slug/"

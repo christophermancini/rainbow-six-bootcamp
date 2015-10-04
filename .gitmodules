@@ -1,0 +1,3 @@
+[submodule "themes/bootstrap-gaming-theme"]
+	path = themes/bootstrap-gaming-theme
+	url = git@bitbucket.org:cmm324/bootstrap-gaming-theme.git
