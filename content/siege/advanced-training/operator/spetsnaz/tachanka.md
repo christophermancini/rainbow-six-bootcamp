@@ -4,24 +4,35 @@ draft = true
 title = "Tachanka"
 type = "operator"
 
-nickname = ""
-ctu = ""
+cost = "500"
+ctu = "spetsnaz"
 dob = ""
+gender = "M"
+height = "M"
+name = ""
 pob = ""
-height = ""
-weight = ""
-armor = ""
-speed = ""
-side = ""
-cost = ""
+quote = ""
+positon = "Defender"
+spotlight = "http://rainbow6.ubi.com/siege/en-us/news/detail.aspx"
+weight = "KG"
+
+armor = "Heavy"
+speed = "Slow"
+
+unique = "mounted-lmg"
+primary-weapons = ["9x19vsn"]
+secondary-weapons = ["gsh-18"]
+gadgets = ["deployable-shield"]
 +++
 
-# Background
+# Tactical Profile
 
-# Psychological Profile
+## Background
 
-# Training
+## Psychological Profile
 
-# Relevant Experience
+## Training
 
-# Notes
+## Relevant Experience
+
+## Notes

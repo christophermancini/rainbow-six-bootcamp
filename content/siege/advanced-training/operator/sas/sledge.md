@@ -4,24 +4,35 @@ draft = true
 title = "Sledge"
 type = "operator"
 
-nickname = ""
-ctu = ""
-dob = ""
-pob = ""
-height = ""
-weight = ""
-armor = ""
-speed = ""
-side = ""
-cost = ""
+cost = "500"
+ctu = "sas"
+dob = "4/2/1982"
+gender = "M"
+height = "1.92M"
+name = "Seamus Cowden"
+pob = "John O'Groats, England"
+quote = "WHO NEEDS EXPLOSIVES"
+positon = "Attacker"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-199468-16&ct=tcm:148-76770-32"
+weight = "104KG"
+
+armor = "Medium"
+speed = "Medium"
+
+unique = "caber-tactical-breaching-hammer"
+primary-weapons = ["591a1", "l85a2"]
+secondary-weapons = ["226-mk-25", "mac-11"]
+gadgets = ["frag-grenade", "breach-charge"]
 +++
 
-# Background
+# Tactical Profile
 
-# Psychological Profile
+## Background
 
-# Training
+## Psychological Profile
 
-# Relevant Experience
+## Training
 
-# Notes
+## Relevant Experience
+
+## Notes

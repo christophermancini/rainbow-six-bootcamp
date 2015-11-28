@@ -1,9 +1,9 @@
 +++
 categories = []
 date = "2015-10-03T22:29:56-04:00"
-tags = []
-title = "sas"
-type = "ctu"
+tags = ["sas"]
+title = "Special Air Service"
+wikipedia = "https://en.wikipedia.org/wiki/Special_Air_Service"
 +++
 
 # History
@@ -14,10 +14,10 @@ type = "ctu"
 
 **Attackers**
 
-- [Sledge]()
-- [Thatcher]()
+- [Sledge]({{<relref "sledge.md">}})
+- [Thatcher]({{<relref "thatcher.md">}})
 
 **Defenders**
 
-- [Mute]()
-- [Smoke]()
+- [Mute]({{<relref "mute.md">}})
+- [Smoke]({{<relref "smoke.md">}})

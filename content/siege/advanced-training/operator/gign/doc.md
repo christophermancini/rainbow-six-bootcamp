@@ -4,24 +4,35 @@ draft = true
 title = "Doc"
 type = "operator"
 
-nickname = ""
-ctu = ""
-dob = ""
-pob = ""
-height = ""
-weight = ""
-armor = ""
-speed = ""
-side = ""
-cost = ""
+cost = "500"
+ctu = "gign"
+dob = "9/16/1977"
+gender = "M"
+height = "1.77M"
+name = "Gustave Kateb"
+pob = "Paris, France"
+quote = "TRY NOT TO GET YOURSELVES HURT"
+positon = "Defender"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210704-16&ct=tcm:148-76770-32"
+weight = "79KG"
+
+armor = "Heavy"
+speed = "Slow"
+
+unique = "mpd-0-stim-pistol"
+primary-weapons = ["sg-cqb", "mp5"]
+secondary-weapons = ["p9", "lfp586"]
+gadgets = ["barbed-wire", "deployable-shield"]
 +++
 
-# Background
+# Tactical Profile
 
-# Psychological Profile
+## Background
 
-# Training
+## Psychological Profile
 
-# Relevant Experience
+## Training
 
-# Notes
+## Relevant Experience
+
+## Notes

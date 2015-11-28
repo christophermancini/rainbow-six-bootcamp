@@ -4,24 +4,35 @@ draft = true
 title = "Montagne"
 type = "operator"
 
-nickname = ""
-ctu = ""
-dob = ""
-pob = ""
-height = ""
-weight = ""
-armor = ""
-speed = ""
-side = ""
-cost = ""
+cost = "500"
+ctu = "gign"
+dob = "10/11/1968"
+gender = "M"
+height = "1.90M"
+name = "Gilles Touré"
+pob = "Bordeaux, France"
+quote = "GET BEHIND ME"
+positon = "Attacker"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210678-16&ct=tcm:148-76770-32"
+weight = "100KG"
+
+armor = "Heavy"
+speed = "Slow"
+
+unique = "le-roc-extendable-shield"
+primary-weapons = ["ballistic-shield"]
+secondary-weapons = ["p9", "lfp586"]
+gadgets = ["stun-grenade", "smoke-grenade"]
 +++
 
-# Background
+# Tactical Profile
 
-# Psychological Profile
+## Background
 
-# Training
+## Psychological Profile
 
-# Relevant Experience
+## Training
 
-# Notes
+## Relevant Experience
+
+## Notes

@@ -4,24 +4,35 @@ draft = true
 title = "Glaz"
 type = "operator"
 
-nickname = ""
-ctu = ""
+cost = "500"
+ctu = "spetsnaz"
 dob = ""
+gender = "M"
+height = "M"
+name = ""
 pob = ""
-height = ""
-weight = ""
-armor = ""
-speed = ""
-side = ""
-cost = ""
+quote = ""
+positon = "Attacker"
+spotlight = "http://rainbow6.ubi.com/siege/en-us/news/detail.aspx"
+weight = "KG"
+
+armor = "Medium"
+speed = "Medium"
+
+unique = ""
+primary-weapons = []
+secondary-weapons = []
+gadgets = []
 +++
 
-# Background
+# Tactical Profile
 
-# Psychological Profile
+## Background
 
-# Training
+## Psychological Profile
 
-# Relevant Experience
+## Training
 
-# Notes
+## Relevant Experience
+
+## Notes

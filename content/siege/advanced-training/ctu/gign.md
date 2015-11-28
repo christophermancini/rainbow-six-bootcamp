@@ -1,9 +1,9 @@
 +++
 categories = []
 date = "2015-10-03T22:30:34-04:00"
-tags = []
-title = "gign"
-
+tags = ["gign"]
+title = "National Gendarmerie Intervention Group"
+wikipedia = "https://en.wikipedia.org/wiki/National_Gendarmerie_Intervention_Group"
 +++
 
 # History
@@ -14,10 +14,10 @@ title = "gign"
 
 **Attackers**
 
-- [Twitch]()
-- [Montagne]()
+- [Twitch]({{<relref "twitch.md">}})
+- [Montagne]({{<relref "montagne.md">}})
 
 **Defenders**
 
-- [Doc]()
-- [Rook]()
+- [Doc]({{<relref "doc.md">}})
+- [Rook]({{<relref "rook.md">}})

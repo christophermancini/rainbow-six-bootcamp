@@ -1,9 +1,9 @@
 +++
 categories = []
 date = "2015-10-03T22:30:53-04:00"
-tags = []
+tags = ["spetsnaz"]
 title = "Spetsnaz"
-
+wikipedia = "https://en.wikipedia.org/wiki/Spetsnaz"
 +++
 
 # History
@@ -14,10 +14,10 @@ title = "Spetsnaz"
 
 **Attackers**
 
-- [Fuze]()
-- []()
+- [Fuze]({{<relref "fuze.md">}})
+- []({{<relref "fuze.md">}})
 
 **Defenders**
 
-- []()
-- []()
+- []({{<relref "fuze.md">}})
+- [Tachanka]({{<relref "tachanka.md">}})

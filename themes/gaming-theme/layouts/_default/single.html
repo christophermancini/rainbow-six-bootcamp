@@ -1,0 +1,53 @@
+{{ partial "head.html" . }}
+<body>
+
+  {{ partial "header.html" . }}
+
+  <div class="container">
+    <div class="row">
+
+      <div id="article-wrapper">
+        <div class="row">
+          <div id="article-metabar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Another link</a></li>
+              <li><a href="#">Next link</a></li>
+              <li><a href="#">Last link</a></li>
+            </ul>
+          </div>
+          <article>
+            <h1>{{ .Title }}</h1>
+            <div class="postmeta">
+              <p class="text-muted">By <a href="">Agent lunger</a></p>
+              <p style="border-top: .1em solid #808080"></p>
+              <p class="text-muted pull-left" style="padding-right: 20px;">
+                <small><i class="fa fa-calendar" style="color: "></i>{{ .Date.Format "Mon, Jan 2, 2006" }}</small>
+              </p>
+              <p class="text-muted pull-left" style="padding-right: 20px;">
+                <small><i class="fa fa-comments" style="color: "></i>0</small>
+              </p>
+              <p class="text-muted pull-left">
+                <small>
+                  <i class="fa fa-tags" style="color: "></i>
+                  <a href="">Interview</a>, <a href="">Strategy</a>, <a href="">Ingress Scanner</a>
+                </small>
+              </p>
+              <p style="clear:both;"></p>
+            </div>
+
+            <div id="ad" class="pull-right">
+              <img src="http://placehold.it/300x250">
+            </div>
+
+            {{ .Content }}
+
+          </article>
+
+          {{ template "_internal/disqus.html" . }}
+
+    </div>
+  </div>
+
+</body>
+</html>

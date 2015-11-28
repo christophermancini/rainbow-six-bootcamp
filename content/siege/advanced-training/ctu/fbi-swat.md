@@ -1,9 +1,9 @@
 +++
 categories = []
 date = "2015-10-03T22:30:02-04:00"
-tags = []
-title = "FBI SWAT"
-
+tags = ["fbi-swat"]
+title = "FBI Special Weapons and Tactics Teams"
+wikipedia = "https://en.wikipedia.org/wiki/FBI_Special_Weapons_and_Tactics_Teams"
 +++
 
 # History
@@ -14,10 +14,10 @@ title = "FBI SWAT"
 
 **Attackers**
 
-- [Thermite]()
-- [Ash]()
+- [Thermite]({{<relref "thermite.md">}})
+- [Ash]({{<relref "ash.md">}})
 
 **Defenders**
 
-- [Pulse]()
-- [Castle]()
+- [Pulse]({{<relref "pulse.md">}})
+- [Castle]({{<relref "castle.md">}})

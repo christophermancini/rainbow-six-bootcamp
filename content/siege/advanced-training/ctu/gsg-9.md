@@ -1,9 +1,9 @@
 +++
 categories = []
 date = "2015-10-03T22:31:02-04:00"
-tags = []
+tags = ["gsg-9"]
 title = "GSG 9"
-
+wikipedia = "https://en.wikipedia.org/wiki/GSG_9"
 +++
 
 # History
@@ -14,10 +14,10 @@ title = "GSG 9"
 
 **Attackers**
 
-- [Blitz]()
-- [IQ]()
+- [Blitz]({{<relref "blitz.md">}})
+- [IQ]({{<relref "iq.md">}})
 
 **Defenders**
 
-- []()
-- []()
+- [Bandit]({{<relref "bandit.md">}})
+- [Jager]({{<relref "jager.md">}})
