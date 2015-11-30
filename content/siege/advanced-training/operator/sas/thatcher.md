@@ -20,9 +20,9 @@ armor = "Medium"
 speed = "Medium"
 
 unique = "emp-grenade"
-primary-weapons = ["k33", "l85a2"]
+primary-weapons = ["k33","l85a2"]
 secondary-weapons = ["226-mk-25"]
-gadgets = ["stun-grenade", "breach-charge"]
+gadgets = ["breach-charge","stun-grenade"]
 +++
 
 # Tactical Profile

@@ -20,9 +20,9 @@ armor = "Light"
 speed = "Fast"
 
 unique = "hb-5"
-primary-weapons = ["m1014", "ump-45"]
-secondary-weapons = ["m45-meusoc", "57usg"]
-gadgets = ["barbed-wire", "nitro-cell"]
+primary-weapons = ["m1014","ump-45"]
+secondary-weapons = ["57usg","m45-meusoc"]
+gadgets = ["barbed-wire","nitro-cell"]
 +++
 
 # Tactical Profile

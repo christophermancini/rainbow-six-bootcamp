@@ -6,23 +6,23 @@ type = "operator"
 
 cost = "500"
 ctu = "gsg-9"
-dob = ""
-gender = "M"
-height = "M"
-name = ""
-pob = ""
-quote = ""
+dob = "08/01/1979"
+gender = "F"
+height = "1.75M"
+name = "Monika Weiss"
+pob = "Leipzig, Germany"
+quote = "WE'RE NOT GOING IN BLIND."
 positon = "Attacker"
-spotlight = "http://rainbow6.ubi.com/siege/en-us/news/detail.aspx"
-weight = "KG"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213828-16&ct=tcm:148-76770-32"
+weight = "70KG"
 
-armor = "Medium"
-speed = "Medium"
+armor = "Light"
+speed = "Fast"
 
-unique = ""
-primary-weapons = []
-secondary-weapons = []
-gadgets = []
+unique = "red-mk-iii-spectre-electronics-detector"
+primary-weapons = ["552-commando","aug-a2"]
+secondary-weapons = ["p12"]
+gadgets = ["breach-charge", "stun-grenade"]
 +++
 
 # Tactical Profile

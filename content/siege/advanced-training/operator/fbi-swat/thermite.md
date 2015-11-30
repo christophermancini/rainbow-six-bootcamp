@@ -6,7 +6,7 @@ type = "operator"
 
 cost = "500"
 ctu = "fbi-swat"
-dob = "3/14/1982"
+dob = "03/14/1982"
 gender = "M"
 height = "1.78M"
 name = "Jordan Trace"
@@ -19,10 +19,10 @@ weight = "81.6KG"
 armor = "Medium"
 speed = "Medium"
 
-unique = "brimstone-bc-3-exothermic-charge"
-primary-weapons = ["m1014", "sig-556"]
-secondary-weapons = ["m45-meusoc", "57usg"]
-gadgets = ["frag-grenade", "breach-charge"]
+unique = "brimstone-bc-3"
+primary-weapons = ["m1014","sig-556"]
+secondary-weapons = ["57usg","m45-meusoc"]
+gadgets = ["breach-charge","frag-grenade"]
 +++
 
 # Tactical Profile

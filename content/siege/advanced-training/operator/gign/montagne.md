@@ -21,8 +21,8 @@ speed = "Slow"
 
 unique = "le-roc-extendable-shield"
 primary-weapons = ["ballistic-shield"]
-secondary-weapons = ["p9", "lfp586"]
-gadgets = ["stun-grenade", "smoke-grenade"]
+secondary-weapons = ["lfp586","p9"]
+gadgets = ["smoke-grenade","stun-grenade"]
 +++
 
 # Tactical Profile

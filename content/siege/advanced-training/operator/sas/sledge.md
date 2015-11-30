@@ -6,7 +6,7 @@ type = "operator"
 
 cost = "500"
 ctu = "sas"
-dob = "4/2/1982"
+dob = "04/02/1982"
 gender = "M"
 height = "1.92M"
 name = "Seamus Cowden"
@@ -22,7 +22,7 @@ speed = "Medium"
 unique = "caber-tactical-breaching-hammer"
 primary-weapons = ["591a1", "l85a2"]
 secondary-weapons = ["226-mk-25", "mac-11"]
-gadgets = ["frag-grenade", "breach-charge"]
+gadgets = ["breach-charge","frag-grenade"]
 +++
 
 # Tactical Profile

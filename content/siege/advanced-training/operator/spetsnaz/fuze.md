@@ -6,23 +6,23 @@ type = "operator"
 
 cost = "500"
 ctu = "spetsnaz"
-dob = ""
+dob = "10/12/1982"
 gender = "M"
-height = "M"
-name = ""
-pob = ""
-quote = ""
+height = "1.80M"
+name = "Shuhrat Kessikbayev"
+pob = "Samarkand, Uzbekistan"
+quote = "PLACING CLUSTER CHARGE"
 positon = "Attacker"
-spotlight = "http://rainbow6.ubi.com/siege/en-us/news/detail.aspx"
-weight = "KG"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228984-16&ct=tcm:148-76770-32"
+weight = "85KG"
 
-armor = "Medium"
-speed = "Medium"
+armor = "Heavy"
+speed = "Slow"
 
-unique = ""
-primary-weapons = []
-secondary-weapons = []
-gadgets = []
+unique = "apm-6-matryoshka"
+primary-weapons = ["ballistic-shield","6p41"]
+secondary-weapons = ["gsh-18","pmm"]
+gadgets = ["breach-charge","stun-grenade"]
 +++
 
 # Tactical Profile

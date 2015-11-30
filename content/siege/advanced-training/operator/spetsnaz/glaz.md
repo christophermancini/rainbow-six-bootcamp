@@ -6,23 +6,23 @@ type = "operator"
 
 cost = "500"
 ctu = "spetsnaz"
-dob = ""
+dob = "07/02/1987"
 gender = "M"
-height = "M"
-name = ""
-pob = ""
-quote = ""
+height = "1.78M"
+name = "Timur Glazkov"
+pob = "Vladivostok, Russia"
+quote = "ONE SHOT, ONE KILL"
 positon = "Attacker"
-spotlight = "http://rainbow6.ubi.com/siege/en-us/news/detail.aspx"
-weight = "KG"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228967-16&ct=tcm:148-76770-32"
+weight = "84KG"
 
 armor = "Medium"
 speed = "Medium"
 
-unique = ""
-primary-weapons = []
-secondary-weapons = []
-gadgets = []
+unique = "hds-flip-sight"
+primary-weapons = ["ots-03"]
+secondary-weapons = ["gsh-18","pmm"]
+gadgets = ["breach-charge","smoke-grenade"]
 +++
 
 # Tactical Profile

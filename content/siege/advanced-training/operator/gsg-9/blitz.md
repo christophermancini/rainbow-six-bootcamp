@@ -5,23 +5,23 @@ title = "Blitz"
 
 cost = "500"
 ctu = "gsg-9"
-dob = ""
+dob = "04/02/1980"
 gender = "M"
-height = "M"
-name = ""
-pob = ""
-quote = ""
+height = "1.75M"
+name = "Elias Kötz"
+pob = "Bremen, Germany"
+quote = "STICK BEHIND ME AND YOUR UGLY MUG MIGHT LIVE TO SEE ANOTHER DAY!"
 positon = "Attacker"
-spotlight = "http://rainbow6.ubi.com/siege/en-us/news/detail.aspx"
-weight = "KG"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213911-16&ct=tcm:148-76770-32"
+weight = "75KG"
 
-armor = "Medium"
-speed = "Medium"
+armor = "Heavy"
+speed = "Slow"
 
-unique = ""
-primary-weapons = []
-secondary-weapons = []
-gadgets = []
+unique = "g52-tactical-shield"
+primary-weapons = ["ballistic-shield"]
+secondary-weapons = ["p12"]
+gadgets = ["breach-charge", "smoke-grenade"]
 +++
 
 # Tactical Profile

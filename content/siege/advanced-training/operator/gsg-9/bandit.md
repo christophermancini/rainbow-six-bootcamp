@@ -6,23 +6,23 @@ type = "operator"
 
 cost = "500"
 ctu = "gsg-9"
-dob = ""
+dob = "08/13/1974"
 gender = "M"
-height = "M"
-name = ""
-pob = ""
-quote = ""
-positon = "Attacker"
-spotlight = ""
-weight = "KG"
+height = "1.80M"
+name = "Dominic Brunsmeier"
+pob = "Berlin, Germany"
+quote = "YOUR GEAR COME WITH THAT POLISH?"
+positon = "Defender"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213912-16&ct=tcm:148-76770-32"
+weight = "95KG"
 
-armor = "Medium"
-speed = "Medium"
+armor = "Light"
+speed = "Fast"
 
 unique = "ced-1"
-primary-weapons = []
-secondary-weapons = []
-gadgets = []
+primary-weapons = ["mp7", "m870"]
+secondary-weapons = ["p12"]
+gadgets = ["barbed-wire", "nitro-cell"]
 +++
 
 # Tactical Profile

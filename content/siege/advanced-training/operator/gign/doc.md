@@ -6,7 +6,7 @@ type = "operator"
 
 cost = "500"
 ctu = "gign"
-dob = "9/16/1977"
+dob = "09/16/1977"
 gender = "M"
 height = "1.77M"
 name = "Gustave Kateb"
@@ -20,8 +20,8 @@ armor = "Heavy"
 speed = "Slow"
 
 unique = "mpd-0-stim-pistol"
-primary-weapons = ["sg-cqb", "mp5"]
-secondary-weapons = ["p9", "lfp586"]
+primary-weapons = ["mp5","sg-cqb"]
+secondary-weapons = ["lfp586","p9"]
 gadgets = ["barbed-wire", "deployable-shield"]
 +++
 

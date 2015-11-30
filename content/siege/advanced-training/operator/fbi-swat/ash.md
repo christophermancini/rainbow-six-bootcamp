@@ -4,7 +4,6 @@ draft = true
 title = "Ash"
 type = "operator"
 
-cost = "500"
 ctu = "fbi-swat"
 dob = "12/14/1983"
 gender = "F"
@@ -16,13 +15,13 @@ positon = "Attacker"
 spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204024-16&ct=tcm:148-76770-32"
 weight = "63KG"
 
-armor = "Medium"
-speed = "Medium"
+armor = "Light"
+speed = "Fast"
 
-unique = ""
-primary-weapons = []
-secondary-weapons = []
-gadgets = []
+unique = "m120-crem"
+primary-weapons = ["g36-c","remington-r4"]
+secondary-weapons = ["57usg","m45-meusoc"]
+gadgets = ["breach-charge","smoke-grenade"]
 +++
 
 # Tactical Profile

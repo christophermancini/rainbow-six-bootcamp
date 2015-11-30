@@ -22,7 +22,7 @@ speed = "Medium"
 unique = "moni-gc90-signal-disruptor"
 primary-weapons = ["591a1", "mp5k"]
 secondary-weapons = ["226-mk-25"]
-gadgets = ["nitro-cell", "deployable-shield"]
+gadgets = ["deployable-shield","nitro-cell"]
 +++
 
 # Tactical Profile

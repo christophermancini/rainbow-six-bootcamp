@@ -4,9 +4,8 @@ draft = true
 title = "Castle"
 type = "operator"
 
-cost = "500"
 ctu = "fbi-swat"
-dob = "9/20/1980"
+dob = "09/20/1980"
 gender = "M"
 height = "1.85M"
 name = "Miles Campbell"
@@ -20,8 +19,8 @@ armor = "Medium"
 speed = "Medium"
 
 unique = "armor-panel"
-primary-weapons = ["m1014", "ump-45"]
-secondary-weapons = ["m45-meusoc", "57usg"]
+primary-weapons = ["m1014","ump-45"]
+secondary-weapons = ["57usg","m45-meusoc"]
 gadgets = ["barbed-wire", "deployable-shield"]
 +++
 

@@ -6,7 +6,7 @@ type = "operator"
 
 cost = "500"
 ctu = "sas"
-dob = "5/14/1990"
+dob = "05/14/1990"
 gender = "M"
 height = "1.73M"
 name = "James Porter"
