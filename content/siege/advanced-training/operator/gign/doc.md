@@ -28,10 +28,24 @@ gadgets = ["barbed-wire", "deployable-shield"]
 
 ## Background
 
+Kateb grew up in an affluent family, in Paris' 16th arrondissement. At twenty, he abandoned a potentially prominent private medical practice in favor of a career with the French Defence Health Service.
+
 ## Psychological Profile
+
+Kateb demonstrates a high degree of empathy for human suffering; he is a rare genuine altruist. He sees military service (especially the role of CTUs like GIGN) as noble in their dedication to protecting civilians. He considers the front line his natural habitat, as it provides him with the opportunity to have a direct influence and impact the welfare of the unit. His proclivity for conflict resolution makes him a valuable asset.
 
 ## Training
 
+Université Paris Descartes: Bachelor of Science, Health; Master Toxicology and Ecotoxicology; Doctorate Medicine, Toxicology, Chemistry, Imagery (MTCI)
+French Defence Health Service
+Army Special Forces Brigade
+GIGN
+
 ## Relevant Experience
 
+Two tours of duty
+Doctor's without Borders, certified to practice in ten countries
+
 ## Notes
+
+None

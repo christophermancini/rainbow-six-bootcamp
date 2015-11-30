@@ -1,5 +1,5 @@
 +++
-name = ""
+title = ""
 image = ""
 country = ""
 class = ""

@@ -28,10 +28,23 @@ gadgets = ["barbed-wire","deployable-shield"]
 
 ## Background
 
+Born into a Red Army family, Senaviev enlisted when he turned eighteen. After the Soviet Union pulled out of Afghanistan, Senaviev was transferred to the Spetsnaz shortly before the collapse of the Union.
+
 ## Psychological Profile
+
+Calm in crises. Alex harbors a joyous, if acerbic outlook. He has a limited social filter, which has gotten him into trouble in the past.
 
 ## Training
 
+Soviet Army
+Spetsnaz
+
 ## Relevant Experience
 
+Soviet War in Afghanistan
+Chechnya
+Georgia
+
 ## Notes
+
+A collector of Soviet-era weaponry, he prefers simple designs proven to be effective, over the modern experimental technology and warefare.

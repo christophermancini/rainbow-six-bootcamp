@@ -28,10 +28,25 @@ gadgets = ["barbed-wire","deployable-shield"]
 
 ## Background
 
+Raised by his uncle, a mechanic for what became the Bundespolizei (BPOL) Aviation Group after reunification, Streicher joined BPOL as a helicopter technician. In BPOL he began designing defensive weapon systems, including a ground-based Active Defense System (ADS) prototype that caught the attention of GSG 9.
+
 ## Psychological Profile
+
+Streicher is highly creative and curious, with a strong desire to serve. He has a tendency to lack humility. Though he has a remarkable affinity for complex machinery, he is not adept at reading social cues. Coupled with his boisterous tendencies he can be a bit abrasive.
 
 ## Training
 
+Karlsruhe Institute of Technology: Bachelor of Science, Aerospace Engineering
+Bundespolizei: Helicopter Technician, Weapons Maintenance
+GSG 9: Technical Advisor
+GSG 9: Operator
+
 ## Relevant Experience
 
+GSG 9 Basic and Advanced trainiing
+CQB training for operations at sea
+Involved in anti-piracy ops
+
 ## Notes
+
+None

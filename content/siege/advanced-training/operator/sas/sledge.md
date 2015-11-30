@@ -28,10 +28,21 @@ gadgets = ["breach-charge","frag-grenade"]
 
 ## Background
 
+Seamus Cowden hails from the upper tip of the Scottish Highlands. Due to his imposing physical presence and athleticism, he found early success as the Captain of the 1998 Scotland National under-20 Rugby Union Team. A strong desire for public service inspired Cowden to enlist in the army at 18, after five years on active duty, he was recruited by the SAS.
+
 ## Psychological Profile
+
+Cowden displays natural leadership qualities, likely developed during his amateur sports career. His comfort on the front line can be attributed to his confidence and tactical experience.
 
 ## Training
 
+British Army: 3rd (UK) Division
+SAS Operative
+
 ## Relevant Experience
 
+Holds the all-time speed and strength record for the SAS qualifying physical exam. Seamus Cowden developed an operational expertise in breaking down barriers with a breaching hammer.
+
 ## Notes
+
+Seamus Cowden was integral to the SAS, and his recruitment to Rainbow squad is a major coup for their operations. His professionalism and tactical abilities are beyond reproach, and he is expected to perform at the highest level in his new role.

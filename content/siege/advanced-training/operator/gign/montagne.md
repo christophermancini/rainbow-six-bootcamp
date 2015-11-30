@@ -28,10 +28,31 @@ gadgets = ["smoke-grenade","stun-grenade"]
 
 ## Background
 
+The son of an army officer and a school teacher, the family was stationed near Bordeaux. A few years
+after Touré graduated from high school, he became a member of the National Gendarmerie. A career
+policeman, Touré has dedicated his life to the defense work, his dedication and commitment to the
+ideals of the National Gendarmerie allowed him to obtain a position with the GIGN.
+
 ## Psychological Profile
+
+Touré is considered highly dependable by his peers. His steady nerves have allowed him to successfully
+take control of complex, high stress situations during the tenure of his career.
+
+As a trainer, Touré is stern with the new recruits but always tries to remain fair. He prefers to lead
+by example.
 
 ## Training
 
+National Gendarmerie
+GIGN
+
 ## Relevant Experience
 
+1994 French Airline hijacking
+Won several CQB awards in SWAT competitions in Europe and the US
+Extensive urban CQB training.
+Certified GIGN trainer.
+
 ## Notes
+
+None

@@ -19,7 +19,7 @@ armor = "Light"
 speed = "Fast"
 
 unique = "m120-crem"
-primary-weapons = ["g36-c","remington-r4"]
+primary-weapons = ["g36-c","r4-c"]
 secondary-weapons = ["57usg","m45-meusoc"]
 gadgets = ["breach-charge","smoke-grenade"]
 +++
@@ -28,10 +28,25 @@ gadgets = ["breach-charge","smoke-grenade"]
 
 ## Background
 
+Cohen was born and raised in Jerusalem. After secondary school, she enrolled at Tel Aviv University, in the Engineering program, where she did a semester abroad at Boston University. After college she performed her civic duty enlisting in the Israeli Defense Forces. Her background in engineering made her a prime candidate for mechanical maintenance and demolitions.
+
 ## Psychological Profile
+
+Her military training as a demolitions specialist has left Cohen with an inflated sense of self. She can be aggressive, impulsive, and overly confident. She is quick to action, which can be an asset or fatal for someone in her line of work.
 
 ## Training
 
+Tel Aviv University: Bachelor of Science, Engineering
+Israeli Air Force
+Shaldag
+FBI SWAT (JINSA LEEP)
+
 ## Relevant Experience
 
+Second Lebanon War
+Operation Orchard
+Austere Challenge
+
 ## Notes
+
+None

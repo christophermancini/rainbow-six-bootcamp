@@ -28,7 +28,7 @@ gadgets = ["barbed-wire", "nitro-cell"]
 
 ## Background
 
-Brunsmeier and his twin brother Cedrick joined the Bundesgrunzschutz (BGS) the day after their eighteenth birthday. Stationed with the border patrol he would spend his first year getting accustomed to following orders and filing paperwork.
+Brunsmeier and his twin brother Cedrick joined the [Bundesgrunzschutz (BGS)](https://en.wikipedia.org/wiki/Federal_Police_(Germany)) the day after their eighteenth birthday. Stationed with the border patrol he would spend his first year getting accustomed to following orders and filing paperwork.
 
 ## Psychological Profile
 
@@ -43,7 +43,7 @@ GSG 9 Undercover Agent Hannover Hell's Angels
 
 ## Relevant Experience
 
-In his second year with BGS, Brunsmeier was assigned to a joint task force aimed at quelling the growong threat of the Red Army Faction (RAF). In 2006 he was recruited by GSG 9 to go undercover, where he would spend four years imbedded with the Hannover Chapter of the Hell's Angels.
+In his second year with BGS, Brunsmeier was assigned to a joint task force aimed at quelling the growing threat of the [Red Army Faction (RAF)](https://en.wikipedia.org/wiki/Red_Army_Faction). In 2006 he was recruited by GSG 9 to go undercover, where he would spend four years imbedded with the Hannover Chapter of the Hell's Angels.
 
 ## Notes
 

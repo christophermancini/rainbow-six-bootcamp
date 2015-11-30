@@ -28,10 +28,22 @@ gadgets = ["barbed-wire", "deployable-shield"]
 
 ## Background
 
+In school, Nizan excelled in athletics, specifically in Track and Field. The youngest son of a working class family, he enlisted with the Gendarmerie Nationale at eighteen and found himself assigned to the Highway Patrol unit. During basic training, Nizan discovered his aptitude for firearms, a skill that he would continue to develop and master during his time with the Gendarmerie Nationale. Nizan's skill with a rifle attracted the attention of the GIGN.
+
 ## Psychological Profile
+
+Nizan is idealistic and trusting. He can be impulsive, and must self-regulate in order to remain on task. When his focus is clear, he is decisive and driven to complete the task at hand.
 
 ## Training
 
+Gendarmerie Nationale
+GIGN
+
 ## Relevant Experience
 
+GIGN Marksmanship champion
+
 ## Notes
+
+Performs trust exercises with all the new recruits.
+Fluent in English, studied with an American Professor at Secondary School.
