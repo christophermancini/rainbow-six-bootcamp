@@ -8,4 +8,4 @@ title = "intro"
   weight = 0
 +++
 
-[Rainbow Six: Siege]({{< relref "game/siege.md" >}}) is the 7th installment in Tom Clancy's Rainbow Six game series.
+[Rainbow Six: Siege]({{< relref "siege/index.md" >}}) is the 7th installment in Tom Clancy's Rainbow Six game series.
