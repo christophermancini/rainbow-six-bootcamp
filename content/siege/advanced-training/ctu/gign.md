@@ -14,10 +14,10 @@ wikipedia = "https://en.wikipedia.org/wiki/National_Gendarmerie_Intervention_Gro
 
 **Attackers**
 
-- [Twitch]({{<relref "twitch.md">}})
-- [Montagne]({{<relref "montagne.md">}})
+- [Twitch]({{<relref "siege/advanced-training/operator/gign/twitch.md">}})
+- [Montagne]({{<relref "siege/advanced-training/operator/gign/montagne.md">}})
 
 **Defenders**
 
-- [Doc]({{<relref "doc.md">}})
-- [Rook]({{<relref "rook.md">}})
+- [Doc]({{<relref "siege/advanced-training/operator/gign/doc.md">}})
+- [Rook]({{<relref "siege/advanced-training/operator/gign/rook.md">}})

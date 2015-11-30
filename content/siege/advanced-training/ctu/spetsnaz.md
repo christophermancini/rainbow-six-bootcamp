@@ -14,10 +14,10 @@ wikipedia = "https://en.wikipedia.org/wiki/Spetsnaz"
 
 **Attackers**
 
-- [Fuze]({{<relref "fuze.md">}})
-- []({{<relref "fuze.md">}})
+- [Fuze]({{<relref "siege/advanced-training/operator/spetsnaz/fuze.md">}})
+- []({{<relref "siege/advanced-training/operator/spetsnaz/fuze.md">}})
 
 **Defenders**
 
-- []({{<relref "fuze.md">}})
-- [Tachanka]({{<relref "tachanka.md">}})
+- [Glaz]({{<relref "siege/advanced-training/operator/spetsnaz/glaz.md">}})
+- [Tachanka]({{<relref "siege/advanced-training/operator/spetsnaz/tachanka.md">}})

@@ -14,10 +14,10 @@ wikipedia = "https://en.wikipedia.org/wiki/GSG_9"
 
 **Attackers**
 
-- [Blitz]({{<relref "blitz.md">}})
-- [IQ]({{<relref "iq.md">}})
+- [Blitz]({{<relref "siege/advanced-training/operator/gsg-9/blitz.md">}})
+- [IQ]({{<relref "siege/advanced-training/operator/gsg-9/iq.md">}})
 
 **Defenders**
 
-- [Bandit]({{<relref "bandit.md">}})
-- [Jager]({{<relref "jager.md">}})
+- [Bandit]({{<relref "siege/advanced-training/operator/gsg-9/bandit.md">}})
+- [Jager]({{<relref "siege/advanced-training/operator/gsg-9/jager.md">}})

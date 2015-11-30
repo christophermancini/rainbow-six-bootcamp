@@ -14,10 +14,10 @@ wikipedia = "https://en.wikipedia.org/wiki/FBI_Special_Weapons_and_Tactics_Teams
 
 **Attackers**
 
-- [Thermite]({{<relref "thermite.md">}})
-- [Ash]({{<relref "ash.md">}})
+- [Thermite]({{<relref "siege/advanced-training/operator/fbi-swat/thermite.md">}})
+- [Ash]({{<relref "siege/advanced-training/operator/fbi-swat/ash.md">}})
 
 **Defenders**
 
-- [Pulse]({{<relref "pulse.md">}})
-- [Castle]({{<relref "castle.md">}})
+- [Pulse]({{<relref "siege/advanced-training/operator/fbi-swat/pulse.md">}})
+- [Castle]({{<relref "siege/advanced-training/operator/fbi-swat/castle.md">}})

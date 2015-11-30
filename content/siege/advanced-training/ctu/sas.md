@@ -14,10 +14,10 @@ wikipedia = "https://en.wikipedia.org/wiki/Special_Air_Service"
 
 **Attackers**
 
-- [Sledge]({{<relref "sledge.md">}})
-- [Thatcher]({{<relref "thatcher.md">}})
+- [Sledge]({{<relref "siege/advanced-training/operator/sas/sledge.md">}})
+- [Thatcher]({{<relref "siege/advanced-training/operator/sas/thatcher.md">}})
 
 **Defenders**
 
-- [Mute]({{<relref "mute.md">}})
-- [Smoke]({{<relref "smoke.md">}})
+- [Mute]({{<relref "siege/advanced-training/operator/sas/mute.md">}})
+- [Smoke]({{<relref "siege/advanced-training/operator/sas/smoke.md">}})
