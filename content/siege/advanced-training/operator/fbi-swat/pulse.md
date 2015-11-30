@@ -4,7 +4,6 @@ draft = true
 title = "pulse"
 type = "operator"
 
-cost = "500"
 ctu = "fbi-swat"
 dob = "10/11/1984"
 gender = "M"

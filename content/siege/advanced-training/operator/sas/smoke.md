@@ -4,7 +4,6 @@ draft = true
 title = "Smoke"
 type = "operator"
 
-cost = "500"
 ctu = "sas"
 dob = "05/14/1990"
 gender = "M"

@@ -4,7 +4,6 @@ draft = true
 title = "Rook"
 type = "operator"
 
-cost = "500"
 ctu = "gign"
 dob = "1/6/1990"
 gender = "M"

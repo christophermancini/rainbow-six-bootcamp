@@ -4,7 +4,6 @@ draft = true
 title = "Bandit"
 type = "operator"
 
-cost = "500"
 ctu = "gsg-9"
 dob = "08/13/1974"
 gender = "M"

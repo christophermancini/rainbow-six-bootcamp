@@ -4,7 +4,6 @@ draft = true
 title = "Montagne"
 type = "operator"
 
-cost = "500"
 ctu = "gign"
 dob = "10/11/1968"
 gender = "M"

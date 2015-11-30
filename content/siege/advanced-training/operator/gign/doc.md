@@ -4,7 +4,6 @@ draft = true
 title = "Doc"
 type = "operator"
 
-cost = "500"
 ctu = "gign"
 dob = "09/16/1977"
 gender = "M"

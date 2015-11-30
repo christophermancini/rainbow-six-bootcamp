@@ -4,7 +4,6 @@ draft = true
 title = "Thermite"
 type = "operator"
 
-cost = "500"
 ctu = "fbi-swat"
 dob = "03/14/1982"
 gender = "M"

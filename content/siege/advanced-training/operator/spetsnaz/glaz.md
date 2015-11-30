@@ -4,7 +4,6 @@ draft = true
 title = "Glaz"
 type = "operator"
 
-cost = "500"
 ctu = "spetsnaz"
 dob = "07/02/1987"
 gender = "M"

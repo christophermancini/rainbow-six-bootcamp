@@ -4,7 +4,6 @@ draft = true
 title = "Twitch"
 type = "operator"
 
-cost = "500"
 ctu = "gign"
 dob = "10/12/1988"
 gender = "M"

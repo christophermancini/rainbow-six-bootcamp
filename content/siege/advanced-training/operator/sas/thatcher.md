@@ -4,7 +4,6 @@ draft = true
 title = "Thatcher"
 type = "operator"
 
-cost = "500"
 ctu = "sas"
 dob = "6/22/1961"
 gender = "M"

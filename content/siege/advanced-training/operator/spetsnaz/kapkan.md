@@ -4,7 +4,6 @@ draft = true
 title = "Kapkan"
 type = "operator"
 
-cost = "500"
 ctu = "spetsnaz"
 dob = "05/14/1979"
 gender = "M"

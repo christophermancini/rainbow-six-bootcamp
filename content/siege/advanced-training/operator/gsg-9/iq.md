@@ -4,7 +4,6 @@ draft = true
 title = "IQ"
 type = "operator"
 
-cost = "500"
 ctu = "gsg-9"
 dob = "08/01/1979"
 gender = "F"

@@ -4,7 +4,6 @@ draft = true
 title = "Tachanka"
 type = "operator"
 
-cost = "500"
 ctu = "spetsnaz"
 dob = "11/03/1967"
 gender = "M"

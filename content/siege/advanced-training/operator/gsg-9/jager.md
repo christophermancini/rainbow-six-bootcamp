@@ -4,7 +4,6 @@ draft = true
 title = "Jäger"
 type = "operator"
 
-cost = "500"
 ctu = "gsg-9"
 dob = "03/09/1978"
 gender = "M"

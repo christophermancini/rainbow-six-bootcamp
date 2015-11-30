@@ -4,7 +4,6 @@ draft = true
 title = "Sledge"
 type = "operator"
 
-cost = "500"
 ctu = "sas"
 dob = "04/02/1982"
 gender = "M"

@@ -4,7 +4,6 @@ draft = true
 title = "Mute"
 type = "operator"
 
-cost = "500"
 ctu = "sas"
 dob = "10/11/1991"
 gender = "M"

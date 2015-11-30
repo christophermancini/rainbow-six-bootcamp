@@ -3,7 +3,6 @@ date = "2015-09-26T12:34:24-04:00"
 draft = true
 title = "Blitz"
 
-cost = "500"
 ctu = "gsg-9"
 dob = "04/02/1980"
 gender = "M"
