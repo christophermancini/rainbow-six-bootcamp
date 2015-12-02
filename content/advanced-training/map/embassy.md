@@ -1,0 +1,10 @@
++++
+date = "2015-11-30T03:28:42-05:00"
+title = "Embassy"
+tags = ["map","embassy"]
+
+floor-plans = [""]
+location = "United States"
+spawns = []
+splash-image = ""
++++

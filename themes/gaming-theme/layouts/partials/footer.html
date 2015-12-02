@@ -1,0 +1,38 @@
+  <footer>
+    <div class="container">
+      <div class="row">
+        <!-- copyright -->
+        <div class="col-md-4 col-sm-4">
+          copyright &copy; {{ .Now.Year }} <a href="{{ .Site.BaseURL }}" style="margin-left: 4px;">{{ .Site.Title }}</a>
+          <br>
+          Theme by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+        </div>
+
+        <!-- footer share button -->
+        <div class="col-md-4 col-sm-4">
+          <ul class="social-share text-center">
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul> <!-- /.social-share -->
+        </div>
+
+        <!-- footer-nav -->
+        <div class="col-md-4 col-sm-4">
+          <ul class="footer-nav">
+            <li><a href="{{ .Site.BaseURL }}/about">About</a></li>
+            <li><a href="{{ .Site.BaseURL }}/sitemap.xml">Sitemap</a></li>
+          </ul> <!-- /.footer-nav -->
+        </div>
+      </div>
+      {{ with .Site.Params.CopyExtra }}
+      <div class="row">
+        <div class="col-md-12">
+          {{ . | safeHTML }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </footer>

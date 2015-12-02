@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js"> <!--<![endif]-->
 <head>
   {{ partial "head.html" . }}
 </head>
@@ -7,23 +12,77 @@
 
   {{ partial "header.html" . }}
 
-  <div class="container">
-    <div class="row">
+  <main>
+    <div class="container">
+      <div class="row">
 
-      {{ range where .Data.Pages "Section" "post" }}
-      <div class="post">
-        <h1 class="post-title">
-          <a href="{{ .Permalink }}">
-            {{ .Title }}
-          </a>
-        </h1>
-        <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-        {{ .Content }}
+        <!-- blog-contents -->
+        <section class="col-md-8">
+
+          {{ range (.Paginate ( first 10 .Data.Pages )).Pages }}
+          <article class="blog-item">
+            <div class="row">
+              <div class="col-md-3">
+                <a href="{{ .Permalink }}">
+                  <img src="/assets/img/corporate.jpg" class="img-thumbnail center-block" alt="Blog Post Thumbnail">
+                </a>
+              </div>
+              <div class="col-md-9">
+                <p>
+                  {{ if .Params.tags }}
+                  in
+                  {{ range sort .Params.tags }}
+                    <a href="/tags/{{ . | urlize }}">{{ . }}</a>,
+                  {{ end }}
+                  {{ end }}
+                  on <time>{{ .Date.Format "Mon, Jan 2, 2006" }}<time>
+                </p>
+                <h1>
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h1>
+              </div>
+            </div>
+          </article> <!-- /.blog-item -->
+          {{ end }}
+
+          {{ template "_internal/pagination.html" . }}
+
+          <div class="page-turn">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 text-center">
+                <nav>
+                  <ul class="pagination pagination-sm">
+                    <li class="disabled">
+                      <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">Prev</span>
+                      </a>
+                    </li>
+                    <li class="active"><a href="index.html">1</a></li>
+                    <li><a href="page2.html">2</a></li>
+                    <li><a href="page3.html">3</a></li>
+                    <li><a href="page4.html">4</a></li>
+                    <li><a href="page5.html">5</a></li>
+                    <li>
+                      <a href="page6.html" aria-label="Next">
+                        <span aria-hidden="true">Next</span>
+                      </a>
+                    </li>
+                  </ul> <!-- /.pagination -->
+                </nav>
+              </div>
+            </div>
+          </div> <!-- /.page-turn -->
+
+        </section>
+        <!-- end of blog-contents -->
+
+        {{ partial "sidebar.html" . }}
+
       </div>
-      {{ end }}
+    </div> <!-- end of /.container -->
+  </main>
 
-    </div>
-  </div>
+  {{ partial "footer.html" . }}
 
   {{ partial "foot.html" . }}
 

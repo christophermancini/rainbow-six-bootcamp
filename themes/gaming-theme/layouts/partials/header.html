@@ -1,47 +1,20 @@
-<div class="container-fluid">
-  <div id="header" class="row">
-    <div class="col-md-12">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
 
-        <div id="header-inner" class="clearfix no-padding">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+          <img src="/logo.png" alt="{{ .Site.Title }} Logo">
+        </a>
+      </div>
 
-          <div class="logo hidden-xs">
-            <a href="http://www.industrialthemes.com/explicit/">
-              <img id="site-logo" alt="Explicit" src="http://www.industrialthemes.com/explicit/wp-content/uploads/2014/01/logo.png" width="268" height="90">
-              <img id="site-logo-hd" alt="Explicit" src="http://www.industrialthemes.com/explicit/wp-content/uploads/2014/01/logo@2x.png" width="268" height="90">
-            </a>
-          </div>
+      {{ partial "navmenu.html"}}
 
-          <div class="logo visible-xs">
-            <a href="http://www.industrialthemes.com/explicit/">
-              <img id="site-logo" alt="Explicit" src="http://www.industrialthemes.com/explicit/wp-content/uploads/2014/01/logo-sticky.png" width="179" height="55">
-              <img id="site-logo-hd" alt="Explicit" src="http://www.industrialthemes.com/explicit/wp-content/uploads/2014/01/logo-sticky@2x.png" width="179" height="55">
-            </a>
-          </div>
-
-          <div class="header-social clearfix">
-            <div class="social-badges">
-              <a href="#top" class="styled twitter info-bottom" title="" rel="nofollow" target="_blank" data-original-title="Twitter">
-                <i class="fa fa-twitter"></i>
-              </a>
-              <a href="#top" class="styled facebook info-bottom" title="" rel="nofollow" target="_blank" data-original-title="Facebook">
-                <i class="fa fa-facebook"></i>
-              </a>
-              <a href="#top" class="styled googleplus info-bottom" title="" rel="nofollow" target="_blank" data-original-title="Googleplus">
-                <i class="fa fa-google-plus"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="it-ad" id="it-ad-header" style="opacity: 1;">
-            <div style="padding:15px 15px 15px 0px;">
-              <a href="http://www.industrialthemes.com/explicit-alt/" target="_blank">
-                <img data-src="holder.js/100%x250" class="img-responsive" alt="100%x250" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNzgzIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDc4MyAyNTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MjUwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTUxNGZhNDgxN2UgdGV4dCB7IGZpbGw6cmdiYSgyNTUsMjU1LDI1NSwuNzUpO2ZvbnQtd2VpZ2h0Om5vcm1hbDtmb250LWZhbWlseTpIZWx2ZXRpY2EsIG1vbm9zcGFjZTtmb250LXNpemU6MzlwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTUxNGZhNDgxN2UiPjxyZWN0IHdpZHRoPSI3ODMiIGhlaWdodD0iMjUwIiBmaWxsPSIjNzc3Ii8+PGc+PHRleHQgeD0iMjkxLjc0MjE4NzUiIHk9IjE0MyI+NzgzeDI1MDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="height: 60px; width: 100%; display: block;">
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-    </div>
-  </div>
-</div>
+    </div><!-- end of /.container -->
+  </nav>

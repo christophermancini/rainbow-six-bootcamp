@@ -1,53 +1,52 @@
-{{ partial "head.html" . }}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js"> <!--<![endif]-->
+<head>
+  {{ partial "head.html" . }}
+</head>
 <body>
 
   {{ partial "header.html" . }}
 
-  <div class="container">
-    <div class="row">
+  <main>
+    <div class="container">
+      <div class="row">
 
-      <div id="article-wrapper">
-        <div class="row">
-          <div id="article-metabar">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Another link</a></li>
-              <li><a href="#">Next link</a></li>
-              <li><a href="#">Last link</a></li>
-            </ul>
-          </div>
-          <article>
+        <!-- blog-contents -->
+        <section class="col-md-8">
+          <article class="single-blog-item">
+
             <h1>{{ .Title }}</h1>
-            <div class="postmeta">
-              <p class="text-muted">By <a href="">Agent lunger</a></p>
-              <p style="border-top: .1em solid #808080"></p>
-              <p class="text-muted pull-left" style="padding-right: 20px;">
-                <small><i class="fa fa-calendar" style="color: "></i>{{ .Date.Format "Mon, Jan 2, 2006" }}</small>
-              </p>
-              <p class="text-muted pull-left" style="padding-right: 20px;">
-                <small><i class="fa fa-comments" style="color: "></i>0</small>
-              </p>
-              <p class="text-muted pull-left">
-                <small>
-                  <i class="fa fa-tags" style="color: "></i>
-                  <a href="">Interview</a>, <a href="">Strategy</a>, <a href="">Ingress Scanner</a>
-                </small>
-              </p>
-              <p style="clear:both;"></p>
-            </div>
-
-            <div id="ad" class="pull-right">
-              <img src="http://placehold.it/300x250">
-            </div>
 
             {{ .Content }}
 
           </article>
 
-          {{ template "_internal/disqus.html" . }}
+          {{ partial "related.html" . }}
 
-    </div>
-  </div>
+          <div class="advertisement">
+            <a href="http://themewagon.com/" class="template-images">
+              <img class="img-responsive" src="/assets/img/add.png" alt="Template Store">
+              <div class="overlay"></div>
+            </a>
+          </div>
+
+        </section>
+        <!-- end of blog-contents -->
+
+        {{ partial "sidebar.html" . }}
+
+      </div>
+    </div> <!-- end of /.container -->
+  </main>
+
+  {{ partial "footer.html" . }}
+
+  {{ partial "foot.html" . }}
 
 </body>
 </html>

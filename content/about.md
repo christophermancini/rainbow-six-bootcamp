@@ -1,14 +1,17 @@
 +++
 date = "2015-09-21T21:11:14-04:00"
-draft = true
-title = "About"
+title = "About Rainbow Six Bootcamp"
 +++
 
-Rainbow Six Bootcamp is an informational site for the communities of the Rainbow Six video game series. We aim to provide the best content to help keep you up to date with the series as well as get the most from your gameplay.
+Rainbow Six Bootcamp is an informational site for the community of the Rainbow Six video game series, with its primary attention focused on Rainbow Six Siege. [Rainbow Six: Siege](http://rainbow6.ubi.com/siege) is the latest (7th) installment in Tom Clancy's legendary [Rainbow Six game series]({{<relref "franchise-history.md">}}). We aim to provide the best content to help keep you up to date with the series as well as get the most from your gameplay.
 
-# Technology
+Get started with your [Rainbow Six Basic Training]({{<relref "basic-training/index.md">}}) to be the best operator you can be!
 
-The site was generated using the [Hugo Website Engine](http://gohugo.io/). The content has been released under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/) which means that you may share content we have created as long as it is not for commercial purposes and you credit Rainbow Six Bootcamp as the source.
+## Contribute to Rainbow Six Bootcamp
+
+The site is generated using the [Hugo Website Engine](http://gohugo.io/). The content has been released under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/) which means that you may share content we have created as long as it is not for commercial purposes and you credit [Rainbow Six Bootcamp]({{ .Site.BaseURL }}) as the source.
+
+## Technology Behind Rainbow Six Bootcamp
 
 Also, the code and content for the site is available in [Github](https://github.com/christophermancini/rainbow-six-bootcamp). If you notice an error in the content, a problem with the code, or want to contribute new content, feel free to fork the repository, make your changes and submit a pull request. Any work you contribute to the site will be protected under the Creative Commons license mentioned above as well.
 

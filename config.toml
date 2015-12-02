@@ -1,7 +1,7 @@
 #baseurl = "http://rainbowsixbootcamp.com/"
 baseurl = "http://localhost:1313"
 
-theme = 'bootstrap-gaming-theme'
+theme = 'gaming-theme'
 
 languageCode = "en-us"
 title = "Rainbow Six Bootcamp"
@@ -9,5 +9,56 @@ title = "Rainbow Six Bootcamp"
 watch = true
 
 [taxonomies]
-  news = "/:year/:month/:slug/"
   post = "/:year/:month/:slug/"
+  tag = "tags"
+
+[params]
+  CopyExtra = "Rainbow Six Bootcamp was created using content and materials from Rainbow Six: Siege © Ubisoft Entertainment or its licensors."
+
+[[menu.main]]
+  name = "HOME"
+  identifier = "home"
+  url = "/"
+  weight = 0
+
+[[menu.main]]
+  name = "CTUs"
+  identifier = "ctus"
+  parent = "advanced-training"
+  url = "/tags/ctu/"
+
+[[menu.main]]
+  name = "Operators"
+  identifier = "operators"
+  parent = "advanced-training"
+  url = "/tags/operator/"
+
+[[menu.main]]
+  name = "Gear"
+  identifier = "gear"
+  parent = "advanced-training"
+  url = "/tags/gear/"
+
+[[menu.main]]
+  name = "Primary Weapons"
+  identifier = "primary-weapons"
+  parent = "gear"
+  url = "/tags/primary weapons"
+
+[[menu.main]]
+  name = "Secondary Weapons"
+  identifier = "secondary-weapons"
+  parent = "gear"
+  url = "/tags/secondary weapons"
+
+[[menu.main]]
+  name = "Gadgets"
+  identifier = "gadgets"
+  parent = "gear"
+  url = "/tags/gadgets"
+
+[[menu.main]]
+  name = "Maps"
+  identifier = "maps"
+  parent = "advanced-training"
+  url = "/tags/maps"

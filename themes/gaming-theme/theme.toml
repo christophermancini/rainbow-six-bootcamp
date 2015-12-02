@@ -2,8 +2,6 @@
 # See https://github.com/spf13/hugoThemes#themetoml for an example
 
 name = "Gaming Theme"
-license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 description = ""
 homepage = "http://siteforthistheme.com/"
 tags = ["", ""]
