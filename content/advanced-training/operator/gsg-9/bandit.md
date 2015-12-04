@@ -19,8 +19,8 @@ armor = "Light"
 speed = "Fast"
 
 unique = "ced-1"
-primary-weapons = ["mp7", "m870"]
-secondary-weapons = ["p12"]
+primaryWeapons = ["mp7", "m870"]
+secondaryWeapons = ["p12"]
 gadgets = ["barbed-wire", "nitro-cell"]
 +++
 

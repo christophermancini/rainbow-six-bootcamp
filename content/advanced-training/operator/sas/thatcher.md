@@ -19,8 +19,8 @@ armor = "Medium"
 speed = "Medium"
 
 unique = "emp-grenade"
-primary-weapons = ["ar33","l85a2"]
-secondary-weapons = ["226-mk-25"]
+primaryWeapons = ["ar33","l85a2"]
+secondaryWeapons = ["226-mk-25"]
 gadgets = ["breach-charge","stun-grenade"]
 +++
 

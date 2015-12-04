@@ -19,8 +19,8 @@ armor = "Medium"
 speed = "Medium"
 
 unique = "armor-panel"
-primary-weapons = ["m1014","ump-45"]
-secondary-weapons = ["57usg","m45-meusoc"]
+primaryWeapons = ["m1014","ump-45"]
+secondaryWeapons = ["57usg","m45-meusoc"]
 gadgets = ["barbed-wire", "deployable-shield"]
 +++
 

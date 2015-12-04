@@ -19,8 +19,8 @@ armor = "Medium"
 speed = "Medium"
 
 unique = "hds-flip-sight"
-primary-weapons = ["ots-03"]
-secondary-weapons = ["gsh-18","pmm"]
+primaryWeapons = ["ots-03"]
+secondaryWeapons = ["gsh-18","pmm"]
 gadgets = ["breach-charge","smoke-grenade"]
 +++
 

@@ -19,8 +19,8 @@ armor = "Medium"
 speed = "Medium"
 
 unique = "compound-z8-remote-gas-grenade"
-primary-weapons = ["591a1", "fmg-9"]
-secondary-weapons = ["226-mk-25", "mac-11"]
+primaryWeapons = ["591a1", "fmg-9"]
+secondaryWeapons = ["226-mk-25", "mac-11"]
 gadgets = ["barbed-wire", "nitro-cell"]
 +++
 

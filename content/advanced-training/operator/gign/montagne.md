@@ -19,8 +19,8 @@ armor = "Heavy"
 speed = "Slow"
 
 unique = "le-roc-extendable-shield"
-primary-weapons = ["ballistic-shield"]
-secondary-weapons = ["lfp586","p9"]
+primaryWeapons = ["ballistic-shield"]
+secondaryWeapons = ["lfp586","p9"]
 gadgets = ["smoke-grenade","stun-grenade"]
 +++
 

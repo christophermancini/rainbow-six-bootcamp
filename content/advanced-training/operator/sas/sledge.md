@@ -19,8 +19,8 @@ armor = "Medium"
 speed = "Medium"
 
 unique = "caber-tactical-breaching-hammer"
-primary-weapons = ["591a1", "l85a2"]
-secondary-weapons = ["226-mk-25", "mac-11"]
+primaryWeapons = ["591a1", "l85a2"]
+secondaryWeapons = ["226-mk-25", "mac-11"]
 gadgets = ["breach-charge","frag-grenade"]
 +++
 

@@ -14,7 +14,7 @@ armor = "Medium"
 speed = "Medium"
 
 unique = ""
-primary-weapons = []
-secondary-weapons = []
+primaryWeapons = []
+secondaryWeapons = []
 gadgets = []
 +++

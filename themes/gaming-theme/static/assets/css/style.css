@@ -15,6 +15,10 @@
 	box-shadow: 0px 1px 1px #A96113;
 }
 
+.navbar-nav {
+	text-transform: uppercase;	
+}
+
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {

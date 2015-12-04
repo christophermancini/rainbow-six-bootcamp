@@ -19,8 +19,8 @@ armor = "Medium"
 speed = "Medium"
 
 unique = "rsd-model-1-shock-drone"
-primary-weapons = ["417","g2"]
-secondary-weapons = ["lfp586","p9"]
+primaryWeapons = ["417","g2"]
+secondaryWeapons = ["lfp586","p9"]
 gadgets = ["breach-charge", "smoke-grenade"]
 +++
 

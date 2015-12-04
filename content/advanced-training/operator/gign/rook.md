@@ -19,8 +19,8 @@ armor = "Heavy"
 speed = "Slow"
 
 unique = "r1n-rhino-armor"
-primary-weapons = ["mp5","p90"]
-secondary-weapons = ["lfp586","p9"]
+primaryWeapons = ["mp5","p90"]
+secondaryWeapons = ["lfp586","p9"]
 gadgets = ["barbed-wire", "deployable-shield"]
 +++
 

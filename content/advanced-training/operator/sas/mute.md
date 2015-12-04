@@ -19,8 +19,8 @@ armor = "Medium"
 speed = "Medium"
 
 unique = "moni-gc90-signal-disruptor"
-primary-weapons = ["591a1", "mp5k"]
-secondary-weapons = ["226-mk-25"]
+primaryWeapons = ["591a1", "mp5k"]
+secondaryWeapons = ["226-mk-25"]
 gadgets = ["deployable-shield","nitro-cell"]
 +++
 

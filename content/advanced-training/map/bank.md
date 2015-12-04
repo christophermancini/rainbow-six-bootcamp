@@ -1,9 +1,9 @@
 +++
 date = "2015-11-30T03:28:42-05:00"
-title = "Suburban House"
-tags = ["map","hereford base"]
+title = "Kanal"
+tags = ["map","kanal"]
 
-floor-plans = []
+floor-plans = [""]
 location = "United States"
 spawns = []
 splash-image = ""

@@ -22,8 +22,8 @@ armor = "Heavy"
 speed = "Slow"
 
 unique = "apm-6-matryoshka"
-primary-weapons = ["ballistic-shield","6p41"]
-secondary-weapons = ["gsh-18","pmm"]
+primaryWeapons = ["ballistic-shield","6p41"]
+secondaryWeapons = ["gsh-18","pmm"]
 gadgets = ["breach-charge","stun-grenade"]
 +++
 

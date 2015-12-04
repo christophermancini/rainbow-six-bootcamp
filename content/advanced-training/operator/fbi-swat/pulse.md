@@ -19,8 +19,8 @@ armor = "Light"
 speed = "Fast"
 
 unique = "hb-5"
-primary-weapons = ["m1014","ump-45"]
-secondary-weapons = ["57usg","m45-meusoc"]
+primaryWeapons = ["m1014","ump-45"]
+secondaryWeapons = ["57usg","m45-meusoc"]
 gadgets = ["barbed-wire","nitro-cell"]
 +++
 

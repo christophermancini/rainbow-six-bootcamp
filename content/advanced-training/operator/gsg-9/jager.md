@@ -19,8 +19,8 @@ armor = "Light"
 speed = "Fast"
 
 unique = "ads-mk-iv-magpie"
-primary-weapons = ["416-c","m870"]
-secondary-weapons = ["p12"]
+primaryWeapons = ["416-c","m870"]
+secondaryWeapons = ["p12"]
 gadgets = ["barbed-wire","deployable-shield"]
 +++
 

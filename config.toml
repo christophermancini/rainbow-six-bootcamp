@@ -22,7 +22,7 @@ watch = true
   weight = 0
 
 [[menu.main]]
-  name = "CTUs"
+  name = "Counter Terrorism Units"
   identifier = "ctus"
   parent = "advanced-training"
   url = "/tags/ctu/"

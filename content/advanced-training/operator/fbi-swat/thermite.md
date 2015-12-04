@@ -19,8 +19,8 @@ armor = "Medium"
 speed = "Medium"
 
 unique = "brimstone-bc-3"
-primary-weapons = ["m1014","sig-556"]
-secondary-weapons = ["57usg","m45-meusoc"]
+primaryWeapons = ["m1014","sig-556"]
+secondaryWeapons = ["57usg","m45-meusoc"]
 gadgets = ["breach-charge","frag-grenade"]
 +++
 

@@ -19,8 +19,8 @@ armor = "Light"
 speed = "Fast"
 
 unique = "red-mk-iii-spectre-electronics-detector"
-primary-weapons = ["552-commando","aug-a2"]
-secondary-weapons = ["p12"]
+primaryWeapons = ["552-commando","aug-a2"]
+secondaryWeapons = ["p12"]
 gadgets = ["breach-charge", "stun-grenade"]
 +++
 

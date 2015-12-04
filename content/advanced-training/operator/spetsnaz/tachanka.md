@@ -19,8 +19,8 @@ armor = "Heavy"
 speed = "Slow"
 
 unique = "rp-46-degtyaryov-machine-gun"
-primary-weapons = ["9x19vsn","sasg-12"]
-secondary-weapons = ["gsh-18","pmm"]
+primaryWeapons = ["9x19vsn","sasg-12"]
+secondaryWeapons = ["gsh-18","pmm"]
 gadgets = ["barbed-wire","deployable-shield"]
 +++
 

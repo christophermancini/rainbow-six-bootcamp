@@ -19,8 +19,8 @@ armor = "Heavy"
 speed = "Slow"
 
 unique = "mpd-0-stim-pistol"
-primary-weapons = ["mp5","sg-cqb"]
-secondary-weapons = ["lfp586","p9"]
+primaryWeapons = ["mp5","sg-cqb"]
+secondaryWeapons = ["lfp586","p9"]
 gadgets = ["barbed-wire", "deployable-shield"]
 +++
 

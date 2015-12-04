@@ -19,8 +19,8 @@ armor = "Heavy"
 speed = "Slow"
 
 unique = "g52-tactical-shield"
-primary-weapons = ["ballistic-shield"]
-secondary-weapons = ["p12"]
+primaryWeapons = ["ballistic-shield"]
+secondaryWeapons = ["p12"]
 gadgets = ["breach-charge", "smoke-grenade"]
 +++
 

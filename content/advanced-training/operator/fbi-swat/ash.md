@@ -19,8 +19,8 @@ armor = "Light"
 speed = "Fast"
 
 unique = "m120-crem"
-primary-weapons = ["g36-c","r4-c"]
-secondary-weapons = ["57usg","m45-meusoc"]
+primaryWeapons = ["g36-c","r4-c"]
+secondaryWeapons = ["57usg","m45-meusoc"]
 gadgets = ["breach-charge","smoke-grenade"]
 +++
 
