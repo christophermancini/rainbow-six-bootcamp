@@ -1,11 +1,11 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
-title = "Stun Grenade"
+title = "Smoke Grenade"
 groupId = 3
 type = "gadget"
-tags = ["stun grenade"]
+tags = ["smoke grenade"]
 
-operators = []
+operators = ["ash"]
 unique = false
 +++
 

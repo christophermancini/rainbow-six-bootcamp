@@ -1,9 +1,12 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
 title = "ADS-MK IV \"Magpie\""
-unique = true
-operators = "gsg-9/jager"
+groupId = 0
+type = "gadget"
 tags = []
+
+operators = ["jager"]
+unique = true
 +++
 
 # Description

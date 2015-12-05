@@ -1,9 +1,12 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
-tags = []
 title = "Red MK III \"Spectre\" (Electronics Detector)"
+groupId = 0
+type = "gadget"
+tags = []
+
+operators = ["iq"]
 unique = true
-operator = "gsg-9/iq"
 +++
 
 # Description

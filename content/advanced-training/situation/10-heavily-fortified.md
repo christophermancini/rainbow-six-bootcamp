@@ -4,7 +4,7 @@ title = "10 Heavily Fortified"
 type = "situation"
 tags = ["situation","thatcher","chalet"]
 
-ctu = ""
+ctu = "sas"
 operator = "thatcher"
 map = "chalet"
 briefing = ""

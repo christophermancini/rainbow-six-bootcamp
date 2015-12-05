@@ -1,8 +1,11 @@
 +++
 date = "2015-10-07T20:31:15-04:00"
 title = "MP7"
-tags = ["heckler & koch","mp7"]
 type = "weapon"
+tags = ["heckler & koch","mp7"]
+
+operators = []
+groupId = 1
 
 barrel-mods = ["suppressor","flash","compensator"]
 cartridge = "4.6×30mm"

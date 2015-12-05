@@ -1,9 +1,12 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
-tags = []
 title = "EDD MK II (Entry Denial Device)"
+groupId = 0
+type = "gadget"
+tags = []
+
+operators = ["kapkan"]
 unique = true
-operator = "spetsnaz/kapkan"
 +++
 
 # Description

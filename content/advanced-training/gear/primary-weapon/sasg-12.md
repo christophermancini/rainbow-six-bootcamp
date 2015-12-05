@@ -1,8 +1,11 @@
 +++
 date = "2015-10-07T15:46:14-04:00"
 title = "SASG 12 (Saiga-12)"
-tags = ["izhmash","saiga-12"]
 type = "weapon"
+tags = ["izhmash","saiga-12"]
+
+operators = ["thermite"]
+groupId = 1
 
 barrel-mods = ["compensator"]
 cartridge = "12-gauge"

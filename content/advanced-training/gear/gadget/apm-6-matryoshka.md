@@ -1,10 +1,12 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
 title = "APM-6 \"Matryoshka\""
-tags = ["fuze","unique gadget"]
+groupId = 0
+type = "gadget"
+tags = []
 
+operators = ["fuze"]
 unique = true
-operator = "spetsnaz/fuze"
 +++
 
 # Description

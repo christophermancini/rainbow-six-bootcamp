@@ -1,10 +1,12 @@
 +++
-categories = []
 date = "2015-10-03T23:06:10-04:00"
-tags = []
 title = "M120 CREM (Compact Rifle Entry Munition)"
+groupId = 0
+type = "gadget"
+tags = []
+
+operators = ["ash"]
 unique = true
-operator = "fbi-swat/ash"
 +++
 
 # Description

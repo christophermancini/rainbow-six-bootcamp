@@ -1,8 +1,11 @@
 +++
 date = "2015-10-07T15:46:14-04:00"
 title = "9x19 VSN (Vityaz-SN)"
-tags = ["Izhmash","Vityaz-SN"]
 type = "weapon"
+tags = []
+
+operators = []
+groupId = 1
 
 barrel-mods = ["compensator"]
 cartridge = "9×19mm Parabellum"

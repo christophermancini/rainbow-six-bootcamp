@@ -1,6 +1,6 @@
 +++
 date = "2015-10-07T15:46:14-04:00"
-title = "5.7 USG (FN Five-Seven)"
+title = "M45 Meusoc"
 type = "weapon"
 tags = ["ash"]
 
@@ -11,13 +11,13 @@ barrel-mods = ["suppressor"]
 cartridge = "5.7x28mm"
 class = "Semi-automatic pistol"
 country = "Belgium"
-damage = 38
+damage = 50
 description = ""
 fire-rate = 0
 laser-mod = true
-magazine = 20
+magazine = 7
 manufacturer = "FN Herstal"
-mobility = 0
+mobility = 50
 sight-mods = []
 skins = ["black-widow","faded","iceman","usa"]
 wikipedia = "FN_Five-seven"

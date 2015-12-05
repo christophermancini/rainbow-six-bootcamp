@@ -31,6 +31,24 @@
 
             {{ .Content }}
 
+            <h2>Loadout</h2>
+            {{ $operator := lower .Title }}
+            {{ range $taxonomyName, $values := .Site.Taxonomies.operators }}
+              {{ if eq $taxonomyName $operator }}
+                {{ range $values.Pages.GroupByParam "groupId" }}
+                  <div class="clearfix">
+                    {{ if eq .Key 0 }}<h3>Unique Gear</h3>{{ end }}
+                    {{ if eq .Key 1 }}<h3>Primary Weapons</h3>{{ end }}
+                    {{ if eq .Key 2 }}<h3>Secondary Weapons</h3>{{ end }}
+                    {{ if eq .Key 3 }}<h3>Gadgets</h3>{{ end }}
+                    {{ range .Pages }}
+                      {{ .Render "gallery"}}
+                    {{ end }}
+                  </div>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+
           </article>
 
           {{ partial "related.html" . }}
