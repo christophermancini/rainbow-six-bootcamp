@@ -11,6 +11,7 @@ watch = true
 [taxonomies]
   post = "/:year/:month/:slug/"
   tag = "tags"
+  operator = "operators"
 
 [params]
   CopyExtra = "Rainbow Six Bootcamp was created using content and materials from Rainbow Six: Siege © Ubisoft Entertainment or its licensors."
