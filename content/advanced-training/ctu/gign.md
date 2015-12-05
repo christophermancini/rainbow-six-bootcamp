@@ -7,6 +7,7 @@ type = "ctu"
 [menu.main]
   parent = 'ctus'
 
+image = ""
 wikipedia = "National_Gendarmerie_Intervention_Group"
 +++
 

@@ -7,6 +7,7 @@ type = "ctu"
 [menu.main]
   parent = 'ctus'
 
+image = ""
 wikipedia = "FBI_Special_Weapons_and_Tactics_Teams"
 +++
 
