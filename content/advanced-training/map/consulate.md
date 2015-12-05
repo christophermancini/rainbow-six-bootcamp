@@ -4,7 +4,7 @@ title = "Embassy"
 tags = ["map","embassy"]
 
 floor-plans = [""]
-location = "United States"
+location = "Abidjan, CV"
 spawns = []
 splash-image = ""
 +++

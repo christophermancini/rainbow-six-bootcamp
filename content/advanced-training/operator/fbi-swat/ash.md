@@ -50,3 +50,19 @@ Austere Challenge
 ### Notes
 
 None
+
+## Loadout
+
+### Primary Weapons
+
+{{% weapons ".Params.primaryWeapons" %}}
+
+{{% weapons .Params.secondaryWeapons %}}
+
+<h3>Gadgets</h3>
+<ul>
+  <li>{{ gadgets .Params.unique }}</li>
+  {{ range .Params.gadgets }}
+  <li></li>
+  {{ end }}
+</ul>

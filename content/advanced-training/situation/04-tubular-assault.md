@@ -4,8 +4,10 @@ title = "04 Tubular Assault"
 type = "situation"
 tags = ["situation","ash"]
 
-operator = "fbi-swat/ash"
+ctu = "fbi-swat"
+operator = "ash"
 map = "plane"
+briefing = ""
 +++
 
 ## Objective

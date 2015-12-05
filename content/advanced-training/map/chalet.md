@@ -4,7 +4,7 @@ title = "Kanal"
 tags = ["map","kanal"]
 
 floor-plans = [""]
-location = "United States"
+location = "Courchevel, France"
 spawns = []
 splash-image = ""
 +++

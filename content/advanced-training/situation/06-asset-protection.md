@@ -2,10 +2,12 @@
 date = "2015-09-26T12:37:51-04:00"
 title = "06 Asset Protection"
 type = "situation"
-tags = ["situation","ash"]
+tags = ["situation","smoke","sas","hereford-base"]
 
-operator = "fbi-swat/ash"
-map = "plane"
+ctu = "sas"
+operator = "smoke"
+map = "hereford-base"
+briefing = ""
 +++
 
 ## Objective

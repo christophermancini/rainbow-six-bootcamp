@@ -2,10 +2,12 @@
 date = "2015-09-26T12:37:51-04:00"
 title = "01 CQB Basics"
 type = "situation"
-tags = ["situation",""]
+tags = ["situation","hereford-base"]
 
-operator = ""
-map = ""
+ctu = "sas"
+operator = "recruit"
+map = "hereford-base"
+briefing = ""
 +++
 
 ## Objective

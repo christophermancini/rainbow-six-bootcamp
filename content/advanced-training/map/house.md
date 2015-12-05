@@ -4,7 +4,7 @@ title = "Suburban House"
 tags = ["map","house"]
 
 floor-plans = []
-location = "United States"
+location = "Los Angeles, CA, USA"
 spawns = ["River Docks","Construction Site","APC Area","Side Street"]
 splash-image = ""
 +++
@@ -31,12 +31,12 @@ The basement has four rooms and two entry points. The four rooms are the garage,
 
 ## Drone Entry Points
 
-The house has X possible entry points for your remote controlled surveilance drone.
+The house has X possible entry points for your remote controlled surveillance drone.
 
 1. Basement - Northwest corner underneath the Storage Room door
-1. Basement - Eastern side through the debree of the Garage door (between the two overhead doors)
-1. 1st Floor - 
-1. 1st Floor - 
+1. Basement - Eastern side through the debris of the Garage door (between the two overhead doors)
+1. 1st Floor -
+1. 1st Floor -
 
 ## Game Modes
 

@@ -2,11 +2,12 @@
 date = "2015-09-26T12:37:51-04:00"
 title = "09 Improvise Defense"
 type = "situation"
-tags = ["situation","iq"]
+tags = ["situation","kapkan"]
 
-operator = "fbi-swat/thermite"
-map = "plane"
-videoBriefing = ""
+ctu = "spetsnaz"
+operator = "kapkan"
+map = "clubhouse"
+briefing = ""
 +++
 
 ## Objective

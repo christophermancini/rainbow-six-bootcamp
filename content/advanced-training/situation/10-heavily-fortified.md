@@ -2,11 +2,12 @@
 date = "2015-09-26T12:37:51-04:00"
 title = "10 Heavily Fortified"
 type = "situation"
-tags = ["situation","thatcher"]
+tags = ["situation","thatcher","chalet"]
 
-operator = "sas/thatcher"
-map = ""
-videoBriefing = ""
+ctu = ""
+operator = "thatcher"
+map = "chalet"
+briefing = ""
 +++
 
 ## Objective

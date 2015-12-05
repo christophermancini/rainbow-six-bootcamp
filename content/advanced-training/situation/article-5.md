@@ -22,4 +22,4 @@ NONE.
 
 ## Reward
 
-For completing Article 5, you are rewarded with the Bartlett University weapon skin.
+For completing Article 5, you are rewarded with the Bartlett University weapon skin. This skin will be available on whichever operator you completed Article 5 on.

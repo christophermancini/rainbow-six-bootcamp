@@ -2,10 +2,12 @@
 date = "2015-09-26T12:37:51-04:00"
 title = "05 Cold Zero"
 type = "situation"
-tags = ["situation","ash"]
+tags = ["situation","glaz","kanal"]
 
-operator = "fbi-swat/ash"
-map = "plane"
+ctu = ""
+operator = "glaz"
+map = "kanal"
+briefing = ""
 +++
 
 ## Objective

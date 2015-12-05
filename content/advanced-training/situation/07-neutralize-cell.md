@@ -4,9 +4,10 @@ title = "07 Neutralize Cell"
 type = "situation"
 tags = ["situation","iq"]
 
-operator = "fbi-swat/iq"
-map = "plane"
-videoBriefing = ""
+ctu = ""
+operator = "iq"
+map = "oregon"
+briefing = ""
 +++
 
 ## Objective

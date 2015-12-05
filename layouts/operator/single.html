@@ -31,31 +31,6 @@
 
             {{ .Content }}
 
-            <!-- LOADOUT -->
-            <h2>Loadout</h2>
-            
-            <h3>Primary</h3>
-            <ul>
-              {{ range .Params.primaryWeapons }}
-              <li>{{ primaryWeapons . }}</li>
-              {{ end }}
-            </ul>
-
-            <h3>Secondary</h3>
-            <ul>
-              {{ range .Params.secondaryWeapons }}
-              <li>{{ secondaryWeapons . }}</li>
-              {{ end }}
-            </ul>
-
-            <h3>Gadgets</h3>
-            <ul>
-              <li>{{ gadgets .Params.unique }}</li>
-              {{ range .Params.gadgets }}
-              <li></li>
-              {{ end }}
-            </ul>
-
           </article>
 
           {{ partial "related.html" . }}

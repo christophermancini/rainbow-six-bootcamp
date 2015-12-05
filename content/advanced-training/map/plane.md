@@ -4,7 +4,7 @@ title = "Tubular Assault"
 tags = ["map","plane","tubular assault"]
 
 floor-plans = []
-location = "United States"
+location = "Heathrow, United Kingdom"
 spawns = []
 splash-image = ""
 +++

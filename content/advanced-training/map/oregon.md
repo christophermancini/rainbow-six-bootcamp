@@ -1,10 +1,10 @@
 +++
 date = "2015-11-30T03:28:42-05:00"
-title = "Kanal"
-tags = ["map","kanal"]
+title = "Oregon"
+tags = ["map","oregon"]
 
 floor-plans = [""]
-location = "United States"
+location = "Redmond, Oregon, USA"
 spawns = []
 splash-image = ""
 +++
