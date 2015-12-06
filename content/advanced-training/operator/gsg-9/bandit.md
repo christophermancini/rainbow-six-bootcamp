@@ -2,7 +2,7 @@
 date = "2015-09-26T12:34:50-04:00"
 title = "Bandit"
 type = "operator"
-tags = ["GSG 9","Bandit"]
+tags = ["gsg 9","bandit"]
 
 ctu = "gsg-9"
 dob = "08/13/1974"

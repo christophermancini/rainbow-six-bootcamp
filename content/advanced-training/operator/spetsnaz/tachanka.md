@@ -2,7 +2,7 @@
 date = "2015-09-26T12:38:40-04:00"
 title = "Tachanka"
 type = "operator"
-tags = ["operator","spetsnaz","tachanka"]
+tags = ["spetsnaz","tachanka"]
 
 ctu = "spetsnaz"
 dob = "11/03/1967"

@@ -2,7 +2,7 @@
 date = "2015-09-26T12:37:35-04:00"
 title = "Smoke"
 type = "operator"
-tags = ["SAS","Smoke"]
+tags = ["sas","smoke"]
 
 ctu = "sas"
 dob = "05/14/1990"

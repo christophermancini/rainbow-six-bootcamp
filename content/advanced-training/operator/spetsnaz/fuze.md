@@ -2,7 +2,7 @@
 date = "2015-09-26T12:35:25-04:00"
 title = "Fuze"
 type = "operator"
-tags = ["operator","spetsnaz","fuze"]
+tags = ["spetsnaz","fuze"]
 
 [menu.main]
   parent = 'operators'

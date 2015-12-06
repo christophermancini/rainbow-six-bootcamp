@@ -2,7 +2,7 @@
 date = "2015-09-26T12:37:32-04:00"
 title = "Mute"
 type = "operator"
-tags = ["SAS","Mute"]
+tags = ["sas","mute"]
 
 ctu = "sas"
 dob = "10/11/1991"
