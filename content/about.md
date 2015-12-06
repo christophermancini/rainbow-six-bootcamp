@@ -1,6 +1,11 @@
 +++
 date = "2015-09-21T21:11:14-04:00"
 title = "About Rainbow Six Bootcamp"
+tags = []
+
+[main.menu]
+  name = "ABOUT"
+  weight = 5
 +++
 
 Rainbow Six Bootcamp is an informational site for the community of the Rainbow Six video game series, with its primary attention focused on Rainbow Six Siege. [Rainbow Six: Siege](http://rainbow6.ubi.com/siege) is the latest (7th) installment in Tom Clancy's legendary [Rainbow Six game series]({{<relref "franchise-history.md">}}). We aim to provide the best content to help keep you up to date with the series as well as get the most from your gameplay.
@@ -9,7 +14,7 @@ Get started with your [Rainbow Six Basic Training]({{<relref "basic-training/ind
 
 ## Contribute to Rainbow Six Bootcamp
 
-The site is generated using the [Hugo Website Engine](http://gohugo.io/). The content has been released under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/) which means that you may share content we have created as long as it is not for commercial purposes and you credit [Rainbow Six Bootcamp]({{ .Site.BaseURL }}) as the source.
+The site is generated using the [Hugo Website Engine](http://gohugo.io/). The content has been released under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) which means that you may share content we have created as long as it is not for commercial purposes and you credit [Rainbow Six Bootcamp]({{ .Site.BaseURL }}) as the source.
 
 ## Technology Behind Rainbow Six Bootcamp
 
