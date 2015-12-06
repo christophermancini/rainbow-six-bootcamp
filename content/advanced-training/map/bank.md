@@ -1,10 +1,33 @@
 +++
 date = "2015-11-30T03:28:42-05:00"
-title = "Kanal"
-tags = ["map","kanal"]
+title = "Bank"
+tags = ["map","bank"]
+type = "map"
 
 floor-plans = [""]
 location = "United States"
 spawns = []
-splash-image = ""
+image = ""
 +++
+
+## Description
+
+## Levels
+
+### Basement
+
+### 1st Floor
+
+### 2nd Floor
+
+### Roof
+
+## Drone Entry Points
+
+## Game Modes
+
+### Rescue Hostage
+
+### Diffuse Bomb
+
+### Secure Area
