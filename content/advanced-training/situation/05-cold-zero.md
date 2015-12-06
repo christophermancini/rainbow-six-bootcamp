@@ -1,13 +1,13 @@
 +++
+briefing = ""
+ctu = ""
 date = "2015-09-26T12:37:51-04:00"
+image = ""
+map = "kanal"
+operator = "glaz"
+tags = ["situation","glaz","kanal"]
 title = "05 Cold Zero"
 type = "situation"
-tags = ["situation","glaz","kanal"]
-
-ctu = ""
-operator = "glaz"
-map = "kanal"
-briefing = ""
 +++
 
 ## Objective

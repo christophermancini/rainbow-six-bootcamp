@@ -1,12 +1,12 @@
 +++
+briefing = ""
 date = "2015-09-26T12:37:51-04:00"
+image = ""
+map = "consulate"
+operator = ""
+tags = ["situation","consulate"]
 title = "03 High Value Target"
 type = "situation"
-tags = ["situation","consulate"]
-
-operator = ""
-map = "consulate"
-briefing = ""
 +++
 
 ## Objective

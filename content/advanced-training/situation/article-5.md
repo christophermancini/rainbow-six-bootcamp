@@ -1,12 +1,13 @@
 +++
+briefing = ""
+ctu = ""
 date = "2015-09-26T12:37:51-04:00"
+image = ""
+map = ""
+operator = ""
+tags = ["situation"]
 title = "Article 5"
 type = "situation"
-tags = ["situation"]
-
-operator = ""
-map = ""
-videoBriefing = ""
 +++
 
 ## Objective

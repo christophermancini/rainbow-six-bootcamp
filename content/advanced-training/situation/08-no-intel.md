@@ -1,13 +1,13 @@
 +++
+briefing = ""
+ctu = "fbi-swat"
 date = "2015-09-26T12:37:51-04:00"
+image = ""
+map = "clubhouse"
+operator = "thermite"
+tags = ["situation","thermite"]
 title = "08 No Intel"
 type = "situation"
-tags = ["situation","thermite"]
-
-ctu = "fbi-swat"
-operator = "thermite"
-map = "clubhouse"
-briefing = ""
 +++
 
 ## Objective

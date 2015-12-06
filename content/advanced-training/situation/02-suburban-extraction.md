@@ -1,13 +1,13 @@
 +++
+briefing = ""
+ctu = "fbi-swat"
 date = "2015-09-26T12:37:51-04:00"
+image = ""
+map = "house"
+operator = "recruit"
+tags = ["situation","house"]
 title = "02 Suburban Extraction"
 type = "situation"
-tags = ["situation","house"]
-
-ctu = "fbi-swat"
-operator = "recruit"
-map = "house"
-briefing = ""
 +++
 
 ## Objective

@@ -10,7 +10,7 @@ tags = []
 
 Rainbow Six Bootcamp is an informational site for the community of the Rainbow Six video game series, with its primary attention focused on Rainbow Six Siege. [Rainbow Six: Siege](http://rainbow6.ubi.com/siege) is the latest (7th) installment in Tom Clancy's legendary [Rainbow Six game series]({{<relref "franchise-history.md">}}). We aim to provide the best content to help keep you up to date with the series as well as get the most from your gameplay.
 
-Get started with your [Rainbow Six Basic Training]({{<relref "basic-training/index.md">}}) to be the best operator you can be!
+Get started with your [Rainbow Six Basic Training](/basic-training/) to be the best operator you can be!
 
 ## Contribute to Rainbow Six Bootcamp
 

@@ -1,6 +1,6 @@
 +++
 armor = "Light"
-badge = ""
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-ash_229847.png"
 ctu = "fbi-swat"
 date = "2015-09-26T12:37:51-04:00"
 dob = "12/14/1983"

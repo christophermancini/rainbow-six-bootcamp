@@ -1,13 +1,13 @@
 +++
+briefing = ""
+ctu = "sas"
 date = "2015-09-26T12:37:51-04:00"
+image = ""
+map = "chalet"
+operator = "thatcher"
+tags = ["situation","thatcher","chalet"]
 title = "10 Heavily Fortified"
 type = "situation"
-tags = ["situation","thatcher","chalet"]
-
-ctu = "sas"
-operator = "thatcher"
-map = "chalet"
-briefing = ""
 +++
 
 ## Objective

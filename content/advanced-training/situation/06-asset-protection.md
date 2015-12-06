@@ -1,13 +1,13 @@
 +++
+briefing = ""
+ctu = "sas"
 date = "2015-09-26T12:37:51-04:00"
+image = ""
+map = "hereford-base"
+operator = "smoke"
+tags = ["situation","smoke","sas","hereford-base"]
 title = "06 Asset Protection"
 type = "situation"
-tags = ["situation","smoke","sas","hereford-base"]
-
-ctu = "sas"
-operator = "smoke"
-map = "hereford-base"
-briefing = ""
 +++
 
 ## Objective
