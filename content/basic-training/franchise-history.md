@@ -5,7 +5,7 @@ tags = []
 
 [menu.main]
   parent = 'basic-training'
-  weight = 13
+  weight = 0
 +++
 
 There have been X games in the Rainbow Six franchise to date.

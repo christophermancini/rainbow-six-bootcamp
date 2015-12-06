@@ -5,5 +5,5 @@ tags = ["ctu"]
 
 [menu.main]
   parent = 'basic-training'
-  weight = 10
+  weight = 2
 +++
