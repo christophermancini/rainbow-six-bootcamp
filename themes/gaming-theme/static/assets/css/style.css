@@ -16,7 +16,7 @@
 }
 
 .navbar-nav {
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -849,7 +849,7 @@ footer .social-share li a i {
 footer {
     background-color: #1E1E1E;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     padding: 21px 0px;
     position: absolute;
@@ -858,7 +858,6 @@ footer {
 
 footer a {
     color: #D2924C;
-    font-size: 16px;
     font-weight: 400;
 }
 
@@ -884,6 +883,7 @@ footer .social-share li a i:hover {
 footer .footer-nav {
     float: right;
     margin-top: 10px;
+    font-size: 15px;
 }
 
 footer .footer-nav li {

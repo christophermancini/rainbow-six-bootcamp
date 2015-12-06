@@ -1,38 +1,29 @@
   <footer>
     <div class="container">
       <div class="row">
-        <!-- copyright -->
-        <div class="col-md-4 col-sm-4">
-          copyright &copy; {{ .Now.Year }} <a href="{{ .Site.BaseURL }}" style="margin-left: 4px;">{{ .Site.Title }}</a>
-          <br>
-          Theme by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+        <div class="col-md-8 col-sm-8">
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+          </a>
+          <br />
+          <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ .Site.Title }}</span>
+          by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ .Site.BaseURL }}" property="cc:attributionName" rel="cc:attributionURL">Christopher Mancini</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            Creative Commons Attribution-ShareAlike 4.0 International License
+          </a>.
+
+          <br>Theme by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+
+          {{ with .Site.Params.CopyExtra }}
+            <br>{{ . | safeHTML }}
+          {{ end }}
         </div>
 
-        <!-- footer share button -->
-        <div class="col-md-4 col-sm-4">
-          <ul class="social-share text-center">
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-          </ul> <!-- /.social-share -->
-        </div>
-
-        <!-- footer-nav -->
         <div class="col-md-4 col-sm-4">
           <ul class="footer-nav">
             <li><a href="{{ .Site.BaseURL }}/about">About</a></li>
             <li><a href="{{ .Site.BaseURL }}/sitemap.xml">Sitemap</a></li>
-          </ul> <!-- /.footer-nav -->
+          </ul>
         </div>
       </div>
-      {{ with .Site.Params.CopyExtra }}
-      <div class="row">
-        <div class="col-md-12">
-          {{ . | safeHTML }}
-        </div>
-      </div>
-      {{ end }}
     </div>
   </footer>
