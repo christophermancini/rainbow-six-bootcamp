@@ -5,5 +5,5 @@ tags = ["gear"]
 
 [menu.main]
   parent = 'basic-training'
-  weight = 4
+  weight = 5
 +++

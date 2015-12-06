@@ -5,5 +5,5 @@ tags = ["renown","rainbow credits"]
 
 [menu.main]
   parent = "basic-training"
-  weight = 5
+  weight = 3
 +++

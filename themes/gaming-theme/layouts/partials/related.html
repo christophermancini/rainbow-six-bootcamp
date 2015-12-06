@@ -4,7 +4,7 @@
           {{ $pagePermalink := .Permalink }}
           {{ range $taxonomyName, $values := .Site.Taxonomies.tags }}
             {{ if in $pageTags $taxonomyName }}
-              {{ range $values.Pages }}
+              {{ range first 10 $values.Pages }}
                 {{ if ne $pagePermalink .Permalink }}
                 <div class="related-articles">
                   <div class="alert alert-info">
