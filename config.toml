@@ -35,6 +35,18 @@ watch = true
   weight = 0
 
 [[menu.main]]
+  name = "Basic Training"
+  identifier = "basic-training"
+  url = "/basic-training/"
+  weight = 1
+
+[[menu.main]]
+  name = "Advanced Training"
+  identifier = "advanced-training"
+  url = "/advanced-training/"
+  weight = 2
+
+[[menu.main]]
   name = "Counter Terrorism Units"
   identifier = "ctus"
   parent = "advanced-training"
@@ -53,6 +65,18 @@ watch = true
   url = "/tags/gear/"
 
 [[menu.main]]
+  name = "Maps"
+  identifier = "maps"
+  parent = "advanced-training"
+  url = "/tags/map"
+
+[[menu.main]]
+  name = "Sitations"
+  identifier = "situations"
+  parent = "advanced-training"
+  url = "/tags/situation"
+
+[[menu.main]]
   name = "Primary Weapons"
   identifier = "primary-weapons"
   parent = "gear"
@@ -69,9 +93,3 @@ watch = true
   identifier = "gadgets"
   parent = "gear"
   url = "/tags/gadget"
-
-[[menu.main]]
-  name = "Maps"
-  identifier = "maps"
-  parent = "advanced-training"
-  url = "/tags/map"
