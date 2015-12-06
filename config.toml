@@ -1,4 +1,4 @@
-#baseurl = "http://rainbowsixbootcamp.com/"
+#baseurl = "http://www.rainbowsixbootcamp.com/"
 baseurl = "http://localhost:1313"
 
 theme = 'gaming-theme'
@@ -14,6 +14,10 @@ watch = true
   operator = "operators"
 
 [params]
+  Facebook = ""
+  GitHub = "https://github.com/christophermancini/rainbow-six-bootcamp"
+  GooglePlus = "https://plus.google.com/102116020583969691630/about"
+  Twitter = ""
   CopyExtra = "Rainbow Six Bootcamp was created using content and materials from Rainbow Six: Siege © Ubisoft Entertainment or its licensors."
 
 [[menu.main]]
@@ -44,22 +48,22 @@ watch = true
   name = "Primary Weapons"
   identifier = "primary-weapons"
   parent = "gear"
-  url = "/tags/primary weapons"
+  url = "/tags/primary weapon"
 
 [[menu.main]]
   name = "Secondary Weapons"
   identifier = "secondary-weapons"
   parent = "gear"
-  url = "/tags/secondary weapons"
+  url = "/tags/secondary weapon"
 
 [[menu.main]]
   name = "Gadgets"
   identifier = "gadgets"
   parent = "gear"
-  url = "/tags/gadgets"
+  url = "/tags/gadget"
 
 [[menu.main]]
   name = "Maps"
   identifier = "maps"
   parent = "advanced-training"
-  url = "/tags/maps"
+  url = "/tags/map"
