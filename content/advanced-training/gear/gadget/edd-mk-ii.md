@@ -1,11 +1,11 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
-title = "EDD MK II (Entry Denial Device)"
 groupId = 0
-type = "gadget"
-tags = []
-
+image = ""
 operators = ["kapkan"]
+tags = []
+title = "EDD MK II (Entry Denial Device)"
+type = "gadget"
 unique = true
 +++
 

@@ -1,11 +1,11 @@
 +++
 date = "2015-10-03T23:06:55-04:00"
-title = "Brimstone BC-3 Exothermic Charge"
 groupId = 0
-type = "gadget"
-tags = []
-
+image = ""
 operators = ["thermite"]
+tags = []
+title = "Brimstone BC-3 Exothermic Charge"
+type = "gadget"
 unique = true
 +++
 

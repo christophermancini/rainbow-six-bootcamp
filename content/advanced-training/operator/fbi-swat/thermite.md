@@ -1,27 +1,25 @@
 +++
-date = "2015-09-26T12:37:45-04:00"
-title = "Thermite"
-type = "operator"
-tags = ["fbi swat","thermite"]
-
+armor = "Medium"
 ctu = "fbi-swat"
+date = "2015-09-26T12:37:45-04:00"
 dob = "03/14/1982"
+gadgets = ["breach-charge","frag-grenade"]
 gender = "M"
 height = "1.78M"
+image = ""
 name = "Jordan Trace"
 pob = "Plano, TX"
-quote = "WHERE THERE'S A WALL, THERE'S A WAY"
 positon = "Attacker"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-203923-16&ct=tcm:148-76770-32"
-weight = "81.6KG"
-
-armor = "Medium"
-speed = "Medium"
-
-unique = "brimstone-bc-3"
 primaryWeapons = ["m1014","sig-556"]
+quote = "WHERE THERE'S A WALL, THERE'S A WAY"
 secondaryWeapons = ["57usg","m45-meusoc"]
-gadgets = ["breach-charge","frag-grenade"]
+speed = "Medium"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-203923-16&ct=tcm:148-76770-32"
+tags = ["operator","fbi swat","thermite"]
+title = "Thermite"
+type = "operator"
+unique = "brimstone-bc-3"
+weight = "81.6KG"
 +++
 
 ## Tactical Profile

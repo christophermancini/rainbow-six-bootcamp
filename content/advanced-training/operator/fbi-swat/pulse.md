@@ -1,27 +1,25 @@
 +++
-date = "2015-09-26T12:38:01-04:00"
-title = "pulse"
-type = "operator"
-tags = ["fbi swat","pulse"]
-
+armor = "Light"
 ctu = "fbi-swat"
+date = "2015-09-26T12:38:01-04:00"
 dob = "10/11/1984"
+gadgets = ["barbed-wire","nitro-cell"]
 gender = "M"
 height = "1.88M"
+image = ""
 name = "Jack Estrada"
 pob = "Goldsboro, NC"
-quote = "I SEE I'VE GOT YOUR HEART RACING"
 positon = "Defender"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204027-16&ct=tcm:148-76770-32"
-weight = "85KG"
-
-armor = "Light"
-speed = "Fast"
-
-unique = "hb-5"
 primaryWeapons = ["m1014","ump-45"]
+quote = "I SEE I'VE GOT YOUR HEART RACING"
 secondaryWeapons = ["57usg","m45-meusoc"]
-gadgets = ["barbed-wire","nitro-cell"]
+speed = "Fast"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204027-16&ct=tcm:148-76770-32"
+tags = ["operator","fbi swat","pulse"]
+title = "pulse"
+type = "operator"
+unique = "hb-5"
+weight = "85KG"
 +++
 
 ## Tactical Profile

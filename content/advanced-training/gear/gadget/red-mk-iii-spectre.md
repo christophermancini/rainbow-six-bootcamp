@@ -1,11 +1,11 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
-title = "Red MK III \"Spectre\" (Electronics Detector)"
 groupId = 0
-type = "gadget"
-tags = []
-
+image = ""
 operators = ["iq"]
+tags = []
+title = "Red MK III \"Spectre\" (Electronics Detector)"
+type = "gadget"
 unique = true
 +++
 

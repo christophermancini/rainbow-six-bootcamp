@@ -1,27 +1,25 @@
 +++
-date = "2015-09-26T12:37:57-04:00"
-title = "Castle"
-type = "operator"
-tags = ["fbi swat","castle"]
-
+armor = "Medium"
 ctu = "fbi-swat"
+date = "2015-09-26T12:37:57-04:00"
 dob = "09/20/1980"
+gadgets = ["barbed-wire", "deployable-shield"]
 gender = "M"
 height = "1.85M"
+image = ""
 name = "Miles Campbell"
 pob = "Sherman Oaks, CA"
-quote = "THE BEST OFFENSE IS A BULLETPROOF DEFENSE"
 positon = "Defender"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204026-16&ct=tcm:148-76770-32"
-weight = "95.3KG"
-
-armor = "Medium"
-speed = "Medium"
-
-unique = "armor-panel"
 primaryWeapons = ["m1014","ump-45"]
+quote = "THE BEST OFFENSE IS A BULLETPROOF DEFENSE"
 secondaryWeapons = ["57usg","m45-meusoc"]
-gadgets = ["barbed-wire", "deployable-shield"]
+speed = "Medium"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204026-16&ct=tcm:148-76770-32"
+tags = ["operator","fbi swat","castle"]
+title = "Castle"
+type = "operator"
+unique = "armor-panel"
+weight = "95.3KG"
 +++
 
 ## Tactical Profile

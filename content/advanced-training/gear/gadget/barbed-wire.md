@@ -7,7 +7,6 @@ tags = ["barbed wire"]
 title = "Barbed Wire"
 type = "gadget"
 unique = false
-
 +++
 
 # Description

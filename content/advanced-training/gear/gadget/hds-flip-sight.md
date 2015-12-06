@@ -1,11 +1,11 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
-title = "HDS Flip Sight"
 groupId = 0
-type = "gadget"
-tags = []
-
+image = ""
 operators = ["glaz"]
+tags = []
+title = "HDS Flip Sight"
+type = "gadget"
 unique = true
 +++
 

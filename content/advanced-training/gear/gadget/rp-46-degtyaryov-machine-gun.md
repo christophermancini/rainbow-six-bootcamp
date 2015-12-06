@@ -1,11 +1,11 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
-title = "RP-46 Degtyaryov Machine Gun"
 groupId = 0
-type = "gadget"
-tags = []
-
+image = ""
 operators = ["tachanka"]
+tags = []
+title = "RP-46 Degtyaryov Machine Gun"
+type = "gadget"
 unique = true
 +++
 

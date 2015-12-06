@@ -7,7 +7,6 @@ tags = ["nitro cell"]
 title = "nitro cell"
 type = "gadget"
 unique = false
-
 +++
 
 # Description

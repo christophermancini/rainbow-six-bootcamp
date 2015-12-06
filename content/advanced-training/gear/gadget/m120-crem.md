@@ -1,11 +1,11 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
-title = "M120 CREM (Compact Rifle Entry Munition)"
 groupId = 0
-type = "gadget"
-tags = []
-
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-ash_229885.png"
 operators = ["ash"]
+tags = []
+title = "M120 CREM (Compact Rifle Entry Munition)"
+type = "gadget"
 unique = true
 +++
 
