@@ -33,11 +33,18 @@
             <!-- sidebar share button -->
             <div class="share-widget hidden-xs hidden-sm">
               <ul class="social-share text-center">
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-github"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                {{ if .Site.Params.socialLinks.googlePlus }}
+                <li><a href="{{ .Site.Params.socialLinks.googlePlus }}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                {{ end }}
+                {{ if .Site.Params.socialLinks.twitter }}
+                <li><a href="{{ .Site.Params.socialLinks.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                {{ end }}
+                {{ if .Site.Params.socialLinks.facebook }}
+                <li><a href="{{ .Site.Params.socialLinks.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                {{ end }}
+                {{ if .Site.Params.socialLinks.gitHub }}
+                <li><a href="{{ .Site.Params.socialLinks.gitHub }}" target="_blank"><i class="fa fa-github"></i></a></li>
+                {{ end }}
               </ul> <!-- /.sidebar-share-button -->
             </div> <!-- /.share-widget -->
 
