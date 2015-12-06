@@ -1,13 +1,12 @@
 +++
 date = "2015-11-30T03:28:42-05:00"
-title = "Suburban House"
-tags = ["map","house"]
-type = "map"
-
 floor-plans = []
-image = ""
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_01HouseMoodDay_Ludo_Final_227436.jpg"
 location = "Los Angeles, CA, USA"
 spawns = ["River Docks","Construction Site","APC Area","Side Street"]
+tags = ["map","house"]
+title = "Suburban House"
+type = "map"
 +++
 
 ## Description

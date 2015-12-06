@@ -1,13 +1,12 @@
 +++
 date = "2015-11-30T03:28:42-05:00"
-title = "Bank"
-tags = ["map","bank"]
-type = "map"
-
 floor-plans = [""]
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_08Bank02_Ludo_Final_229466.jpg"
 location = "United States"
 spawns = []
-image = ""
+tags = ["map","bank"]
+title = "Bank"
+type = "map"
 +++
 
 ## Description

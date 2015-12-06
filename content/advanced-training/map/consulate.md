@@ -1,13 +1,12 @@
 +++
 date = "2015-11-30T03:28:42-05:00"
-title = "Consulate"
-tags = ["map","consulate"]
-type = "map"
-
 floor-plans = [""]
-image = ""
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_07Consulat03_Ludo_Final_229464.jpg"
 location = "Abidjan, CV"
 spawns = []
+tags = ["map","consulate"]
+title = "Consulate"
+type = "map"
 +++
 
 ## Description

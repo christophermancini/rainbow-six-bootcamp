@@ -1,13 +1,12 @@
 +++
 date = "2015-11-30T03:28:42-05:00"
-title = "Hereford Training Base"
-tags = ["map","hereford base"]
-type = "map"
-
 floor-plans = ["Training Course","Parking","Shooting Range"]
-image = ""
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_03Hereford03_Ludo_Final_227435.jpg"
 location = "Hereford, United Kingdom"
 spawns = []
+tags = ["map","hereford base"]
+title = "Hereford Training Base"
+type = "map"
 +++
 
 ## Description

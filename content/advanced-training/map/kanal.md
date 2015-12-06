@@ -1,13 +1,12 @@
 +++
 date = "2015-11-30T03:28:42-05:00"
-title = "Kanal"
-tags = ["map","kanal"]
-type = "map"
-
 floor-plans = [""]
-image = ""
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_09Kanal_Ludo_Final_227434.jpg"
 location = "Hamburg, Germany"
 spawns = []
+tags = ["map","kanal"]
+title = "Kanal"
+type = "map"
 +++
 
 ## Description
