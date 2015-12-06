@@ -19,8 +19,9 @@
         <!-- blog-contents -->
         <section class="col-md-8">
           <article class="single-blog-item">
-
             <h1>{{ .Title }}</h1>
+
+            {{ partial "tags" . }}
 
             {{ .Content }}
 
@@ -34,6 +35,8 @@
               <div class="overlay"></div>
             </a>
           </div>
+
+          {{ template "_internal/disqus.html" . }}
 
         </section>
         <!-- end of blog-contents -->

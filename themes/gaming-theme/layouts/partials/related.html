@@ -1,26 +1,21 @@
+        {{ $tags := len .Params.tags }}
+        {{ if gt $tags 0 }}
           <h4>Related Articles</h4>
-          <div class="related-articles">
-              <div class="alert alert-info">
-                  <a href="http://themewagon.com">Free HTML5 Website Templates </a>
-              </div>
-          </div>
-          <div class="related-articles">
-              <div class="alert alert-info">
-                  <a href="http://themewagon.com">Free HTML5 Website Templates </a>
-              </div>
-          </div>
-          <div class="related-articles">
-              <div class="alert alert-info">
-                  <a href="http://themewagon.com">Free HTML5 Website Templates </a>
-              </div>
-          </div>
-          <div class="related-articles">
-              <div class="alert alert-info">
-                  <a href="http://themewagon.com">Free HTML5 Website Templates </a>
-              </div>
-          </div>
-          <div class="related-articles">
-              <div class="alert alert-info">
-                  <a href="http://themewagon.com">Free HTML5 Website Templates </a>
-              </div>
-          </div>
+          {{ $pageTags := .Params.tags }}
+          {{ $pagePermalink := .Permalink }}
+          {{ range $taxonomyName, $values := .Site.Taxonomies.tags }}
+            {{ if in $pageTags $taxonomyName }}
+              {{ range $values.Pages }}
+                {{ if ne $pagePermalink .Permalink }}
+                <div class="related-articles">
+                  <div class="alert alert-info">
+                    <a href="{{ .Permalink }}">
+                      {{ partial "titlePrefix" . }} {{ .Title }}
+                    </a>
+                  </div>
+                </div>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
