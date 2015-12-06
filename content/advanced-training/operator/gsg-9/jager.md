@@ -1,27 +1,27 @@
 +++
-date = "2015-09-26T12:34:44-04:00"
-title = "Jäger"
-type = "operator"
-tags = ["gsg 9","jäger"]
-
+armor = "Light"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-jager_229864.png"
 ctu = "gsg-9"
+date = "2015-09-26T12:34:44-04:00"
 dob = "03/09/1978"
+gadgets = ["barbed-wire","deployable-shield"]
 gender = "M"
 height = "1.80M"
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-jager_229907.png"
 name = "Marius Streicher"
 pob = "Düsseldorf, Germany"
-quote = "YOU CAN STOP SHOUTING \"GRENADE\" NOW, I GOT US COVERED"
 positon = "Defender"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213913-16&ct=tcm:148-76770-32"
-weight = "69KG"
-
-armor = "Light"
-speed = "Fast"
-
-unique = "ads-mk-iv-magpie"
 primaryWeapons = ["416-c","m870"]
+quote = "YOU CAN STOP SHOUTING \"GRENADE\" NOW, I GOT US COVERED"
 secondaryWeapons = ["p12"]
-gadgets = ["barbed-wire","deployable-shield"]
+speed = "Fast"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213913-16&ct=tcm:148-76770-32"
+tags = ["operator","gsg 9","jäger"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-jager_229917.png"
+title = "Jäger"
+type = "operator"
+unique = "ads-mk-iv-magpie"
+weight = "69KG"
 +++
 
 ## Tactical Profile

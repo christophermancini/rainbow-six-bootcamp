@@ -1,13 +1,9 @@
 +++
 date = "2015-10-03T22:30:34-04:00"
-title = "National Gendarmerie Intervention Group"
-tags = ["gign","doc","montagne","rook","twitch"]
-type = "ctu"
-
-[menu.main]
-  parent = 'ctus'
-
 image = ""
+tags = ["ctu","gign","doc","montagne","rook","twitch"]
+title = "National Gendarmerie Intervention Group"
+type = "ctu"
 wikipedia = "National_Gendarmerie_Intervention_Group"
 +++
 

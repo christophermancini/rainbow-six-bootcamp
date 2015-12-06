@@ -1,27 +1,27 @@
 +++
-date = "2015-09-26T12:35:53-04:00"
-title = "Doc"
-type = "operator"
-tags = ["gign","doc"]
-
+armor = "Heavy"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-doc_229853.png"
 ctu = "gign"
+date = "2015-09-26T12:35:53-04:00"
 dob = "09/16/1977"
+gadgets = ["barbed-wire", "deployable-shield"]
 gender = "M"
 height = "1.77M"
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-doc_229883.png"
 name = "Gustave Kateb"
 pob = "Paris, France"
-quote = "TRY NOT TO GET YOURSELVES HURT"
 positon = "Defender"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210704-16&ct=tcm:148-76770-32"
-weight = "79KG"
-
-armor = "Heavy"
-speed = "Slow"
-
-unique = "mpd-0-stim-pistol"
 primaryWeapons = ["mp5","sg-cqb"]
+quote = "TRY NOT TO GET YOURSELVES HURT"
 secondaryWeapons = ["lfp586","p9"]
-gadgets = ["barbed-wire", "deployable-shield"]
+speed = "Slow"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210704-16&ct=tcm:148-76770-32"
+tags = ["operator","gign","doc"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-doc_229913.png"
+title = "Doc"
+type = "operator"
+unique = "mpd-0-stim-pistol"
+weight = "79KG"
 +++
 
 ## Tactical Profile

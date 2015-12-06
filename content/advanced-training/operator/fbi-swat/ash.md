@@ -1,5 +1,6 @@
 +++
 armor = "Light"
+badge = ""
 ctu = "fbi-swat"
 date = "2015-09-26T12:37:51-04:00"
 dob = "12/14/1983"
@@ -16,6 +17,7 @@ secondaryWeapons = ["57usg","m45-meusoc"]
 speed = "Fast"
 spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204024-16&ct=tcm:148-76770-32"
 tags = ["operator","fbi swat","ash"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-ash_229909.png"
 title = "Ash"
 type = "operator"
 unique = "m120-crem"

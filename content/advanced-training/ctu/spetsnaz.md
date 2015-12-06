@@ -1,12 +1,9 @@
 +++
 date = "2015-10-03T22:30:53-04:00"
+image = ""
+tags = ["ctu","spetsnaz","fuze","glaz","kapkan","tachanka"]
 title = "Spetsnaz"
-tags = ["spetsnaz","fuze","glaz","kapkan","tachanka"]
 type = "ctu"
-
-[menu.main]
-  parent = 'ctus'
-
 wikipedia = "Spetsnaz"
 +++
 

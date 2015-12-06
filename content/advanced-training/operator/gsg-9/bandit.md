@@ -1,27 +1,27 @@
 +++
-date = "2015-09-26T12:34:50-04:00"
-title = "Bandit"
-type = "operator"
-tags = ["gsg 9","bandit"]
-
+armor = "Light"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-bandit_229848.png"
 ctu = "gsg-9"
+date = "2015-09-26T12:34:50-04:00"
 dob = "08/13/1974"
+gadgets = ["barbed-wire", "nitro-cell"]
 gender = "M"
 height = "1.80M"
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-bandit_229880.png"
 name = "Dominic Brunsmeier"
 pob = "Berlin, Germany"
-quote = "YOUR GEAR COME WITH THAT POLISH?"
 positon = "Defender"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213912-16&ct=tcm:148-76770-32"
-weight = "95KG"
-
-armor = "Light"
-speed = "Fast"
-
-unique = "ced-1"
 primaryWeapons = ["mp7", "m870"]
+quote = "YOUR GEAR COME WITH THAT POLISH?"
 secondaryWeapons = ["p12"]
-gadgets = ["barbed-wire", "nitro-cell"]
+speed = "Fast"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213912-16&ct=tcm:148-76770-32"
+tags = ["opeartor","gsg 9","bandit"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-bandit_229910.png"
+title = "Bandit"
+type = "operator"
+unique = "ced-1"
+weight = "95KG"
 +++
 
 ## Tactical Profile

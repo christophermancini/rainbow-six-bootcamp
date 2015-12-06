@@ -26,14 +26,14 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                      <h1>{{ .Title }}</h1>
+                      <h1>{{ partial "title" . }}</h1>
                     </div>
                   </div>
                 </div> <!-- /.container -->
               </div> <!-- /.header-wrapper -->
             </header> <!-- /.page-head (header end) -->
             {{ else }}
-            <h1>{{ .Title }}</h1>
+            <h1>{{ partial "title" . }}</h1>
             {{ end }}
 
             {{ partial "tags" . }}

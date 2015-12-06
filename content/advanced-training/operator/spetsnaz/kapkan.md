@@ -1,27 +1,27 @@
 +++
-date = "2015-09-26T12:38:40-04:00"
-title = "Kapkan"
-type = "operator"
-tags = ["spetsnaz","kapkan"]
-
+armor = "Heavy"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-kapkan_229866.png"
 ctu = "spetsnaz"
+date = "2015-09-26T12:38:40-04:00"
 dob = "05/14/1979"
+gadgets = ["barbed-wire","nitro-cell"]
 gender = "M"
 height = "1.80M"
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-kapkan_229908.png"
 name = "Maxim Basuda"
 pob = "Kovrov, Russia"
-quote = "MIND YOUR STEP"
 positon = "Defender"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228985-16&ct=tcm:148-76770-32"
-weight = "68KG"
-
-armor = "Heavy"
-speed = "Slow"
-
-unique = "edd-mk-ii"
 primaryWeapons = ["9x19vsn","sasg-12"]
+quote = "MIND YOUR STEP"
 secondaryWeapons = ["gsh-18","pmm"]
-gadgets = ["barbed-wire","nitro-cell"]
+speed = "Slow"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228985-16&ct=tcm:148-76770-32"
+tags = ["operator","spetsnaz","kapkan"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-kapkan_229918.png"
+title = "Kapkan"
+type = "operator"
+unique = "edd-mk-ii"
+weight = "68KG"
 +++
 
 ## Tactical Profile

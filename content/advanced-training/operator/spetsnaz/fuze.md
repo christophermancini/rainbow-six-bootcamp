@@ -1,30 +1,27 @@
 +++
-date = "2015-09-26T12:35:25-04:00"
-title = "Fuze"
-type = "operator"
-tags = ["spetsnaz","fuze"]
-
-[menu.main]
-  parent = 'operators'
-
+armor = "Heavy"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-fuze_229856.png"
 ctu = "spetsnaz"
+date = "2015-09-26T12:35:25-04:00"
 dob = "10/12/1982"
+gadgets = ["breach-charge","stun-grenade"]
 gender = "M"
 height = "1.80M"
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-fuze_229884.png"
 name = "Shuhrat Kessikbayev"
 pob = "Samarkand, Uzbekistan"
-quote = "PLACING CLUSTER CHARGE"
 positon = "Attacker"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228984-16&ct=tcm:148-76770-32"
-weight = "85KG"
-
-armor = "Heavy"
-speed = "Slow"
-
-unique = "apm-6-matryoshka"
 primaryWeapons = ["ballistic-shield","6p41"]
+quote = "PLACING CLUSTER CHARGE"
 secondaryWeapons = ["gsh-18","pmm"]
-gadgets = ["breach-charge","stun-grenade"]
+speed = "Slow"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228984-16&ct=tcm:148-76770-32"
+tags = ["operator","spetsnaz","fuze"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-fuze_229914.png"
+title = "Fuze"
+type = "operator"
+unique = "apm-6-matryoshka"
+weight = "85KG"
 +++
 
 ## Tactical Profile

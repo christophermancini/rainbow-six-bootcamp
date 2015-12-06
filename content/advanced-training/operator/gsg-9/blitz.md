@@ -1,27 +1,27 @@
 +++
-date = "2015-09-26T12:34:24-04:00"
-title = "Blitz"
-type = "operator"
-tags = ["gsg 9","blitz"]
-
+armor = "Heavy"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-blitz_229849.png"
 ctu = "gsg-9"
+date = "2015-09-26T12:34:24-04:00"
 dob = "04/02/1980"
+gadgets = ["breach-charge", "smoke-grenade"]
 gender = "M"
 height = "1.75M"
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-blitz_229881.png"
 name = "Elias Kötz"
 pob = "Bremen, Germany"
-quote = "STICK BEHIND ME AND YOUR UGLY MUG MIGHT LIVE TO SEE ANOTHER DAY!"
 positon = "Attacker"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213911-16&ct=tcm:148-76770-32"
-weight = "75KG"
-
-armor = "Heavy"
-speed = "Slow"
-
-unique = "g52-tactical-shield"
 primaryWeapons = ["ballistic-shield"]
+quote = "STICK BEHIND ME AND YOUR UGLY MUG MIGHT LIVE TO SEE ANOTHER DAY!"
 secondaryWeapons = ["p12"]
-gadgets = ["breach-charge", "smoke-grenade"]
+speed = "Slow"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213911-16&ct=tcm:148-76770-32"
+tags = ["operator","gsg 9","blitz"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-blitz_229911.png"
+title = "Blitz"
+type = "operator"
+unique = "g52-tactical-shield"
+weight = "75KG"
 +++
 
 ## Tactical Profile

@@ -1,12 +1,9 @@
 +++
 date = "2015-10-03T22:31:02-04:00"
+image = ""
+tags = ["ctu","gsg 9","bandit","blitz","iq","jäger"]
 title = "GSG 9"
-tags = ["gsg 9","bandit","blitz","iq","jäger"]
 type = "ctu"
-
-[menu.main]
-  parent = 'ctus'
-
 wikipedia = "GSG_9"
 +++
 

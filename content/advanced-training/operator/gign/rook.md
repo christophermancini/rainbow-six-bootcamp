@@ -1,27 +1,27 @@
 +++
-date = "2015-09-26T12:35:58-04:00"
-title = "Rook"
-type = "operator"
-tags = ["gign","rook"]
-
+armor = "Heavy"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-rook_229872.png"
 ctu = "gign"
+date = "2015-09-26T12:35:58-04:00"
 dob = "1/6/1990"
+gadgets = ["barbed-wire", "deployable-shield"]
 gender = "M"
 height = "1.75M"
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-rook_229933.png"
 name = "Julien Nizan"
 pob = "Tours, France"
-quote = "TIME FOR SOME SERIOUS PROTECTION"
 positon = "Defender"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210708-16&ct=tcm:148-76770-32"
-weight = "63KG"
-
-armor = "Heavy"
-speed = "Slow"
-
-unique = "r1n-rhino-armor"
 primaryWeapons = ["mp5","p90"]
+quote = "TIME FOR SOME SERIOUS PROTECTION"
 secondaryWeapons = ["lfp586","p9"]
-gadgets = ["barbed-wire", "deployable-shield"]
+speed = "Slow"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210708-16&ct=tcm:148-76770-32"
+tags = ["operator","gign","rook"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-rook_229922.png"
+title = "Rook"
+type = "operator"
+unique = "r1n-rhino-armor"
+weight = "63KG"
 +++
 
 ## Tactical Profile

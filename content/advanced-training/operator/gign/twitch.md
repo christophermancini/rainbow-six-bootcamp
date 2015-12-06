@@ -1,27 +1,27 @@
 +++
-date = "2015-09-26T12:35:40-04:00"
-title = "Twitch"
-type = "operator"
-tags = ["gign","twitch"]
-
+armor = "Medium"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-twitch_229879.png"
 ctu = "gign"
+date = "2015-09-26T12:35:40-04:00"
 dob = "10/12/1988"
+gadgets = ["breach-charge", "smoke-grenade"]
 gender = "M"
 height = "1.68M"
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-twitch_229845.png"
 name = "Emmanuelle Pichon"
 pob = "Nancy, France"
-quote = "STOP COMPLAINING, IT'S JUST ELECTRICITY"
 positon = "Attacker"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210692-16&ct=tcm:148-76770-32"
-weight = "58KG"
-
-armor = "Medium"
-speed = "Medium"
-
-unique = "rsd-model-1-shock-drone"
 primaryWeapons = ["417","g2"]
+quote = "STOP COMPLAINING, IT'S JUST ELECTRICITY"
 secondaryWeapons = ["lfp586","p9"]
-gadgets = ["breach-charge", "smoke-grenade"]
+speed = "Medium"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210692-16&ct=tcm:148-76770-32"
+tags = ["operator","gign","twitch"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-twitch_229928.png"
+title = "Twitch"
+type = "operator"
+unique = "rsd-model-1-shock-drone"
+weight = "58KG"
 +++
 
 ## Tactical Profile

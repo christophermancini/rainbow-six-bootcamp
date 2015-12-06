@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-3">
       <a href="{{ .Permalink }}">
-        <img src="{{ .Param "image" }}" class="img-thumbnail center-block" alt="{{ .Title }}">
+        <img src="{{ .Param "image" }}" class="img-thumbnail center-block" alt="{{ partial "title" . }}">
       </a>
     </div>
     <div class="col-md-9">
@@ -16,7 +16,7 @@
         on <time>{{ .Date.Format "Mon, Jan 2, 2006" }}<time>
       </p>
       <h1>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a href="{{ .Permalink }}">{{ partial "title" . }}</a>
       </h1>
       {{ .Summary }}
     </div>

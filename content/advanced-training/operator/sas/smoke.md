@@ -1,27 +1,27 @@
 +++
-date = "2015-09-26T12:37:35-04:00"
-title = "Smoke"
-type = "operator"
-tags = ["sas","smoke"]
-
+armor = "Medium"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-smoke_229874.png"
 ctu = "sas"
+date = "2015-09-26T12:37:35-04:00"
 dob = "05/14/1990"
+gadgets = ["barbed-wire", "nitro-cell"]
 gender = "M"
 height = "1.73M"
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-smoke_229935.png"
 name = "James Porter"
 pob = "London, England"
-quote = "WHAT'S YOUR POISON?"
 positon = "Defender"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-202274-16&ct=tcm:148-76770-32"
-weight = "70KG"
-
-armor = "Medium"
-speed = "Medium"
-
-unique = "compound-z8-remote-gas-grenade"
 primaryWeapons = ["591a1", "fmg-9"]
+quote = "WHAT'S YOUR POISON?"
 secondaryWeapons = ["226-mk-25", "mac-11"]
-gadgets = ["barbed-wire", "nitro-cell"]
+speed = "Medium"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-202274-16&ct=tcm:148-76770-32"
+tags = ["opeartor","sas","smoke"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-smoke_229924.png"
+title = "Smoke"
+type = "operator"
+unique = "compound-z8-remote-gas-grenade"
+weight = "70KG"
 +++
 
 ## Tactical Profile

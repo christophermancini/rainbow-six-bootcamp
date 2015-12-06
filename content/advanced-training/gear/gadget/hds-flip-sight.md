@@ -1,9 +1,9 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
 groupId = 0
-image = ""
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-glaz_229891.png"
 operators = ["glaz"]
-tags = []
+tags = ["gadget","glaz"]
 title = "HDS Flip Sight"
 type = "gadget"
 unique = true

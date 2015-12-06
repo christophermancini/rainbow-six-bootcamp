@@ -1,27 +1,27 @@
 +++
-date = "2015-09-26T12:34:38-04:00"
-title = "IQ"
-type = "operator"
-tags = ["gsg 9","iq"]
-
+armor = "Light"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-iq_229861.png"
 ctu = "gsg-9"
+date = "2015-09-26T12:34:38-04:00"
 dob = "08/01/1979"
+gadgets = ["breach-charge", "stun-grenade"]
 gender = "F"
 height = "1.75M"
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-iq_229906.png"
 name = "Monika Weiss"
 pob = "Leipzig, Germany"
-quote = "WE'RE NOT GOING IN BLIND."
 positon = "Attacker"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213828-16&ct=tcm:148-76770-32"
-weight = "70KG"
-
-armor = "Light"
-speed = "Fast"
-
-unique = "red-mk-iii-spectre-electronics-detector"
 primaryWeapons = ["552-commando","aug-a2"]
+quote = "WE'RE NOT GOING IN BLIND."
 secondaryWeapons = ["p12"]
-gadgets = ["breach-charge", "stun-grenade"]
+speed = "Fast"
+spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213828-16&ct=tcm:148-76770-32"
+tags = ["opeartor","gsg 9","iq"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-iq_229916.png"
+title = "IQ"
+type = "operator"
+unique = "red-mk-iii-spectre-electronics-detector"
+weight = "70KG"
 +++
 
 ## Tactical Profile

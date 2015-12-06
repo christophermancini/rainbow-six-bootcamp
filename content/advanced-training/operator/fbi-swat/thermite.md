@@ -1,12 +1,13 @@
 +++
 armor = "Medium"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-thermite_229878.png"
 ctu = "fbi-swat"
 date = "2015-09-26T12:37:45-04:00"
 dob = "03/14/1982"
 gadgets = ["breach-charge","frag-grenade"]
 gender = "M"
 height = "1.78M"
-image = ""
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-thermite_229938.png"
 name = "Jordan Trace"
 pob = "Plano, TX"
 positon = "Attacker"
@@ -16,6 +17,7 @@ secondaryWeapons = ["57usg","m45-meusoc"]
 speed = "Medium"
 spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-203923-16&ct=tcm:148-76770-32"
 tags = ["operator","fbi swat","thermite"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-thermite_229927.png"
 title = "Thermite"
 type = "operator"
 unique = "brimstone-bc-3"

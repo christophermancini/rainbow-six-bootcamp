@@ -19,7 +19,7 @@
         <!-- blog-contents -->
         <section class="col-md-8">
           <article class="single-blog-item">
-            <h1>{{ partial "titlePrefix" . }} {{ .Title }}</h1>
+            <h1>{{ partial "title" . }}</h1>
 
             {{ partial "tags" . }}
 
@@ -27,9 +27,9 @@
 
           </article>
 
-          {{ partial "related.html" . }}
-
           {{ partial "adsenseTag.html" .Site.Params.adsense.client .Site.Params.adsense.footerAd }}
+
+          {{ partial "related.html" . }}
 
           {{ template "_internal/disqus.html" . }}
 

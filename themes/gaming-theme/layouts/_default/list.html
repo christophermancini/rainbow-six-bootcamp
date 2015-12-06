@@ -19,7 +19,7 @@
         <!-- blog-contents -->
         <section class="col-md-8">
           <article class="single-blog-item">
-            <h1>{{ .Title }}</h1>
+            <h1>{{ partial "title" . }}</h1>
             {{ range .Data.Pages }}
               {{ .Render "li" }}
             {{ end }}

@@ -1,12 +1,13 @@
 +++
 armor = "Medium"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-castle_229852.png"
 ctu = "fbi-swat"
 date = "2015-09-26T12:37:57-04:00"
 dob = "09/20/1980"
 gadgets = ["barbed-wire", "deployable-shield"]
 gender = "M"
 height = "1.85M"
-image = ""
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-castle_229882.png"
 name = "Miles Campbell"
 pob = "Sherman Oaks, CA"
 positon = "Defender"
@@ -17,6 +18,7 @@ speed = "Medium"
 spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204026-16&ct=tcm:148-76770-32"
 tags = ["operator","fbi swat","castle"]
 title = "Castle"
+thumbnail = ""
 type = "operator"
 unique = "armor-panel"
 weight = "95.3KG"

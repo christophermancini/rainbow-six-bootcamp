@@ -1,13 +1,9 @@
 +++
 date = "2015-10-03T22:29:56-04:00"
+image = ""
+tags = ["ctu","sas","mute","sledge","smoke","thatcher"]
 title = "Special Air Service"
-tags = ["sas","mute","sledge","smoke","thatcher"]
 type = "ctu"
-
-[menu.main]
-  parent = 'ctus'
-
-
 wikipedia = "Special_Air_Service"
 +++
 

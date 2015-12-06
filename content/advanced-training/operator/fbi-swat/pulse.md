@@ -1,12 +1,13 @@
 +++
 armor = "Light"
+badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-pulse_229871.png"
 ctu = "fbi-swat"
 date = "2015-09-26T12:38:01-04:00"
 dob = "10/11/1984"
 gadgets = ["barbed-wire","nitro-cell"]
 gender = "M"
 height = "1.88M"
-image = ""
+image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-pulse_229931.png"
 name = "Jack Estrada"
 pob = "Goldsboro, NC"
 positon = "Defender"
@@ -16,6 +17,7 @@ secondaryWeapons = ["57usg","m45-meusoc"]
 speed = "Fast"
 spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204027-16&ct=tcm:148-76770-32"
 tags = ["operator","fbi swat","pulse"]
+thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-pulse_229921.png"
 title = "pulse"
 type = "operator"
 unique = "hb-5"
