@@ -1,8 +1,13 @@
 +++
-title = ""
+type = "gadget"
+tags = []
+
 image = ""
-country = ""
-class = ""
-quantity = ""
-side = ""
+groupId = 0
+operators = []
+unique = true
 +++
+
+# Description
+
+# Usage

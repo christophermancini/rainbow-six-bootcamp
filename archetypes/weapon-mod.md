@@ -1,6 +1,6 @@
 +++
-name = ""
 image = ""
 cost = ""
-category = ""
+modType = ""
+weapons = []
 +++

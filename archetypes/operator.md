@@ -1,7 +1,10 @@
 +++
-cost = "500"
+type = "operator"
+tags = []
+
 ctu = ""
 dob = ""
+gender = "M"
 height = "M"
 name = ""
 pob = ""
@@ -18,3 +21,15 @@ primaryWeapons = []
 secondaryWeapons = []
 gadgets = []
 +++
+
+## Tactical Profile
+
+### Background
+
+### Psychological Profile
+
+### Training
+
+### Relevant Experience
+
+### Notes
