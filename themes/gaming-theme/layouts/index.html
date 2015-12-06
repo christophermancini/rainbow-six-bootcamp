@@ -20,29 +20,7 @@
         <section class="col-md-8">
 
           {{ range (.Paginate ( first 10 .Data.Pages )).Pages }}
-          <article class="blog-item">
-            <div class="row">
-              <div class="col-md-3">
-                <a href="{{ .Permalink }}">
-                  <img src="/assets/img/corporate.jpg" class="img-thumbnail center-block" alt="Blog Post Thumbnail">
-                </a>
-              </div>
-              <div class="col-md-9">
-                <p>
-                  {{ if .Params.tags }}
-                  in
-                  {{ range sort .Params.tags }}
-                    <a href="/tags/{{ . | urlize }}">{{ . }}</a>,
-                  {{ end }}
-                  {{ end }}
-                  on <time>{{ .Date.Format "Mon, Jan 2, 2006" }}<time>
-                </p>
-                <h1>
-                  <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </h1>
-              </div>
-            </div>
-          </article> <!-- /.blog-item -->
+            {{ .Render "summary" }}
           {{ end }}
 
           {{ template "_internal/pagination.html" . }}

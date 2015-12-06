@@ -1,11 +1,11 @@
-{{ $tags := len .Params.tags }}
-{{ if gt $tags 0 }}
-<div class="alert alert-info">
+{{ if .Params.tags }}
+  {{ $tags := len .Params.tags }}
   {{ $last := sub $tags 1 }}
-  {{ range $index, $element := sort .Params.tags }}
-    <a href="/tags/{{ $element | urlize }}">{{ . }}</a>{{ if ne $index $last }},{{ end }}
-  {{ end }}
-  updated
-  <time>{{ .Date.Format "Mon, Jan 2, 2006" }}<time>
-</div>
+  <div class="alert alert-info">
+    {{ range $index, $element := sort .Params.tags }}
+      <a href="/tags/{{ $element | urlize }}">{{ . }}</a>{{ if ne $index $last }},{{ end }}
+    {{ end }}
+    updated
+    <time>{{ .Date.Format "Mon, Jan 2, 2006" }}<time>
+  </div>
 {{ end }}

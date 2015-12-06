@@ -2,8 +2,9 @@
 date = "2015-10-07T15:46:14-04:00"
 title = "SASG 12 (Saiga-12)"
 type = "weapon"
-tags = ["izhmash","saiga-12"]
+tags = ["primary-weapon","izhmash","saiga-12"]
 
+image = "/images/gear/sasg-12.jpg"
 operators = ["thermite"]
 groupId = 1
 

@@ -5,6 +5,7 @@ groupId = 3
 type = "gadget"
 tags = ["stun grenade"]
 
+image = "/images/gear/stun-grenade.jpg"
 operators = []
 unique = false
 +++

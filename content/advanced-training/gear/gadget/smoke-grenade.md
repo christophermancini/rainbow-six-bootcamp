@@ -5,6 +5,7 @@ groupId = 3
 type = "gadget"
 tags = ["smoke grenade"]
 
+image = "/images/gear/smoke-grenade.jpg"
 operators = ["ash"]
 unique = false
 +++

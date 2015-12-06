@@ -2,8 +2,9 @@
 date = "2015-10-07T20:03:48-04:00"
 title = "Remington R4-C"
 type = "weapon"
-tags = []
+tags = ["primary-weapon"]
 
+image = "/images/gear/r4-c.jpg"
 operators = ["ash"]
 groupId = 1
 

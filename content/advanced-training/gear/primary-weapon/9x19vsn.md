@@ -2,8 +2,9 @@
 date = "2015-10-07T15:46:14-04:00"
 title = "9x19 VSN (Vityaz-SN)"
 type = "weapon"
-tags = []
+tags = ["primary-weapon"]
 
+image = "/images/gear/9x19vsn.jpg"
 operators = []
 groupId = 1
 

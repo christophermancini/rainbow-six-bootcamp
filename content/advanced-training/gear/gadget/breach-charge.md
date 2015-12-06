@@ -5,6 +5,7 @@ groupId = 3
 type = "gadget"
 tags = []
 
+image = "/images/gear/breach-charge.jpg"
 operators = ["ash"]
 unique = false
 +++

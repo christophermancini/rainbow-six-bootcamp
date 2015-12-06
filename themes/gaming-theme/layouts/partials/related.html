@@ -1,5 +1,4 @@
-        {{ $tags := len .Params.tags }}
-        {{ if gt $tags 0 }}
+        {{ if .Params.tags }}
           <h4>Related Articles</h4>
           {{ $pageTags := .Params.tags }}
           {{ $pagePermalink := .Permalink }}

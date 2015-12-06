@@ -2,8 +2,9 @@
 date = "2015-10-07T15:46:14-04:00"
 title = "M45 Meusoc"
 type = "weapon"
-tags = ["ash"]
+tags = ["ash","secondary-weapon"]
 
+image = "/images/gear/m45-meusoc.jpg"
 operators = ["ash"]
 groupId = 2
 

@@ -5,4 +5,5 @@ tags = []
 category = ""
 cost = ""
 image = ""
+weapons = ""
 +++

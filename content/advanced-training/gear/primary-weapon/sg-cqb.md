@@ -1,0 +1,23 @@
++++
+barrel-mods = ["suppressor", "flash", "compensator"]
+cartridge = ""
+class = "Shotgun"
+country = ""
+damage = 40
+date = "2015-12-06T09:36:42-05:00"
+description = ""
+fire-rate = 600
+groupId = 1
+image = "/images/gear/sg-cqb.jpg"
+laser-mod = true
+magazine = 30
+manufacturer = ""
+mobility = 0
+operators = []
+sight-mods = []
+skins = []
+tags = ["primary-weapon"]
+title = "SG CQB"
+type = "weapon"
+wikipedia = ""
++++

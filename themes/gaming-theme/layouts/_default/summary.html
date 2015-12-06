@@ -1,0 +1,24 @@
+<article class="blog-item">
+  <div class="row">
+    <div class="col-md-3">
+      <a href="{{ .Permalink }}">
+        <img src="{{ .Param "image" }}" class="img-thumbnail center-block" alt="{{ .Title }}">
+      </a>
+    </div>
+    <div class="col-md-9">
+      <p>
+        {{ if .Params.tags }}
+          in
+          {{ range sort .Params.tags }}
+            <a href="/tags/{{ . | urlize }}">{{ . }}</a>,
+          {{ end }}
+        {{ end }}
+        on <time>{{ .Date.Format "Mon, Jan 2, 2006" }}<time>
+      </p>
+      <h1>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h1>
+      {{ .Summary }}
+    </div>
+  </div>
+</article> <!-- /.blog-item -->

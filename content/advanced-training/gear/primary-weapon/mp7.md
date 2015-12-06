@@ -2,8 +2,9 @@
 date = "2015-10-07T20:31:15-04:00"
 title = "MP7"
 type = "weapon"
-tags = ["heckler & koch","mp7"]
+tags = ["primary-weapon","heckler & koch","mp7"]
 
+image = "/images/gear/mp7.jpg"
 operators = []
 groupId = 1
 

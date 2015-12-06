@@ -19,7 +19,22 @@
         <!-- blog-contents -->
         <section class="col-md-8">
           <article class="single-blog-item">
+            {{ if .Params.image }}
+            <!-- header begin -->
+            <header class="page-head">
+              <div class="header-wrapper text-center">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                      <h1>{{ .Title }}</h1>
+                    </div>
+                  </div>
+                </div> <!-- /.container -->
+              </div> <!-- /.header-wrapper -->
+            </header> <!-- /.page-head (header end) -->
+            {{ else }}
             <h1>{{ .Title }}</h1>
+            {{ end }}
 
             {{ partial "tags" . }}
 
@@ -29,17 +44,7 @@
 
           {{ partial "related.html" . }}
 
-          <div class="advertisement">
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- R6 Leaderboard -->
-            <ins class="adsbygoogle"
-                 style="display:inline-block;width:728px;height:90px"
-                 data-ad-client="ca-pub-0574310089910343"
-                 data-ad-slot="7271939979"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-          </div>
+          {{ partial "adsenseTag.html" .Site.Params.adsense.client .Site.Params.adsense.footerAd }}
 
           {{ template "_internal/disqus.html" . }}
 
