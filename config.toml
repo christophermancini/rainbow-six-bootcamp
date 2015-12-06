@@ -23,10 +23,10 @@ watch = true
   sidebarAd = "4318473570"
 
 [params.socialLinks]
-  Facebook = ""
-  GitHub = "https://github.com/christophermancini/rainbow-six-bootcamp"
-  GooglePlus = "https://plus.google.com/102116020583969691630/about"
-  Twitter = ""
+  facebook = ""
+  gitHub = "https://github.com/christophermancini/rainbow-six-bootcamp"
+  googlePlus = "https://plus.google.com/102116020583969691630"
+  twitter = ""
 
 [[menu.main]]
   name = "HOME"
