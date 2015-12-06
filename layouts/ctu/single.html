@@ -19,15 +19,9 @@
         <!-- blog-contents -->
         <section class="col-md-8">
           <article class="single-blog-item">
+            <h1>{{ partial "titlePrefix" . }} {{ .Title }}</h1>
 
-            <div class="alert alert-info">
-              {{ range sort .Params.tags }}
-                <a href="/tags/{{ . | urlize }}">{{ . }}</a>,
-              {{ end }}
-              updated
-              <time>{{ .Date.Format "Mon, Jan 2, 2006" }}<time>
-            </div>
-            <h1>{{ .Title }}</h1>
+            {{ partial "tags" . }}
 
             {{ .Content }}
 
@@ -40,18 +34,6 @@
               <img class="img-responsive" src="/assets/img/add.png" alt="Template Store">
               <div class="overlay"></div>
             </a>
-          </div>
-
-          <div class="author">
-            <p>Written by <strong class="text-capitalize">john doe</strong></p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
           </div>
 
           {{ template "_internal/disqus.html" . }}

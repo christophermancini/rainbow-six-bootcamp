@@ -1,0 +1,10 @@
+{{ if eq .Section "basic-training" }}Basic Training -{{ end }}
+
+{{ if .IsPage }}
+  {{ if eq .Type "operator" }}Operator Profile -{{ end }}
+  {{ if eq .Type "ctu" }}C.T.U. -{{ end }}
+  {{ if eq .Type "map" }}Map -{{ end }}
+  {{ if eq .Type "situation" }}Situation -{{ end }}
+  {{ if eq .Type "weapon" }}Firearm -{{ end }}
+  {{ if eq .Type "gadget" }}Firearm -{{ end }}
+{{ end }}
