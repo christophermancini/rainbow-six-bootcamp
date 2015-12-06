@@ -1,14 +1,14 @@
 +++
 date = "2015-10-03T22:30:02-04:00"
 title = "FBI Special Weapons and Tactics Teams"
-tags = ["ctu","fbi swat","ash","castle","pulse","thermite"]
+tags = ["fbi swat","ash","castle","pulse","thermite"]
 type = "ctu"
-
-[menu.main]
-  parent = 'ctus'
 
 image = ""
 wikipedia = "FBI_Special_Weapons_and_Tactics_Teams"
+
+[menu.main]
+  parent = 'ctus'
 +++
 
 ## History

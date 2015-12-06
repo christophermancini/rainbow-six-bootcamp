@@ -1,7 +1,7 @@
 +++
 date = "2015-10-03T22:29:56-04:00"
 title = "Special Air Service"
-tags = ["ctu","sas","mute","sledge","smoke","thatcher"]
+tags = ["sas","mute","sledge","smoke","thatcher"]
 type = "ctu"
 
 [menu.main]

@@ -1,7 +1,7 @@
 +++
 date = "2015-10-03T22:30:34-04:00"
 title = "National Gendarmerie Intervention Group"
-tags = ["ctu","gign","doc","montagne","rook","twitch"]
+tags = ["gign","doc","montagne","rook","twitch"]
 type = "ctu"
 
 [menu.main]

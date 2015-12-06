@@ -1,7 +1,7 @@
 +++
 date = "2015-10-03T22:31:02-04:00"
 title = "GSG 9"
-tags = ["ctu","gsg 9","bandit","blitz","iq","jäger"]
+tags = ["gsg 9","bandit","blitz","iq","jäger"]
 type = "ctu"
 
 [menu.main]

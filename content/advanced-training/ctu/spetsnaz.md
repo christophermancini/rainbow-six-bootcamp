@@ -1,7 +1,7 @@
 +++
 date = "2015-10-03T22:30:53-04:00"
 title = "Spetsnaz"
-tags = ["ctu","spetsnaz","fuze","glaz","kapkan","tachanka"]
+tags = ["spetsnaz","fuze","glaz","kapkan","tachanka"]
 type = "ctu"
 
 [menu.main]
