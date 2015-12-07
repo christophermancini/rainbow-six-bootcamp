@@ -23,6 +23,12 @@
 
             {{ partial "tags" . }}
 
+            {{ if .Params.image }}
+            <a href="{{ .Params.image }}">
+              <img src="{{ .Params.image }}" style="width: 100%" class="img-rounded">
+            </a>
+            {{ end }}
+
             {{ .Content }}
           </article>
 
@@ -30,7 +36,7 @@
 
           {{ partial "related.html" . }}
 
-          {{ template "_internal/disqus.html" . }}
+          {{ partial "disqus.html" . }}
 
         </section>
         <!-- end of blog-contents -->

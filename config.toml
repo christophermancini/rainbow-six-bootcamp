@@ -1,5 +1,5 @@
-#baseurl = "http://www.rainbowsixbootcamp.com"
-baseurl = "http://localhost:1313"
+baseurl = "http://rainbowsixbootcamp.com"
+#baseurl = "http://localhost:1313"
 
 theme = 'gaming-theme'
 
@@ -15,6 +15,7 @@ watch = true
 
 [params]
   image = "/assets/img/corporate.jpg"
+  disqusShortname = "rainbowsixbootcamp"
   CopyExtra = "Rainbow Six Bootcamp was created using content and materials from Rainbow Six: Siege © Ubisoft Entertainment or its licensors."
 
 [params.adsense]
