@@ -9,8 +9,10 @@
       <p>
         {{ if .Params.tags }}
           in
-          {{ range sort .Params.tags }}
-            <a href="/tags/{{ . | urlize }}">{{ . }}</a>,
+          {{ $tags := len .Params.tags }}
+          {{ $last := sub $tags 1 }}
+          {{ range $index, $element := sort .Params.tags }}
+            <a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ if ne $index $last }},{{ end }}
           {{ end }}
         {{ end }}
         on <time>{{ .Date.Format "Mon, Jan 2, 2006" }}<time>

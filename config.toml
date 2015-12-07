@@ -1,4 +1,4 @@
-#baseurl = "http://www.rainbowsixbootcamp.com/"
+#baseurl = "http://www.rainbowsixbootcamp.com"
 baseurl = "http://localhost:1313"
 
 theme = 'gaming-theme'
@@ -19,14 +19,14 @@ watch = true
 
 [params.adsense]
   client = "ca-pub-0574310089910343"
-  footerAd = "7271939979"
+  footerAd = "7682239174"
   sidebarAd = "4318473570"
 
 [params.socialLinks]
-  facebook = ""
+  facebook = "https://www.facebook.com/rainbowsixbootcamp/"
   gitHub = "https://github.com/christophermancini/rainbow-six-bootcamp"
   googlePlus = "https://plus.google.com/102116020583969691630"
-  twitter = ""
+  twitter = "https://twitter.com/R6_Bootcamp"
 
 [[menu.main]]
   name = "HOME"

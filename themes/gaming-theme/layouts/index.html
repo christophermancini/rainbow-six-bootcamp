@@ -18,38 +18,16 @@
 
         <!-- blog-contents -->
         <section class="col-md-8">
-
-          {{ range (.Paginate ( first 10 .Data.Pages )).Pages }}
+          {{ $paginator := .Paginate ( .Data.Pages ) }}
+          {{ range $paginator.Pages }}
             {{ .Render "summary" }}
           {{ end }}
 
-          {{ template "_internal/pagination.html" . }}
+          {{ partial "adsenseTag.html" .Site.Params.adsense.client .Site.Params.adsense.footerAd }}
 
-          <div class="page-turn">
-            <div class="row">
-              <div class="col-md-6 col-md-offset-3 text-center">
-                <nav>
-                  <ul class="pagination pagination-sm">
-                    <li class="disabled">
-                      <a href="#" aria-label="Previous">
-                        <span aria-hidden="true">Prev</span>
-                      </a>
-                    </li>
-                    <li class="active"><a href="index.html">1</a></li>
-                    <li><a href="page2.html">2</a></li>
-                    <li><a href="page3.html">3</a></li>
-                    <li><a href="page4.html">4</a></li>
-                    <li><a href="page5.html">5</a></li>
-                    <li>
-                      <a href="page6.html" aria-label="Next">
-                        <span aria-hidden="true">Next</span>
-                      </a>
-                    </li>
-                  </ul> <!-- /.pagination -->
-                </nav>
-              </div>
-            </div>
-          </div> <!-- /.page-turn -->
+          <div class="center-block" style="width: 100%;">
+            {{ template "_internal/pagination.html" . }}
+          </div>
 
         </section>
         <!-- end of blog-contents -->
