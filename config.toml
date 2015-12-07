@@ -1,5 +1,5 @@
-baseurl = "http://rainbowsixbootcamp.com"
-#baseurl = "http://localhost:1313"
+#baseurl = "http://rainbowsixbootcamp.com"
+baseurl = "http://localhost:1313"
 
 theme = 'gaming-theme'
 
@@ -28,6 +28,7 @@ watch = true
   gitHub = "https://github.com/christophermancini/rainbow-six-bootcamp"
   googlePlus = "https://plus.google.com/102116020583969691630"
   twitter = "https://twitter.com/R6_Bootcamp"
+  youtube = "https://www.youtube.com/channel/UCXQEfUKsCBMwccbUeQjYMoQ"
 
 [[menu.main]]
   name = "HOME"

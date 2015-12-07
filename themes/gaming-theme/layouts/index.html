@@ -23,7 +23,7 @@
             {{ .Render "summary" }}
           {{ end }}
 
-          {{ partial "adsenseTag.html" .Site.Params.adsense.client .Site.Params.adsense.footerAd }}
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
           <div class="center-block" style="width: 100%;">
             {{ template "_internal/pagination.html" . }}

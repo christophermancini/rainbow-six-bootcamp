@@ -798,12 +798,12 @@ footer .social-share li a i {
 	border: 1px solid #000000;
 	border-radius: 0px;
 	color: #000000;
-	font-size: 15px;
+	font-size: 30px;
 	font-weight: 100;
-	height: 40px;
-	line-height: 40px;
+	height: 50px;
+	line-height: 50px;
 	text-align: center;
-	width: 40px;
+	width: 50px;
 	-webkit-transition: all 0.75s;
 	-moz-transition: all 0.75s;
 	-ms-transition: all 0.75s;

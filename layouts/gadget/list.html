@@ -23,6 +23,8 @@
               {{ .Render "li"}}
             {{ end }}
           </article>
+          
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
         </section>
         <!-- end of blog-contents -->
 

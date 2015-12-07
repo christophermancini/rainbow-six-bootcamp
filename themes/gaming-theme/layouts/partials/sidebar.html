@@ -32,10 +32,13 @@
                 {{ if .Site.Params.socialLinks.gitHub }}
                 <li><a href="{{ .Site.Params.socialLinks.gitHub }}" target="_blank"><i class="fa fa-github"></i></a></li>
                 {{ end }}
+                {{ if .Site.Params.socialLinks.youtube }}
+                <li><a href="{{ .Site.Params.socialLinks.youtube }}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                {{ end }}
               </ul> <!-- /.sidebar-share-button -->
             </div> <!-- /.share-widget -->
 
-            {{ partial "adsenseTag.html" .Site.Params.adsense.client .Site.Params.adsense.sidebarAd }}
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
 
           </div>
         </aside>

@@ -32,7 +32,7 @@
             {{ .Content }}
           </article>
 
-          {{ partial "adsenseTag.html" .Site.Params.adsense.client .Site.Params.adsense.footerAd }}
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
           {{ partial "related.html" . }}
 
