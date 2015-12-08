@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Jäger"
 type = "operator"
 unique = "ads-mk-iv-magpie"
+video = ""
 weight = "69KG"
 +++
 

@@ -18,13 +18,8 @@
 
         <!-- blog-contents -->
         <section class="col-md-8">
-          <article class="blog-item">
-            {{ range .Data.Pages }}
-              {{ .Render "li"}}
-            {{ end }}
-          </article>
-          
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+          <h1>Search Results</h1>
+          <gcse:search></gcse:search>
         </section>
         <!-- end of blog-contents -->
 
@@ -38,5 +33,17 @@
 
   {{ partial "foot.html" . }}
 
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Organization",
+    "name" : "{{ .Site.Title }}",
+    "url" : "{{ .Site.BaseURL }}",
+    "sameAs" : [
+      {{ range first (sub (len .Site.Params.socialLinks) 1) .Site.Params.socialLinks }}"{{ .link }}",{{ end }}
+      {{ range last 1 .Site.Params.socialLinks }}"{{ .link }}"{{ end }}
+    ]
+  }
+  </script>
 </body>
 </html>

@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Blitz"
 type = "operator"
 unique = "g52-tactical-shield"
+video = ""
 weight = "75KG"
 +++
 

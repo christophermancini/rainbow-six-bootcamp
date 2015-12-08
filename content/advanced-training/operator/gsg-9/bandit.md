@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Bandit"
 type = "operator"
 unique = "ced-1"
+video = ""
 weight = "95KG"
 +++
 

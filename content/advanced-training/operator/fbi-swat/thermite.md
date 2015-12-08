@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Thermite"
 type = "operator"
 unique = "brimstone-bc-3"
+video = "-GIEIwfqHEc"
 weight = "81.6KG"
 +++
 

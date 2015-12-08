@@ -19,25 +19,29 @@
         <!-- blog-contents -->
         <section class="col-md-8">
           <article class="single-blog-item">
-            <h1>{{ partial "title" . }}</h1>
+            <h1>
+              {{ if .Params.badge }}<img src="{{ .Params.badge }}">{{ end }}
+              {{ partial "title" . }}
+            </h1>
 
             {{ partial "tags" . }}
 
-            {{ if .Params.image }}
-            <a href="{{ .Params.image }}">
-              <img src="{{ .Params.image }}" style="width: 100%" class="img-rounded">
-            </a>
-            {{ end }}
+            {{ partial "featuredImage" . }}
 
             {{ .Content }}
 
-            <h2>Loadout</h2>
+            {{ if .Params.video }}
+            {{ partial "h2Anchor" (dict "text" "Operator Video" "page" .) }}
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
+            {{ end }}
+
+            {{ partial "h2Anchor" (dict "text" "Loadout" "page" .) }}
             {{ $operator := lower .Title }}
             {{ range $taxonomyName, $values := .Site.Taxonomies.operators }}
               {{ if eq $taxonomyName $operator }}
                 {{ range $values.Pages.GroupByParam "groupId" }}
                   <div class="clearfix">
-                    {{ if eq .Key 0 }}<h3>Unique Gear</h3>{{ end }}
+                    {{ if eq .Key 0 }}<h3>Unique Item</h3>{{ end }}
                     {{ if eq .Key 1 }}<h3>Primary Weapons</h3>{{ end }}
                     {{ if eq .Key 2 }}<h3>Secondary Weapons</h3>{{ end }}
                     {{ if eq .Key 3 }}<h3>Gadgets</h3>{{ end }}
@@ -47,6 +51,11 @@
                   </div>
                 {{ end }}
               {{ end }}
+            {{ end }}
+
+            {{ if isset .Params "images" }}
+            {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
+            {{ partial "imageGallery" .Params.images }}
             {{ end }}
           </article>
 

@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "pulse"
 type = "operator"
 unique = "hb-5"
+video = ""
 weight = "85KG"
 +++
 

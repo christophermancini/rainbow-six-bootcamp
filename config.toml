@@ -6,8 +6,6 @@ theme = 'gaming-theme'
 languageCode = "en-us"
 title = "Rainbow Six Bootcamp"
 
-watch = true
-
 [taxonomies]
   post = "/:year/:month/:slug/"
   tag = "tags"
@@ -23,12 +21,25 @@ watch = true
   footerAd = "7682239174"
   sidebarAd = "4318473570"
 
-[params.socialLinks]
-  facebook = "https://www.facebook.com/rainbowsixbootcamp/"
-  gitHub = "https://github.com/christophermancini/rainbow-six-bootcamp"
-  googlePlus = "https://plus.google.com/102116020583969691630"
-  twitter = "https://twitter.com/R6_Bootcamp"
-  youtube = "https://www.youtube.com/channel/UCXQEfUKsCBMwccbUeQjYMoQ"
+[[params.socialLinks]]
+  key = "facebook"
+  link = "https://www.facebook.com/rainbowsixbootcamp/"
+
+[[params.socialLinks]]
+  key = "github"
+  link = "https://github.com/christophermancini/rainbow-six-bootcamp"
+
+[[params.socialLinks]]
+  key = "google-plus"
+  link = "https://plus.google.com/102116020583969691630"
+
+[[params.socialLinks]]
+  key = "twitter"
+  link = "https://twitter.com/R6_Bootcamp"
+
+[[params.socialLinks]]
+  key = "youtube"
+  link = "https://www.youtube.com/channel/UCXQEfUKsCBMwccbUeQjYMoQ"
 
 [[menu.main]]
   name = "HOME"

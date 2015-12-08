@@ -23,21 +23,20 @@
 
             {{ partial "tags" . }}
 
-            {{ if .Params.image }}
-            <a href="{{ .Params.image }}">
-              <img src="{{ .Params.image }}" style="width: 100%" class="img-rounded">
-            </a>
-            {{ end }}
+            {{ partial "featuredImage" . }}
 
             {{ .Content }}
-          </article>
 
-          {{ partial "related.html" . }}
+            {{ if isset .Params "images" }}
+              {{ partial "imageGallery" .Params.images }}
+            {{ end }}
+          </article>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
-          {{ template "_internal/disqus.html" . }}
+          {{ partial "related.html" . }}
 
+          {{ partial "disqus.html" . }}
         </section>
         <!-- end of blog-contents -->
 
@@ -50,6 +49,8 @@
   {{ partial "footer.html" . }}
 
   {{ partial "foot.html" . }}
+
+  {{ partial "structuredDataArticle.html" . }}
 
 </body>
 </html>

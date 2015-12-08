@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "IQ"
 type = "operator"
 unique = "red-mk-iii-spectre-electronics-detector"
+video = ""
 weight = "70KG"
 +++
 

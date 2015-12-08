@@ -21,14 +21,11 @@
           <article class="single-blog-item">
             <h1>{{ partial "title" . }}</h1>
             {{ range .Data.Pages }}
-              {{ .Render "li" }}
+              {{ .Render "summary" }}
             {{ end }}
           </article>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
-
-          {{ template "_internal/disqus.html" . }}
-
         </section>
         <!-- end of blog-contents -->
 

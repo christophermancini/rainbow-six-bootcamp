@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Fuze"
 type = "operator"
 unique = "apm-6-matryoshka"
+video = ""
 weight = "85KG"
 +++
 

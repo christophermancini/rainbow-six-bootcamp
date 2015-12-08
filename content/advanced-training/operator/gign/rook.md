@@ -21,7 +21,18 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Rook"
 type = "operator"
 unique = "r1n-rhino-armor"
+video = "f9_xIszLn0U"
 weight = "63KG"
+
+[[images]]
+  src = "/images/operator/rook-vid.jpg"
+  alt = "Rook testing armor strength."
+[[images]]
+  src = "/images/operator/rook-vid2.jpg"
+  alt = ""
+[[images]]
+  src = "/images/operator/rook-vid3.jpg"
+  alt = ""
 +++
 
 ## Tactical Profile

@@ -1,6 +1,5 @@
 {{ if .Params.tags }}
-  {{ $tags := len .Params.tags }}
-  {{ $last := sub $tags 1 }}
+  {{ $last := sub (len .Params.tags) 1 }}
   <div class="alert alert-info">
     {{ range $index, $element := sort .Params.tags }}
       <a href="/tags/{{ $element | urlize }}">{{ . }}</a>{{ if ne $index $last }},{{ end }}

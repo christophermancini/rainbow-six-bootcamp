@@ -28,7 +28,6 @@
           <div class="center-block" style="width: 100%;">
             {{ template "_internal/pagination.html" . }}
           </div>
-
         </section>
         <!-- end of blog-contents -->
 
@@ -42,5 +41,17 @@
 
   {{ partial "foot.html" . }}
 
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Organization",
+    "name" : "{{ .Site.Title }}",
+    "url" : "{{ .Site.BaseURL }}",
+    "sameAs" : [
+      {{ range first (sub (len .Site.Params.socialLinks) 1) .Site.Params.socialLinks }}"{{ .link }}",{{ end }}
+      {{ range last 1 .Site.Params.socialLinks }}"{{ .link }}"{{ end }}
+    ]
+  }
+  </script>
 </body>
 </html>

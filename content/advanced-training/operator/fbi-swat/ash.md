@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Ash"
 type = "operator"
 unique = "m120-crem"
+video = ""
 weight = "63KG"
 +++
 

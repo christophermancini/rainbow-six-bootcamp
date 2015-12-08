@@ -9,7 +9,14 @@
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/animate.css">
+
+  {{ if isset .Params "images" }}
+  <link rel="stylesheet" href="/assets/nivo-lightbox/nivo-lightbox.css">
+  <link rel="stylesheet" href="/assets/nivo-lightbox/nivo-lightbox-theme.css">
+  {{ end }}
+
   <link rel="stylesheet" href="/assets/css/style.css">
+
 
   <meta name="description" content="">
   <meta name="author" content="">

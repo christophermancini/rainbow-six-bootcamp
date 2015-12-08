@@ -23,13 +23,14 @@
 
             {{ partial "tags" . }}
 
-            {{ if .Params.image }}
-            <a href="{{ .Params.image }}">
-              <img src="{{ .Params.image }}" style="width: 100%" class="img-rounded">
-            </a>
-            {{ end }}
+            {{ partial "featuredImage" . }}
 
             {{ .Content }}
+
+            {{ if isset .Params "images" }}
+            {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
+            {{ partial "imageGallery" .Params.images }}
+            {{ end }}
           </article>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}

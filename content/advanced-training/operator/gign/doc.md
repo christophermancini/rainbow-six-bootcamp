@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Doc"
 type = "operator"
 unique = "mpd-0-stim-pistol"
+video = ""
 weight = "79KG"
 +++
 

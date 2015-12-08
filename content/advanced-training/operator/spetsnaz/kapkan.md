@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Kapkan"
 type = "operator"
 unique = "edd-mk-ii"
+video = ""
 weight = "68KG"
 +++
 

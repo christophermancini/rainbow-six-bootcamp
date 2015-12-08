@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Mute"
 type = "operator"
 unique = "moni-gc90-signal-disruptor"
+video = "HAZAHR71lPc"
 weight = "80KG"
 +++
 

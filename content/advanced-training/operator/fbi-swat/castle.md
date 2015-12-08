@@ -21,6 +21,7 @@ title = "Castle"
 thumbnail = ""
 type = "operator"
 unique = "armor-panel"
+video = ""
 weight = "95.3KG"
 +++
 

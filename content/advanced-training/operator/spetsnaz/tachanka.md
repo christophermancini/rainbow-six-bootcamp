@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Tachanka"
 type = "operator"
 unique = "rp-46-degtyaryov-machine-gun"
+video = ""
 weight = "99.8KG"
 +++
 

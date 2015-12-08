@@ -5,40 +5,21 @@
             <script src="https://apis.google.com/js/platform.js" async defer></script>
             <div class="g-page" data-href="https://plus.google.com/102116020583969691630" data-layout="landscape" data-width="325"></div>
 
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
+
             <!-- search option -->
-            <div class="search-widget">
-              <div class="input-group margin-bottom-sm">
-                <input class="form-control" type="text" placeholder="Search here">
-                <a href="#" class="input-group-addon">
-                  <i class="fa fa-search fa-fw"></i>
-                </a>
-              </div>
-            </div>
+            {{ partial "searchbox" . }}
 
             {{ partial "subscribe.html" . }}
 
             <!-- sidebar share button -->
             <div class="share-widget hidden-xs hidden-sm">
               <ul class="social-share text-center">
-                {{ if .Site.Params.socialLinks.googlePlus }}
-                <li><a href="{{ .Site.Params.socialLinks.googlePlus }}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                {{ end }}
-                {{ if .Site.Params.socialLinks.twitter }}
-                <li><a href="{{ .Site.Params.socialLinks.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                {{ end }}
-                {{ if .Site.Params.socialLinks.facebook }}
-                <li><a href="{{ .Site.Params.socialLinks.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                {{ end }}
-                {{ if .Site.Params.socialLinks.gitHub }}
-                <li><a href="{{ .Site.Params.socialLinks.gitHub }}" target="_blank"><i class="fa fa-github"></i></a></li>
-                {{ end }}
-                {{ if .Site.Params.socialLinks.youtube }}
-                <li><a href="{{ .Site.Params.socialLinks.youtube }}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                {{ range $i, $e := .Site.Params.socialLinks }}
+                <li><a href="{{ .link }}" target="_blank"><i class="fa fa-{{ .key }}"></i></a></li>
                 {{ end }}
               </ul> <!-- /.sidebar-share-button -->
             </div> <!-- /.share-widget -->
-
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
 
           </div>
         </aside>

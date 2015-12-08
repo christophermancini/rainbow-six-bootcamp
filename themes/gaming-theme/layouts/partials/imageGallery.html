@@ -1,0 +1,14 @@
+{{ if len . }}
+<ul id="galleryContent">
+  {{ range . }}
+  <li class="gallery-item">
+    <img src="{{ .src }}" alt="{{ .alt }}" />
+    <div class="gallery-item-zoom">
+      <a class="item-zoom" href="{{ .src }}" data-lightbox-gallery="gallery" title="{{ .alt }}">
+        <i class="fa fa-search-plus"></i>
+      </a>
+    </div>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

@@ -21,6 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Twitch"
 type = "operator"
 unique = "rsd-model-1-shock-drone"
+video = ""
 weight = "58KG"
 +++
 
