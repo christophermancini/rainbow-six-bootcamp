@@ -770,12 +770,6 @@ footer .social-share li a i {
 
 @media (min-width: 992px) {
 	.sidebar {
-		position: fixed;
-		left: 66.67%;
-		right: 6.5%;
-	}
-
-	#resourcePage .sidebar {
 		position:relative;
 		left:initial;
 		right:initial;

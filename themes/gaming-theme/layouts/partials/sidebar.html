@@ -2,12 +2,13 @@
         <aside class="col-md-4 col-sm-8 col-xs-8">
           <div class="sidebar">
 
-            <script src="https://apis.google.com/js/platform.js" async defer></script>
-            <div class="g-page" data-href="https://plus.google.com/102116020583969691630" data-layout="landscape" data-width="325"></div>
+            <center>
+              <script src="https://apis.google.com/js/platform.js" async defer></script>
+              <div class="g-page" data-href="https://plus.google.com/102116020583969691630" data-layout="landscape" data-width="325"></div>
+            </center>
 
             {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
 
-            <!-- search option -->
             {{ partial "searchbox" . }}
 
             {{ partial "subscribe.html" . }}
