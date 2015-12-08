@@ -16,6 +16,9 @@ title = "Rainbow Six Bootcamp"
   disqusShortname = "rainbowsixbootcamp"
   CopyExtra = "Rainbow Six Bootcamp was created using content and materials from Rainbow Six: Siege © Ubisoft Entertainment or its licensors."
 
+[params.relatedArticles]
+  excludedTags = ["operator","gadget","weapon","ctu"]
+
 [params.adsense]
   client = "ca-pub-0574310089910343"
   footerAd = "7682239174"
