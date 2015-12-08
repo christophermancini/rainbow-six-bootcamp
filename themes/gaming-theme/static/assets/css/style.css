@@ -845,3 +845,24 @@ footer .footer-nav li {
 		margin: 20px 0px;
 	}
 }
+
+.gsst_b {
+  margin-top: 5px;
+}
+
+.gsc-inline-block {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+}
+
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus,
+.gsc-search-button {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+           line-height: normal;
+}
