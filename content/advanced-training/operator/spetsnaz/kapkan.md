@@ -23,6 +23,14 @@ type = "operator"
 unique = "edd-mk-ii"
 video = ""
 weight = "68KG"
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_kapkan_concept01_th_229001.jpg"
+  alt = "Kapkan concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_kapkan_concept02_th_228999.jpg"
+  alt = "Kapkan concept art."
 +++
 
 ## Tactical Profile

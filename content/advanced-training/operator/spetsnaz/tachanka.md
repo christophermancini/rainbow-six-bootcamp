@@ -23,6 +23,18 @@ type = "operator"
 unique = "rp-46-degtyaryov-machine-gun"
 video = ""
 weight = "99.8KG"
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_tachanka_concept01_th_229012.jpg"
+  alt = "Tachanka concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_tachanka_concept02_th_229010.jpg"
+  alt = "Tachanka concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_tachanka_concept03_th_229008.jpg"
+  alt = "Tachanka concept art."
 +++
 
 ## Tactical Profile
