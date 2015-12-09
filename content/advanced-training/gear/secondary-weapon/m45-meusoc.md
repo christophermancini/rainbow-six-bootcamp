@@ -13,7 +13,7 @@ laser-mod = true
 magazine = 7
 manufacturer = "FN Herstal"
 mobility = 50
-operators = ["ash"]
+operators = ["ash","thermite"]
 sight-mods = []
 skins = ["black-widow","faded","iceman","usa"]
 tags = ["ash","secondary weapon"]
@@ -21,3 +21,5 @@ title = "M45 Meusoc"
 type = "weapon"
 wikipedia = "FN_Five-seven"
 +++
+
+Semi-automatic, high caliber pistol with medium stopping power and an extended range.

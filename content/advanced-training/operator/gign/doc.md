@@ -23,6 +23,18 @@ type = "operator"
 unique = "mpd-0-stim-pistol"
 video = ""
 weight = "79KG"
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_doc_concept01_th_210637.jpg"
+  alt = "Doc concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_doc_concept02_th_210639.jpg"
+  alt = "Doc concept art."
+
+
+
+
 +++
 
 ## Tactical Profile

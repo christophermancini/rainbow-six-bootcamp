@@ -23,6 +23,18 @@ type = "operator"
 unique = "m120-crem"
 video = ""
 weight = "63KG"
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept01_th_205820.jpg"
+  alt = "Ash concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept02_th_205822.jpg"
+  alt = "Ash concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept04_th_205827.jpg"
+  alt = "Ash concept art."
 +++
 
 ## Tactical Profile

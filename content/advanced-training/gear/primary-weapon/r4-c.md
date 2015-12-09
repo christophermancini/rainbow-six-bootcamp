@@ -14,10 +14,12 @@ magazine = 30
 manufacturer = "Remington"
 mobility = 41
 operators = ["ash"]
-sight-mods = ["red-dot","holo","reflex","acog"]
+sight-mods = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
 skins = ["dahlia","gem","usa","weave"]
 tags = ["primary weapon"]
 title = "Remington R4-C"
 type = "weapon"
 wikipedia = ""
 +++
+
+FBI SWAT standard issue assault rifle. Highly customizable, for medium to long range conflict.

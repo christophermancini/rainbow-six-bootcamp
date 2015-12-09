@@ -23,6 +23,10 @@ type = "operator"
 unique = "rsd-model-1-shock-drone"
 video = ""
 weight = "58KG"
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_twitch_concept01_th_210668.jpg"
+  alt = "Twitch concept art."
 +++
 
 ## Tactical Profile

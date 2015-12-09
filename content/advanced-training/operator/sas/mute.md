@@ -23,6 +23,10 @@ type = "operator"
 unique = "moni-gc90-signal-disruptor"
 video = "HAZAHR71lPc"
 weight = "80KG"
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_mute_concept01_th_201497.jpg"
+  alt = "Mute concept art."
 +++
 
 ## Tactical Profile

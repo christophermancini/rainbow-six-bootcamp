@@ -11,7 +11,7 @@ image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operat
 name = "Seamus Cowden"
 pob = "John O'Groats, England"
 positon = "Attacker"
-primaryWeapons = ["591a1", "l85a2"]
+primaryWeapons = ["590a1", "l85a2"]
 quote = "WHO NEEDS EXPLOSIVES"
 secondaryWeapons = ["226-mk-25", "mac-11"]
 speed = "Medium"
@@ -23,6 +23,18 @@ type = "operator"
 unique = "caber-tactical-breaching-hammer"
 video = ""
 weight = "104KG"
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_sledge_concept01_th_200207.jpg"
+  alt = "Sledge concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_sledge_concept02_th_200209.jpg"
+  alt = "Sledge concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_sledge_concept03_th_200211.jpg"
+  alt = "Sledge concept art."
 +++
 
 ## Tactical Profile
