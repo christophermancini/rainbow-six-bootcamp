@@ -12,7 +12,7 @@ title = "Rainbow Six Bootcamp"
   operator = "operators"
 
 [params]
-  image = "/assets/img/corporate.jpg"
+  image = "/images/hqdefault.jpg"
   disqusShortname = "rainbowsixbootcamp"
   CopyExtra = "Rainbow Six Bootcamp was created using content and materials from Rainbow Six: Siege © Ubisoft Entertainment or its licensors."
 

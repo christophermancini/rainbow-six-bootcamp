@@ -1,26 +1,40 @@
 +++
-barrel-mods = ["suppressor", "flash", "compensator"]
 cartridge = ""
 class = "Submachine gun"
 country = ""
-damage = 48
 date = "2015-12-06T09:36:57-05:00"
 description = "FBI SWAT submachine gun with high stopping power. Use burst fire in medium range for accuracy."
-fire-rate = 600
-grip = true
 groupId = 1
 image = "/images/gear/ump45.jpg"
-laser-mod = true
-magazine = 25
 manufacturer = ""
-mobility = 45
 operators = ["castle","pulse"]
-sight-mods = ["red-dot-sight","holographic-sight","reflex-sight"]
-skins = []
 tags = ["primary weapon"]
 title = "UMP45"
 type = "weapon"
 wikipedia = ""
+[mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  grip = ["vertical-grip"]
+  skin = [
+    "fire",
+    "elephant",
+    "glory",
+    "yucca-flats",
+    "comet",
+    "weave",
+    "maui",
+    "modern-usa-camo",
+    "spores",
+    "swe-reganomics",
+    "usa-wwii-camo"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  underBarrel = ["laser"]
+[specs]
+  damage = "48"
+  fireRate = "600"
+  mobility = "45"
+  capacity = "25"
 +++
 
 FBI SWAT submachine gun with high stopping power. Use burst fire in medium range for accuracy.

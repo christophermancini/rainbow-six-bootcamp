@@ -1,26 +1,40 @@
 +++
-barrel-mods = ["suppressor"]
 cartridge = "12-gauge"
 class = "Shotgun"
 country = "Russia"
-damage = 50
 date = "2015-10-07T15:46:14-04:00"
 description = "Semi-automatic shotgun, favored by the Spetsnaz. Limited range, large spread decreases accuracy."
-fire-rate = 0
-grip = true
 groupId = 1
 image = "/images/gear/sasg-12.jpg"
-laser-mod = true
-magazine = 8
 manufacturer = "Izhmash"
-mobility = 50
 operators = ["thermite","kapkan","tachanka"]
-sight-mods = ["red-dot-sight","holographic-sight","reflex-sight"]
-skins = []
 tags = ["primary weapon","izhmash","saiga-12"]
 title = "SASG 12 (Saiga-12)"
 type = "weapon"
 wikipedia = "Saiga-12"
+[mods]
+  barrel = ["suppressor"]
+  grip = ["vertical-grip"]
+  skin = [
+    "fire",
+    "elephant",
+    "khokhloma",
+    "politsiya",
+    "ring",
+    "dahlia",
+    "kamehameha",
+    "modern-usa-camo",
+    "triple-helix",
+    "swe-reganomics",
+    "rus-wwii-camo"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  underBarrel = ["laser"]
+[specs]
+  damage = "50"
+  fireRate = ""
+  mobility = "50"
+  capacity = "8"
 +++
 
 Semi-automatic shotgun, favored by the Spetsnaz. Limited range, large spread decreases accuracy.

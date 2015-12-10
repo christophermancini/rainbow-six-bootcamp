@@ -2,7 +2,7 @@
 type = "weapon"
 tags = []
 
-image = "/images/gear/"
+image = ""
 operators = []
 groupId = 1
 

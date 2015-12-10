@@ -2,7 +2,7 @@
 type = "gadget"
 tags = []
 
-image = "/images/gear/"
+image = ""
 groupId = 0
 operators = []
 unique = true

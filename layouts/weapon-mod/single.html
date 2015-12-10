@@ -18,13 +18,23 @@
 
         <!-- blog-contents -->
         <section class="col-md-8">
-          <article class="blog-item">
-            {{ range .Data.Pages }}
-              {{ .Render "li"}}
-            {{ end }}
+          <article class="single-blog-item">
+            <h1>{{ partial "title" . }}</h1>
+
+            {{ partial "tags" . }}
+
+            {{ partial "featuredImage" . }}
+
+            {{ .Content }}
+
           </article>
-          
+
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+
+          {{ partial "related.html" . }}
+
+          {{ partial "disqus.html" . }}
+
         </section>
         <!-- end of blog-contents -->
 
@@ -37,6 +47,8 @@
   {{ partial "footer.html" . }}
 
   {{ partial "foot.html" . }}
+
+  {{ partial "structuredDataArticle.html" . }}
 
 </body>
 </html>

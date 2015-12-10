@@ -1,25 +1,40 @@
 +++
-barrel-mods = ["suppressor"]
 cartridge = "5.7x28mm"
 class = "Semi-automatic pistol"
 country = "Belgium"
-damage = 50
 date = "2015-10-07T15:46:14-04:00"
-description = ""
-fire-rate = 0
+description = "Semi-automatic, high caliber pistol with medium stopping power and an extended range."
 groupId = 2
 image = "/images/gear/m45-meusoc.jpg"
-laser-mod = true
-magazine = 7
 manufacturer = "FN Herstal"
-mobility = 50
 operators = ["ash","thermite","pulse"]
-sight-mods = []
-skins = ["black-widow","faded","iceman","usa"]
 tags = ["ash","secondary weapon"]
 title = "M45 Meusoc"
 type = "weapon"
 wikipedia = "FN_Five-seven"
+[mods]
+  barrel = ["suppressor"]
+  grip = []
+  skin = [
+    "fire",
+    "elephant",
+    "glory",
+    "chameleon",
+    "gris",
+    "weave",
+    "maui",
+    "modern-usa-camo",
+    "spores",
+    "swe-reganomics",
+    "usa-wwii-camo"
+  ]
+  sight = []
+  underBarrel = ["laser"]
+[specs]
+  damage = "50"
+  fireRate = ""
+  mobility = "50"
+  capacity = "7"
 +++
 
 Semi-automatic, high caliber pistol with medium stopping power and an extended range.

@@ -27,6 +27,48 @@
 
             {{ .Content }}
 
+            {{ partial "h2Anchor" (dict "text" "Modifications" "page" .) }}
+            <div class="clearfix">
+              <h3>Sights</h3>
+              {{ range where .Site.Pages "Type" "weapon-mod" }}
+                {{ if in $.Params.mods.sight (urlize .Title) }}
+                  {{ .Render "gallery" }}
+                {{ end }}
+              {{ end }}
+            </div>
+            <div class="clearfix">
+              <h3>Barrel Mods</h3>
+              {{ range where .Site.Pages "Type" "weapon-mod" }}
+                {{ if in $.Params.mods.barrel (urlize .Title) }}
+                  {{ .Render "gallery" }}
+                {{ end }}
+              {{ end }}
+            </div>
+            <div class="clearfix">
+              <h3>Grips</h3>
+              {{ range where .Site.Pages "Type" "weapon-mod" }}
+                {{ if in $.Params.mods.grip (urlize .Title) }}
+                  {{ .Render "gallery" }}
+                {{ end }}
+              {{ end }}
+            </div>
+            <div class="clearfix">
+              <h3>Under Barrel Mods</h3>
+              {{ range where .Site.Pages "Type" "weapon-mod" }}
+                {{ if in $.Params.mods.underBarrel (urlize .Title) }}
+                  {{ .Render "gallery" }}
+                {{ end }}
+              {{ end }}
+            </div>
+            <div class="clearfix">
+              <h3>Skins</h3>
+              {{ range where .Site.Pages "Type" "weapon-mod" }}
+                {{ if in $.Params.mods.skin (urlize .Title) }}
+                  {{ .Render "gallery" }}
+                {{ end }}
+              {{ end }}
+            </div>
+
             {{ if isset .Params "images" }}
             {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
             {{ partial "imageGallery" .Params.images }}

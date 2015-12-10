@@ -1,6 +1,7 @@
 {{ if len . }}
 <ul id="galleryContent">
   {{ range . }}
+  {{ if isset . "src" }}
   <li class="gallery-item">
     <img src="{{ .src }}" alt="{{ .alt }}" />
     <div class="gallery-item-zoom">
@@ -9,6 +10,7 @@
       </a>
     </div>
   </li>
+  {{ end }}
   {{ end }}
 </ul>
 {{ end }}

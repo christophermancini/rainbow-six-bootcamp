@@ -1,6 +1,11 @@
 +++
-image = "/images/gear/"
-cost = ""
-modType = ""
-weapons = []
+cost = "200"
+costCredits = ""
+description = ""
+image = ""
+modType = "skin"
+tags = ["weapon mod"]
+[images]
+  src = ""
+  alt = ""
 +++
