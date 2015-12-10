@@ -21,7 +21,7 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Smoke"
 type = "operator"
 unique = "compound-z8-remote-gas-grenade"
-video = ""
+video = "7jfcSPWQ6Vk"
 weight = "70KG"
 +++
 
