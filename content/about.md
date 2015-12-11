@@ -8,12 +8,14 @@ Rainbow Six Bootcamp is an informational site for the community of the Rainbow S
 
 Get started with your [Rainbow Six Basic Training](/basic-training/) to be the best operator you can be!
 
-## Contribute to Rainbow Six Bootcamp
+## Contribute
 
-The site is generated using the [Hugo Website Engine](http://gohugo.io/). The content has been released under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) which means that you may share content we have created as long as it is not for commercial purposes and you credit [Rainbow Six Bootcamp](/) as the source.
+The site is generated using the [Hugo Website Engine](http://gohugo.io/). The content has been released under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) which means that you may share content we have created as long as it is not for commercial purposes and you credit [Rainbow Six Bootcamp](http://rainbowsixbootcamp.com) as the source.
 
-## Technology Behind Rainbow Six Bootcamp
+The code and content for the site is available in [Github](https://github.com/christophermancini/rainbow-six-bootcamp). If you notice an error in the content, a problem with the code, or want to contribute new content, feel free to fork the repository, make your changes and submit a pull request. Any work you contribute to the site will be protected under the Creative Commons license mentioned above as well.
 
-Also, the code and content for the site is available in [Github](https://github.com/christophermancini/rainbow-six-bootcamp). If you notice an error in the content, a problem with the code, or want to contribute new content, feel free to fork the repository, make your changes and submit a pull request. Any work you contribute to the site will be protected under the Creative Commons license mentioned above as well.
+## Technology
+
+Hugo is written in the [Go](https://golang.org) programming language and is a static site generator. The entire website is build using static files with meta data at the beginning of the file followed by [Markdown](https://daringfireball.net/projects/markdown/) syntax for the content allowing rapid development of content with a consistent appearance. Because all of the content is stored within files, there is no use of a database which makes the site more portable and easier to backup.
 
 The site is powered on a SSD backed virtual machine from [Digital Ocean](https://www.digitalocean.com/?refcode=76ac42e5dcf8). We have been using them for a few years now, they have excellent support, are inexpensive and those SSDs are so very fast. We recommend them if you are in the market for a new provider.
