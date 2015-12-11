@@ -9,7 +9,6 @@ title = "Oregon"
 type = "map"
 +++
 
-## Description
 
 ## Levels
 

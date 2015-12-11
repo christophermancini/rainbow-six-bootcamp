@@ -21,11 +21,11 @@
           <div class="well">
             <h1>Welcome!</h1>
             <p style="font-size: 13px;">
-              Rainbow Six Bootcamp is a community driven publication providing detailed information about the game current release of the Rainbo Six series,
+              Rainbow Six Bootcamp is a community driven publication providing detailed information about the current release of the Rainbo Six video game series,
               Siege. Learn more about the site and how to contribute to making <a href="/about/">Rainbow Six Bootcamp the #1 resource</a> for Rainbow Six operators.
             </p>
           </div>
-          {{ $paginator := .Paginate ( .Data.Pages ) }}
+          {{ $paginator := .Paginate ( first 50 .Data.Pages ) }}
           {{ range $paginator.Pages }}
             {{ .Render "summary" }}
           {{ end }}

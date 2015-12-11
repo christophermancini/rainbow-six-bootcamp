@@ -1,4 +1,14 @@
-<li>
-  <h1><a href="{{ .Permalink }}">{{ partial "title" . }}</a></h1>
-  <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-</li>
+<article class="list-item">
+  <div class="row">
+    <div class="col-md-3">
+      <a href="{{ .Permalink }}">
+        <img src="{{ if isset .Params "thumbnail" }}{{ .Params.thumbnail }}{{ else }}{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.image }}{{ end }}{{ end }}" class="img-thumbnail center-block" alt="{{ partial "title" . }}">
+      </a>
+    </div>
+    <div class="col-md-9">
+      <h3>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h3>
+    </div>
+  </div>
+</article> <!-- /.blog-item -->

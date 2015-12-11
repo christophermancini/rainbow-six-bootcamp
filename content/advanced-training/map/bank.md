@@ -9,8 +9,6 @@ title = "Bank"
 type = "map"
 +++
 
-## Description
-
 ## Levels
 
 ### Basement

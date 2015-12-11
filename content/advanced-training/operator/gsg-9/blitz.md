@@ -3,6 +3,7 @@ armor = "Heavy"
 badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-blitz_229849.png"
 ctu = "gsg-9"
 date = "2015-09-26T12:34:24-04:00"
+description = "GSG 9 attacking operator with heavy armor and tactical shield."
 dob = "04/02/1980"
 gadgets = ["breach-charge", "smoke-grenade"]
 gender = "M"
@@ -21,9 +22,11 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Blitz"
 type = "operator"
 unique = "g52-tactical-shield"
-video = ""
+video = "TE9z4Qua1mw"
 weight = "75KG"
 +++
+
+Blitz is GSG 9's most durable operator however this durability comes at a cost, making him also the slowest of the unit. Blitz offers a bit more than some of the other heavily armored operators that are equipped with ballistic shields. His [G52 Tactical Shield]({{<ref "g52-tactical-shield.md">}}) has been engineered to offer a blinding flash that is the equivalent of 24 flash bang grenades.<!--more-->
 
 ## Tactical Profile
 

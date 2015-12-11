@@ -9,7 +9,6 @@ title = "Kafe Dostoyevski"
 type = "map"
 +++
 
-## Description
 
 ## Levels
 

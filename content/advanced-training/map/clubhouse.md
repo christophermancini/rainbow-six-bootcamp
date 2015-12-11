@@ -9,8 +9,6 @@ title = "Clubhouse"
 type = "map"
 +++
 
-## Description
-
 ## Levels
 
 ### Basement

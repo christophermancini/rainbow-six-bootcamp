@@ -9,8 +9,6 @@ title = "Chalet"
 type = "map"
 +++
 
-## Description
-
 ## Levels
 
 ### Basement

@@ -10,7 +10,7 @@ tags = ["operator"]
 
 ## Recruit
 
-The Rainbow Six Recruit is the initial operator that you start with. As a recruit, you have access to the weapons and gadgets  of the best [Counter Terrorism Units]({{< ref "counter-terrorism-unit.md" >}}) around the world. What you don't have access to as a recruit is weapon modifications, weapon skins, and the unique gadgets used by the named operators.
+The Rainbow Six Recruit is the initial operator that you start with. As a recruit, you have access to the weapons and gadgets  of the best [Counter Terrorism Units]({{< ref "counter-terrorist-unit.md" >}}) around the world. What you don't have access to as a recruit is weapon modifications, weapon skins, and the unique gadgets used by the named operators.
 
 ## Named Operators
 

@@ -1,11 +1,11 @@
-<article class="col-md-6 col-sm-12 col-xs-12">
-  <div class="article-gallery-item">
+<article class="col-md-3 col-sm-6 col-xs-6">
+  <div class="article-gallery-item article-gallery-small-item">
     <a href="{{ .Permalink }}">
       <figure>
         <img src="{{ if isset .Params "thumbnail" }}{{ .Params.thumbnail }}{{ else }}{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.image }}{{ end }}{{ end }}" class="img-responsive center-block" alt="{{ partial "title" . }}">
       </figure>
       <figcaption>
-        <h4>{{ .Title }}</h4>
+        <h6>{{ .Title }}</h6>
       </figcaption>
     </a>
   </div>

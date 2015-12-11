@@ -9,8 +9,6 @@ title = "Suburban House"
 type = "map"
 +++
 
-## Description
-
 The setting for this map is a United States suburban neighborhood house. With four spawn locations, two floors and a basement, the house offers good options for approach and entry.
 
 ## Levels

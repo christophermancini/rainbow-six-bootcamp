@@ -9,7 +9,6 @@ title = "Kanal"
 type = "map"
 +++
 
-## Description
 
 ## Levels
 

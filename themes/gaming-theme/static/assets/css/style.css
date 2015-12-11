@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+\@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 
 /*=======================================================================
 						Navigation menu
@@ -349,9 +349,9 @@ input[type="checkbox"] {
 }
 
 .blog-item p {
-	font-size: 12px;
-	line-height: 1.75em;
-	text-transform: capitalize;
+	font-size: 14px;
+	line-height: 2em;
+	/* text-transform: capitalize; */
 }
 
 .blog-item p a {
@@ -466,11 +466,6 @@ input[type="checkbox"] {
 	margin-bottom: 30px;
 }
 
-
-/*===============================================================================
-								Design Inspiration
-===================================================================================*/
-
 .page-content {
     margin-top: 35px;
 }
@@ -478,12 +473,6 @@ input[type="checkbox"] {
 .header-wrapper {
     padding: 4em 0em;
     background-color: rgba(0, 0, 0, 0.77);;
-}
-
-#designInspirationPage .page-head {
-    background: url(../img/design-inspiration-bg.jpg);
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .header-wrapper h1 {
@@ -503,31 +492,40 @@ input[type="checkbox"] {
 	padding: 10px 20px;
 }
 
-.design-inspiration-item {
-    background-color: #ffffff;
-    border: 1px solid #dadada;
-    box-shadow: none;
-    margin-bottom: 35px;
-    min-height: 265px;
+.article-gallery-item {
+  background-color: #ffffff;
+  border: 1px solid #dadada;
+  box-shadow: none;
+  margin-bottom: 35px;
+  min-height: 265px;
 }
 
-.design-inspiration-item:hover {
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+.article-gallery-small-item {
+  margin-bottom: 20px;
+  min-height: 150px;
 }
 
-.design-inspiration-item:hover img {
-    opacity: 0.8;
+.article-gallery-item:hover {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
 
-.design-inspiration-item figcaption {
-    padding: 15px 20px;
-    text-align: center;
+.article-gallery-item:hover img {
+  opacity: 0.8;
 }
 
-.design-inspiration-item figcaption h3 {
-    font-weight: 400;
-    margin: auto;
-    /*text-shadow: 1px 1px 0 #F2F2F2,1px 2px 0 #b1b1b2;*/
+.article-gallery-item figcaption {
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.article-gallery-small-item figcaption {
+  padding: 5px 8px;
+}
+
+.article-gallery-item figcaption h3 {
+  font-weight: 400;
+  margin: auto;
+  /*text-shadow: 1px 1px 0 #F2F2F2,1px 2px 0 #b1b1b2;*/
 }
 
 @media(min-width: 615px) and (max-width: 767px) {
@@ -535,8 +533,12 @@ input[type="checkbox"] {
 		width: 50%;
 	}
 
-	.design-inspiration-item {
+	.article-gallery-item {
 		min-height: 317px;
+	}
+
+	.article-gallery-small-item {
+		min-height: 200px;
 	}
 }
 
@@ -544,7 +546,7 @@ input[type="checkbox"] {
 					7. Single Design Inspiration
 ===========================================================================---*/
 
-#galleryContent {
+#imageGallery {
 	padding: 0px;
 	-moz-column-count: 4;
 	-moz-column-gap: 0px;
@@ -554,49 +556,49 @@ input[type="checkbox"] {
 	column-gap: 0px;
 }
 
-#galleryContent img{
+#imageGallery img {
 	display: inline-block;
 	margin-bottom: 0px;
 	padding: 2px;
 	width: 100%;
 }
 
-.gallery-item {
-    position: relative;
+.image-gallery-item {
+  position: relative;
 }
 
-.gallery-item-zoom {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    background-color: rgba(0,0,0,0.75);
-    display: none;
+.image-gallery-item-zoom {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.75);
+  display: none;
 }
 
 .item-zoom {
-    position: absolute;
-    top: 40%;
-    text-align: center;
-    width: 100%;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  width: 100%;
 }
 
-.gallery-item-zoom .item-zoom i {
-    font-size: 40px;
-    color: #fff;
+.image-gallery-item-zoom .item-zoom i {
+  font-size: 40px;
+  color: #fff;
 }
 
-.gallery-item:hover .gallery-item-zoom {
-    display: block;
+.image-gallery-item:hover .image-gallery-item-zoom {
+  display: block;
 }
 
 a#loadGallery {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width : 1200px),
 only screen and (max-device-width : 1200px){
-	#galleryContent {
+	#imageGallery {
 		-moz-column-count: 3;
 		-moz-column-gap: 0px;
 		-webkit-column-count: 3;
@@ -608,7 +610,7 @@ only screen and (max-device-width : 1200px){
 
 @media only screen and (max-width : 767px),
 only screen and (max-device-width : 767px){
-	#galleryContent {
+	#imageGallery {
 		-moz-column-count: 2;
 		-moz-column-gap: 0px;
 		-webkit-column-count: 2;
@@ -621,7 +623,7 @@ only screen and (max-device-width : 767px){
 
 @media only screen and (max-width : 550px),
 only screen and (max-device-width : 550px){
-	#galleryContent {
+	#imageGallery {
 		-moz-column-count: 1;
 		-moz-column-gap: 0px;
 		-webkit-column-count: 1;
@@ -629,49 +631,6 @@ only screen and (max-device-width : 550px){
 		column-count: 1;
 		column-gap: 0px;
 	}
-}
-
-/*================================================================================
-								Resource Page
-=================================================================================*/
-
-#resourcePage main,
-#designInspirationPage main {
-	margin-top: 50px;
-}
-
-#resourcePage .page-head {
-	background: url(../img/resources-bg.jpg);
-	background-position-x: 50%;
-    background-position-y: 110%;
-    background-attachment: fixed;
-}
-
-#resourcePage article,
-#aboutPage article {
-	background-color: #ffffff;
-	margin-bottom: 30px;
-	padding: 30px 45px;
-}
-
-#resourcePage article h1,
-#aboutPage article h1 {
-    margin-bottom: 15px;
-    font-size: 36px;
-}
-
-.resource-item {
-    padding: 35px 0px;
-    border-top: 1px dotted;
-}
-
-.resource-item h3 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-
-#resourcePage .related-articles {
-    width: 50%;
 }
 
 /*=============================================================================
@@ -788,26 +747,26 @@ footer .social-share li a i {
 =============================================================================*/
 
 footer {
-    background-color: #1E1E1E;
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 300;
-    padding: 21px 0px;
-    position: absolute;
-    width: 100%;
+  background-color: #1E1E1E;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 21px 0px;
+  position: absolute;
+  width: 100%;
 }
 
 footer a {
-    color: #D2924C;
-    font-weight: 400;
+  color: #D2924C;
+  font-weight: 400;
 }
 
 footer a:hover {
-    color: #E4840D;
+  color: #E4840D;
 }
 
 footer .social-share {
-    margin-top: 4px;
+  margin-top: 4px;
 }
 
 footer .social-share li a i {
@@ -817,20 +776,20 @@ footer .social-share li a i {
 }
 
 footer .social-share li a i:hover {
-    background-color: #AF6F20;
-    color: #ffffff;
+  background-color: #AF6F20;
+  color: #ffffff;
 }
 
 footer .footer-nav {
-    float: right;
-    margin-top: 10px;
-    font-size: 15px;
+  float: right;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 footer .footer-nav li {
-    display: inline-block;
-    list-style: none;
-    margin-left: 15px;
+  display: inline-block;
+  list-style: none;
+  margin-left: 15px;
 }
 
 @media (max-width: 767px) {

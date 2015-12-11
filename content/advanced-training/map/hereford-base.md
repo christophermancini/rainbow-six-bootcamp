@@ -9,7 +9,6 @@ title = "Hereford Training Base"
 type = "map"
 +++
 
-## Description
 
 ## Levels
 

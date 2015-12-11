@@ -2,7 +2,7 @@
 date = "2015-10-03T22:30:34-04:00"
 image = ""
 tags = ["ctu","gign","doc","montagne","rook","twitch"]
-title = "National Gendarmerie Intervention Group"
+title = "GIGN"
 type = "ctu"
 wikipedia = "National_Gendarmerie_Intervention_Group"
 +++

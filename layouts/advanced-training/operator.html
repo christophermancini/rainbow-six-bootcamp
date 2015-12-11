@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js"> <!--<![endif]-->
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+
+  {{ partial "header.html" . }}
+
+  <main>
+    <div class="container">
+      <div class="row">
+
+        <!-- blog-contents -->
+        <section class="col-md-8">
+          <article class="single-blog-item">
+            <h1>{{ partial "title" . }}</h1>
+
+            {{ .Content }}
+
+            {{ partial "h2Anchor" (dict "text" "FBI SWAT" "page" .) }}
+            <div class="clearfix">
+              {{ range where .Site.Pages.ByTitle "Type" "operator" }}
+                {{ if in .Params.tags "fbi swat" }}
+                  {{ .Render "gallerySmall" }}
+                {{ end }}
+              {{ end }}
+            </div>
+
+            {{ partial "h2Anchor" (dict "text" "GIGN" "page" .) }}
+            <div class="clearfix">
+              {{ range where .Site.Pages.ByTitle "Type" "operator" }}
+                {{ if in .Params.tags "gign" }}
+                  {{ .Render "gallerySmall" }}
+                {{ end }}
+              {{ end }}
+            </div>
+
+            {{ partial "h2Anchor" (dict "text" "GSG 9" "page" .) }}
+            <div class="clearfix">
+              {{ range where .Site.Pages.ByTitle "Type" "operator" }}
+                {{ if in .Params.tags "gsg 9" }}
+                  {{ .Render "gallerySmall" }}
+                {{ end }}
+              {{ end }}
+            </div>
+
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+
+            {{ partial "h2Anchor" (dict "text" "SAS" "page" .) }}
+            <div class="clearfix">
+              {{ range where .Site.Pages.ByTitle "Type" "operator" }}
+                {{ if in .Params.tags "sas" }}
+                  {{ .Render "gallerySmall" }}
+                {{ end }}
+              {{ end }}
+            </div>
+
+            {{ partial "h2Anchor" (dict "text" "Spetsnaz" "page" .) }}
+            <div class="clearfix">
+              {{ range where .Site.Pages.ByTitle "Type" "operator" }}
+                {{ if in .Params.tags "spetsnaz" }}
+                  {{ .Render "gallerySmall" }}
+                {{ end }}
+              {{ end }}
+            </div>
+          </article>
+        </section>
+        <!-- end of blog-contents -->
+
+        {{ partial "sidebar.html" . }}
+
+      </div>
+    </div> <!-- end of /.container -->
+  </main>
+
+  {{ partial "footer.html" . }}
+
+  {{ partial "foot.html" . }}
+</body>
+</html>

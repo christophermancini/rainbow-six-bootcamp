@@ -1,11 +1,8 @@
-{{ $imgSrc := $.Site.Params.image }}
-{{ if isset .Params "thumbnail" }}{{ $imgSrc := .Params.thumbnail }}{{ end }}
-{{ if and (isset .Params "image") .Params.image }}{{ $imgSrc := .Params.image }}{{ end }}
 <article class="blog-item">
   <div class="row">
     <div class="col-md-3">
       <a href="{{ .Permalink }}">
-        <img src="{{ $imgSrc }}" class="img-thumbnail center-block" alt="{{ partial "title" . }}">
+        <img src="{{ if isset .Params "thumbnail" }}{{ .Params.thumbnail }}{{ else }}{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.image }}{{ end }}{{ end }}" class="img-thumbnail center-block" alt="{{ partial "title" . }}">
       </a>
     </div>
     <div class="col-md-9">

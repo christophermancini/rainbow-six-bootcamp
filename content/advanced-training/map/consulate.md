@@ -9,8 +9,6 @@ title = "Consulate"
 type = "map"
 +++
 
-## Description
-
 ## Levels
 
 ### Basement

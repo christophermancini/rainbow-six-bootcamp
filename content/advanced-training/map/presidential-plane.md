@@ -9,7 +9,6 @@ title = "Presidential Plane"
 type = "map"
 +++
 
-## Description
 
 ## Levels
 

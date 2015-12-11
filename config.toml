@@ -63,24 +63,6 @@ title = "Rainbow Six Bootcamp"
   weight = 2
 
 [[menu.main]]
-  name = "Counter Terrorism Units"
-  identifier = "ctus"
-  parent = "advanced-training"
-  url = "/tags/ctu/"
-
-[[menu.main]]
-  name = "Operators"
-  identifier = "operators"
-  parent = "advanced-training"
-  url = "/tags/operator/"
-
-[[menu.main]]
-  name = "Gear"
-  identifier = "gear"
-  parent = "advanced-training"
-  url = "/tags/gear/"
-
-[[menu.main]]
   name = "Maps"
   identifier = "maps"
   parent = "advanced-training"
