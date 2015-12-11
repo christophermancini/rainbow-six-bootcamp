@@ -62,7 +62,7 @@
             </div>
             <div class="clearfix">
               <h3>Skins</h3>
-              {{ range where .Site.Pages "Type" "weapon-mod" }}
+              {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
                 {{ if in $.Params.mods.skin (urlize .Title) }}
                   {{ .Render "gallery" }}
                 {{ end }}
