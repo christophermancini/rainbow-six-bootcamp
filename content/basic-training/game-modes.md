@@ -32,9 +32,13 @@ Also situation mode offers three levels of difficulty (Normal, Hard, and Realist
 
 Multiplayer mode places you with four other operators playing against five operators via a match making server. There are three types of multiplayer game play, casual, ranked and custom. Essentially multiplayer is team death match with the addition of playing to achieve an objective, either as an attacker or a defender. The three different possible scenarios are Bomb, Hostage, or Biohazard container.
 
+### Casual Multiplayer
+
+5 players attacking and 5 players defending, you have to either eliminate the entire opposing team or complete the objective. The team to get to three winning rounds wins the match.
+
 ### Ranked Multiplayer
 
-Ranked multiplayer is just like casual, except doing bad things will earn you a temporary ban and doing good things will move you up the leaderboard ranks.
+Ranked multiplayer is just like casual, except doing bad things will earn you a temporary ban and doing good things will move you up the leaderboard ranks. Also
 
 * Ranked matches have voting on spawn/objective location
 * Ranked matches do NOT have Death Replays
