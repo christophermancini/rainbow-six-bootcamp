@@ -38,7 +38,7 @@ Multiplayer mode places you with four other operators playing against five opera
 
 ### Ranked Multiplayer
 
-Ranked multiplayer is just like casual, except doing bad things will earn you a temporary ban and doing good things will move you up the leaderboard ranks. Also
+Ranked multiplayer is just like casual, except doing bad things will earn you a temporary ban and doing good things will move you up the leaderboard ranks. Also, ranked matc
 
 * Ranked matches have voting on spawn/objective location
 * Ranked matches do NOT have Death Replays

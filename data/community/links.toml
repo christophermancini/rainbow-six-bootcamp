@@ -1,0 +1,13 @@
+# To add a community link to the site, complete the following steps:
+#   - copy the lines below starting with the brackets through to handle for the site you want to link to
+#   - paste them at the end of this file
+#   - remove the leading # symbol from each line
+#   - replace the filler text with a title, a description, and the handle / unique identifier for your page
+#   - save the file and commit the changes to your fork of the site's repository
+#   - create a PR (pull request) on GitHub to merge your changes into the main repository
+#
+#[channel]
+#  type = "twitch or youtube"
+#  title = "my awesome channel title"
+#  description = "a brief description of what type of footage I post to the channel"
+#  handle = "myhandle/id"

@@ -91,3 +91,9 @@ title = "Rainbow Six Bootcamp"
   identifier = "gadgets"
   parent = "gear"
   url = "/tags/gadget"
+
+[[menu.main]]
+  name = "Community"
+  identifier = "community"
+  url = "/community/"
+  weight = 3

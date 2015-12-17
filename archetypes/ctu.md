@@ -1,9 +1,9 @@
 +++
-tags = ["fbi swat","ash","castle","pulse","thermite"]
+tags = []
 type = "ctu"
 
 image = ""
-wikipedia = "FBI_Special_Weapons_and_Tactics_Teams"
+wikipedia = ""
 +++
 
 ## History

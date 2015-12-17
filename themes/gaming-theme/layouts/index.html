@@ -25,6 +25,7 @@
               Siege. Learn more about the site and how to contribute to making <a href="/about/">Rainbow Six Bootcamp the #1 resource</a> for Rainbow Six operators.
             </p>
           </div>
+
           {{ $paginator := .Paginate ( first 50 .Data.Pages ) }}
           {{ range $paginator.Pages }}
             {{ .Render "summary" }}
