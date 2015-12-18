@@ -12,7 +12,7 @@ title = "Community"
 
 Supporting every successful game is a strong community of players. We want to do all we can to support the Rainbow Six Community. This section of the site is dedicated to providing players resources that will help promote the growth and strength of the community overall.
 
-## Official Ubisoft
+## Official Ubisoft Links
 
 * [Rainbow Six Website](http://rainbow6.com) provides the latest news, info about the game, allows you to look up your game play stats and more.
 * [Rainbow Six Forum](http://forums.ubi.com/forumdisplay.php/717-General-Discussion)

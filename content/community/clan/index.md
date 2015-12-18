@@ -1,6 +1,7 @@
 +++
 categories = []
 date = "2015-12-17T11:13:39-05:00"
+layout = "clans"
 tags = []
 title = "Clans"
 

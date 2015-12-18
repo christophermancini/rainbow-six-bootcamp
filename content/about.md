@@ -4,9 +4,9 @@ title = "About"
 tags = []
 +++
 
-Rainbow Six Bootcamp is an informational site for the community of the Rainbow Six video game series, with its primary attention focused on Rainbow Six Siege. [Rainbow Six: Siege](http://rainbow6.ubi.com/siege) is the latest (7th) installment in Tom Clancy's legendary [Rainbow Six game series]({{<ref "franchise-history.md">}}). We aim to provide the best content to help keep you up to date with the series as well as get the most from your gameplay.
+Rainbow Six Bootcamp is an informational site for the community of the Rainbow Six video game series, with its primary attention focused on [Rainbow Six Siege](http://www.amazon.com/gp/product/B00KUYQZAU/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00KUYQZAU&linkCode=as2&tag=xboxonenation-20&linkId=QI5TMJ33WUM6SLVD). [Rainbow Six: Siege](http://rainbow6.ubi.com/siege) is the latest (8th) installment in Tom Clancy's legendary [Rainbow Six game series]({{<ref "franchise-history.md">}}). We aim to provide the best content to help keep you up to date with the series as well as get the most from your gameplay.
 
-Get started with your [Rainbow Six Basic Training](/basic-training/) to be the best operator you can be!
+[Get started with your Rainbow Six Basic Training](/basic-training/) to be the best operator you can be!
 
 ## Contribute
 
