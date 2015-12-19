@@ -32,23 +32,38 @@ Also situation mode offers three levels of difficulty (Normal, Hard, and Realist
 
 Multiplayer mode places you with four other operators playing against five operators via a match making server. There are three types of multiplayer game play, casual, ranked and custom. Essentially multiplayer is team death match with the addition of playing to achieve an objective, either as an attacker or a defender. The three different possible scenarios are Bomb, Hostage, or Biohazard container.
 
-### Casual Multiplayer
+### Casual - Ranked - Hardcore Comparison
 
-5 players attacking and 5 players defending, you have to either eliminate the entire opposing team or complete the objective. The team to get to three winning rounds wins the match.
+|                                 | Casual | Ranked<br>(launch) | Ranked<br>(Jan. 2016) | Hardcore<br>(coming 2016) |
+| ------------------------------- | :----: | :-------------: | :----------------: | :-----------------------------: |
+| Clearance Level Required        | 0      | 20              | 20                 | 20                              |
+| # of rounds                     | Bo5    | Bo7             | Bo7                | Bo7                             |
+| Overtime                        | SD     | Bo3             | Bo3                | Bo3                             |
+| Compass                         | 1      | 1               | 1                  | 1                               |
+| Crosshair                       | 1      | 1               | 1                  | 1                               |
+| Enemy name                      | 1      | 1               | 1                  | 0                               |
+| Frag grenade indicator          | 1      | 0               | 1                  | 0                               |
+| Friendly name                   | 1      | 1               | 1                  | 1                               |
+| Friendly outline                | 1      | 0               | 1                  | 0                               |
+| Health bar                      | 1      | 1               | 1                  | 1                               |
+| Hit indicator                   | 1      | 1               | 1                  | 1                               |
+| Hit indicator<br>(gadgets & FF) | 1      | 1               | 1                  | 0                               |
+| Kill cam                        | 1      | 0               | 0                  | 0                               |
+| Kill indicator on crosshair     | 1      | 0               | 1                  | 1                               |
+| Reload indicator                | 1      | 0               | 1                  | 0                               |
+| Scoring indicator               | 1      | 0               | 1                  | 0                               |
+| Spawn vote                      | 0      | 1               | 1                  | 1                               |
+| Spotted warning                 | 1      | 1               | 1                  | 0                               |
+| Threat indicator                | 1      | 0               | 1                  | 0                               |
+| VS notification                 | 1      | 1               | 1                  | 1                               |
+| Weapon panel                    | 1      | 1               | 1                  | 1                               |
 
-### Ranked Multiplayer
+**Legend**
 
-Ranked multiplayer is just like casual, except doing bad things will earn you a temporary ban and doing good things will move you up the leaderboard ranks. Also, ranked matc
-
-* Ranked matches have voting on spawn/objective location
-* Ranked matches do NOT have Death Replays
-* Ranked matches will utilize a minimal HUD setting
-* No scoring indicators
-* No grenade indicators
-* No threat indicators
-* No reload indicators
-* No teammate outline
-* No kill confirmation marker
+* BoX - Best of X
+* SD - Sudden Death
+* 1 - Feature is enabled
+* 0 - Feature is disabled
 
 ### Custom Multiplayer
 
