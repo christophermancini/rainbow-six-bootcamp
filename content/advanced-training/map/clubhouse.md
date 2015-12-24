@@ -7,6 +7,30 @@ spawns = []
 tags = ["map","clubhouse"]
 title = "Clubhouse"
 type = "map"
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-01_227835.jpg"
+  alt = ""
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-04_229709.jpg"
+  alt = ""
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-05_229710.jpg"
+  alt = ""
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-06_229711.jpg"
+  alt = ""
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-07_229712.jpg"
+  alt = ""
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-08_229713.jpg"
+  alt = ""
 +++
 
 ## Levels
@@ -20,6 +44,12 @@ type = "map"
 ### Roof
 
 ## Drone Entry Points
+
+## Cameras
+
+### External Cameras
+
+### Internal Cameras
 
 ## Game Modes
 

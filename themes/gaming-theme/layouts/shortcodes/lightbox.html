@@ -1,0 +1,8 @@
+  <div class="image-gallery-item">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" class="img-rounded featured-image" />
+    <div class="image-gallery-item-zoom">
+      <a class="item-zoom" href="{{ .Get "src" }}" data-lightbox-gallery="{{ if .Get "gallery" }}{{ .Get "gallery" }}{{ else }}gallery{{ end }}" title="{{ .Get "alt" }}">
+        <i class="fa fa-search-plus"></i>
+      </a>
+    </div>
+  </div>

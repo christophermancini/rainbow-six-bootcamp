@@ -21,9 +21,14 @@ A bomber is a terrorist bot engaged in [Terrorist Hunt]({{<ref "game-modes.md">}
 ### Clearance Level
 ### CTU
 ### Drone
+
+A drone is a small remote controlled tactical vehicle used by operators to get intelligence on a fortified compound before breach.
+
 ### Lone Wolf
 
 Lone Wolf describes when a single operator attempts to play a [Terrorist Hunt]({{<ref "game-modes.md">}}) mission without the support of a team. The difficulty is the same as if they had their team with them.
+
+### Match
 
 ### Operator
 ### Rainbow
@@ -34,5 +39,6 @@ Lone Wolf describes when a single operator attempts to play a [Terrorist Hunt]({
 A roamer is a terrorist bot engaged in [Terrorist Hunt]({{<ref "game-modes.md">}}) that will patrol a region of the compound. If noises are heard or visibility of an enemy is reported, they will be one of the first responders to check it out.
 
 ### Situation
+### Skill Rank
 ### Terrorist Hunt Classic
 ### Tom Clancy
