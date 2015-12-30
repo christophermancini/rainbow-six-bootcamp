@@ -23,9 +23,9 @@
 
             {{ .Content }}
 
-            <div class="clearfix">
+            <div class="clearfix" style="margin-top: 20px;">
               {{ range where .Site.Pages.ByTitle "Type" "clan" }}
-                {{ .Render "gallery" }}
+                {{ .Render "gallerySmall" }}
               {{ end }}
             </div>
 

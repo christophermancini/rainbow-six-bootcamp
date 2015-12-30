@@ -50,7 +50,7 @@ Say we want to fix a typo on Ash's operator page in the description.
 
 1. Clone the repository onto your computer.
   * There are several ways to do this but if you are new, I recommend using [GitHub's Desktop](https://desktop.github.com) app which is easy to use and has great [user guides](https://help.github.com/desktop/guides/getting-started/).
-1. [Install Hugo](http://gohugo.io/overview/installing/)
+1. Install [Hugo](http://gohugo.io/overview/installing/)
 1. If you are adding a new page, please use [Hugo's new content](http://gohugo.io/commands/hugo_new/) command as it will setup your file properly for the type of content it is. E.g. `hugo new community/clan/clan-name.md -k clan`
 1. Open the file you are modifying in a text or code editor. I recommend [Atom](https://atom.io/) but any text editor will do.
 1. Modify the file as needed.
