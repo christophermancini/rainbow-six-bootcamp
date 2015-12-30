@@ -72,7 +72,6 @@ The basement has four rooms and two entry points. The four rooms are the garage,
 
 {{< lightbox src="/images/maps/house/main-level.jpg" alt="House 1st Floor" gallery="floorplan" >}}
 
-
 ### 2nd Floor
 
 {{< lightbox src="/images/maps/house/second-floor.jpg" alt="House 2nd Floor" gallery="floorplan" >}}
@@ -95,6 +94,8 @@ The house has X possible entry points for your remote controlled surveillance dr
 ## Cameras
 
 There are six cameras in all, two of them exterior to the house and four on the interior. The locations are listed below with images provided by [StokedxGamer](https://steamcommunity.com/sharedfiles/filedetails/?id=573118228).
+
+{{< youtube BgbcDQV2OXM >}}
 
 ### External Cameras
 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js"> <!--<![endif]-->
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+
+  {{ partial "header.html" . }}
+
+  <main>
+    <div class="container">
+      <div class="row">
+
+        <!-- blog-contents -->
+        <section class="col-md-8">
+          <article class="single-blog-item">
+            <h1>
+              {{ partial "title" . }}
+            </h1>
+
+            {{ partial "tags" . }}
+
+            {{ partial "featuredImage" . }}
+
+            <div class="well pull-right col-md-4 detail-box">
+              <strong>Clan details</strong><br>
+              website: {{ with .Params.website }}<a href="{{ . }}" target="_blank">{{ . }}</a>{{ else }}n/a{{ end }}<br>
+              recruiting: {{ with .Params.recruiting }}Yes{{ else }}No{{ end }}<br>
+              member count: {{ with .Params.size }}{{ . }}{{ else }}n/a{{ end }}<br>
+              platforms: {{ delimit .Params.platforms ", " }}<br>
+            </div>
+
+            {{ .Content }}
+
+            {{ with .Params.join }}<a href="{{ . }}"><button type="button" class="btn btn-block btn-info">JOIN NOW!</button></a>{{ end }}
+          </article>
+
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+
+          {{ partial "related.html" . }}
+
+          {{ partial "disqus.html" . }}
+
+        </section>
+        <!-- end of blog-contents -->
+
+        {{ partial "sidebar.html" . }}
+
+      </div>
+    </div> <!-- end of /.container -->
+  </main>
+
+  {{ partial "footer.html" . }}
+
+  {{ partial "foot.html" . }}
+
+  {{ partial "structuredDataArticle.html" . }}
+
+</body>
+</html>

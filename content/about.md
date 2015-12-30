@@ -14,6 +14,8 @@ The site is generated using the [Hugo Website Engine](http://gohugo.io/). The co
 
 The code and content for the site is available in [Github](https://github.com/christophermancini/rainbow-six-bootcamp). If you notice an error in the content, a problem with the code, or want to contribute new content, feel free to fork the repository, make your changes and submit a pull request. After your pull request has been reviewed and approved, it will get merged and pushed to the site with the next release. Any work you contribute to the site will be protected under the Creative Commons license mentioned above as well.
 
+**[Learn how to contribute content to Rainbow Six Bootcamp]({{< ref "contributing.md" >}})**
+
 ## Technology
 
 Hugo is written in the [Go](https://golang.org) programming language and is a static site generator. The entire website is build using static files with meta data at the beginning of the file followed by [Markdown](https://daringfireball.net/projects/markdown/) syntax for the content allowing rapid development of content with a consistent appearance. Because all of the content is stored within files, there is no use of a database which makes the site more portable and easier to backup.

@@ -4,18 +4,10 @@ type = "clan"
 
 image = "http://linktoclanimageorlogo.com"
 website = "http://clansiteorpage.com"
+joinLink = "http://linktoapplicationorinfotoapply.com"
+platforms = ["xbox","pc","ps"] # remove any platforms you don't use
 recruiting = true
-
-# Create a [params.member] data set for each member you want to include on your clan page
-#
-#[params.member]
-#  avatarImage = ""
-#  uplayHandle = ""
-#  twitterHandle = ""
-#  youtubeHandle = ""
-#  twitchHandle = ""
-#  steamHandle = ""
-#  leader = false
+size = 0 # please enter an approximate number of members, integers only (e.g. "100" not "100+" or "more than 100")
 +++
 
 Describe your clan here, make sure its interesting enough to get people to join your clan.

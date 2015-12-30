@@ -129,6 +129,10 @@ body {
 	line-height: 1.82em;
 }
 
+main {
+  min-height: 800px;
+}
+
 a {
 	color: #337ab7;
 }
@@ -149,6 +153,11 @@ h1 {
 	/*text-shadow: 1px 1px 0 #F2F2F2,1px 2px 0 #b1b1b2;*/
 }
 
+h2,h3,h4,h5,h6 {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
 h2 {
 	font-size: 22px;
 	line-height: 1.36em;
@@ -157,6 +166,16 @@ h2 {
 
 h3 {
 	font-size: 18px;
+}
+
+.anchor-link {
+  display: inline-block;
+  line-height: 1;
+  font-size: 16px;
+  padding-left: 2px;
+  /*visibility: hidden;
+  margin-left: -17px;
+  padding-right: 2px;*/
 }
 
 .alert {
@@ -192,11 +211,6 @@ h3 {
     color: #1B5F1C;
     font-size: 15px;
     padding: 0px 2px;
-}
-
-main {
-	margin-top: 100px;
-  min-height: 800px;
 }
 
 .label {
@@ -464,6 +478,11 @@ input[type="checkbox"] {
 	border-radius: 0px;
 	box-shadow: none;
 	margin-bottom: 30px;
+}
+
+.detail-box {
+  margin: 0 0 15px 15px;
+  padding: 10px;
 }
 
 .page-content {

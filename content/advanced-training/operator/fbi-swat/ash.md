@@ -63,3 +63,9 @@ Austere Challenge
 ### Notes
 
 None
+
+## Community Guides
+
+### Operator Guide by Serenity17
+
+{{% youtube A8t9zWoyiJw %}}

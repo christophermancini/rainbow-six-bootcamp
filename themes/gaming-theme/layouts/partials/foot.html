@@ -38,6 +38,17 @@
     })();
   </script>
 
-<script>
-  $(function() { $('table').addClass('table table-striped table-bordered'); })
-</script>
+  <script>
+    // presentation hacks
+    $(function() {
+      // applies bootstrap style classes to markdown generated tables
+      $('table').addClass('table table-striped table-bordered');
+
+      $(':header').each(function(i) {
+        var id = $(this).attr('id');
+        if (id !== undefined) {
+          $(this).append('<a href="#' + id + '" class="anchor-link"><i class="fa fa-link"></i></a>');
+        }
+      });
+    });
+  </script>
