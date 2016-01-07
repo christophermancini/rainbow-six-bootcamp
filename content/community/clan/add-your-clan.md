@@ -4,7 +4,7 @@ tags = ["community"]
 title = "Add your clan to the directory"
 +++
 
-Adding your clan to our directory is easy to do and will help you get new recruits as well as help the community. Follow the steps below to get your clan listed.
+Adding your clan to our directory is easy to do and will help you get new recruits as well as help the community. Follow the steps below to get your clan listed in our [Rainbow Six Siege Clan Directory]({{< ref "community/clan/index.md" >}}).
 
 ## Steps
 

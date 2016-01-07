@@ -78,20 +78,44 @@ Custom multiplayer mode allows you to start your own match with a set rotation o
 
 ## Terrorist Hunt Mode (PVE)
 
-Terrorist hunt mode allows you to play the scenarios available for multiplayer mode against terrorist bots. There are four different scenarios that you will be ordered to execute as a Rainbow Six Operator:
+Terrorist hunt mode allows you to play the scenarios available for multiplayer mode against terrorist bots. There are four different scenarios that you will be ordered to execute as a Rainbow Six Operator on three different difficulties. You can team up with 4 other operators or go Lone Wolf if you have what it takes.
 
-### Terrorist Hunt Classic
+### Terrorists
+
+There are generally three types of terrorists you face in Terrorist Hunt: [Roamer]({{< ref "glossary.md#roamer" >}}), [Bombers]({{< ref "glossary.md#roamer" >}}), and [Ambushers]({{< ref "glossary.md#roamer" >}}).
+
+### Difficulties
+
+There are three different difficulties you can play Terrorist Hunt on: Normal, Hard and Realistic.
+
+#### Normal
+
+Normal difficulty provides you with an infinite amount of time to complete the objective against fairly easy hostiles. Generally there are two [terrorist bombers]({{< ref "glossary.md#bomber" >}}) and around three [terrorist roamers]({{< ref "glossary.md#roamer" >}}).
+
+#### Hard
+
+When playing on Hard difficulty, you are limited to a set time frame to complete the objective. Roughly the same number of hostiles that are spawned in Normal can be expected in Hard.
+
+#### Realistic
+
+Like in Hard difficulty, Realistic also requires you to complete the objective within a set time limit. However, there are more hostile terrorists in Realistic mode and they have increased reaction time, accuracy and damage. It has proven to be a worthy challenge for the most seasoned operators and requires effective cooperation amongst the squad.
+
+### Objectives
+
+In each Terrorist Hunt you are tasked to siege a fortified compound filled with hostile terrorists with a specific objective. The four possible objectives are below.
+
+#### Terrorist Hunt Classic
 
 The objective of this mode is to eliminate all enemy terrorists that are fortified within the compound.
 
-### Hostage Extraction
+#### Hostage Extraction
 
 This mode requires you to locate and safely extract the hostage back to a certain location on the map.
 
-### Protect Asset
+#### Protect Asset
 
 You and your team have been ordered to protect a high value asset at all costs, you start off within a room and need to fortify defenses before attackers arrive to eliminate your asset.
 
-### Disarm Bombs
+#### Disarm Bombs
 
 Terrorists have fortified a target location and armed two bombs that are minutes away from detonation. You need to infiltrate their defenses and disarm both bombs.

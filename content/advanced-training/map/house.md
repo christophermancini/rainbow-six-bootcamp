@@ -7,22 +7,6 @@ tags = ["map","house"]
 title = "Suburban House"
 type = "map"
 
-[[floor-plans]]
-  src = "/images/maps/house/basement.jpg"
-  alt = "House Basement Floorplan"
-
-[[floor-plans]]
-  src = "/images/maps/house/basement.jpg"
-  alt = "House Basement Floorplan"
-
-[[floor-plans]]
-  src = "/images/maps/house/basement.jpg"
-  alt = "House Basement Floorplan"
-
-[[floor-plans]]
-  src = "/images/maps/house/basement.jpg"
-  alt = "House Basement Floorplan"
-
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-house-01_211956.jpg"
   alt = ""
@@ -84,7 +68,7 @@ The house roof offers no direct entry points.
 
 ## Drone Entry Points
 
-The house has X possible entry points for your remote controlled surveillance drone.
+The house has 5 possible entry points for your remote controlled surveillance drone.
 
 1. Basement - Northwest corner underneath the Storage Room door
 1. Basement - Eastern side through the debris of the Garage door (between the two overhead doors)

@@ -32,7 +32,7 @@ The [Bank]({{<ref "bank.md">}}) is the only map that has a room that is used for
 
 ## House
 
-[Suburban House map]({{<ref "house.md">}}).
+Nestled within the suburbs of Los Angeles, this [Suburban House map]({{<ref "house.md">}}) features what seems like an infinite number of breaching possibilities.
 
 ## Kafe Dostoyevski
 

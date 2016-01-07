@@ -26,7 +26,7 @@ A drone is a small remote controlled tactical vehicle used by operators to get i
 
 ### Lone Wolf
 
-Lone Wolf describes when a single operator attempts to play a [Terrorist Hunt]({{<ref "game-modes.md">}}) mission without the support of a team. The difficulty is the same as if they had their team with them.
+Lone Wolf describes when a single operator attempts to play a [Terrorist Hunt]({{<ref "game-modes.md#terrorist-hunt-pve">}}) mission without the support of a team. There is no difference between the number of terrorists or difficulty between sieging the compound with a squad or lone wolf (solo).
 
 ### Match
 
