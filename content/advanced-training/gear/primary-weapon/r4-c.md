@@ -1,12 +1,12 @@
 +++
-cartridge = "5.56×45mm NATO"
-class = "Assault rifle"
+cartridges = ["5.56×45mm NATO"]
+classes = ["Assault rifle"]
 country = ""
 date = "2015-10-07T20:03:48-04:00"
 description = "FBI SWAT standard issue assault rifle. Highly customizable, for medium to long range conflict."
 groupId = 1
 image = "/images/gear/r4-c.jpg"
-manufacturer = "Remington"
+manufacturers = ["Remington"]
 operators = ["ash"]
 tags = ["primary weapon"]
 title = "Remington R4-C"
@@ -36,5 +36,3 @@ wikipedia = ""
   mobility = "41"
   capacity = "30"
 +++
-
-FBI SWAT standard issue assault rifle. Highly customizable, for medium to long range conflict.

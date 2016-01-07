@@ -1,12 +1,12 @@
 +++
-cartridge = ""
-class = "Submachine gun"
+cartridges = [""]
+classes = ["Submachine gun"]
 country = ""
 date = "2015-12-06T09:35:20-05:00"
 description = "Short to medium range submachine gun. High rate of fire and mobility. Favored by GIGN."
 groupId = 1
 image = "/images/gear/mp5.jpg"
-manufacturer = ""
+manufacturers = [""]
 operators = ["doc","rook"]
 tags = ["primary weapon"]
 title = "MP5"
@@ -36,5 +36,3 @@ wikipedia = ""
   mobility = "45"
   capacity = "30"
 +++
-
-Short to medium range submachine gun. High rate of fire and mobility. Favored by GIGN.

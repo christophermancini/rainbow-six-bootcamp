@@ -1,17 +1,17 @@
 +++
-cartridge = ""
-class = "Assault rifle"
-country = ""
+cartridges = ["5.56×45mm NATO"]
+classes = ["Assault rifle"]
+country = "Germany"
 date = "2015-12-09T13:17:57-05:00"
 description = "GSG 9 medium range 5.56 x 45mm caliber assault rifle, with high recoil and rate of fire."
 groupId = 1
 image = "/images/gear/416-c-carbine.jpg"
-manufacturer = ""
+manufacturers = ["Heckler_%26_Koch"]
 operators = ["jager"]
 tags = ["primary weapon","jager"]
-title = "416-C Carbine"
+title = "416-C Carbine (HK416C)"
 type = "weapon"
-wikipedia = ""
+wikipedia = "Heckler_%26_Koch_HK416"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   grip = ["vertical-grip"]
@@ -36,5 +36,3 @@ wikipedia = ""
   mobility = "41"
   capacity = "30"
 +++
-
-GSG 9 medium range 5.56 x 45mm caliber assault rifle, with high recoil and rate of fire.

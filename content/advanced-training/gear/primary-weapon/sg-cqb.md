@@ -1,12 +1,12 @@
 +++
-cartridge = ""
-class = "Shotgun"
+cartridges = [""]
+classes = ["Shotgun"]
 country = ""
 date = "2015-12-06T09:36:42-05:00"
 description = "Compact pump action 12-gauge shotgun with close range stopping power. Favored by GIGN."
 groupId = 1
 image = "/images/gear/sg-cqb.jpg"
-manufacturer = ""
+manufacturers = [""]
 operators = ["doc","rook"]
 tags = ["primary weapon"]
 title = "SG CQB"
@@ -36,5 +36,3 @@ wikipedia = ""
   mobility = "42"
   capacity = "7"
 +++
-
-Compact pump action 12-gauge shotgun with close range stopping power. Favored by GIGN.

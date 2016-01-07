@@ -1,12 +1,12 @@
 +++
-cartridge = ""
-class = "Submachine gun"
+cartridges = [""]
+classes ="Submachine gun"
 country = ""
 date = "2015-12-06T09:38:22-05:00"
 description = "High rate of fire and a large magazine adapts the 9mm submachine gun for close combat."
 groupId = 2
 image = "/images/gear/smg-11.jpg"
-manufacturer = ""
+manufacturers = [""]
 operators = ["sledge"]
 tags = ["secondary weapon"]
 title = "SMG 11"
@@ -36,5 +36,3 @@ wikipedia = ""
   mobility = "48"
   capacity = "16"
 +++
-
-High rate of fire and a large magazine adapts the 9mm submachine gun for close combat.

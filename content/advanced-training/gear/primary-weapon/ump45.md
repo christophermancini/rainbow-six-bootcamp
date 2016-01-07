@@ -1,12 +1,12 @@
 +++
-cartridge = ""
-class = "Submachine gun"
+cartridges = [""]
+classes = ["Submachine gun"]
 country = ""
 date = "2015-12-06T09:36:57-05:00"
 description = "FBI SWAT submachine gun with high stopping power. Use burst fire in medium range for accuracy."
 groupId = 1
 image = "/images/gear/ump45.jpg"
-manufacturer = ""
+manufacturers = [""]
 operators = ["castle","pulse"]
 tags = ["primary weapon"]
 title = "UMP45"
@@ -36,5 +36,3 @@ wikipedia = ""
   mobility = "45"
   capacity = "25"
 +++
-
-FBI SWAT submachine gun with high stopping power. Use burst fire in medium range for accuracy.

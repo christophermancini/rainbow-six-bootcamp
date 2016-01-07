@@ -25,6 +25,61 @@
 
             {{ partial "featuredImage" . }}
 
+            <p>
+              {{ .Description }}
+              Read more about the real world gun at
+              <a href="https://en.wikipedia.org/wiki/{{ .Params.wikipedia }}" target="_blank">
+                https://en.wikipedia.org/wiki/{{ .Params.wikipedia }}
+              </a>
+            </p>
+
+            <table class="table">
+              <tr>
+                <th style="font-size:.9em;">Damage</th>
+                <th style="font-size:.9em;">Fire Rate</th>
+                <th style="font-size:.9em;">Mobility</th>
+                <th style="font-size:.9em;">Ammo Capacity</th>
+              </tr>
+              <tr>
+                <td>{{ .Params.specs.damage }}</td>
+                <td>{{ .Params.specs.fireRate }}</td>
+                <td>{{ .Params.specs.mobility }}</td>
+                <td>{{ .Params.specs.capacity }}</td>
+              </tr>
+            </table>
+
+            <table class="table">
+              <tr>
+                <td>
+                  <span style="font-weight: bold; font-size: .85em;">Class</span><br>
+                  <a href="/classes/{{ urlize (index .Params.classes 0) }}/">
+                    {{ index .Params.classes 0 }}
+                  </a>
+                </td>
+                <td>
+                  <span style="font-weight: bold; font-size: .85em;">Cartridges</span>
+                  {{ range .Params.cartridges }}
+                  <br>
+                  <a href="/cartridges/{{ urlize . }}/">
+                    {{ . }}
+                  </a>&nbsp;
+                  {{ end }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span style="font-weight: bold; font-size: .85em;">Manufacturer</span><br>
+                  <a href="/manufacturers/{{ urlize (index .Params.manufacturers 0) }}/">
+                    {{ index .Params.manufacturers 0 }}
+                  </a>
+                </td>
+                <td>
+                  <span style="font-weight: bold; font-size: .85em;">Country of Origin</span><br>
+                  {{ .Params.country }}
+                </td>
+              </tr>
+            </table>
+
             {{ .Content }}
 
             {{ partial "h2Anchor" (dict "text" "Modifications" "page" .) }}

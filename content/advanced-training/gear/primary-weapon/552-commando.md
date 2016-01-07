@@ -1,17 +1,17 @@
 +++
-cartridge = ""
-class = "Assault rifle"
-country = ""
+cartridges = ["5.56×45mm NATO","7.62×39mm"]
+classes = ["Assault rifle"]
+country = "Switzerland"
 date = "2015-12-06T09:33:00-05:00"
-description = ""
+description = "Medium range carbine, 30 round magazine, medium penetration at optimal range, 690 rounds per minute."
 groupId = 1
 image = "/images/gear/552-commando.jpg"
-manufacturer = ""
+manufacturers = ["SIG Sauer"]
 operators = ["iq"]
 tags = ["primary weapon","iq"]
 title = "552 Commando"
 type = "weapon"
-wikipedia = ""
+wikipedia = "SIG_SG_550"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   grip = ["vertical-grip"]
@@ -36,5 +36,3 @@ wikipedia = ""
   mobility = "40"
   capacity = "30"
 +++
-
-Medium range carbine, 30 round magazine, medium penetration at optimal range, 690 rounds per minute.

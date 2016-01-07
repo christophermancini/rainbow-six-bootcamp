@@ -1,12 +1,12 @@
 +++
-cartridge = "4.6×30mm"
-class = "Submachine gun"
+cartridges = ["4.6×30mm"]
+classes = ["Submachine gun"]
 country = "Germany"
 date = "2015-10-07T20:31:15-04:00"
 description = "Close to mid-range submachine gun with high penetration. Favored by GSG 9."
 groupId = 1
 image = "/images/gear/mp7.jpg"
-manufacturer = "Heckler & Koch"
+manufacturers = ["Heckler & Koch"]
 operators = ["bandit"]
 tags = ["primary weapon","heckler & koch","mp7"]
 title = "MP7"
@@ -36,5 +36,3 @@ wikipedia = "Heckler_%26_Koch_MP7"
   mobility = "45"
   capacity = "30"
 +++
-
-Close to mid-range submachine gun with high penetration. Favored by GSG 9.

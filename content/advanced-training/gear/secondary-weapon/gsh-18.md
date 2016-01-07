@@ -1,12 +1,12 @@
 +++
-cartridge = "9mm"
-class = "Semi-automatic handgun"
+cartridges = ["9mm"]
+classes = ["Semi-automatic handgun"]
 country = ""
 date = "2015-12-06T09:37:27-05:00"
 description = "Spetsnaz 9mm short range semi-automatic pistol, with low recoil and low damage."
 groupId = 2
 image = "/images/gear/gsh-18.jpg"
-manufacturer = ""
+manufacturers = [""]
 operators = ["glaz","fuze","kapkan","tachanka"]
 tags = ["secondary weapon"]
 title = "GSH 18"
@@ -36,5 +36,3 @@ wikipedia = ""
   mobility = "50"
   capacity = "18"
 +++
-
-Spetsnaz 9mm short range semi-automatic pistol, with low recoil and low damage.

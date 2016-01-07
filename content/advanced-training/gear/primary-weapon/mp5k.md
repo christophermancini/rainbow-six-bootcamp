@@ -1,12 +1,12 @@
 +++
-cartridge = ""
-class = "Submachine gun"
+cartridges = [""]
+classes = ["Submachine gun"]
 country = ""
 date = "2015-12-06T09:35:25-05:00"
 description = "Close range 9mm submachine gun with a high rate of fire."
 groupId = 1
 image = "/images/gear/mp5k.jpg"
-manufacturer = ""
+manufacturers = [""]
 operators = ["mute"]
 tags = ["primary weapon"]
 title = "MP5K"
@@ -36,5 +36,3 @@ wikipedia = ""
   mobility = "45"
   capacity = "30"
 +++
-
-Close range 9mm submachine gun with a high rate of fire.

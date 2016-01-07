@@ -1,12 +1,12 @@
 +++
-cartridge = "5.7x28mm"
-class = "Semi-automatic pistol"
+cartridges = ["5.7x28mm"]
+classes = ["Semi-automatic pistol"]
 country = "Belgium"
 date = "2015-10-07T15:46:14-04:00"
 description = "Semi-automatic, high caliber pistol with medium stopping power and an extended range."
 groupId = 2
 image = "/images/gear/m45-meusoc.jpg"
-manufacturer = "FN Herstal"
+manufacturers = ["FN Herstal"]
 operators = ["ash","thermite","pulse"]
 tags = ["ash","secondary weapon"]
 title = "M45 Meusoc"
@@ -36,5 +36,3 @@ wikipedia = "FN_Five-seven"
   mobility = "50"
   capacity = "7"
 +++
-
-Semi-automatic, high caliber pistol with medium stopping power and an extended range.

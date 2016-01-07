@@ -10,6 +10,9 @@ title = "Rainbow Six Bootcamp"
   post = "/:year/:month/:slug/"
   tag = "tags"
   operator = "operators"
+  cartridge = "cartridges"
+  manufacturer ="manufacturers"
+  class ="classes"
 
 [params]
   image = "/images/hqdefault.jpg"
