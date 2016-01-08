@@ -11,7 +11,9 @@ operators = ["iq"]
 tags = ["primary weapon","iq"]
 title = "552 Commando"
 type = "weapon"
-wikipedia = "SIG_SG_550"
+references = [
+  "https://en.wikipedia.org/wiki/SIG_SG_550"
+]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   grip = ["vertical-grip"]

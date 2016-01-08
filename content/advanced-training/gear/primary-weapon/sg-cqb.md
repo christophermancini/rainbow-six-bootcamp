@@ -1,17 +1,19 @@
 +++
-cartridges = [""]
+cartridges = ["12 gauge"]
 classes = ["Shotgun"]
-country = ""
+country = "Italy & Germany"
 date = "2015-12-06T09:36:42-05:00"
 description = "Compact pump action 12-gauge shotgun with close range stopping power. Favored by GIGN."
 groupId = 1
 image = "/images/gear/sg-cqb.jpg"
-manufacturers = [""]
+manufacturers = ["Heckler_%26_Koch","FABARM"]
 operators = ["doc","rook"]
 tags = ["primary weapon"]
-title = "SG CQB"
+title = "SG CQB (FABARM FP6)"
 type = "weapon"
-wikipedia = ""
+references = [
+  "https://en.wikipedia.org/wiki/Heckler_%26_Koch_FABARM_FP6"
+]
 [mods]
   barrel = []
   grip = ["vertical-grip"]

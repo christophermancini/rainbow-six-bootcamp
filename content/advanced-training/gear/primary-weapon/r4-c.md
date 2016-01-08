@@ -1,17 +1,19 @@
 +++
 cartridges = ["5.56×45mm NATO"]
 classes = ["Assault rifle"]
-country = ""
+country = "United States of America"
 date = "2015-10-07T20:03:48-04:00"
 description = "FBI SWAT standard issue assault rifle. Highly customizable, for medium to long range conflict."
 groupId = 1
 image = "/images/gear/r4-c.jpg"
-manufacturers = ["Remington"]
+manufacturers = ["Remington Arms"]
 operators = ["ash"]
 tags = ["primary weapon"]
-title = "Remington R4-C"
+title = "R4-C"
 type = "weapon"
-wikipedia = ""
+references = [
+  "https://en.wikipedia.org/wiki/Remington_GPC"
+]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   grip = ["vertical-grip"]

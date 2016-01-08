@@ -11,7 +11,9 @@ operators = ["iq"]
 tags = ["primary weapon","iq"]
 title = "AUG A2"
 type = "weapon"
-wikipedia = "Steyr_AUG"
+references = [
+  "https://en.wikipedia.org/wiki/Steyr_AUG"
+]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   grip = []

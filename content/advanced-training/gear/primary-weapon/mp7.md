@@ -8,10 +8,12 @@ groupId = 1
 image = "/images/gear/mp7.jpg"
 manufacturers = ["Heckler & Koch"]
 operators = ["bandit"]
-tags = ["primary weapon","heckler & koch","mp7"]
+tags = ["primary weapon","mp7"]
 title = "MP7"
 type = "weapon"
-wikipedia = "Heckler_%26_Koch_MP7"
+references = [
+  "https://en.wikipedia.org/wiki/Heckler_%26_Koch_MP7"
+]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   grip = []

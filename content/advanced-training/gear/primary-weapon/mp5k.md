@@ -1,17 +1,19 @@
 +++
-cartridges = [""]
+cartridges = ["9×19mm Parabellum"]
 classes = ["Submachine gun"]
-country = ""
+country = "Germany"
 date = "2015-12-06T09:35:25-05:00"
 description = "Close range 9mm submachine gun with a high rate of fire."
 groupId = 1
 image = "/images/gear/mp5k.jpg"
-manufacturers = [""]
+manufacturers = ["Heckler & Koch"]
 operators = ["mute"]
 tags = ["primary weapon"]
 title = "MP5K"
 type = "weapon"
-wikipedia = ""
+references = [
+  "https://en.wikipedia.org/wiki/Heckler_%26_Koch_MP5#MP5K"
+]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   grip = []

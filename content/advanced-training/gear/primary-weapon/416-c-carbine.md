@@ -6,12 +6,14 @@ date = "2015-12-09T13:17:57-05:00"
 description = "GSG 9 medium range 5.56 x 45mm caliber assault rifle, with high recoil and rate of fire."
 groupId = 1
 image = "/images/gear/416-c-carbine.jpg"
-manufacturers = ["Heckler_%26_Koch"]
+manufacturers = ["Heckler & Koch"]
 operators = ["jager"]
 tags = ["primary weapon","jager"]
 title = "416-C Carbine (HK416C)"
 type = "weapon"
-wikipedia = "Heckler_%26_Koch_HK416"
+references = [
+  "https://en.wikipedia.org/wiki/Heckler_%26_Koch_HK416"
+]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   grip = ["vertical-grip"]

@@ -1,17 +1,19 @@
 +++
-cartridges = [""]
-classes ="Semi-automatic pistol"
-country = ""
+cartridges = ["9×18mm Makarov"]
+classes = ["Semi-automatic pistol"]
+country = "Russia"
 date = "2015-12-06T09:38:11-05:00"
 description = "9mm short range hand gun with high stopping power, favored by Spetsnaz."
 groupId = 2
 image = "/images/gear/pmm.jpg"
-manufacturers = [""]
+manufacturers = ["Kalashnikov Concern"]
 operators = ["glaz","fuze","kapkan","tachanka"]
 tags = ["secondary weapon"]
-title = "PMM"
+title = "PMM (Makarov PMM)"
 type = "weapon"
-wikipedia = ""
+references = [
+  "https://en.wikipedia.org/wiki/Makarov_pistol"
+]
 [mods]
   barrel = ["suppressor"]
   grip = []

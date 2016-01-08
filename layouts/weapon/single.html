@@ -25,13 +25,105 @@
 
             {{ partial "featuredImage" . }}
 
-            <p>
-              {{ .Description }}
-              Read more about the real world gun at
-              <a href="https://en.wikipedia.org/wiki/{{ .Params.wikipedia }}" target="_blank">
-                https://en.wikipedia.org/wiki/{{ .Params.wikipedia }}
-              </a>
-            </p>
+            <div class="row">
+              <div class="col-md-6">
+                <p style="padding: 10px; text-align: center;">
+                  <em>"{{ .Description }}"</em><br>--in game description
+                </p>
+              </div>
+              <div class="col-md-6">
+                <table class="table">
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Class</span>
+                    </td>
+                    <td>
+                      <a href="/classes/{{ urlize (index .Params.classes 0) }}/">{{ index .Params.classes 0 }}</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Operators</span>
+                    </td>
+                    <td>
+                      <a href="/basic-training/operators/#recruit">Recruit</a>,
+                      {{ range .Params.operators }}
+                        {{ if eq . "ash" }}
+                          <a href="{{ $.Site.Params.operatorRel.ash.src }}">{{ $.Site.Params.operatorRel.ash.title }}</a>
+                        {{ else if eq . "castle" }}
+                          <a href="{{ $.Site.Params.operatorRel.castle.src }}">{{ $.Site.Params.operatorRel.castle.title }}</a>
+                        {{ else if eq . "pulse" }}
+                          <a href="{{ $.Site.Params.operatorRel.pulse.src }}">{{ $.Site.Params.operatorRel.pulse.title }}</a>
+                        {{ else if eq . "thermite" }}
+                          <a href="{{ $.Site.Params.operatorRel.thermite.src }}">{{ $.Site.Params.operatorRel.thermite.title }}</a>
+                        {{ else if eq . "doc" }}
+                          <a href="{{ $.Site.Params.operatorRel.doc.src }}">{{ $.Site.Params.operatorRel.doc.title }}</a>
+                        {{ else if eq . "montagne" }}
+                          <a href="{{ $.Site.Params.operatorRel.montagne.src }}">{{ $.Site.Params.operatorRel.montagne.title }}</a>
+                        {{ else if eq . "rook" }}
+                          <a href="{{ $.Site.Params.operatorRel.rook.src }}">{{ $.Site.Params.operatorRel.rook.title }}</a>
+                        {{ else if eq . "twitch" }}
+                          <a href="{{ $.Site.Params.operatorRel.twitch.src }}">{{ $.Site.Params.operatorRel.twitch.title }}</a>
+                        {{ else if eq . "bandit" }}
+                          <a href="{{ $.Site.Params.operatorRel.bandit.src }}">{{ $.Site.Params.operatorRel.bandit.title }}</a>
+                        {{ else if eq . "blitz" }}
+                          <a href="{{ $.Site.Params.operatorRel.blitz.src }}">{{ $.Site.Params.operatorRel.blitz.title }}</a>
+                        {{ else if eq . "iq" }}
+                          <a href="{{ $.Site.Params.operatorRel.iq.src }}">{{ $.Site.Params.operatorRel.iq.title }}</a>
+                        {{ else if eq . "jager" }}
+                          <a href="{{ $.Site.Params.operatorRel.jager.src }}">{{ $.Site.Params.operatorRel.jager.title }}</a>
+                        {{ else if eq . "mute" }}
+                          <a href="{{ $.Site.Params.operatorRel.mute.src }}">{{ $.Site.Params.operatorRel.mute.title }}</a>
+                        {{ else if eq . "sledge" }}
+                          <a href="{{ $.Site.Params.operatorRel.sledge.src }}">{{ $.Site.Params.operatorRel.sledge.title }}</a>
+                        {{ else if eq . "smoke" }}
+                          <a href="{{ $.Site.Params.operatorRel.smoke.src }}">{{ $.Site.Params.operatorRel.smoke.title }}</a>
+                        {{ else if eq . "thatcher" }}
+                          <a href="{{ $.Site.Params.operatorRel.thatcher.src }}">{{ $.Site.Params.operatorRel.thatcher.title }}</a>
+                        {{ else if eq . "fuze" }}
+                          <a href="{{ $.Site.Params.operatorRel.fuze.src }}">{{ $.Site.Params.operatorRel.fuze.title }}</a>
+                        {{ else if eq . "glaz" }}
+                          <a href="{{ $.Site.Params.operatorRel.glaz.src }}">{{ $.Site.Params.operatorRel.glaz.title }}</a>
+                        {{ else if eq . "kapkan" }}
+                          <a href="{{ $.Site.Params.operatorRel.kapkan.src }}">{{ $.Site.Params.operatorRel.kapkan.title }}</a>
+                        {{ else if eq . "tachanka" }}
+                          <a href="{{ $.Site.Params.operatorRel.tachanka.src }}">{{ $.Site.Params.operatorRel.tachanka.title }}</a>
+                        {{ end }}
+                      {{ end }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Manufacturer</span>
+                    </td>
+                    <td>
+                      <a href="/manufacturers/{{ urlize (index .Params.manufacturers 0) }}/">
+                        {{ index .Params.manufacturers 0 }}
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Country of Origin</span>
+                    </td>
+                    <td>
+                      {{ .Params.country }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Cartridges</span>
+                    </td>
+                    <td>
+                      {{ range .Params.cartridges }}
+                        <a href="/cartridges/{{ urlize . }}/">{{ title . }}</a><br>
+                      {{ end }}
+                    </td>
+                  </tr>
+                </table>
+
+              </div>
+            </div>
 
             <table class="table">
               <tr>
@@ -45,38 +137,6 @@
                 <td>{{ .Params.specs.fireRate }}</td>
                 <td>{{ .Params.specs.mobility }}</td>
                 <td>{{ .Params.specs.capacity }}</td>
-              </tr>
-            </table>
-
-            <table class="table">
-              <tr>
-                <td>
-                  <span style="font-weight: bold; font-size: .85em;">Class</span><br>
-                  <a href="/classes/{{ urlize (index .Params.classes 0) }}/">
-                    {{ index .Params.classes 0 }}
-                  </a>
-                </td>
-                <td>
-                  <span style="font-weight: bold; font-size: .85em;">Cartridges</span>
-                  {{ range .Params.cartridges }}
-                  <br>
-                  <a href="/cartridges/{{ urlize . }}/">
-                    {{ . }}
-                  </a>&nbsp;
-                  {{ end }}
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span style="font-weight: bold; font-size: .85em;">Manufacturer</span><br>
-                  <a href="/manufacturers/{{ urlize (index .Params.manufacturers 0) }}/">
-                    {{ index .Params.manufacturers 0 }}
-                  </a>
-                </td>
-                <td>
-                  <span style="font-weight: bold; font-size: .85em;">Country of Origin</span><br>
-                  {{ .Params.country }}
-                </td>
               </tr>
             </table>
 
@@ -128,6 +188,17 @@
             {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
             {{ partial "imageGallery" .Params.images }}
             {{ end }}
+
+            {{ partial "h2Anchor" (dict "text" "References" "page" .) }}
+            <ol>
+              {{ range .Params.references }}
+              <li>
+                <a href="{{ . }}" target="_blank">
+                  {{ . }}
+                </a>
+              </li>
+              {{ end }}
+            </ol>
           </article>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}

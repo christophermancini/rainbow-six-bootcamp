@@ -6,12 +6,14 @@ date = "2015-10-07T15:46:14-04:00"
 description = "Semi-automatic shotgun, favored by the Spetsnaz. Limited range, large spread decreases accuracy."
 groupId = 1
 image = "/images/gear/sasg-12.jpg"
-manufacturers = ["Izhmash"]
+manufacturers = ["KBP Instrument Design Bureau"]
 operators = ["thermite","kapkan","tachanka"]
 tags = ["primary weapon","izhmash","saiga-12"]
 title = "SASG 12 (Saiga-12)"
 type = "weapon"
-wikipedia = "Saiga-12"
+references = [
+  "https://en.wikipedia.org/wiki/Saiga-12"
+]
 [mods]
   barrel = ["suppressor"]
   grip = ["vertical-grip"]

@@ -11,7 +11,9 @@ operators = ["ash","thermite","pulse"]
 tags = ["ash","secondary weapon"]
 title = "M45 Meusoc"
 type = "weapon"
-wikipedia = "FN_Five-seven"
+references = [
+  "https://en.wikipedia.org/wiki/FN_Five-seven"
+]
 [mods]
   barrel = ["suppressor"]
   grip = []

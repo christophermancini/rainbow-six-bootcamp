@@ -1,17 +1,19 @@
 +++
-cartridges = [""]
+cartridges = ["9×19mm Parabellum"]
 classes = ["Submachine gun"]
-country = ""
+country = "Germany"
 date = "2015-12-06T09:35:20-05:00"
 description = "Short to medium range submachine gun. High rate of fire and mobility. Favored by GIGN."
 groupId = 1
 image = "/images/gear/mp5.jpg"
-manufacturers = [""]
+manufacturers = ["Heckler & Koch"]
 operators = ["doc","rook"]
 tags = ["primary weapon"]
 title = "MP5"
 type = "weapon"
-wikipedia = ""
+references = [
+  "https://en.wikipedia.org/wiki/Heckler_%26_Koch_MP5"
+]
 [mods]
   barrel = ["suppressor", "flash-hider"]
   grip = ["vertical-grip"]

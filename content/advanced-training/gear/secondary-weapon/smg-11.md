@@ -1,17 +1,19 @@
 +++
-cartridges = [""]
-classes ="Submachine gun"
-country = ""
+cartridges = [".380 ACP"]
+classes = ["Submachine gun"]
+country = "United States of America"
 date = "2015-12-06T09:38:22-05:00"
 description = "High rate of fire and a large magazine adapts the 9mm submachine gun for close combat."
 groupId = 2
 image = "/images/gear/smg-11.jpg"
-manufacturers = [""]
+manufacturers = ["Military Armament Corporation"]
 operators = ["sledge"]
 tags = ["secondary weapon"]
-title = "SMG 11"
+title = "SMG 11 (MAC-11)"
 type = "weapon"
-wikipedia = ""
+references = [
+  "https://en.wikipedia.org/wiki/MAC-11"
+]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   grip = ["vertical-grip"]

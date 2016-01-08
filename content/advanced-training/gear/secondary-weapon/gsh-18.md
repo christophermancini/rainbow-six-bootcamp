@@ -1,17 +1,19 @@
 +++
-cartridges = ["9mm"]
+cartridges = ["9×19mm Parabellum"]
 classes = ["Semi-automatic handgun"]
-country = ""
+country = "Russia"
 date = "2015-12-06T09:37:27-05:00"
 description = "Spetsnaz 9mm short range semi-automatic pistol, with low recoil and low damage."
 groupId = 2
 image = "/images/gear/gsh-18.jpg"
-manufacturers = [""]
+manufacturers = ["KBP Instrument Design Bureau"]
 operators = ["glaz","fuze","kapkan","tachanka"]
 tags = ["secondary weapon"]
 title = "GSH 18"
 type = "weapon"
-wikipedia = ""
+references = [
+  "https://en.wikipedia.org/wiki/GSh-18"
+]
 [mods]
   barrel = ["suppressor","compensator"]
   grip = []

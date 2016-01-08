@@ -1,17 +1,19 @@
 +++
-cartridges = [""]
-classes ="Marksman Rifle"
-country = ""
+cartridges = ["7.62×54mmR"]
+classes = ["Sniper rifle"]
+country = "Russia"
 date = "2015-12-06T09:35:47-05:00"
 description = "Long range rifle. High recoil per shot with a very small magazine. Used by Glaz from Spetsnaz."
 groupId = 1
 image = "/images/gear/ots-03.jpg"
-manufacturers = [""]
+manufacturers = ["KBP Instrument Design Bureau"]
 operators = ["glaz"]
 tags = ["primary weapon","glaz"]
-title = "OTs-03"
+title = "OTs-03 (Dragunov SVU)"
 type = "weapon"
-wikipedia = ""
+references = [
+  "https://en.wikipedia.org/wiki/Dragunov_SVU"
+]
 [mods]
   barrel = ["suppressor", "flash-hider"]
   grip = []
