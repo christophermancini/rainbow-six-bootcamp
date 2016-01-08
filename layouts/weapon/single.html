@@ -26,12 +26,12 @@
             {{ partial "featuredImage" . }}
 
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-5">
                 <p style="padding: 10px; text-align: center;">
                   <em>"{{ .Description }}"</em><br>--in game description
                 </p>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-7">
                 <table class="table">
                   <tr>
                     <td>
@@ -46,7 +46,7 @@
                       <span style="font-weight: bold; font-size: .85em;">Operators</span>
                     </td>
                     <td>
-                      <a href="/basic-training/operators/#recruit">Recruit</a>,
+                      {{ if ne .Params.recruit false }}<a href="{{ ref . "operators.md#recruit"}}">Recruit</a>,{{ end }}
                       {{ range .Params.operators }}
                         {{ if eq . "ash" }}
                           <a href="{{ $.Site.Params.operatorRel.ash.src }}">{{ $.Site.Params.operatorRel.ash.title }}</a>

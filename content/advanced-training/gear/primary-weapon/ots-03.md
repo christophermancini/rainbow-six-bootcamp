@@ -14,6 +14,7 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Dragunov_SVU"
 ]
+recruit = false
 [mods]
   barrel = ["suppressor", "flash-hider"]
   grip = []
