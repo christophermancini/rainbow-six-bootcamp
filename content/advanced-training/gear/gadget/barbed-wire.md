@@ -2,7 +2,7 @@
 date = "2015-12-06T09:28:08-05:00"
 groupId = 3
 image = "/images/gear/barbed-wire.jpg"
-operators = ["doc","bandit","castle","rook","kapkan","pulse","tachanka","jager"]
+operators = ["doc","bandit","castle","rook","kapkan","pulse","tachanka","jäger"]
 tags = ["gadget"]
 title = "Barbed Wire"
 type = "gadget"
