@@ -2,6 +2,7 @@
 date = "2015-10-03T22:12:33-04:00"
 title = "Counter Terrorist Unit"
 tags = ["ctu"]
+weight = -2
 
 [menu.main]
   parent = 'basic-training'

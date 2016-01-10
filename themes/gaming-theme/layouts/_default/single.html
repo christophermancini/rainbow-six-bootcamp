@@ -30,6 +30,8 @@
             {{ if isset .Params "images" }}
               {{ partial "imageGallery" .Params.images }}
             {{ end }}
+
+            {{ partial "sectionNav.html" . }}
           </article>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}

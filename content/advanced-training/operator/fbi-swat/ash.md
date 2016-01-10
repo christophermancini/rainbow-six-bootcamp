@@ -1,28 +1,30 @@
 +++
-armor = "Light"
-badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-ash_229847.png"
-ctu = "fbi-swat"
 date = "2015-09-26T12:37:51-04:00"
-dob = "12/14/1983"
-gadgets = ["breach-charge","smoke-grenade"]
-gender = "F"
-height = "1.70M"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-ash_229846.png"
-name = "Eliza Cohen"
-pob = "Jerusalem, Israel"
-positon = "Attacker"
-primaryWeapons = ["g36-c","r4-c"]
-quote = "I MAKE A KILLER ENTRANCE"
-secondaryWeapons = ["57usg","m45-meusoc"]
-speed = "Fast"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204024-16&ct=tcm:148-76770-32"
 tags = ["operator","fbi swat","ash"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-ash_229909.png"
 title = "Ash"
 type = "operator"
-unique = "m120-crem"
 video = ""
-weight = "63KG"
+weight = -7
+
+[info]
+  armor = "Light"
+  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-ash_229847.png"
+  ctu = "fbi-swat"
+  dob = "12/14/1983"
+  gadgets = ["breach-charge","smoke-grenade"]
+  gender = "F"
+  height = "1.70M"
+  name = "Eliza Cohen"
+  pob = "Jerusalem, Israel"
+  position = "Attacker"
+  primaryWeapons = ["g36-c","r4-c"]
+  quote = "I MAKE A KILLER ENTRANCE"
+  secondaryWeapons = ["57usg","m45-meusoc"]
+  speed = "Fast"
+  unique = "m120-crem"
+  weight = "63KG"
 
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept01_th_205820.jpg"
@@ -35,6 +37,10 @@ weight = "63KG"
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept04_th_205827.jpg"
   alt = "Ash concept art."
+
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204024-16&ct=tcm:148-76770-32"
+]
 +++
 
 ## Tactical Profile

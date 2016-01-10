@@ -1,28 +1,38 @@
 +++
-armor = "Medium"
-badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-thatcher_229877.png"
-ctu = "sas"
 date = "2015-09-26T12:37:26-04:00"
-dob = "6/22/1961"
-gadgets = ["breach-charge","stun-grenade"]
-gender = "M"
-height = "1.80M"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-thatcher_229937.png"
-name = "Mike Baker"
-pob = "Bideford, England"
-positon = "Attacker"
-primaryWeapons = ["ar33","l85a2"]
-quote = "LIGHT'S OUT."
-secondaryWeapons = ["226-mk-25"]
-speed = "Medium"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-200759-16&ct=tcm:148-76770-32"
 tags = ["operator","sas","thatcher"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-thatcher_229926.png"
 title = "Thatcher"
 type = "operator"
-unique = "emp-grenade"
 video = ""
-weight = "86KG"
+weight = -22
+
+[info]
+  armor = "Medium"
+  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-thatcher_229877.png"
+  ctu = "sas"
+  dob = "6/22/1961"
+  gadgets = ["breach-charge","stun-grenade"]
+  gender = "M"
+  height = "1.80M"
+  name = "Mike Baker"
+  pob = "Bideford, England"
+  positon = "Attacker"
+  primaryWeapons = ["ar33","l85a2"]
+  quote = "LIGHT'S OUT."
+  secondaryWeapons = ["226-mk-25"]
+  speed = "Medium"
+  unique = "emp-grenade"
+  weight = "86KG"
+
+[[images]]
+  src = ""
+  alt = ""
+
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-200759-16&ct=tcm:148-76770-32"
+]
 +++
 
 ## Tactical Profile

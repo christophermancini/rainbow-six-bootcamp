@@ -1,28 +1,38 @@
 +++
-armor = "Medium"
-badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-glaz_229859.png"
-ctu = "spetsnaz"
 date = "2015-09-26T12:38:29-04:00"
-dob = "07/02/1987"
-gadgets = ["breach-charge","smoke-grenade"]
-gender = "M"
-height = "1.78M"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-glaz_229905.png"
-name = "Timur Glazkov"
-pob = "Vladivostok, Russia"
-positon = "Attacker"
-primaryWeapons = ["ots-03"]
-quote = "ONE SHOT, ONE KILL"
-secondaryWeapons = ["gsh-18","pmm"]
-speed = "Medium"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228967-16&ct=tcm:148-76770-32"
 tags = ["operator","spetsnaz","glaz"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-glaz_229915.png"
 title = "Glaz"
 type = "operator"
-unique = "hds-flip-sight"
 video = ""
-weight = "84KG"
+weight = -24
+
+[info]
+  armor = "Medium"
+  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-glaz_229859.png"
+  ctu = "spetsnaz"
+  dob = "07/02/1987"
+  gadgets = ["breach-charge","smoke-grenade"]
+  gender = "M"
+  height = "1.78M"
+  name = "Timur Glazkov"
+  pob = "Vladivostok, Russia"
+  positon = "Attacker"
+  primaryWeapons = ["ots-03"]
+  quote = "ONE SHOT, ONE KILL"
+  secondaryWeapons = ["gsh-18","pmm"]
+  speed = "Medium"
+  unique = "hds-flip-sight"
+  weight = "84KG"
+
+[[images]]
+  src = ""
+  alt = ""
+
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228967-16&ct=tcm:148-76770-32"
+]
 +++
 
 ## Tactical Profile

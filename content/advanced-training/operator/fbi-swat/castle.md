@@ -1,28 +1,39 @@
 +++
-armor = "Medium"
-badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-castle_229852.png"
-ctu = "fbi-swat"
 date = "2015-09-26T12:37:57-04:00"
-dob = "09/20/1980"
-gadgets = ["barbed-wire", "deployable-shield"]
-gender = "M"
-height = "1.85M"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-castle_229882.png"
-name = "Miles Campbell"
-pob = "Sherman Oaks, CA"
-positon = "Defender"
-primaryWeapons = ["m1014","ump-45"]
-quote = "THE BEST OFFENSE IS A BULLETPROOF DEFENSE"
-secondaryWeapons = ["57usg","m45-meusoc"]
-speed = "Medium"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204026-16&ct=tcm:148-76770-32"
+spotlight = ""
 tags = ["operator","fbi swat","castle"]
 title = "Castle"
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-castle_229912.png"
 type = "operator"
-unique = "armor-panel"
 video = ""
-weight = "95.3KG"
+weight = -8
+
+[info]
+  armor = "Medium"
+  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-castle_229852.png"
+  ctu = "fbi-swat"
+  dob = "09/20/1980"
+  gadgets = ["barbed-wire", "deployable-shield"]
+  gender = "M"
+  height = "1.85M"
+  name = "Miles Campbell"
+  pob = "Sherman Oaks, CA"
+  positon = "Defender"
+  primaryWeapons = ["m1014","ump-45"]
+  quote = "THE BEST OFFENSE IS A BULLETPROOF DEFENSE"
+  secondaryWeapons = ["57usg","m45-meusoc"]
+  speed = "Medium"
+  unique = "armor-panel"
+  weight = "95.3KG"
+
+[[images]]
+  src = ""
+  alt = ""
+
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204026-16&ct=tcm:148-76770-32"
+]
 +++
 
 ## Tactical Profile

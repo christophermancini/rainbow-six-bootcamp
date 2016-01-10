@@ -1,9 +1,11 @@
 +++
+country = "United Kingdom"
 date = "2015-10-03T22:29:56-04:00"
 image = ""
 tags = ["ctu","sas","mute","sledge","smoke","thatcher"]
 title = "SAS"
 type = "ctu"
+weight = -4
 wikipedia = "Special_Air_Service"
 +++
 

@@ -20,13 +20,66 @@
         <section class="col-md-8">
           <article class="single-blog-item">
             <h1>
-              {{ if .Params.badge }}<img src="{{ .Params.badge }}">{{ end }}
+              {{ if .Params.info.badge }}<img src="{{ .Params.info.badge }}">{{ end }}
               {{ partial "title" . }}
             </h1>
 
             {{ partial "tags" . }}
 
             {{ partial "featuredImage" . }}
+
+            <div class="row">
+              <div class="col-md-5">
+                <p style="padding: 10px; text-align: center;">
+                  <em>"{{ .Params.info.quote }}"</em><br>--{{ .Title }}
+                </p>
+              </div>
+              <div class="col-md-7">
+                <table class="table">
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Date of Birth</span>
+                    </td>
+                    <td>
+                      {{ .Params.info.dob }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Place of Birth</span>
+                    </td>
+                    <td>
+                      {{ .Params.info.pob }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Armor / Speed</span>
+                    </td>
+                    <td>
+                      {{ .Params.info.armor }} / {{ .Params.info.speed }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Position</span>
+                    </td>
+                    <td>
+                      {{ .Params.info.position }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Gender / Height / Weight</span>
+                    </td>
+                    <td>
+                      {{ .Params.info.gender }} / {{ .Params.info.height }} / {{ .Params.info.weight }}
+                    </td>
+                  </tr>
+                </table>
+
+              </div>
+            </div>
 
             {{ .Content }}
 
@@ -59,6 +112,8 @@
             {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
             {{ partial "imageGallery" .Params.images }}
             {{ end }}
+
+            {{ partial "sectionNav.html" . }}
           </article>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}

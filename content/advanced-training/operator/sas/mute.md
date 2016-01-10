@@ -1,32 +1,38 @@
 +++
-armor = "Medium"
-badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-mute_229870.png"
-ctu = "sas"
 date = "2015-09-26T12:37:32-04:00"
-dob = "10/11/1991"
-gadgets = ["deployable-shield","nitro-cell"]
-gender = "M"
-height = "1.70M"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-mute_229930.png"
-name = "Mark Chandar"
-pob = "York, England"
-positon = "Defender"
-primaryWeapons = ["591a1", "mp5k"]
-quote = "I THINK YOU'VE SAID QUITE ENOUGH"
-secondaryWeapons = ["226-mk-25"]
-speed = "Medium"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-201484-16&ct=tcm:148-76770-32"
 tags = ["opeartor","sas","mute"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-mute_229920.png"
 title = "Mute"
 type = "operator"
-unique = "moni-gc90-signal-disruptor"
 video = "HAZAHR71lPc"
-weight = "80KG"
+weight = -19
+
+[info]
+  armor = "Medium"
+  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-mute_229870.png"
+  ctu = "sas"
+  dob = "10/11/1991"
+  gadgets = ["deployable-shield","nitro-cell"]
+  gender = "M"
+  height = "1.70M"
+  name = "Mark Chandar"
+  pob = "York, England"
+  positon = "Defender"
+  primaryWeapons = ["591a1", "mp5k"]
+  quote = "I THINK YOU'VE SAID QUITE ENOUGH"
+  secondaryWeapons = ["226-mk-25"]
+  speed = "Medium"
+  unique = "moni-gc90-signal-disruptor"
+  weight = "80KG"
 
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_mute_concept01_th_201497.jpg"
   alt = "Mute concept art."
+
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-201484-16&ct=tcm:148-76770-32"
+]
 +++
 
 ## Tactical Profile

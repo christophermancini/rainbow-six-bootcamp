@@ -1,9 +1,11 @@
 +++
+country = "Russia"
 date = "2015-10-03T22:30:53-04:00"
 image = ""
 tags = ["ctu","spetsnaz","fuze","glaz","kapkan","tachanka"]
 title = "Spetsnaz"
 type = "ctu"
+weight = -5
 wikipedia = "Spetsnaz"
 +++
 

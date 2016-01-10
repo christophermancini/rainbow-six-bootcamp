@@ -1,0 +1,13 @@
+            <div class="prev-next">
+              <div class="pull-left">
+                {{ with .PrevInSection }}
+                Previous: <a href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ end }}
+              </div>
+              <div class="pull-right">
+                {{ with .NextInSection }}
+                Next: <a href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ end }}
+              </div>
+              <div class="clearfix"></div>
+            </div>

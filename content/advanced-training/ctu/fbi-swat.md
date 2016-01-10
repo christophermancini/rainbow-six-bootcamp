@@ -1,9 +1,11 @@
 +++
+country = "United States of America"
 date = "2015-10-03T22:30:02-04:00"
 image = ""
 tags = ["ctu","fbi swat","ash","castle","pulse","thermite"]
 title = "FBI SWAT"
 type = "ctu"
+weight = -1
 wikipedia = "FBI_Special_Weapons_and_Tactics_Teams"
 +++
 

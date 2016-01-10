@@ -1,28 +1,38 @@
 +++
-armor = "Heavy"
-badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-montagne_229868.png"
-ctu = "gign"
 date = "2015-09-26T12:35:47-04:00"
-dob = "10/11/1968"
-gadgets = ["smoke-grenade","stun-grenade"]
-gender = "M"
-height = "1.90M"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-montagne_229929.png"
-name = "Gilles Touré"
-pob = "Bordeaux, France"
-positon = "Attacker"
-primaryWeapons = ["ballistic-shield"]
-quote = "GET BEHIND ME"
-secondaryWeapons = ["lfp586","p9"]
-speed = "Slow"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210678-16&ct=tcm:148-76770-32"
 tags = ["operator","gign","montagne"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-montagne_229919.png"
 title = "Montagne"
 type = "operator"
-unique = "le-roc-extendable-shield"
 video = ""
-weight = "100KG"
+weight = -12
+
+[info]
+  armor = "Heavy"
+  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-montagne_229868.png"
+  ctu = "gign"
+  dob = "10/11/1968"
+  gadgets = ["smoke-grenade","stun-grenade"]
+  gender = "M"
+  height = "1.90M"
+  name = "Gilles Touré"
+  pob = "Bordeaux, France"
+  positon = "Attacker"
+  primaryWeapons = ["ballistic-shield"]
+  quote = "GET BEHIND ME"
+  secondaryWeapons = ["lfp586","p9"]
+  speed = "Slow"
+  unique = "le-roc-extendable-shield"
+  weight = "100KG"
+
+[[images]]
+  src = ""
+  alt = ""
+
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210678-16&ct=tcm:148-76770-32"
+]
 +++
 
 ## Tactical Profile

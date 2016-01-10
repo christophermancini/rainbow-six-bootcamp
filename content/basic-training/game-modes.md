@@ -2,6 +2,7 @@
 date = "2015-09-26T12:10:36-04:00"
 title = "Game Modes"
 tags = []
+weight = -1
 
 [menu.main]
   parent = 'basic-training'

@@ -1,28 +1,30 @@
 +++
-armor = "Heavy"
-badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-kapkan_229866.png"
-ctu = "spetsnaz"
 date = "2015-09-26T12:38:40-04:00"
-dob = "05/14/1979"
-gadgets = ["barbed-wire","nitro-cell"]
-gender = "M"
-height = "1.80M"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-kapkan_229908.png"
-name = "Maxim Basuda"
-pob = "Kovrov, Russia"
-positon = "Defender"
-primaryWeapons = ["9x19vsn","sasg-12"]
-quote = "MIND YOUR STEP"
-secondaryWeapons = ["gsh-18","pmm"]
-speed = "Slow"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228985-16&ct=tcm:148-76770-32"
 tags = ["operator","spetsnaz","kapkan"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-kapkan_229918.png"
 title = "Kapkan"
 type = "operator"
-unique = "edd-mk-ii"
 video = ""
-weight = "68KG"
+weight = -25
+
+[info]
+  armor = "Heavy"
+  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-kapkan_229866.png"
+  ctu = "spetsnaz"
+  dob = "05/14/1979"
+  gadgets = ["barbed-wire","nitro-cell"]
+  gender = "M"
+  height = "1.80M"
+  name = "Maxim Basuda"
+  pob = "Kovrov, Russia"
+  positon = "Defender"
+  primaryWeapons = ["9x19vsn","sasg-12"]
+  quote = "MIND YOUR STEP"
+  secondaryWeapons = ["gsh-18","pmm"]
+  speed = "Slow"
+  unique = "edd-mk-ii"
+  weight = "68KG"
 
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_kapkan_concept01_th_229001.jpg"
@@ -31,6 +33,10 @@ weight = "68KG"
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_kapkan_concept02_th_228999.jpg"
   alt = "Kapkan concept art."
+
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228985-16&ct=tcm:148-76770-32"
+]
 +++
 
 ## Tactical Profile

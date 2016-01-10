@@ -2,6 +2,7 @@
 date = "2015-09-21T21:11:14-04:00"
 title = "Franchise History"
 tags = []
+weight = 0
 
 [menu.main]
   parent = 'basic-training'

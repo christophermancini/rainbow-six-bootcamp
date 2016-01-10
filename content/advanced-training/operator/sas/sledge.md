@@ -1,28 +1,30 @@
 +++
-armor = "Medium"
-badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-sledge_229873.png"
-ctu = "sas"
 date = "2015-09-26T12:37:20-04:00"
-dob = "04/02/1982"
-gadgets = ["breach-charge","frag-grenade"]
-gender = "M"
-height = "1.92M"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-sledge_229934.png"
-name = "Seamus Cowden"
-pob = "John O'Groats, England"
-positon = "Attacker"
-primaryWeapons = ["590a1", "l85a2"]
-quote = "WHO NEEDS EXPLOSIVES"
-secondaryWeapons = ["226-mk-25", "mac-11"]
-speed = "Medium"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-199468-16&ct=tcm:148-76770-32"
 tags = ["opeartor","sas","sledge"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-sledge_229923.png"
 title = "Sledge"
 type = "operator"
-unique = "caber-tactical-breaching-hammer"
 video = ""
-weight = "104KG"
+weight = -20
+
+[info]
+  armor = "Medium"
+  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-sledge_229873.png"
+  ctu = "sas"
+  dob = "04/02/1982"
+  gadgets = ["breach-charge","frag-grenade"]
+  gender = "M"
+  height = "1.92M"
+  name = "Seamus Cowden"
+  pob = "John O'Groats, England"
+  positon = "Attacker"
+  primaryWeapons = ["590a1", "l85a2"]
+  quote = "WHO NEEDS EXPLOSIVES"
+  secondaryWeapons = ["226-mk-25", "mac-11"]
+  speed = "Medium"
+  unique = "caber-tactical-breaching-hammer"
+  weight = "104KG"
 
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_sledge_concept01_th_200207.jpg"
@@ -35,6 +37,10 @@ weight = "104KG"
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_sledge_concept03_th_200211.jpg"
   alt = "Sledge concept art."
+
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-199468-16&ct=tcm:148-76770-32"
+]
 +++
 
 ## Tactical Profile

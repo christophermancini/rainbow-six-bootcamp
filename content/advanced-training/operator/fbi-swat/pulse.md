@@ -1,28 +1,38 @@
 +++
-armor = "Light"
-badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-pulse_229871.png"
-ctu = "fbi-swat"
 date = "2015-09-26T12:38:01-04:00"
-dob = "10/11/1984"
-gadgets = ["barbed-wire","nitro-cell"]
-gender = "M"
-height = "1.88M"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-pulse_229931.png"
-name = "Jack Estrada"
-pob = "Goldsboro, NC"
-positon = "Defender"
-primaryWeapons = ["m1014","ump-45"]
-quote = "I SEE I'VE GOT YOUR HEART RACING"
-secondaryWeapons = ["57usg","m45-meusoc"]
-speed = "Fast"
-spotlight = "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204027-16&ct=tcm:148-76770-32"
 tags = ["operator","fbi swat","pulse"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-pulse_229921.png"
-title = "pulse"
+title = "Pulse"
 type = "operator"
-unique = "hb-5"
 video = ""
-weight = "85KG"
+weight = -9
+
+[info]
+  armor = "Light"
+  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-pulse_229871.png"
+  ctu = "fbi-swat"
+  dob = "10/11/1984"
+  gadgets = ["barbed-wire","nitro-cell"]
+  gender = "M"
+  height = "1.88M"
+  name = "Jack Estrada"
+  pob = "Goldsboro, NC"
+  positon = "Defender"
+  primaryWeapons = ["m1014","ump-45"]
+  quote = "I SEE I'VE GOT YOUR HEART RACING"
+  secondaryWeapons = ["57usg","m45-meusoc"]
+  speed = "Fast"
+  unique = "hb-5"
+  weight = "85KG"
+
+[[images]]
+  src = ""
+  alt = ""
+
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204027-16&ct=tcm:148-76770-32"
+]
 +++
 
 ## Tactical Profile

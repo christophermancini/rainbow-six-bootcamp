@@ -1,6 +1,7 @@
 +++
 title = "Counter Terrorist Units"
 layout = "ctu"
+weight = 0
 
 [menu.main]
   name = "Counter Terrorism Units"

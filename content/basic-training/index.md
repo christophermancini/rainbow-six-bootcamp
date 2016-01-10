@@ -2,6 +2,12 @@
 date = "2015-12-17T21:11:14-04:00"
 title = "Getting Started with Rainbow Six"
 tags = []
+weight = 1
+
+[menu.main]
+  parent = 'basic-training'
+  weight = -1
+  name = "Getting Started"
 +++
 
 Rainbow Six spawned from [Tom Clancy's novel](http://www.amazon.com/gp/product/0425170349/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0425170349&linkCode=as2&tag=rainbowsixbootcamp-20&linkId=Z5F4FWL5X7MOIWY3) with the same name. From the novel, Rainbow is an international counter terrorist unit comprised of elite personnel from the participating NATO countries law enforcement agencies. Allied governments would call upon Rainbow's aide when faced with dire terrorist situations.
@@ -15,7 +21,7 @@ In Rainbow Six: Siege, tactical shooter game play has evolved to new heights as 
 Over the course of this [Rainbow Six Basic Training series]({{<ref "basic-training/index.md">}}), we will:
 
 * Explore the [history of Rainbow Six]({{<ref "franchise-history.md">}})
-* Explain the [various encounters and objectives you may face]({{<ref "game-modes.md">}})
+* Explain the [various encounters and objectives you will face in Rainbow Six Siege]({{<ref "game-modes.md">}})
 * Define the purpose of a [counter terrorist unit]({{<ref "counter-terrorist-unit.md">}})
 * Evaluate how operators build [renown]({{<ref "renown-rainbow-credits.md">}})
 * Introduce you to your fellow [Rainbow Six operators]({{<ref "operators.md">}})

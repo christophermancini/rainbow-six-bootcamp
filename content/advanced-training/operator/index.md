@@ -1,6 +1,7 @@
 +++
 title = "Rainbow Six Operators"
 layout = "operator"
+weight = -6
 
 [menu.main]
   name = "Operators"

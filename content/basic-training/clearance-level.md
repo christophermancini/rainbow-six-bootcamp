@@ -2,6 +2,7 @@
 date = "2015-09-26T12:31:14-04:00"
 title = "Clearance Level"
 tags = ["clearance level"]
+weight = -7
 
 [menu.main]
   parent = 'basic-training'

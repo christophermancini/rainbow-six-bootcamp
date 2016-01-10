@@ -1,9 +1,11 @@
 +++
+country = "Germany"
 date = "2015-10-03T22:31:02-04:00"
 image = ""
 tags = ["ctu","gsg 9","bandit","blitz","iq","jäger"]
 title = "GSG 9"
 type = "ctu"
+weight = -3
 wikipedia = "GSG_9"
 +++
 
