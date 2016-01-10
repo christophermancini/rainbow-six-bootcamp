@@ -34,15 +34,34 @@ type = "map"
 
 The setting for this map is a United States suburban neighborhood house. With four spawn locations, two floors and a basement, the house offers good options for approach and entry.
 
+## Drone Entry Points
+
+The house has 5 possible entry points for your remote controlled surveillance drone.
+
+1. Basement - Northwest corner underneath the Storage Room door
+1. Basement - Eastern side through the debris of the Garage door (between the two overhead doors)
+1. 1st Floor - North side of the home under the barricade on the main entryway
+1. 1st Floor - South side of the home, over the furniture blocking the back entryway
+1. 1st Floor - Southwest corner of the home, under a barricade to the hall between the West stairs and the kitchen
+1. 1st Floor - Northeast corner of house entering under a barricade into the office
+
 ## Spawn Locations
 
 ### Construction Site
 
+The construction site spawn positions you North of the house. The main entrance to the house on the 1st floor is the closest drone entry point.
+
 ### APC
+
+The APC (Armored Personnel Carrier) drops you outside the house to the South side. The closest drone entry point is through the barricaded doorway on the Southwest corner of the house on the 1st floor.
 
 ### River Docks
 
+If beginning your approach from the River Docks, you begin on the East side of the house. The closest drone entry point is between the garage doors.
+
 ### Side Street
+
+The side street spawn sets you down on the Southeast side of the house. The closest drone entry point from this spawn is the rear entryway blocked by furniture on the 1st floor.
 
 ## Levels
 
@@ -65,15 +84,6 @@ The basement has four rooms and two entry points. The four rooms are the garage,
 {{< lightbox src="/images/maps/house/roof.jpg" alt="House Roof" gallery="floorplan" >}}
 
 The house roof offers no direct entry points.
-
-## Drone Entry Points
-
-The house has 5 possible entry points for your remote controlled surveillance drone.
-
-1. Basement - Northwest corner underneath the Storage Room door
-1. Basement - Eastern side through the debris of the Garage door (between the two overhead doors)
-1. 1st Floor -
-1. 1st Floor -
 
 ## Cameras
 

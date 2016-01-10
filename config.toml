@@ -18,6 +18,7 @@ title = "Rainbow Six Bootcamp"
   image = "/images/hqdefault.jpg"
   disqusShortname = "rainbowsixbootcamp"
   CopyExtra = "Rainbow Six Bootcamp was created using content and materials from Rainbow Six: Siege © Ubisoft Entertainment or its licensors."
+  siegeSections = ["advanced-training","basic-training"]
 
 [params.relatedArticles]
   excludedTags = ["operator","gadget","weapon","ctu"]
