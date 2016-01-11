@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:34:38-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-iq_229906.png"
-tags = ["opeartor","gsg 9","iq"]
+tags = ["operator","gsg 9","iq"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-iq_229916.png"
 title = "IQ"
 type = "operator"
