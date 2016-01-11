@@ -7,32 +7,27 @@ title = "IQ"
 type = "operator"
 video = ""
 weight = -17
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213828-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Light"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-iq_229861.png"
   ctu = "gsg-9"
   dob = "08/01/1979"
-  gadgets = ["breach-charge", "stun-grenade"]
   gender = "F"
   height = "1.75M"
   name = "Monika Weiss"
   pob = "Leipzig, Germany"
-  positon = "Attacker"
-  primaryWeapons = ["552-commando","aug-a2"]
+  position = "Attacker"
   quote = "WE'RE NOT GOING IN BLIND."
-  secondaryWeapons = ["p12"]
   speed = "Fast"
-  unique = "red-mk-iii-spectre-electronics-detector"
   weight = "70KG"
 
 [[images]]
-  src = ""
-  alt = ""
-
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213828-16&ct=tcm:148-76770-32"
-]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_iq_concept01_th_213867.jpg"
+  alt = "Concept art."
 +++
 
 ## Tactical Profile
@@ -47,17 +42,17 @@ A brilliant overachiever and a fast learner. Weiss has been successful at nearly
 
 ### Training
 
-Massachusetts Institute of Technology (MIT): Bachelor of Science Electrical Engineering
-CalTech: PhD Electrical Engineering
-Bundespolizei
-GSG 9
+* Massachusetts Institute of Technology (MIT): Bachelor of Science Electrical Engineering
+* CalTech: PhD Electrical Engineering
+* Bundespolizei
+* GSG 9
 
 ### Relevant Experience
 
-Iraq: GSG 9 protection detail
-GSG 9's technical unit
-GSG 9's Airborne Group
-SWAT training with both Bundespolizei and GSG 9.
+* Iraq: GSG 9 protection detail
+* GSG 9's technical unit
+* GSG 9's Airborne Group
+* SWAT training with both Bundespolizei and GSG 9.
 
 ### Notes
 

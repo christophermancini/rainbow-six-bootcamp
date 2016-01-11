@@ -7,23 +7,22 @@ title = "Doc"
 type = "operator"
 video = ""
 weight = -11
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210704-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-doc_229853.png"
   ctu = "gign"
   dob = "09/16/1977"
-  gadgets = ["barbed-wire", "deployable-shield"]
   gender = "M"
   height = "1.77M"
   name = "Gustave Kateb"
   pob = "Paris, France"
-  positon = "Defender"
-  primaryWeapons = ["mp5","p90","sg-cqb"]
+  position = "Defender"
   quote = "TRY NOT TO GET YOURSELVES HURT"
-  secondaryWeapons = ["lfp586","p9"]
   speed = "Slow"
-  unique = "mpd-0-stim-pistol"
   weight = "79KG"
 
 [[images]]
@@ -33,10 +32,6 @@ weight = -11
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_doc_concept02_th_210639.jpg"
   alt = "Doc concept art."
-
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210704-16&ct=tcm:148-76770-32"
-]
 +++
 
 ## Tactical Profile
@@ -51,15 +46,15 @@ Kateb demonstrates a high degree of empathy for human suffering; he is a rare ge
 
 ### Training
 
-Université Paris Descartes: Bachelor of Science, Health; Master Toxicology and Ecotoxicology; Doctorate Medicine, Toxicology, Chemistry, Imagery (MTCI)
-French Defence Health Service
-Army Special Forces Brigade
-GIGN
+* Université Paris Descartes: Bachelor of Science, Health; Master Toxicology and Ecotoxicology; Doctorate Medicine, Toxicology, Chemistry, Imagery (MTCI)
+* French Defence Health Service
+* Army Special Forces Brigade
+* GIGN
 
 ### Relevant Experience
 
-Two tours of duty
-Doctor's without Borders, certified to practice in ten countries
+* Two tours of duty
+* Doctor's without Borders, certified to practice in ten countries
 
 ### Notes
 

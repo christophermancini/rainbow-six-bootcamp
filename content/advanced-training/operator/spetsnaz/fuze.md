@@ -7,32 +7,31 @@ title = "Fuze"
 type = "operator"
 video = ""
 weight = -23
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228984-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-fuze_229856.png"
   ctu = "spetsnaz"
   dob = "10/12/1982"
-  gadgets = ["breach-charge","stun-grenade"]
   gender = "M"
   height = "1.80M"
   name = "Shuhrat Kessikbayev"
   pob = "Samarkand, Uzbekistan"
-  positon = "Attacker"
-  primaryWeapons = ["ballistic-shield","6p41"]
+  position = "Attacker"
   quote = "PLACING CLUSTER CHARGE"
-  secondaryWeapons = ["gsh-18","pmm"]
   speed = "Slow"
-  unique = "apm-6-matryoshka"
   weight = "85KG"
 
 [[images]]
-  src = ""
-  alt = ""
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_fuze_concept01_th_228989.jpg"
+  alt = "Concept art."
 
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228984-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_fuze_concept02_th_228991.jpg"
+  alt = "Concept art."
 +++
 
 ## Tactical Profile
@@ -47,13 +46,13 @@ Kessikbayev is an expert tinkerer and master of craftsman, more at ease with the
 
 ### Training
 
-27th Motor Rifle Brigade
-Spetsnaz GRU GSO
+* 27th Motor Rifle Brigade
+* Spetsnaz GRU GSO
 
 ### Relevant Experience
 
-Participant in Ratnik experimental weaponry brigade.
-Personal cluster charge, the "Matryoshka", designed by Kessikbayev first saw action in REDACTED
+* Participant in Ratnik experimental weaponry brigade.
+* Personal cluster charge, the "Matryoshka", designed by Kessikbayev first saw action in REDACTED
 
 ### Notes
 

@@ -7,32 +7,35 @@ title = "Smoke"
 type = "operator"
 video = "7jfcSPWQ6Vk"
 weight = -21
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-202274-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-smoke_229874.png"
   ctu = "sas"
   dob = "05/14/1990"
-  gadgets = ["barbed-wire", "nitro-cell"]
   gender = "M"
   height = "1.73M"
   name = "James Porter"
   pob = "London, England"
-  positon = "Defender"
-  primaryWeapons = ["591a1", "fmg-9"]
+  position = "Defender"
   quote = "WHAT'S YOUR POISON?"
-  secondaryWeapons = ["226-mk-25", "mac-11"]
   speed = "Medium"
-  unique = "compound-z8-remote-gas-grenade"
   weight = "70KG"
 
 [[images]]
-  src = ""
-  alt = ""
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_smoke_concept01_th_202278.jpg"
+  alt = "Concept art."
 
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-202274-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_smoke_concept02_th_202280.jpg"
+  alt = "Concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_smoke_concept03_th_202282.jpg"
+  alt = "Concept art."
 +++
 
 ## Tactical Profile
@@ -47,8 +50,8 @@ Porter is a thrill seeker with very little regard for his personal safety. He is
 
 ### Training
 
-British Army
-SAS Operative
+* British Army
+* SAS Operative
 
 ### Relevant Experience
 

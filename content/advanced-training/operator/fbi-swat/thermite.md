@@ -7,32 +7,35 @@ title = "Thermite"
 type = "operator"
 video = "-GIEIwfqHEc"
 weight = -10
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-203923-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-thermite_229878.png"
   ctu = "fbi-swat"
   dob = "03/14/1982"
-  gadgets = ["breach-charge","frag-grenade"]
   gender = "M"
   height = "1.78M"
   name = "Jordan Trace"
   pob = "Plano, TX"
-  positon = "Attacker"
-  primaryWeapons = ["m1014","sig-556"]
+  position = "Attacker"
   quote = "WHERE THERE'S A WALL, THERE'S A WAY"
-  secondaryWeapons = ["57usg","m45-meusoc"]
   speed = "Medium"
-  unique = "brimstone-bc-3"
   weight = "81.6KG"
 
 [[images]]
-  src = ""
-  alt = ""
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_thermite_concept01_th_205813.jpg"
+  alt = "Concept art."
 
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-203923-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_thermite_concept02_th_205815.jpg"
+  alt = "Concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_thermite_concept03_th_205817.jpg"
+  alt = "Concept art."
 +++
 
 ## Tactical Profile
@@ -47,17 +50,17 @@ Regimented, disciplined, orderly, these are some of the words people use to desc
 
 ### Training
 
-USMC Close Quarters Battle School
-USMC Methods of Entry
-USMC Helicopter and Rope Suspension Techniques Master Course (HRST)
-Texas A&M: Bachelor of Science, Chemistry
-FBI Field Agent
-FBI SWAT
+* USMC Close Quarters Battle School
+* USMC Methods of Entry
+* USMC Helicopter and Rope Suspension Techniques Master Course (HRST)
+* Texas A&M: Bachelor of Science, Chemistry
+* FBI Field Agent
+* FBI SWAT
 
 ### Relevant Experience
 
-Two tours of duty in Iraq.
-Fleet Antiterrorism Security Teams (FAST)
+* Two tours of duty in Iraq.
+* Fleet Antiterrorism Security Teams (FAST)
 
 ### Notes
 

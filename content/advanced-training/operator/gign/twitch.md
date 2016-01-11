@@ -7,32 +7,31 @@ title = "Twitch"
 type = "operator"
 video = "mzrNixTFevs"
 weight = -14
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210692-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-twitch_229879.png"
   ctu = "gign"
   dob = "10/12/1988"
-  gadgets = ["breach-charge", "smoke-grenade"]
   gender = "M"
   height = "1.68M"
   name = "Emmanuelle Pichon"
   pob = "Nancy, France"
-  positon = "Attacker"
-  primaryWeapons = ["417","f2","sg-cqb"]
+  position = "Attacker"
   quote = "STOP COMPLAINING, IT'S JUST ELECTRICITY"
-  secondaryWeapons = ["lfp586","p9"]
   speed = "Medium"
-  unique = "rsd-model-1-shock-drone"
   weight = "58KG"
 
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_twitch_concept01_th_210668.jpg"
   alt = "Twitch concept art."
 
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210692-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_twitch_concept02_th_210670.jpg"
+  alt = "Twitch concept art."
 +++
 
 ## Tactical Profile
@@ -47,14 +46,14 @@ Pichon demonstrates an affinity for complex robotic systems and mechanical proce
 
 ### Training
 
-Self-trained robotics expert
-French Army: Engineers (Genie)
-GIGN
+* Self-trained robotics expert
+* French Army: Engineers (Genie)
+* GIGN
 
 ### Relevant Experience
 
-Chad
-Libya
+* Chad
+* Libya
 
 ### Notes
 

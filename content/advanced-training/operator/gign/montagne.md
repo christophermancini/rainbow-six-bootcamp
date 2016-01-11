@@ -7,32 +7,35 @@ title = "Montagne"
 type = "operator"
 video = ""
 weight = -12
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210678-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-montagne_229868.png"
   ctu = "gign"
   dob = "10/11/1968"
-  gadgets = ["smoke-grenade","stun-grenade"]
   gender = "M"
   height = "1.90M"
   name = "Gilles Touré"
   pob = "Bordeaux, France"
-  positon = "Attacker"
-  primaryWeapons = ["ballistic-shield"]
+  position = "Attacker"
   quote = "GET BEHIND ME"
-  secondaryWeapons = ["lfp586","p9"]
   speed = "Slow"
-  unique = "le-roc-extendable-shield"
   weight = "100KG"
 
 [[images]]
-  src = ""
-  alt = ""
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_montagne_concept01_th_210646.jpg"
+  alt = "Concept art."
 
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210678-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_montagne_concept02_th_210648.jpg"
+  alt = "Concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_montagne_concept03_th_210650.jpg"
+  alt = "Concept art."
 +++
 
 ## Tactical Profile
@@ -54,15 +57,15 @@ by example.
 
 ### Training
 
-National Gendarmerie
-GIGN
+* National Gendarmerie
+* GIGN
 
 ### Relevant Experience
 
-1994 French Airline hijacking
-Won several CQB awards in SWAT competitions in Europe and the US
-Extensive urban CQB training.
-Certified GIGN trainer.
+* 1994 French Airline hijacking
+* Won several CQB awards in SWAT competitions in Europe and the US
+* Extensive urban CQB training.
+* Certified GIGN trainer.
 
 ### Notes
 

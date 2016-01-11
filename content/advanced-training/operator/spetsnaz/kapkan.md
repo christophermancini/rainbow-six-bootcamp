@@ -7,23 +7,22 @@ title = "Kapkan"
 type = "operator"
 video = ""
 weight = -25
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228985-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-kapkan_229866.png"
   ctu = "spetsnaz"
   dob = "05/14/1979"
-  gadgets = ["barbed-wire","nitro-cell"]
   gender = "M"
   height = "1.80M"
   name = "Maxim Basuda"
   pob = "Kovrov, Russia"
-  positon = "Defender"
-  primaryWeapons = ["9x19vsn","sasg-12"]
+  position = "Defender"
   quote = "MIND YOUR STEP"
-  secondaryWeapons = ["gsh-18","pmm"]
   speed = "Slow"
-  unique = "edd-mk-ii"
   weight = "68KG"
 
 [[images]]
@@ -33,10 +32,6 @@ weight = -25
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_kapkan_concept02_th_228999.jpg"
   alt = "Kapkan concept art."
-
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228985-16&ct=tcm:148-76770-32"
-]
 +++
 
 ## Tactical Profile
@@ -51,16 +46,16 @@ Basuda is a self-sufficient realist. He has seen the harsh reality of the world 
 
 ### Training
 
-Ministry of Internal Affairs, Police Officer
-Spetsnaz
+* Ministry of Internal Affairs, Police Officer
+* Spetsnaz
 
 ### Relevant Experience
 
-[Beslan School Siege](https://en.wikipedia.org/wiki/Beslan_school_siege)
-REDACTED
+* [Beslan School Siege](https://en.wikipedia.org/wiki/Beslan_school_siege)
+* REDACTED
 
 ### Notes
 
-One of only a handful of officers to walk away from the Beslan School Siege.
-Extensive collection of weapons and survival gear.
-Designs / builds snares and traps as a hobby.
+* One of only a handful of officers to walk away from the Beslan School Siege.
+* Extensive collection of weapons and survival gear.
+* Designs / builds snares and traps as a hobby.

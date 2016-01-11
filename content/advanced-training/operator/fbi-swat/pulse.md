@@ -7,32 +7,27 @@ title = "Pulse"
 type = "operator"
 video = ""
 weight = -9
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204027-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Light"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-pulse_229871.png"
   ctu = "fbi-swat"
   dob = "10/11/1984"
-  gadgets = ["barbed-wire","nitro-cell"]
   gender = "M"
   height = "1.88M"
   name = "Jack Estrada"
   pob = "Goldsboro, NC"
-  positon = "Defender"
-  primaryWeapons = ["m1014","ump-45"]
+  position = "Defender"
   quote = "I SEE I'VE GOT YOUR HEART RACING"
-  secondaryWeapons = ["57usg","m45-meusoc"]
   speed = "Fast"
-  unique = "hb-5"
   weight = "85KG"
 
 [[images]]
-  src = ""
-  alt = ""
-
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204027-16&ct=tcm:148-76770-32"
-]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_pulse_concept01_th_205811.jpg"
+  alt = "Concept art."
 +++
 
 ## Tactical Profile
@@ -47,10 +42,10 @@ As a result of the constant relocation from base to base, Jack became fascinated
 
 ### Training
 
-Perdue University: Bachelor of Science, Forensics: Master of Science, Biometrics
-FBI Biometrics Intern
-FBI Biometrics operator
-FBI SWAT Negotiator
+* Perdue University: Bachelor of Science, Forensics: Master of Science, Biometrics
+* FBI Biometrics Intern
+* FBI Biometrics operator
+* FBI SWAT Negotiator
 
 ### Relevant Experience
 

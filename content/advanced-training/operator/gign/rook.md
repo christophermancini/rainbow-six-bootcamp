@@ -7,23 +7,22 @@ title = "Rook"
 type = "operator"
 video = "f9_xIszLn0U"
 weight = -13
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210708-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-rook_229872.png"
   ctu = "gign"
   dob = "1/6/1990"
-  gadgets = ["barbed-wire", "deployable-shield"]
   gender = "M"
   height = "1.75M"
   name = "Julien Nizan"
   pob = "Tours, France"
-  positon = "Defender"
-  primaryWeapons = ["mp5","p90","sg-cqb"]
+  position = "Defender"
   quote = "TIME FOR SOME SERIOUS PROTECTION"
-  secondaryWeapons = ["lfp586","p9"]
   speed = "Slow"
-  unique = "r1n-rhino-armor"
   weight = "63KG"
 
 [[images]]
@@ -35,10 +34,15 @@ weight = -13
 [[images]]
   src = "/images/operator/rook-vid3.jpg"
   alt = ""
-
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210708-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_rook_concept01_th_210657.jpg"
+  alt = "Concept art."
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_rook_concept02_th_210659.jpg"
+  alt = "Concept art."
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_rook_concept03_th_210661.jpg"
+  alt = "Concept art."  
 +++
 
 ## Tactical Profile
@@ -53,8 +57,8 @@ Nizan is idealistic and trusting. He can be impulsive, and must self-regulate in
 
 ### Training
 
-Gendarmerie Nationale
-GIGN
+* Gendarmerie Nationale
+* GIGN
 
 ### Relevant Experience
 
@@ -62,5 +66,5 @@ GIGN Marksmanship champion
 
 ### Notes
 
-Performs trust exercises with all the new recruits.
-Fluent in English, studied with an American Professor at Secondary School.
+* Performs trust exercises with all the new recruits.
+* Fluent in English, studied with an American Professor at Secondary School.

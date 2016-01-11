@@ -7,23 +7,22 @@ title = "Tachanka"
 type = "operator"
 video = ""
 weight = -26
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228986-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-tachanka_229876.png"
   ctu = "spetsnaz"
   dob = "11/03/1967"
-  gadgets = ["barbed-wire","deployable-shield"]
   gender = "M"
   height = "1.83M"
   name = "Alexsandr Senaviev"
   pob = "Saint Petersburg, Russia"
-  positon = "Defender"
-  primaryWeapons = ["9x19vsn","sasg-12"]
+  position = "Defender"
   quote = "KILLING ZONE DEPLOYED"
-  secondaryWeapons = ["gsh-18","pmm"]
   speed = "Slow"
-  unique = "rp-46-degtyaryov-machine-gun"
   weight = "99.8KG"
 
 [[images]]
@@ -37,10 +36,6 @@ weight = -26
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_tachanka_concept03_th_229008.jpg"
   alt = "Tachanka concept art."
-
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228986-16&ct=tcm:148-76770-32"
-]
 +++
 
 ## Tactical Profile
@@ -55,14 +50,14 @@ Calm in crises. Alex harbors a joyous, if acerbic outlook. He has a limited soci
 
 ### Training
 
-Soviet Army
-Spetsnaz
+* Soviet Army
+* Spetsnaz
 
 ### Relevant Experience
 
-Soviet War in Afghanistan
-Chechnya
-Georgia
+* Soviet War in Afghanistan
+* Chechnya
+* Georgia
 
 ### Notes
 

@@ -7,6 +7,9 @@ title = "Sledge"
 type = "operator"
 video = ""
 weight = -20
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-199468-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Medium"
@@ -18,7 +21,7 @@ weight = -20
   height = "1.92M"
   name = "Seamus Cowden"
   pob = "John O'Groats, England"
-  positon = "Attacker"
+  position = "Attacker"
   primaryWeapons = ["590a1", "l85a2"]
   quote = "WHO NEEDS EXPLOSIVES"
   secondaryWeapons = ["226-mk-25", "mac-11"]
@@ -37,10 +40,6 @@ weight = -20
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_sledge_concept03_th_200211.jpg"
   alt = "Sledge concept art."
-
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-199468-16&ct=tcm:148-76770-32"
-]
 +++
 
 ## Tactical Profile
@@ -55,8 +54,8 @@ Cowden displays natural leadership qualities, likely developed during his amateu
 
 ### Training
 
-British Army: 3rd (UK) Division
-SAS Operative
+* British Army: 3rd (UK) Division
+* SAS Operative
 
 ### Relevant Experience
 

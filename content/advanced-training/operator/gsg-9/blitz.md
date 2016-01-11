@@ -8,32 +8,31 @@ title = "Blitz"
 type = "operator"
 video = "TE9z4Qua1mw"
 weight = -16
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213911-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-blitz_229849.png"
   ctu = "gsg-9"
   dob = "04/02/1980"
-  gadgets = ["breach-charge", "smoke-grenade"]
   gender = "M"
   height = "1.75M"
   name = "Elias Kötz"
   pob = "Bremen, Germany"
-  positon = "Attacker"
-  primaryWeapons = ["ballistic-shield"]
+  position = "Attacker"
   quote = "STICK BEHIND ME AND YOUR UGLY MUG MIGHT LIVE TO SEE ANOTHER DAY!"
-  secondaryWeapons = ["p12"]
   speed = "Slow"
-  unique = "g52-tactical-shield"
   weight = "75KG"
 
 [[images]]
-  src = ""
-  alt = ""
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_blitz_concept01_th_213858.jpg"
+  alt = "Concept art."
 
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213911-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_blitz_concept02_th_213860.jpg"
+  alt = "Concept art."
 +++
 
 Blitz is GSG 9's most durable operator however this durability comes at a cost, making him also the slowest of the unit. Blitz offers a bit more than some of the other heavily armored operators that are equipped with ballistic shields. His [G52 Tactical Shield]({{<ref "g52-tactical-shield.md">}}) has been engineered to offer a blinding flash that is the equivalent of 24 flash bang grenades.<!--more-->
@@ -41,6 +40,7 @@ Blitz is GSG 9's most durable operator however this durability comes at a cost, 
 ## Tactical Profile
 
 ### Background
+
 A student of [Hermann-Böse-Gymnasium](http://www.hbg.schule.bremen.de/), Kötz excelled academically
 and as a sportsman in HBG's bilingual program. His imposing physique made him an exceptional athlete,
 he carried his experience on the field into his military training. His jovial nature and academic
@@ -55,14 +55,14 @@ When faced with overt praise, he will become self-effacing.
 
 ### Training
 
-International Baccalaureate Hermann-Böse-Gymnasium
-Division Schnelle Kräfte
-GSG 9
+* International Baccalaureate Hermann-Böse-Gymnasium
+* Division Schnelle Kräfte
+* GSG 9
 
 ### Relevant Experience
 
-Kosovo
-Mumbai, India (Trainer)
+* Kosovo
+* Mumbai, India (Trainer)
 
 ### Notes
 

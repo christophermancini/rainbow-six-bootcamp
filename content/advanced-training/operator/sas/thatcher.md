@@ -7,32 +7,35 @@ title = "Thatcher"
 type = "operator"
 video = ""
 weight = -22
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-200759-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-thatcher_229877.png"
   ctu = "sas"
   dob = "6/22/1961"
-  gadgets = ["breach-charge","stun-grenade"]
   gender = "M"
   height = "1.80M"
   name = "Mike Baker"
   pob = "Bideford, England"
-  positon = "Attacker"
-  primaryWeapons = ["ar33","l85a2"]
+  position = "Attacker"
   quote = "LIGHT'S OUT."
-  secondaryWeapons = ["226-mk-25"]
   speed = "Medium"
-  unique = "emp-grenade"
   weight = "86KG"
 
 [[images]]
-  src = ""
-  alt = ""
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_thatcher_concept01_th_200798.jpg"
+  alt = "Concept art."
 
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-200759-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_thatcher_concept02_th_200796.jpg"
+  alt = "Concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_thatcher_concept03_th_200800.jpg"
+  alt = "Concept art."
 +++
 
 ## Tactical Profile
@@ -47,9 +50,9 @@ Baker is highly observant, calculating and decisive. While his demeanor may deno
 
 ### Training
 
-British Army: Parachhute Regiment
-British Army: SAS Bravo Two Zero
-British Army: SAS Warrant Officer Class 1 (Regimental Sergeant Major)
+* British Army: Parachhute Regiment
+* British Army: SAS Bravo Two Zero
+* British Army: SAS Warrant Officer Class 1 (Regimental Sergeant Major)
 
 ### Relevant Experience
 
@@ -57,6 +60,6 @@ Baker's exemplary performance, on and off the battlefield, during two politicall
 
 ### Notes
 
-Saw action at the battle of Goose Green during the Falklands Conflict.
-On Team Blue of Operation Nimrod (Iranian Embassy siege, 1980).
-Veteran of unit Bravo Two Zero during Gulf War (1991).
+* Saw action at the battle of Goose Green during the Falklands Conflict.
+* On Team Blue of Operation Nimrod (Iranian Embassy siege, 1980).
+* Veteran of unit Bravo Two Zero during Gulf War (1991).

@@ -189,16 +189,9 @@
             {{ partial "imageGallery" .Params.images }}
             {{ end }}
 
-            {{ partial "h2Anchor" (dict "text" "References" "page" .) }}
-            <ol>
-              {{ range .Params.references }}
-              <li>
-                <a href="{{ . }}" target="_blank">
-                  {{ . }}
-                </a>
-              </li>
-              {{ end }}
-            </ol>
+            {{ partial "references" . }}
+
+            {{ partial "sectionNav.html" . }}
           </article>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
@@ -206,7 +199,6 @@
           {{ partial "related.html" . }}
 
           {{ partial "disqus.html" . }}
-
         </section>
         <!-- end of blog-contents -->
 

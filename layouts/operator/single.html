@@ -38,6 +38,14 @@
                 <table class="table">
                   <tr>
                     <td>
+                      <span style="font-weight: bold; font-size: .85em;">Name</span>
+                    </td>
+                    <td>
+                      {{ .Params.info.name }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
                       <span style="font-weight: bold; font-size: .85em;">Date of Birth</span>
                     </td>
                     <td>
@@ -112,6 +120,8 @@
             {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
             {{ partial "imageGallery" .Params.images }}
             {{ end }}
+
+            {{ partial "references" . }}
 
             {{ partial "sectionNav.html" . }}
           </article>

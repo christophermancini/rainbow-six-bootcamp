@@ -31,6 +31,10 @@
             {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
             {{ partial "imageGallery" .Params.images }}
             {{ end }}
+
+            {{ partial "references" . }}
+
+            {{ partial "sectionNav.html" . }}
           </article>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
@@ -38,7 +42,6 @@
           {{ partial "related.html" . }}
 
           {{ partial "disqus.html" . }}
-
         </section>
         <!-- end of blog-contents -->
 

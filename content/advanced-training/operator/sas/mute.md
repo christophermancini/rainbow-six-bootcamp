@@ -7,32 +7,35 @@ title = "Mute"
 type = "operator"
 video = "HAZAHR71lPc"
 weight = -19
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-201484-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-mute_229870.png"
   ctu = "sas"
   dob = "10/11/1991"
-  gadgets = ["deployable-shield","nitro-cell"]
   gender = "M"
   height = "1.70M"
   name = "Mark Chandar"
   pob = "York, England"
-  positon = "Defender"
-  primaryWeapons = ["591a1", "mp5k"]
+  position = "Defender"
   quote = "I THINK YOU'VE SAID QUITE ENOUGH"
-  secondaryWeapons = ["226-mk-25"]
   speed = "Medium"
-  unique = "moni-gc90-signal-disruptor"
   weight = "80KG"
 
 [[images]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_mute_concept01_th_201497.jpg"
-  alt = "Mute concept art."
+  alt = "Concept art."
 
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-201484-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_mute_concept02_th_201499.jpg"
+  alt = "Concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_mute_concept03_th_201501.jpg"
+  alt = "Concept art."
 +++
 
 ## Tactical Profile
@@ -47,18 +50,18 @@ Chandar is highly intelligent and analytical. He is used to being the youngest a
 
 ### Training
 
-University of Cambridge: Bachelor of Science, Engineering;
-PhD Electrical Engineering
-Britain's Government Communications Headquarters (GCHQ): Signals Intelligence Specialist (sigint)
-SAS: sigint Communications and Technology
+* University of Cambridge: Bachelor of Science, Engineering;
+* PhD Electrical Engineering
+* Britain's Government Communications Headquarters (GCHQ): Signals Intelligence Specialist (sigint)
+* SAS: sigint Communications and Technology
 
 ### Relevant Experience
 
-Tempora
-GCHQ Prototype Engineer
-SAS Prototype Engineer
+* Tempora
+* GCHQ Prototype Engineer
+* SAS Prototype Engineer
 
 ### Notes
 
-Cyber counter terrorism unit, monitor hacktivist groups.
-Portions of file redacted.
+* Cyber counter terrorism unit, monitor hacktivist groups.
+* Portions of file redacted.

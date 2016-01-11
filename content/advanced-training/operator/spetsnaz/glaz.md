@@ -7,32 +7,35 @@ title = "Glaz"
 type = "operator"
 video = ""
 weight = -24
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228967-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-glaz_229859.png"
   ctu = "spetsnaz"
   dob = "07/02/1987"
-  gadgets = ["breach-charge","smoke-grenade"]
   gender = "M"
   height = "1.78M"
   name = "Timur Glazkov"
   pob = "Vladivostok, Russia"
-  positon = "Attacker"
-  primaryWeapons = ["ots-03"]
+  position = "Attacker"
   quote = "ONE SHOT, ONE KILL"
-  secondaryWeapons = ["gsh-18","pmm"]
   speed = "Medium"
-  unique = "hds-flip-sight"
   weight = "84KG"
 
 [[images]]
-  src = ""
-  alt = ""
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_glaz_concept02_th_228976.jpg"
+  alt = "Concept art."
 
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228967-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_glaz_concept01_th_228974.jpg"
+  alt = "Concept art."
+
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_glaz_concept03_th_228978.jpg"
+  alt = "Concept art."
 +++
 
 ## Tactical Profile
@@ -47,15 +50,15 @@ While Timur doesn't thrive in large groups, he is engaging and expressive in one
 
 ### Training
 
-Cadet Corps
-Ground Forces of the Russian Federation
-Khabarovsk Military Commanders Training Academy
-Spetsnaz: 45th Guards Regiment
+* Cadet Corps
+* Ground Forces of the Russian Federation
+* Khabarovsk Military Commanders Training Academy
+* Spetsnaz: 45th Guards Regiment
 
 ### Relevant Experience
 
-Saw action in the 2008 South Ossetia War.
-Deployed in REDACTED
+* Saw action in the 2008 South Ossetia War.
+* Deployed in REDACTED
 
 ### Notes
 

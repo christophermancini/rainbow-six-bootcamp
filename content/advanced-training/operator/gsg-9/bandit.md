@@ -7,32 +7,31 @@ title = "Bandit"
 type = "operator"
 video = ""
 weight = -15
+references = [
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213912-16&ct=tcm:148-76770-32"
+]
 
 [info]
   armor = "Light"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-bandit_229848.png"
   ctu = "gsg-9"
   dob = "08/13/1974"
-  gadgets = ["barbed-wire", "nitro-cell"]
   gender = "M"
   height = "1.80M"
   name = "Dominic Brunsmeier"
   pob = "Berlin, Germany"
-  positon = "Defender"
-  primaryWeapons = ["mp7", "m870"]
+  position = "Defender"
   quote = "YOUR GEAR COME WITH THAT POLISH?"
-  secondaryWeapons = ["p12"]
   speed = "Fast"
-  unique = "ced-1"
   weight = "95KG"
 
 [[images]]
-  src = ""
-  alt = ""
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_bandit_concept01_th_213849.jpg"
+  alt = "Concept art."
 
-references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213912-16&ct=tcm:148-76770-32"
-]
+[[images]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_bandit_concept02_th_213851.jpg"
+  alt = "Concept art."
 +++
 
 ## Tactical Profile
@@ -47,10 +46,10 @@ A prankster, Brunsmeier honors and humiliates his brother's memory each time he 
 
 ### Training
 
-Bundespolizei formerly known as Bundesgrunzschutz (BGS)
-Weiterstadt Red Army Faction
-GSG 9
-GSG 9 Undercover Agent Hannover Hell's Angels
+* Bundespolizei formerly known as Bundesgrunzschutz (BGS)
+* Weiterstadt Red Army Faction
+* GSG 9
+* GSG 9 Undercover Agent Hannover Hell's Angels
 
 ### Relevant Experience
 
