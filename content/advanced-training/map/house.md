@@ -34,34 +34,29 @@ type = "map"
 
 The setting for this map is a United States suburban neighborhood house. With four spawn locations, two floors and a basement, the house offers good options for approach and entry.
 
-## Drone Entry Points
-
-The house has 5 possible entry points for your remote controlled surveillance drone.
-
-1. Basement - Northwest corner underneath the Storage Room door
-1. Basement - Eastern side through the debris of the Garage door (between the two overhead doors)
-1. 1st Floor - North side of the home under the barricade on the main entryway
-1. 1st Floor - South side of the home, over the furniture blocking the back entryway
-1. 1st Floor - Southwest corner of the home, under a barricade to the hall between the West stairs and the kitchen
-1. 1st Floor - Northeast corner of house entering under a barricade into the office
-
 ## Spawn Locations
 
 ### Construction Site
 
-The construction site spawn positions you North of the house. The main entrance to the house on the 1st floor is the closest drone entry point.
+The construction site spawn positions you North of the house.
+
+* **Drone entry:** The main entrance to the house on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
+* **Camera:** Your approach to the house is monitored by the [front side camera]({{< ref "#front-camera">}}) located to the right near the property perimeter.
 
 ### APC
 
 The APC (Armored Personnel Carrier) drops you outside the house to the South side. The closest drone entry point is through the barricaded doorway on the Southwest corner of the house on the 1st floor.
+* **Drone entry:** The main entrance to the house on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
 
 ### River Docks
 
 If beginning your approach from the River Docks, you begin on the East side of the house. The closest drone entry point is between the garage doors.
+* **Drone entry:** The main entrance to the house on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
 
 ### Side Street
 
 The side street spawn sets you down on the Southeast side of the house. The closest drone entry point from this spawn is the rear entryway blocked by furniture on the 1st floor.
+* **Drone entry:** The main entrance to the house on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
 
 ## Levels
 
@@ -85,6 +80,22 @@ The basement has four rooms and two entry points. The four rooms are the garage,
 
 The house roof offers no direct entry points.
 
+## Drone Entry Points
+
+The house has 5 possible entry points for your remote controlled surveillance drone.
+
+### Basement Entry
+
+* Northwest corner underneath the Storage Room door
+* Eastern side through the debris of the Garage door (between the two overhead doors)
+
+### 1st Floor Entry
+
+* North side of the home under the barricade on the main entryway
+* South side of the home, over the furniture blocking the back entryway
+* Southwest corner of the home, under a barricade to the hall between the West stairs and the kitchen
+* Northeast corner of house entering under a barricade into the office
+
 ## Cameras
 
 There are six cameras in all, two of them exterior to the house and four on the interior. The locations are listed below with images provided by [StokedxGamer](https://steamcommunity.com/sharedfiles/filedetails/?id=573118228).
@@ -95,7 +106,7 @@ There are six cameras in all, two of them exterior to the house and four on the 
 
 The two external cameras are in the front and rear of the home.
 
-#### Front
+#### Front Camera
 
 Located in the Northwest side of the house along the property perimeter. It is to your right as you approach the house from the construction site.
 
@@ -103,7 +114,7 @@ Located in the Northwest side of the house along the property perimeter. It is t
 {{< lightbox src="/images/maps/house/camera-exterior-front-02.jpg" alt="House Exterior Front Camera" gallery="cameras" >}}
 {{< lightbox src="/images/maps/house/camera-exterior-front-03.jpg" alt="House Exterior Front Camera" gallery="cameras" >}}
 
-#### Rear
+#### Rear Camera
 
 Located in the Southeast side of the house, along the perimeter of the property. It is to the left from the [River Docks]({{<ref "#river-docks">}})River Docks spawn and to the right from the [APC spawn point]({{<ref "#apc">}}).
 
