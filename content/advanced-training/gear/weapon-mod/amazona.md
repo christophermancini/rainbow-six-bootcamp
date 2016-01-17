@@ -1,12 +1,12 @@
 +++
-cost = "200"
-costCredits = ""
+cost = "12000"
+costCredits = "320"
 date = "2015-12-09T15:57:15-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
+description = "Tier 3 skin available for the MP5K used by Mute."
 image = "/images/gear/skin/.jpg"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
-title = "amazona"
+tags = ["weapon mod","skin","tier 3","mute"]
+title = "Amazona"
 type = "weapon-mod"
 
 [images]

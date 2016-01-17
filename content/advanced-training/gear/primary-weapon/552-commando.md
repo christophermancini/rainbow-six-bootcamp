@@ -18,8 +18,16 @@ references = [
   barrel = ["suppressor", "flash-hider", "compensator"]
   grip = ["vertical-grip"]
   skin = [
+    "porter",
     "fire",
     "elephant",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
     "leder",
     "hindernis",
     "ice",

@@ -7,7 +7,7 @@ description = "High rate of fire and a large magazine adapts the 9mm submachine 
 groupId = 2
 image = "/images/gear/smg-11.jpg"
 manufacturers = ["Military Armament Corporation"]
-operators = ["sledge"]
+operators = ["sledge","smoke"]
 tags = ["secondary weapon"]
 title = "SMG 11 (MAC-11)"
 type = "weapon"
@@ -20,6 +20,13 @@ references = [
   skin = [
     "fire",
     "elephant",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
     "engraved",
     "trafalgar",
     "waves",

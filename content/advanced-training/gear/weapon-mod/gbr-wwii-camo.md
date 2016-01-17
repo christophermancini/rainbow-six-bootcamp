@@ -1,11 +1,11 @@
 +++
-cost = "200"
+cost = "2000"
 costCredits = ""
 date = "2015-12-09T15:49:17-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 1 skin available for the weapons used by SAS operators."
+image = "/images/gear/skin/gbr-wwii-camo.jpg"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
+tags = ["weapon mod","skin","tier 1","sas"]
 title = "GBR WWII Camo"
 type = "weapon-mod"
 

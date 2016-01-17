@@ -20,6 +20,13 @@ references = [
   skin = [
     "fire",
     "elephant",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
     "khokhloma",
     "verkh",
     "mechanical",

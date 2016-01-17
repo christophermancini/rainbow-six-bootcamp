@@ -1,10 +1,12 @@
 +++
-cost = "200"
+cost = ""
 costCredits = ""
 description = ""
-image = ""
+image = "/images/gear/skin/.jpg"
 modType = "skin"
-tags = ["weapon mod"]
+tags = ["weapon mod","skin"]
+type = "weapon-mod"
+
 [images]
   src = ""
   alt = ""
