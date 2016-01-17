@@ -1,12 +1,12 @@
 +++
-cost = "200"
-costCredits = ""
+cost = ""
+costCredits = "720"
 date = "2015-12-09T15:55:40-05:00"
-description = ""
-image = ""
+description = "Tier 5 skin available for the MP7 used by Bandit."
+image = "/images/gear/skin/schneien.jpg"
 modType = "skin"
-tags = ["weapon mod","skin"]
-title = "schneien"
+tags = ["weapon mod","skin","tier 5","bandit"]
+title = "Schneien"
 type = "weapon-mod"
 
 [images]

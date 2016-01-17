@@ -1,12 +1,12 @@
 +++
-cost = "200"
+cost = "150"
 costCredits = ""
 date = "2015-12-09T15:45:14-05:00"
-description = ""
+description = "Replaces iron sights with a holographic precision sight."
 image = "/images/gear/holographic-sight.jpg"
 modType = "sight"
 tags = ["weapon mod","sight"]
-title = "holographic sight"
+title = "Holographic Sight"
 type = "weapon-mod"
 
 [images]

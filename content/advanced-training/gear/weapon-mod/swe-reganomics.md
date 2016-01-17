@@ -1,11 +1,11 @@
 +++
-cost = "200"
+cost = "1800"
 costCredits = ""
 date = "2015-12-09T15:47:26-05:00"
-description = ""
-image = ""
+description = "Tier 1 skin available for the weapons used by all operators."
+image = "/images/gear/skin/swe-reganomics.jpg"
 modType = "skin"
-tags = ["weapon mod","skin"]
+tags = ["weapon mod","skin","tier 1"]
 title = "SWE Reganomics"
 type = "weapon-mod"
 
