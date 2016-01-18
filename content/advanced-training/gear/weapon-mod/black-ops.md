@@ -1,9 +1,9 @@
 +++
-cost = "200"
-costCredits = ""
+cost = ""
+costCredits = "720"
 date = "2015-12-09T15:46:25-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 5 skin available for the AK-12 used by Fuze."
+image = "/images/gear/skin/black-ops.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Black OPS"

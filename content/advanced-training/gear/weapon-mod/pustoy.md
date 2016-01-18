@@ -1,12 +1,12 @@
 +++
-cost = "200"
-costCredits = ""
+cost = ""
+costCredits = "720"
 date = "2015-12-09T15:51:48-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 5 skin available for the 6P41 used by Fuze."
+image = "/images/gear/skin/pustoy.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
-title = "pustoy"
+title = "Pustoy"
 type = "weapon-mod"
 
 [images]

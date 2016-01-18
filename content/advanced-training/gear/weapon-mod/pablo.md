@@ -1,12 +1,12 @@
 +++
-cost = "200"
-costCredits = ""
+cost = "12000"
+costCredits = "320"
 date = "2015-12-09T15:55:18-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 3 skin available for the OTs-03 used by Glaz."
+image = "/images/gear/skin/pablo.jpg"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
-title = "pablo"
+tags = ["weapon mod","skin","tier 3"]
+title = "Pablo"
 type = "weapon-mod"
 
 [images]

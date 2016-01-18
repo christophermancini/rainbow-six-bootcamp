@@ -1,12 +1,12 @@
 +++
-cost = "200"
+cost = ""
 costCredits = ""
 date = "2015-12-09T15:45:50-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Special skin available for the AK-12 used by Fuze. This skin is unlocked from the Uplay Club reward store."
+image = "/images/gear/skin/guerrilla.jpg"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
-title = "guerrilla"
+tags = ["weapon mod","skin","special"]
+title = "Guerrilla"
 type = "weapon-mod"
 
 [images]

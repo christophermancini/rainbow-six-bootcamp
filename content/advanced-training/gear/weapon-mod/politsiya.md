@@ -1,12 +1,12 @@
 +++
-cost = "200"
-costCredits = ""
+cost = ""
+costCredits = "720"
 date = "2015-12-09T15:54:10-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 5 skin available for the SASG-12 used by Kapkan & Tachanka."
+image = "/images/gear/skin/politsiya.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
-title = "politsiya"
+title = "Politsiya"
 type = "weapon-mod"
 
 [images]

@@ -1,12 +1,12 @@
 +++
-cost = "200"
-costCredits = ""
+cost = "12000"
+costCredits = "320"
 date = "2015-12-09T15:52:55-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 3 skin available for the UMP45 used by Castle & Pulse."
+image = "/images/gear/skin/comet.jpg"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
-title = "comet"
+tags = ["weapon mod","skin","tier 3"]
+title = "Comet"
 type = "weapon-mod"
 
 [images]

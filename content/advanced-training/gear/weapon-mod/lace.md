@@ -1,9 +1,9 @@
 +++
-cost = "200"
-costCredits = ""
+cost = ""
+costCredits = "720"
 date = "2015-12-09T15:58:44-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 5 skin available for the M1014 used by Thermite, Castle & Pulse."
+image = "/images/gear/skin/lace.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "lace"

@@ -1,17 +1,15 @@
 +++
-cost = ""
-costCredits = ""
+cost = "9600"
+costCredits = "256"
 date = "2016-01-18T12:03:41-05:00"
-description = ""
-image = "/images/gear/skin/.jpg"
+description = "Tier 3 skin available for the PMM used by the Spetsnaz operators."
+image = "/images/gear/skin/pyramid.jpg"
 modType = "skin"
-tags = ["weapon mod", "skin"]
-title = "pyramid"
+tags = ["weapon mod", "skin","tier 3"]
+title = "Pyramid"
 type = "weapon-mod"
 
 [images]
   alt = ""
   src = ""
-
 +++
-
