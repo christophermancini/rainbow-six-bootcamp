@@ -1,12 +1,12 @@
 +++
-cost = "200"
-costCredits = ""
+cost = "4000"
+costCredits = "180"
 date = "2015-12-09T15:51:06-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 2 skin available for the weapons used by FBI SWAT operators."
+image = "/images/gear/skin/maui.jpg"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
-title = "maui"
+tags = ["weapon mod","skin","tier 2"]
+title = "Maui"
 type = "weapon-mod"
 
 [images]

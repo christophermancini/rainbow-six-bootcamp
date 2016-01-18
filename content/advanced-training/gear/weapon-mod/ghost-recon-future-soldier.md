@@ -1,12 +1,12 @@
 +++
-cost = "200"
+cost = ""
 costCredits = ""
 date = "2015-12-09T16:00:03-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Special skin gifted to players who have the game Ghost Recon Future Soldier. Available for the G36C used by Ashe."
+image = "/images/gear/skin/ghost-recon-future-soldier.jpg"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
-title = "ghost recon future soldier"
+tags = ["weapon mod","skin","special"]
+title = "Ghost Recon Future Soldier"
 type = "weapon-mod"
 
 [images]
