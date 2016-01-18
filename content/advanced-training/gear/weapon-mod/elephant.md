@@ -1,11 +1,11 @@
 +++
-cost = "200"
+cost = ""
 costCredits = ""
 date = "2015-12-09T15:46:02-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Special skin available for all weapons unlockable in Uplay Club reward store."
+image = "/images/gear/skin/elephant-l85a2.jpg"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
+tags = ["weapon mod","skin","special"]
 title = "elephant"
 type = "weapon-mod"
 
