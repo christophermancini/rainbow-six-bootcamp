@@ -1,12 +1,12 @@
 +++
 cost = ""
-costCredits = ""
+costCredits = "575"
 date = "2016-01-18T12:01:35-05:00"
-description = ""
-image = "/images/gear/skin/.jpg"
+description = "Tier 5 skin available for weapons used by GIGN operators."
+image = "/images/gear/skin/jade-p9.png"
 modType = "skin"
-tags = ["weapon mod", "skin"]
-title = "jade"
+tags = ["weapon mod", "skin","GIGN","Tier 5"]
+title = "Jade"
 type = "weapon-mod"
 
 [cost]

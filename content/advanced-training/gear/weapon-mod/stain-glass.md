@@ -1,12 +1,12 @@
 +++
-cost = "200"
-costCredits = ""
+cost = "12000"
+costCredits = "320"
 date = "2015-12-09T15:54:52-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 3 skin available for weapons used by GIGN operators."
+image = "/images/gear/skin/stain-glass-p90.png"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
-title = "stain glass"
+tags = ["weapon mod","skin","tier 3"]
+title = "Stain Glass"
 type = "weapon-mod"
 
 [cost]

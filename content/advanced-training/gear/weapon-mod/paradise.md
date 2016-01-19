@@ -1,12 +1,12 @@
 +++
-cost = "200"
-costCredits = ""
+cost = "12000"
+costCredits = "320"
 date = "2015-12-10T14:51:25-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 3 skin available for weapons used by GIGN operators."
+image = "/images/gear/skin/paradise-f2.png"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
-title = "paradise"
+tags = ["weapon mod","skin","tier 3","GIGN"]
+title = "Paradise"
 
 [cost]
   renown = ""
