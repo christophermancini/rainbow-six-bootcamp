@@ -1,17 +1,15 @@
 +++
-cost = "200"
-costCredits = ""
 date = "2015-12-09T15:50:11-05:00"
-description = "Tier 5 skin available for the weapon used by operator."
-image = "/images/gear/skin/.jpg"
+description = "Tier 3 skin available for the 552 Commando used by IQ."
+image = "/images/gear/skin/ishi.jpg"
 modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
-title = "ishi"
+tags = ["weapon mod","skin","tier 3"]
+title = "Ishi"
 type = "weapon-mod"
 
 [cost]
-  renown = ""
-  credits = ""
+  renown = "12000"
+  credits = "320"
   units = ""
 
 [images]

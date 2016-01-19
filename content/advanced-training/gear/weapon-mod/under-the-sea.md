@@ -1,6 +1,4 @@
 +++
-cost = "9600"
-costCredits = "256"
 date = "2016-01-18T12:02:01-05:00"
 description = "Tier 3 skin available for weapons used by GIGN operators."
 image = "/images/gear/skin/under-the-sea-p9.png"
@@ -10,8 +8,8 @@ title = "Under The Sea"
 type = "weapon-mod"
 
 [cost]
-  renown = ""
-  credits = ""
+  renown = "9600"
+  credits = "256"
   units = ""
 
 [images]

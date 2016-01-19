@@ -1,6 +1,4 @@
 +++
-cost = ""
-costCredits = "180"
 date = "2015-12-09T15:48:30-05:00"
 description = "Tier 2 skin available for weapons used by GIGN operators."
 image = "/images/gear/skin/iceman-417.png"
@@ -11,7 +9,7 @@ type = "weapon-mod"
 
 [cost]
   renown = ""
-  credits = ""
+  credits = "180"
   units = ""
 
 [images]

@@ -1,6 +1,4 @@
 +++
-cost = "12000"
-costCredits = "320"
 date = "2015-12-09T15:54:52-05:00"
 description = "Tier 3 skin available for weapons used by GIGN operators."
 image = "/images/gear/skin/stain-glass-p90.png"
@@ -10,8 +8,8 @@ title = "Stain Glass"
 type = "weapon-mod"
 
 [cost]
-  renown = ""
-  credits = ""
+  renown = "12000"
+  credits = "320"
   units = ""
 
 [images]
