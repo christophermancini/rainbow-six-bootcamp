@@ -9,6 +9,11 @@ tags = ["weapon mod","skin","tier 3","sas"]
 title = "Rover"
 type = "weapon-mod"
 
+[cost]
+  renown = "9600"
+  credits = "256"
+  units = ""
+
 [images]
   alt = ""
   src = ""

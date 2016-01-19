@@ -8,6 +8,11 @@ modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "evolution"
 
+[cost]
+  renown = ""
+  credits = ""
+  units = ""
+
 [images]
   alt = ""
   src = ""

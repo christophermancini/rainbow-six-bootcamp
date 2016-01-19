@@ -8,6 +8,11 @@ modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "requin"
 
+[cost]
+  renown = ""
+  credits = ""
+  units = ""
+
 [images]
   alt = ""
   src = ""

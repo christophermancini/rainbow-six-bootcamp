@@ -9,9 +9,12 @@ tags = ["weapon mod", "skin"]
 title = "under the sea"
 type = "weapon-mod"
 
+[cost]
+  renown = ""
+  credits = ""
+  units = ""
+
 [images]
   alt = ""
   src = ""
-
 +++
-

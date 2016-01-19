@@ -1,6 +1,4 @@
 +++
-cost = "12000"
-costCredits = "320"
 date = "2015-12-09T16:00:19-05:00"
 description = "Tier 3 skin available for the G36C used by Ashe."
 image = "/images/gear/skin/bayside-g36c.jpg"
@@ -8,6 +6,11 @@ modType = "skin"
 tags = ["weapon mod","skin","tier 3"]
 title = "Bayside"
 type = "weapon-mod"
+
+[cost]
+  renown = "12000"
+  credits = "320"
+  units = ""
 
 [images]
   alt = ""

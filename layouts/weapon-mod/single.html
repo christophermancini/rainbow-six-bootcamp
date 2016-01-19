@@ -25,8 +25,46 @@
 
             {{ partial "featuredImage" . }}
 
-            {{ .Content }}
+            <div class="row">
+              <div class="col-md-8">
+                <p style="padding: 10px; text-align: center;">
+                  {{ .Description }}
+                </p>
+              </div>
+              <div class="col-md-4">
+                <table class="table">
+                  <tr>
+                    <th colspan="2" style="text-align:center;">Pricing</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Renown</span>
+                    </td>
+                    <td>
+                      {{ with .Params.cost.renown }}{{ . }}{{ else }}N/A{{ end }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">R6 Credits</span>
+                    </td>
+                    <td>
+                      {{ with .Params.cost.credits }}{{ . }}{{ else }}N/A{{ end }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">Uplay Units</span>
+                    </td>
+                    <td>
+                      {{ with .Params.cost.units }}{{ . }}{{ else }}N/A{{ end }}
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
 
+            {{ .Content }}
           </article>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}

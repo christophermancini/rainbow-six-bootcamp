@@ -9,9 +9,13 @@ tags = ["weapon mod", "skin"]
 title = "millesime"
 type = "weapon-mod"
 
+[cost]
+  renown = ""
+  credits = ""
+  units = ""
+
 [images]
   alt = ""
   src = ""
 
 +++
-

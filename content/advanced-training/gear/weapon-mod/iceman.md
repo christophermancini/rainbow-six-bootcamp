@@ -9,6 +9,11 @@ tags = ["weapon mod","skin","tier 5"]
 title = "iceman"
 type = "weapon-mod"
 
+[cost]
+  renown = ""
+  credits = ""
+  units = ""
+
 [images]
   alt = ""
   src = ""

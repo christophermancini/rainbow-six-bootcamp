@@ -9,6 +9,11 @@ tags = ["weapon mod", "skin"]
 title = "belladonna"
 type = "weapon-mod"
 
+[cost]
+  renown = ""
+  credits = ""
+  units = ""
+
 [images]
   alt = ""
   src = ""

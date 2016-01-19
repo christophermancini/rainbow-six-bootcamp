@@ -1,6 +1,4 @@
 +++
-cost = ""
-costCredits = "575"
 date = "2016-01-18T12:03:31-05:00"
 description = "Tier 5 skin available for the PMM used by the Spetsnaz operators."
 image = "/images/gear/skin/trek-pmm.jpg"
@@ -8,6 +6,11 @@ modType = "skin"
 tags = ["weapon mod", "skin","tier 5"]
 title = "Trek"
 type = "weapon-mod"
+
+[cost]
+  renown = ""
+  credits = "575"
+  units = ""
 
 [images]
   alt = ""
