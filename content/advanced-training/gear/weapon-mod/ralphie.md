@@ -4,9 +4,9 @@ title = "Ralphie"
 cost = ""
 costCredits = ""
 description = "Special skin that you was gifted to all players during the 2015 holiday season."
-image = "/images/gear/skin/ralphie.jpg"
+image = "/images/gear/skin/ralphie-l85a2.jpg"
 modType = "skin"
-tags = ["weapon mod","skin"]
+tags = ["weapon mod","skin","special"]
 
 [images]
   src = ""

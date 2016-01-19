@@ -4,7 +4,7 @@ title = "leopard"
 cost = ""
 costCredits = ""
 description = "Special skin that you receive by activating the Rainbow Six Siege Season Pass."
-image = "/images/gear/skin/leopard.jpg"
+image = "/images/gear/skin/leopard-l85a2.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","season pass"]
 
