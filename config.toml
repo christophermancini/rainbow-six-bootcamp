@@ -11,7 +11,7 @@ title = "Rainbow Six Bootcamp"
   tag = "tags"
   operator = "operators"
   cartridge = "cartridges"
-  manufacturer ="manufacturers"
+  manufacturer = "manufacturers"
   class ="classes"
 
 [params]

@@ -5,6 +5,7 @@ image = "/images/gear/skin/acid-rain-417.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2","GIGN"]
 title = "Acid Rain"
+thumbnail = "/images/gear/skin/acid-rain.jpg"
 type = "weapon-mod"
 
 [cost]

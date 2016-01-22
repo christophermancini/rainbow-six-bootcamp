@@ -5,6 +5,7 @@ image = "/images/gear/skin/maui-g36c.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2"]
 title = "Maui"
+thumbnail = "/images/gear/skin/maui-th.jpg"
 type = "weapon-mod"
 
 [cost]

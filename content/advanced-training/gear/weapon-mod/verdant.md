@@ -5,6 +5,7 @@ image = "/images/gear/skin/verdant-5.7-usg.jpg"
 modType = "skin"
 tags = ["weapon mod", "skin","tier 3"]
 title = "Verdant"
+thumbnail = "/images/gear/skin/verdant-th.jpg"
 type = "weapon-mod"
 
 [cost]

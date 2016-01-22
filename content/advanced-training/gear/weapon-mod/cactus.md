@@ -5,6 +5,7 @@ image = "/images/gear/skin/cactus-556xi.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 3"]
 title = "Cactus"
+thumbnail = "/images/gear/skin/cactus-th.jpg"
 type = "weapon-mod"
 
 [cost]

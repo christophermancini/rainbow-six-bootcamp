@@ -5,6 +5,8 @@ description = "Special skin that you receive by activating the Rainbow Six Siege
 image = "/images/gear/skin/snake-l85a2.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","season pass","special"]
+thumbnail = "/images/gear/skin/snake-th.jpg"
+type = "weapon-mod"
 
 [cost]
   renown = ""

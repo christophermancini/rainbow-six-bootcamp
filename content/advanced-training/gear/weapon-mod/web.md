@@ -5,6 +5,8 @@ image = "/images/gear/skin/web-smg-11.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 3","sledge","smoke"]
 title = "Web"
+thumbnail = "/images/gear/skin/web-th.jpg"
+type = "weapon-mod"
 
 [cost]
   renown = "9600"

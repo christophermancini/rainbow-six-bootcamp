@@ -4,7 +4,8 @@ description = "Special skin available for all weapons unlockable in Uplay Club r
 image = "/images/gear/skin/elephant-l85a2.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","special"]
-title = "elephant"
+title = "Elephant"
+thumbnail = "/images/gear/skin/elephant-th.jpg"
 type = "weapon-mod"
 
 [cost]

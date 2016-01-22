@@ -5,6 +5,7 @@ image = "/images/gear/skin/rus-wwii-camo-ots-03.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 1"]
 title = "RUS WWII Camo"
+thumbnail = "/images/gear/skin/rus-wwii-camo-th.jpg"
 type = "weapon-mod"
 
 [cost]

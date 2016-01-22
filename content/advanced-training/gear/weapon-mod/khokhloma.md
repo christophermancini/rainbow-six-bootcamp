@@ -5,6 +5,7 @@ image = "/images/gear/skin/khokhloma-ots-03.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Khokhloma"
+thumbnail = "/images/gear/skin/khokhloma-th.jpg"
 type = "weapon-mod"
 
 [cost]

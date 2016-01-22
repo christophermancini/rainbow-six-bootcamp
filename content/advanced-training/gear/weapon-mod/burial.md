@@ -5,6 +5,7 @@ image = "/images/gear/skin/belladonna-lfp586.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 3","GIGN"]
 title = "Burial"
+thumbnail = "/images/gear/skin/burial-th.jpg"
 type = "weapon-mod"
 
 [cost]

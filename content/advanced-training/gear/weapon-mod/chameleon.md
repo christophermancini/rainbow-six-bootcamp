@@ -4,7 +4,8 @@ description = "Tier 5 skin available for the M45 Meusoc used by FBI SWAT operato
 image = "/images/gear/skin/chameleon-m45-meusoc.jpg"
 modType = "skin"
 tags = ["weapon mod", "skin","tier 5"]
-title = "Toy"
+title = "Chameleon"
+thumbnail = "/images/gear/skin/chameleon-th.jpg"
 type = "weapon-mod"
 
 [cost]

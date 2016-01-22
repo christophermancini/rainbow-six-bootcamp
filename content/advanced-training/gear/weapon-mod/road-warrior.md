@@ -5,6 +5,7 @@ image = "/images/gear/skin/road-warrior-gsh-18.jpg"
 modType = "skin"
 tags = ["weapon mod", "skin","tier 3"]
 title = "Road Warrior"
+thumbnail = "/images/gear/skin/road-warrior-th.jpg"
 type = "weapon-mod"
 
 [cost]

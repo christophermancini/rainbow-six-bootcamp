@@ -5,6 +5,7 @@ image = "/images/gear/skin/mushroom-g8a1.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2"]
 title = "Mushroom"
+thumbnail = "/images/gear/skin/mushroom-th.jpg"
 type = "weapon-mod"
 
 [cost]

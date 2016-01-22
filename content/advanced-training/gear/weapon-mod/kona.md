@@ -5,6 +5,7 @@ image = "/images/gear/skin/kona-417.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2"]
 title = "Kona"
+thumbnail = "/images/gear/skin/kona-th.jpg"
 type = "weapon-mod"
 
 [cost]

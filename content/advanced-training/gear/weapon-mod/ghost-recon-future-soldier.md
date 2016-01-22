@@ -5,6 +5,7 @@ image = "/images/gear/skin/ghost-recon-future-soldier-g36c.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","special"]
 title = "Ghost Recon Future Soldier"
+thumbnail = "/images/gear/skin/ghost-recon-future-soldier-th.jpg"
 type = "weapon-mod"
 
 [cost]

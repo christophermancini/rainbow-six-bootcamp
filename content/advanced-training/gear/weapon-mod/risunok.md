@@ -5,6 +5,7 @@ image = "/images/gear/skin/risunok-gsh-18.jpg"
 modType = "skin"
 tags = ["weapon mod", "skin","tier 5"]
 title = "Risunok"
+thumbnail = "/images/gear/skin/risunok-th.jpg"
 type = "weapon-mod"
 
 [cost]

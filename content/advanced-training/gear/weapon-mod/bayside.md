@@ -5,6 +5,7 @@ image = "/images/gear/skin/bayside-g36c.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 3"]
 title = "Bayside"
+thumbnail = "/images/gear/skin/bayside-th.jpg"
 type = "weapon-mod"
 
 [cost]

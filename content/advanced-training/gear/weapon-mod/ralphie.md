@@ -5,6 +5,8 @@ description = "Special skin that you was gifted to all players during the 2015 h
 image = "/images/gear/skin/ralphie-l85a2.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","special"]
+thumbnail = "/images/gear/skin/ralphie-th.jpg"
+type = "weapon-mod"
 
 [cost]
   renown = ""

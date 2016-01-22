@@ -5,6 +5,7 @@ image = "/images/gear/skin/gbr-wwii-camo-l85a2.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 1","sas"]
 title = "GBR WWII Camo"
+thumbnail = "/images/gear/skin/gbr-wwii-camo-th.jpg"
 type = "weapon-mod"
 
 [cost]

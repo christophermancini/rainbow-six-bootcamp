@@ -5,6 +5,8 @@ image = "/images/gear/skin/fra-reganomics-417.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 1"]
 title = "FRA Reganomics"
+thumbnail = "/images/gear/skin/fra-reganomics-th.jpg"
+type = "weapon-mod"
 
 [cost]
   renown = "1800"

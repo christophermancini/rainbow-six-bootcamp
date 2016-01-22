@@ -5,6 +5,7 @@ image = "/images/gear/skin/millesime-lfp586.png"
 modType = "skin"
 tags = ["weapon mod", "skin"]
 title = "Millesime"
+thumbnail = "/images/gear/skin/millesime-th.jpg"
 type = "weapon-mod"
 
 [cost]

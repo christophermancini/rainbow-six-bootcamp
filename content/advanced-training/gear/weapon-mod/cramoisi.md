@@ -5,6 +5,7 @@ image = "/images/gear/skin/cramoisi-mp5.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Cramoisi"
+thumbnail = "/images/gear/skin/cramoisi-th.jpg"
 type = "weapon-mod"
 
 [cost]

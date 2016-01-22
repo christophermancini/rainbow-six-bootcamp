@@ -5,6 +5,7 @@ image = "/images/gear/skin/under-the-sea-p9.png"
 modType = "skin"
 tags = ["weapon mod", "skin","Tier 3"]
 title = "Under The Sea"
+thumbnail = "/images/gear/skin/under-the-sea-th.jpg"
 type = "weapon-mod"
 
 [cost]

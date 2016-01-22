@@ -5,6 +5,7 @@ image = "/images/gear/skin/modern-usa-camo-g8a1.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 1"]
 title = "Modern USA Camo"
+thumbnail = "/images/gear/skin/modern-usa-camo-th.jpg"
 type = "weapon-mod"
 
 [cost]

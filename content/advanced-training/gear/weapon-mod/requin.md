@@ -5,6 +5,8 @@ image = "/images/gear/skin/requin-f2.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5","GIGN"]
 title = "Requin"
+thumbnail = "/images/gear/skin/requin-th.jpg"
+type = "weapon-mod"
 
 [cost]
   renown = ""

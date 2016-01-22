@@ -5,6 +5,7 @@ image = "/images/gear/skin/dahlia-ots-03.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2"]
 title = "Dahlia"
+thumbnail = "/images/gear/skin/dahlia-th.jpg"
 type = "weapon-mod"
 
 [cost]

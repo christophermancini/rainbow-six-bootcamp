@@ -5,6 +5,7 @@ image = "/images/gear/skin/triple-helix-ots-03.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2"]
 title = "Triple Helix"
+thumbnail = "/images/gear/skin/triple-helix-th.jpg"
 type = "weapon-mod"
 
 [cost]

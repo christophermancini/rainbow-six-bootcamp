@@ -5,6 +5,7 @@ image = "/images/gear/skin/jade-p9.png"
 modType = "skin"
 tags = ["weapon mod", "skin","GIGN","Tier 5"]
 title = "Jade"
+thumbnail = "/images/gear/skin/jade-th.jpg"
 type = "weapon-mod"
 
 [cost]

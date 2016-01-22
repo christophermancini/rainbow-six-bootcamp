@@ -5,6 +5,7 @@ image = "/images/gear/skin/pustoy-6p41.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Pustoy"
+thumbnail = "/images/gear/skin/pustoy-th.jpg"
 type = "weapon-mod"
 
 [cost]

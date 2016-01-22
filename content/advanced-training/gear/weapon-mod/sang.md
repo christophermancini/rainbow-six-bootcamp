@@ -1,10 +1,11 @@
 +++
 date = "2015-12-09T15:54:59-05:00"
-description = "Tier 5 skin available for weapons used by GIGN operators."
+description = "Tier 5 skin available for the P90 used by Doc & Rook."
 image = "/images/gear/skin/sang-p90.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Sang"
+thumbnail = "/images/gear/skin/sang-th.jpg"
 type = "weapon-mod"
 
 [cost]
@@ -15,5 +16,4 @@ type = "weapon-mod"
 [images]
   alt = ""
   src = ""
-
 +++

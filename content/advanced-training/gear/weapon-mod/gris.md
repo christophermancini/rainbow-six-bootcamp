@@ -5,6 +5,7 @@ image = "/images/gear/skin/gris-m45-meusoc.jpg"
 modType = "skin"
 tags = ["weapon mod", "skin","tier 3"]
 title = "Gris"
+thumbnail = "/images/gear/skin/gris-th.jpg"
 type = "weapon-mod"
 
 [cost]

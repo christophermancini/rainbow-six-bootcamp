@@ -5,6 +5,7 @@ image = "/images/gear/skin/molokai-l85a2.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2","sas"]
 title = "Molokai"
+thumbnail = "/images/gear/skin/molokai-th.jpg"
 type = "weapon-mod"
 
 [cost]

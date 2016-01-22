@@ -5,6 +5,7 @@ image = "/images/gear/skin/guerrilla-ak-12.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","special"]
 title = "Guerrilla"
+thumbnail = "/images/gear/skin/guerrilla-th.jpg"
 type = "weapon-mod"
 
 [cost]

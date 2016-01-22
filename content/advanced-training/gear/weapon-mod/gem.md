@@ -5,6 +5,7 @@ image = "/images/gear/skin/gem-556xi.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Gem"
+thumbnail = "/images/gear/skin/gem-th.jpg"
 type = "weapon-mod"
 
 [cost]

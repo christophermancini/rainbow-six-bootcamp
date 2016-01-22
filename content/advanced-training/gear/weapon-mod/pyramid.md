@@ -5,6 +5,7 @@ image = "/images/gear/skin/pyramid-pmm.jpg"
 modType = "skin"
 tags = ["weapon mod", "skin","tier 3","spetsnaz"]
 title = "Pyramid"
+thumbnail = "/images/gear/skin/pyramid-th.jpg"
 type = "weapon-mod"
 
 [cost]

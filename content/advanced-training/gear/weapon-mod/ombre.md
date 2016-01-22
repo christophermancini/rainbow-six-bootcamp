@@ -5,6 +5,7 @@ image = "/images/gear/skin/ombre-sg-cqb.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Ombre"
+thumbnail = "/images/gear/skin/ombre-th.jpg"
 type = "weapon-mod"
 
 [cost]

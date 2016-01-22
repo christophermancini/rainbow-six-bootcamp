@@ -5,6 +5,7 @@ image = "/images/gear/skin/schar-g8a1.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Schar"
+thumbnail = "/images/gear/skin/schar-th.jpg"
 type = "weapon-mod"
 
 [cost]

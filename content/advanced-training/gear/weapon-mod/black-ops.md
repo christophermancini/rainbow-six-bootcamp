@@ -5,6 +5,7 @@ image = "/images/gear/skin/black-ops-ak-12.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Black OPS"
+thumbnail = "/images/gear/skin/black-ops-th.jpg"
 type = "weapon-mod"
 
 [cost]

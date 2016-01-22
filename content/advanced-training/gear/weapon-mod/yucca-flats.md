@@ -5,6 +5,7 @@ image = "/images/gear/skin/yucca-flats-ump45.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Yucca Flats"
+thumbnail = "/images/gear/skin/yucca-flats-th.jpg"
 type = "weapon-mod"
 
 [cost]

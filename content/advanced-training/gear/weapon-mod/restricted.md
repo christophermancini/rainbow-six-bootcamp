@@ -5,6 +5,7 @@ image = "/images/gear/skin/restricted-g36c.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Restricted"
+thumbnail = "/images/gear/skin/restricted-th.jpg"
 type = "weapon-mod"
 
 [cost]

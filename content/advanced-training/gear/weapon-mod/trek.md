@@ -5,6 +5,7 @@ image = "/images/gear/skin/trek-pmm.jpg"
 modType = "skin"
 tags = ["weapon mod", "skin","tier 5"]
 title = "Trek"
+thumbnail = "/images/gear/skin/trek-th.jpg"
 type = "weapon-mod"
 
 [cost]

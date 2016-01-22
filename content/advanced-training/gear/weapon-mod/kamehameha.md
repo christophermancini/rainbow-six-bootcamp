@@ -5,6 +5,7 @@ image = "/images/gear/skin/kamehameha-ots-03.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2"]
 title = "Kamehameha"
+thumbnail = "/images/gear/skin/kamehameha-th.jpg"
 type = "weapon-mod"
 
 [cost]

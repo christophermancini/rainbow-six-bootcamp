@@ -5,6 +5,7 @@ image = "/images/gear/skin/seance-sg-cqb.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 3"]
 title = "Seance"
+thumbnail = "/images/gear/skin/seance-th.jpg"
 type = "weapon-mod"
 
 [cost]

@@ -5,6 +5,7 @@ image = "/images/gear/skin/amazona-mp5k.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 3","mute"]
 title = "Amazona"
+thumbnail = "/images/gear/skin/amazona-th.jpg"
 type = "weapon-mod"
 
 [cost]

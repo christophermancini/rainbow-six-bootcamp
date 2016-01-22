@@ -5,6 +5,7 @@ image = "/images/gear/skin/oahu-g8a1.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2"]
 title = "Oahu"
+thumbnail = "/images/gear/skin/oahu-th.jpg"
 type = "weapon-mod"
 
 [cost]

@@ -5,6 +5,7 @@ image = "/images/gear/skin/ring-sasg-12.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 3"]
 title = "Ring"
+thumbnail = "/images/gear/skin/ring-th.jpg"
 type = "weapon-mod"
 
 [cost]

@@ -5,6 +5,7 @@ image = "/images/gear/skin/ruby-mp5k.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5","mute"]
 title = "Ruby"
+thumbnail = "/images/gear/skin/ruby-th.jpg"
 type = "weapon-mod"
 
 [cost]

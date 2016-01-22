@@ -5,6 +5,8 @@ image = "/images/gear/skin/evolution-417.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 3"]
 title = "Evolution"
+thumbnail = "/images/gear/skin/evolution-th.jpg"
+type = "weapon-mod"
 
 [cost]
   renown = "12000"

@@ -5,6 +5,7 @@ image = "/images/gear/skin/spores-g36c.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2"]
 title = "Spores"
+thumbnail = "/images/gear/skin/spores-th.jpg"
 type = "weapon-mod"
 
 [cost]

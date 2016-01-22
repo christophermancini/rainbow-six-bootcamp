@@ -5,6 +5,7 @@ image = "/images/gear/skin/clockwork-fmg-9.jpg"
 modType = "skin"
 tags = ["weapon mod", "skin", "tier 5", "smoke"]
 title = "Clockwork"
+thumbnail = "/images/gear/skin/clockwork-th.jpg"
 type = "weapon-mod"
 
 [cost]

@@ -5,6 +5,7 @@ image = "/images/gear/skin/deu-wwii-camo-g8a1.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 1","gsg 9"]
 title = "DEU WWII Camo"
+thumbnail = "/images/gear/skin/deu-wwii-camo-th.jpg"
 type = "weapon-mod"
 
 [cost]

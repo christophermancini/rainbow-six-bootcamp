@@ -5,6 +5,8 @@ description = "Special skin for the 552 Commando used by IQ that you receive by 
 image = "/images/gear/skin/porter-552-commando.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","season pass","special"]
+thumbnail = "/images/gear/skin/porter-th.jpg"
+type = "weapon-mod"
 
 [cost]
   renown = ""

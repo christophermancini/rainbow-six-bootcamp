@@ -1,10 +1,11 @@
 +++
 date = "2016-01-17T14:07:22-05:00"
 description = "Tier 5 skin available for the P226 Mk 25 used by SAS operators."
-image = "/images/gear/skin/rookie.jpg"
+image = "/images/gear/skin/rookie-p226-mk-25.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5","sas"]
 title = "Rookie"
+thumbnail = "/images/gear/skin/rookie-th.jpg"
 type = "weapon-mod"
 
 [cost]

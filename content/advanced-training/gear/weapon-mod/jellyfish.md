@@ -5,6 +5,7 @@ image = "/images/gear/skin/jellyfish-g8a1.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 3"]
 title = "Jellyfish"
+thumbnail = "/images/gear/skin/jellyfish-th.jpg"
 type = "weapon-mod"
 
 [cost]

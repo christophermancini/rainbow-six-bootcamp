@@ -5,6 +5,7 @@ image = "/images/gear/skin/politsiya-sasg-12.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
 title = "Politsiya"
+thumbnail = "/images/gear/skin/politsiya-th.jpg"
 type = "weapon-mod"
 
 [cost]

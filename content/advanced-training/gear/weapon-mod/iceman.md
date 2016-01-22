@@ -5,6 +5,7 @@ image = "/images/gear/skin/iceman-417.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2"]
 title = "Iceman"
+thumbnail = "/images/gear/skin/iceman-th.jpg"
 type = "weapon-mod"
 
 [cost]

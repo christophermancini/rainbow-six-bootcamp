@@ -5,6 +5,7 @@ image = "/images/gear/skin/trafalgar-smg-11.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5","sledge","smoke"]
 title = "Trafalgar"
+thumbnail = "/images/gear/skin/trafalgar-th.jpg"
 type = "weapon-mod"
 
 [cost]

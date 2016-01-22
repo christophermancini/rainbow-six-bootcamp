@@ -5,6 +5,7 @@ image = "/images/gear/skin/swe-reganomics-g8a1.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 1"]
 title = "SWE Reganomics"
+thumbnail = "/images/gear/skin/swe-reganomics-th.jpg"
 type = "weapon-mod"
 
 [cost]

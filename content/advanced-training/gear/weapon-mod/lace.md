@@ -4,7 +4,8 @@ description = "Tier 5 skin available for the M1014 used by Thermite, Castle & Pu
 image = "/images/gear/skin/lace-m1014.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5"]
-title = "lace"
+title = "Lace"
+thumbnail = "/images/gear/skin/lace-th.jpg"
 type = "weapon-mod"
 
 [cost]

@@ -5,6 +5,7 @@ image = "/images/gear/skin/glory-g36c.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 4"]
 title = "Glory"
+thumbnail = "/images/gear/skin/glory-th.jpg"
 type = "weapon-mod"
 
 [cost]

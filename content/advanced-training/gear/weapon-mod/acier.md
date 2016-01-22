@@ -5,6 +5,8 @@ image = "/images/gear/skin/acier-417.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5","GIGN"]
 title = "Acier"
+thumbnail = "/images/gear/skin/acier-th.jpg"
+type = "weapon-mod"
 
 [cost]
   renown = ""

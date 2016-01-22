@@ -5,6 +5,7 @@ image = "/images/gear/skin/waves-m590a1.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 2","sas"]
 title = "Waves"
+thumbnail = "/images/gear/skin/waves-th.jpg"
 type = "weapon-mod"
 
 [cost]

@@ -5,6 +5,7 @@ image = "/images/gear/skin/liberte-417.png"
 modType = "skin"
 tags = ["weapon mod","skin","tier 4"]
 title = "Liberte"
+thumbnail = "/images/gear/skin/liberte-th.jpg"
 type = "weapon-mod"
 
 [cost]

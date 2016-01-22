@@ -5,6 +5,7 @@ image = "/images/gear/skin/engraved-590a1.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 5","sas"]
 title = "Engraved"
+thumbnail = "/images/gear/skin/engraved-th.jpg"
 type = "weapon-mod"
 
 [cost]

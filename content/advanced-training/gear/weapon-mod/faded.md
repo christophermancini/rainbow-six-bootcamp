@@ -5,6 +5,7 @@ image = "/images/gear/skin/faded-5.7-usg.jpg"
 modType = "skin"
 tags = ["weapon mod", "skin","tier 5"]
 title = "Faded"
+thumbnail = "/images/gear/skin/faded-th.jpg"
 type = "weapon-mod"
 
 [cost]

@@ -5,6 +5,7 @@ image = "/images/gear/skin/paisley-ak-12.jpg"
 modType = "skin"
 tags = ["weapon mod","skin","tier 3"]
 title = "Paisley"
+thumbnail = "/images/gear/skin/paisley-th.jpg"
 type = "weapon-mod"
 
 [cost]
