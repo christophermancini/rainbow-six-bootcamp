@@ -4,7 +4,7 @@ title = "Turtle"
 description = "Tier 3 skin available for the P12 handgun used by the GSG 9 operators."
 image = "/images/gear/skin/turtle-p12.jpg"
 mod-types = "skin"
-tags = ["Tier 3","GSG 9"]
+tags = ["skin","Tier 3","GSG 9","P12"]
 thumbnail = "/images/gear/skin/turtle-th.png"
 type = "weapon-mod"
 

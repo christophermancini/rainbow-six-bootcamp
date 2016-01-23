@@ -4,7 +4,7 @@ title = "Porter"
 description = "Special skin for the 552 Commando used by IQ that you receive by activating the Rainbow Six Siege Season Pass."
 image = "/images/gear/skin/porter-552-commando.jpg"
 mod-types = "skin"
-tags = ["season pass","special"]
+tags = ["skin","season pass","special","552 Commando","IQ"]
 thumbnail = "/images/gear/skin/porter-th.png"
 type = "weapon-mod"
 
