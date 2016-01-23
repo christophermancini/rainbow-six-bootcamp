@@ -149,50 +149,50 @@
             {{ .Content }}
 
             {{ partial "h2Anchor" (dict "text" "Modifications" "page" .) }}
-            <div class="clearfix">
-              <h3>Sights</h3>
-              {{ if .Params.mods.sight }}
-                {{ range where .Site.Pages "Type" "weapon-mod" }}
-                  {{ if in $.Params.mods.sight (urlize .Title) }}
-                    {{ .Render "gallery" }}
-                  {{ end }}
-                {{ end }}
-              {{ else }}
-                None
-              {{ end }}
-            </div>
-            <div class="clearfix">
-              <h3>Barrel mods</h3>
-              {{ if .Params.mods.barrel }}
-                {{ range where .Site.Pages "Type" "weapon-mod" }}
-                  {{ if in $.Params.mods.barrel (urlize .Title) }}
-                    {{ .Render "gallery" }}
-                  {{ end }}
-                {{ end }}
-              {{ else }}
-                None
-              {{ end }}
-            </div>
-            <div class="clearfix">
-              <h3>Under-barrel mods</h3>
-              {{ if (index .Params.mods "under-barrel") }}
-                {{ range where .Site.Pages "Type" "weapon-mod" }}
-                  {{ if in (index $.Params.mods "under-barrel") (urlize .Title) }}
-                    {{ .Render "gallery" }}
-                  {{ end }}
-                {{ end }}
-              {{ else }}
-                None
-              {{ end }}
-            </div>
-            <div class="clearfix">
-              <h3>Skins</h3>
-              {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
-                {{ if in $.Params.mods.skin (urlize .Title) }}
-                  {{ .Render "gallerySmall" }}
+
+            {{ partial "h2Anchor" (dict "text" "Sights" "page" .) }}
+            {{ if .Params.mods.sight }}
+              {{ range where .Site.Pages "Type" "weapon-mod" }}
+                {{ if in $.Params.mods.sight (urlize .Title) }}
+                  {{ .Render "gallery" }}
                 {{ end }}
               {{ end }}
-            </div>
+            {{ else }}
+              None
+            {{ end }}
+            <div class="clearfix"></div>
+
+            {{ partial "h2Anchor" (dict "text" "Barrel mods" "page" .) }}
+            {{ if .Params.mods.barrel }}
+              {{ range where .Site.Pages "Type" "weapon-mod" }}
+                {{ if in $.Params.mods.barrel (urlize .Title) }}
+                  {{ .Render "gallery" }}
+                {{ end }}
+              {{ end }}
+            {{ else }}
+              None
+            {{ end }}
+            <div class="clearfix"></div>
+
+            {{ partial "h2Anchor" (dict "text" "Under-barrel mods" "page" .) }}
+            {{ if (index .Params.mods "under-barrel") }}
+              {{ range where .Site.Pages "Type" "weapon-mod" }}
+                {{ if in (index $.Params.mods "under-barrel") (urlize .Title) }}
+                  {{ .Render "gallery" }}
+                {{ end }}
+              {{ end }}
+            {{ else }}
+              None
+            {{ end }}
+            <div class="clearfix"></div>
+
+            {{ partial "h2Anchor" (dict "text" "Skins" "page" .) }}
+            {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
+              {{ if in $.Params.mods.skin (urlize .Title) }}
+                {{ .Render "gallerySmall" }}
+              {{ end }}
+            {{ end }}
+            <div class="clearfix"></div>
 
             {{ if isset .Params "images" }}
             {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}

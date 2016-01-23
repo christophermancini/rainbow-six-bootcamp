@@ -20,7 +20,7 @@
         <section class="col-md-8">
           <article class="single-blog-item">
             <h1>{{ partial "title" . }}</h1>
-            {{ range .Data.Pages }}
+            {{ range .Data.Pages.ByTitle }}
               {{ .Render "li" }}
             {{ end }}
           </article>
