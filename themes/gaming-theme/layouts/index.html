@@ -26,7 +26,7 @@
             </p>
           </div>
 
-          {{ $paginator := .Paginate ( first 50 .Data.Pages ) }}
+          {{ $paginator := .Paginate ( first 50 (where .Site.Pages "Type" "post") ) }}
           {{ range $paginator.Pages }}
             {{ .Render "summary" }}
           {{ end }}

@@ -1,8 +1,6 @@
 +++
 date = "2016-01-23T00:56:29-05:00"
-image = ""
 tags = ["operator","JTF2","Buck"]
-thumbnail = ""
 title = "Buck"
 type = "operator"
 video = ""

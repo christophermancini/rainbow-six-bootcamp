@@ -52,6 +52,15 @@
 
             {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
+            {{ partial "h2Anchor" (dict "text" "JTF2" "page" .) }}
+            <div class="clearfix">
+              {{ range where .Site.Pages.ByTitle "Type" "operator" }}
+                {{ if in .Params.tags "JTF2" }}
+                  {{ .Render "gallerySmall" }}
+                {{ end }}
+              {{ end }}
+            </div>
+
             {{ partial "h2Anchor" (dict "text" "SAS" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
