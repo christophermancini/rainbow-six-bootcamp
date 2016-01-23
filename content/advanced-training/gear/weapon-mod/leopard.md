@@ -4,7 +4,7 @@ title = "Leopard"
 description = "Special skin that you receive by activating the Rainbow Six Siege Season Pass. It is part of the Safari Bundle."
 image = "/images/gear/skin/leopard-l85a2.jpg"
 mod-types = "skin"
-tags = ["skin","Safari Bundle""season pass","special"]
+tags = ["skin","Safari bundle","season pass","special"]
 thumbnail = "/images/gear/skin/leaopard-th.png"
 type = "weapon-mod"
 
