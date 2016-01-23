@@ -17,7 +17,6 @@ references = [
 recruit = false
 [mods]
   barrel = ["suppressor", "flash-hider"]
-  grip = []
   skin = [
     "fire",
     "elephant",
@@ -39,7 +38,7 @@ recruit = false
     "rus-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
-  underBarrel = []
+  under-barrel = []
 [specs]
   damage = "180"
   fireRate = ""

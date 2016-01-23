@@ -29,7 +29,15 @@
                 {{ .Render "gallery" }}
               {{ end }}
             {{ end }}
-            <div class="clearfix"></div>
+
+            <div  class="clearfix"></div>
+            <div>
+              View other weapon mods:
+              <a href="/mod-types/sight/">Sights</a>,
+              <a href="/mod-types/barrel/">Barrel mods</a>,
+              <a href="/mod-types/under-barrel/">Under-barrel mods</a>,
+              <a href="/mod-types/skin/">Skins</a>
+            </div>
           </article>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}

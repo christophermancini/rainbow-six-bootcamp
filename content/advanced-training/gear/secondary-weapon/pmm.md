@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor"]
-  grip = []
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "rus-wwii-camo"
   ]
   sight = []
-  underBarrel = ["laser"]
+  under-barrel = ["laser"]
 [specs]
   damage = "58"
   fireRate = ""

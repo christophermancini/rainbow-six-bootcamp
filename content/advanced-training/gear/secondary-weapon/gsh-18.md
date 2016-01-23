@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor","compensator"]
-  grip = []
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "rus-wwii-camo"
   ]
   sight = []
-  underBarrel = []
+  under-barrel = []
 [specs]
   damage = "42"
   fireRate = ""
