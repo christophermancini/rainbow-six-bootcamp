@@ -1,5 +1,5 @@
 +++
-cartridges = ["12-gauge"]
+cartridges = ["12 gauge"]
 classes = ["Shotgun"]
 country = "Russia"
 date = "2015-10-07T15:46:14-04:00"

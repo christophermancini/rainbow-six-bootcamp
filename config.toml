@@ -9,7 +9,6 @@ title = "Rainbow Six Bootcamp"
 preserveTaxonomyNames = true
 
 [taxonomies]
-  post = "/:year/:month/:slug/"
   tag = "tags"
   operator = "operators"
   cartridge = "cartridges"
