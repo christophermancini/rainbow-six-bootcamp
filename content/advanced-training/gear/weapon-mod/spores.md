@@ -2,10 +2,10 @@
 date = "2015-12-09T15:51:13-05:00"
 description = "Tier 2 skin available for the weapons used by FBI SWAT operators."
 image = "/images/gear/skin/spores-g36c.jpg"
-modType = "skin"
-tags = ["weapon mod","skin","tier 2"]
+mod-types = "skin"
+tags = ["Tier 2"]
 title = "Spores"
-thumbnail = "/images/gear/skin/spores-th.jpg"
+thumbnail = "/images/gear/skin/spores-th.png"
 type = "weapon-mod"
 
 [cost]

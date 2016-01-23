@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:37:32-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-mute_229930.png"
-tags = ["operator","sas","mute"]
+tags = ["operator","SAS","Mute"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-mute_229920.png"
 title = "Mute"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-mute_229870.png"
-  ctu = "sas"
+  ctu = "SAS"
   dob = "10/11/1991"
   gender = "M"
   height = "1.70M"

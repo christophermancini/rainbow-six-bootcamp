@@ -7,9 +7,9 @@ description = "Semi-automatic shotgun, favored by the Spetsnaz. Limited range, l
 groupId = 1
 image = "/images/gear/sasg-12.jpg"
 manufacturers = ["KBP Instrument Design Bureau"]
-operators = ["kapkan","tachanka"]
-tags = ["primary weapon","izhmash","saiga-12"]
-title = "SASG 12 (Saiga-12)"
+operators = ["Kapkan","Tachanka"]
+tags = ["primary weapon"]
+title = "SASG-12 (Saiga-12)"
 type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Saiga-12"

@@ -2,7 +2,7 @@
 country = "Russia"
 date = "2015-10-03T22:30:53-04:00"
 image = ""
-tags = ["ctu","spetsnaz","fuze","glaz","kapkan","tachanka"]
+tags = ["ctu","Spetsnaz","Fuze","Glaz","Kapkan","Tachanka"]
 title = "Spetsnaz"
 type = "ctu"
 weight = -5

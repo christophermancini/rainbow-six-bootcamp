@@ -3,9 +3,9 @@ date = "2016-01-17T10:17:12-05:00"
 title = "Tiger"
 description = "Special skin that you receive by activating the Rainbow Six Siege Season Pass."
 image = "/images/gear/skin/tiger-l85a2.jpg"
-modType = "skin"
-tags = ["weapon mod","skin","season pass","special"]
-thumbnail = "/images/gear/skin/tiger-th.jpg"
+mod-types = "skin"
+tags = ["season pass","special"]
+thumbnail = "/images/gear/skin/tiger-th.png"
 type = "weapon-mod"
 
 [cost]

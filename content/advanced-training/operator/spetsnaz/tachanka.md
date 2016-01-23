@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:38:40-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-tachanka_229936.png"
-tags = ["operator","spetsnaz","tachanka"]
+tags = ["operator","Spetsnaz","Tachanka"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-tachanka_229925.png"
 title = "Tachanka"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-tachanka_229876.png"
-  ctu = "spetsnaz"
+  ctu = "Spetsnaz"
   dob = "11/03/1967"
   gender = "M"
   height = "1.83M"

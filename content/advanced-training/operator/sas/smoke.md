@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:37:35-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-smoke_229935.png"
-tags = ["operator","sas","smoke"]
+tags = ["operator","SAS","Smoke"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-smoke_229924.png"
 title = "Smoke"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-smoke_229874.png"
-  ctu = "sas"
+  ctu = "SAS"
   dob = "05/14/1990"
   gender = "M"
   height = "1.73M"

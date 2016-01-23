@@ -2,10 +2,10 @@
 date = "2016-01-18T12:02:01-05:00"
 description = "Tier 3 skin available for weapons used by GIGN operators."
 image = "/images/gear/skin/under-the-sea-p9.png"
-modType = "skin"
+mod-types = "skin"
 tags = ["weapon mod", "skin","Tier 3"]
 title = "Under The Sea"
-thumbnail = "/images/gear/skin/under-the-sea-th.jpg"
+thumbnail = "/images/gear/skin/under-the-sea-th.png"
 type = "weapon-mod"
 
 [cost]

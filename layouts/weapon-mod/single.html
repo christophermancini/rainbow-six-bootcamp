@@ -19,7 +19,10 @@
         <!-- blog-contents -->
         <section class="col-md-8">
           <article class="single-blog-item">
-            <h1>{{ partial "title" . }}</h1>
+            <h1>
+              {{ if .Params.thumbnail }}<img width="61" src="{{ .Params.thumbnail }}">{{ end }}
+              {{ partial "title" . }}
+            </h1>
 
             {{ partial "tags" . }}
 

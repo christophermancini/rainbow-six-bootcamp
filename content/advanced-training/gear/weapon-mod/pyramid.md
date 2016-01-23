@@ -2,10 +2,10 @@
 date = "2016-01-18T12:03:41-05:00"
 description = "Tier 3 skin available for the PMM used by the Spetsnaz operators."
 image = "/images/gear/skin/pyramid-pmm.jpg"
-modType = "skin"
-tags = ["weapon mod", "skin","tier 3","spetsnaz"]
+mod-types = "skin"
+tags = ["weapon mod", "skin","Tier 3","Spetsnaz"]
 title = "Pyramid"
-thumbnail = "/images/gear/skin/pyramid-th.jpg"
+thumbnail = "/images/gear/skin/pyramid-th.png"
 type = "weapon-mod"
 
 [cost]

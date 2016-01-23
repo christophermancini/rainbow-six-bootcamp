@@ -2,7 +2,7 @@
 country = "United States of America"
 date = "2015-10-03T22:30:02-04:00"
 image = ""
-tags = ["ctu","fbi swat","ash","castle","pulse","thermite"]
+tags = ["ctu","FBI SWAT","Ash","Castle","Pulse","Thermite"]
 title = "FBI SWAT"
 type = "ctu"
 weight = -1

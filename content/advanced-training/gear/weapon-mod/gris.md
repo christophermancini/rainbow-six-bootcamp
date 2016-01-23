@@ -2,10 +2,10 @@
 date = "2016-01-18T11:54:09-05:00"
 description = "Tier 3 skin available for the M45 Meusoc used by FBI SWAT operators."
 image = "/images/gear/skin/gris-m45-meusoc.jpg"
-modType = "skin"
-tags = ["weapon mod", "skin","tier 3"]
+mod-types = "skin"
+tags = ["weapon mod", "skin","Tier 3"]
 title = "Gris"
-thumbnail = "/images/gear/skin/gris-th.jpg"
+thumbnail = "/images/gear/skin/gris-th.png"
 type = "weapon-mod"
 
 [cost]

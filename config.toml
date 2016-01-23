@@ -6,19 +6,26 @@ theme = 'gaming-theme'
 languageCode = "en-us"
 title = "Rainbow Six Bootcamp"
 
+preserveTaxonomyNames = true
+
 [taxonomies]
   post = "/:year/:month/:slug/"
   tag = "tags"
   operator = "operators"
   cartridge = "cartridges"
   manufacturer = "manufacturers"
-  class ="classes"
+  class = "classes"
+  mod-type = "mod-types"
 
 [params]
   image = "/images/hqdefault.jpg"
   disqusShortname = "rainbowsixbootcamp"
   CopyExtra = "Rainbow Six Bootcamp was created using content and materials from Rainbow Six: Siege © Ubisoft Entertainment or its licensors."
   siegeSections = ["advanced-training","basic-training"]
+
+[params.services]
+  eagerSite = "Q2mnQ6g7ja"
+  googleAnalytics = "UA-4220075-8"
 
 [params.relatedArticles]
   excludedTags = ["operator","gadget","weapon","ctu"]

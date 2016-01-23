@@ -2,10 +2,10 @@
 date = "2016-01-18T12:03:01-05:00"
 description = "Tier 5 skin available for the GSH-18 used by Spetsnaz operators."
 image = "/images/gear/skin/risunok-gsh-18.jpg"
-modType = "skin"
-tags = ["weapon mod", "skin","tier 5"]
+mod-types = "skin"
+tags = ["weapon mod", "skin","Tier 5"]
 title = "Risunok"
-thumbnail = "/images/gear/skin/risunok-th.jpg"
+thumbnail = "/images/gear/skin/risunok-th.png"
 type = "weapon-mod"
 
 [cost]

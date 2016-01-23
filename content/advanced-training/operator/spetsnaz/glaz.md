@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:38:29-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-glaz_229905.png"
-tags = ["operator","spetsnaz","glaz"]
+tags = ["operator","Spetsnaz","Glaz"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-glaz_229915.png"
 title = "Glaz"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-glaz_229859.png"
-  ctu = "spetsnaz"
+  ctu = "Spetsnaz"
   dob = "07/02/1987"
   gender = "M"
   height = "1.78M"

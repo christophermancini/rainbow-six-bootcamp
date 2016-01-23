@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:37:20-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-sledge_229934.png"
-tags = ["operator","sas","sledge"]
+tags = ["operator","SAS","Sledge"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-sledge_229923.png"
 title = "Sledge"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-sledge_229873.png"
-  ctu = "sas"
+  ctu = "SAS"
   dob = "04/02/1982"
   gadgets = ["breach-charge","frag-grenade"]
   gender = "M"

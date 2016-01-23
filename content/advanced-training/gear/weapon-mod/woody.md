@@ -2,10 +2,10 @@
 date = "2015-12-09T15:58:18-05:00"
 description = "Tier 5 skin available for the M590A1 used by Sledge & Smoke."
 image = "/images/gear/skin/woody-m590a1.jpg"
-modType = "skin"
-tags = ["weapon mod","skin","tier 5","sledge",""]
+mod-types = "skin"
+tags = ["Tier 5","Sledge"]
 title = "Woody"
-thumbnail = "/images/gear/skin/woody-th.jpg"
+thumbnail = "/images/gear/skin/woody-th.png"
 type = "weapon-mod"
 
 [cost]

@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:38:40-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-kapkan_229908.png"
-tags = ["operator","spetsnaz","kapkan"]
+tags = ["operator","Spetsnaz","Kapkan"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-kapkan_229918.png"
 title = "Kapkan"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-kapkan_229866.png"
-  ctu = "spetsnaz"
+  ctu = "Spetsnaz"
   dob = "05/14/1979"
   gender = "M"
   height = "1.80M"

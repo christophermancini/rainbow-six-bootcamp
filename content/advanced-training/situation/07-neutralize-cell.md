@@ -4,8 +4,8 @@ ctu = ""
 date = "2015-09-26T12:37:51-04:00"
 image = ""
 map = "oregon"
-operator = "iq"
-tags = ["situation","iq"]
+operator = "IQ"
+tags = ["situation","IQ"]
 title = "07 Neutralize Cell"
 type = "situation"
 +++

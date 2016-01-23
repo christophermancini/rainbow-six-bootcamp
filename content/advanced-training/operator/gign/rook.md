@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:35:58-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-rook_229933.png"
-tags = ["operator","gign","rook"]
+tags = ["operator","GIGN","Rook"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-rook_229922.png"
 title = "Rook"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-rook_229872.png"
-  ctu = "gign"
+  ctu = "GIGN"
   dob = "1/6/1990"
   gender = "M"
   height = "1.75M"

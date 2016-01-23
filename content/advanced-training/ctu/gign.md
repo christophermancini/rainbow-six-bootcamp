@@ -2,7 +2,7 @@
 country = "France"
 date = "2015-10-03T22:30:34-04:00"
 image = ""
-tags = ["ctu","gign","doc","montagne","rook","twitch"]
+tags = ["ctu","GIGN","Doc","Montagne","Rook","Twitch"]
 title = "GIGN"
 type = "ctu"
 weight = -2

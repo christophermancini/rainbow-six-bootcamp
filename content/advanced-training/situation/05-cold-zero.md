@@ -4,8 +4,8 @@ ctu = ""
 date = "2015-09-26T12:37:51-04:00"
 image = ""
 map = "kanal"
-operator = "glaz"
-tags = ["situation","glaz","kanal"]
+operator = "Glaz"
+tags = ["situation","Glaz","kanal"]
 title = "05 Cold Zero"
 type = "situation"
 +++
