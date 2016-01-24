@@ -9,6 +9,10 @@ type = "gadget"
 unique = true
 +++
 
+The RSD Model1 Shock Drone is a tactical drone that shoots a shock dart to disable traps or injure enemies.
+
 ## Usage
 
 ## Notes
+
+- Cannot jump like a standard operator [drone]({{< ref "drone.md" >}})

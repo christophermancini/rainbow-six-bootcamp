@@ -9,6 +9,10 @@ type = "gadget"
 unique = true
 +++
 
+The UTP1 - Universal Tactical Panel is a bulletproof barricade that is more resistant than the standard ones available to all defenders.
+
 ## Usage
 
 ## Notes
+
+- Cannot be breached with melee hits

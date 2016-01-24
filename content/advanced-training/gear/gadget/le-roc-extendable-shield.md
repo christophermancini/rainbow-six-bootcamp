@@ -9,6 +9,8 @@ type = "gadget"
 unique = true
 +++
 
+The Le Roc Extendable Shield can expand to offer full protection while standing.
+
 ## Usage
 
 ## Notes

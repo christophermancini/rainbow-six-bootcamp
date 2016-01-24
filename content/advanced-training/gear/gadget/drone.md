@@ -6,6 +6,8 @@ type = "gadget"
 unique = false
 +++
 
+Every attacking operator is equipped with a remote controlled drone with a camera allowing them to gain intel inside fortified buildings.
+
 ## Usage
 
 ## Notes

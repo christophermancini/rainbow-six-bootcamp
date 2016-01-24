@@ -9,6 +9,10 @@ type = "gadget"
 unique = true
 +++
 
+The MPD-0 Stim Pistol fires a hypodermic shot to revive himself or teammates from a distance when an operator is down.
+
 ## Usage
 
 ## Notes
+
+- When revived with the Stim Pistol, you have more health than when revived by any other means

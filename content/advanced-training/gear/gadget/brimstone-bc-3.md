@@ -9,6 +9,8 @@ type = "gadget"
 unique = true
 +++
 
+The Brimstone BC-3 Exothermic Charge is a breach charge that is capable of breaching metal reinforced walls.
+
 ## Usage
 
 ## Notes

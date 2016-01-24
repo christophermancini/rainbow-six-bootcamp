@@ -9,6 +9,8 @@ type = "gadget"
 unique = true
 +++
 
+The Caber Tactical Breaching Hammer is capable of creating a large hole in any destructible surface.
+
 ## Usage
 
 ## Notes

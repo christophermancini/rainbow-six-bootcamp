@@ -9,6 +9,8 @@ type = "gadget"
 unique = true
 +++
 
+The Compound M8 is a toxic gas charge that can be remotely detonated.
+
 ## Usage
 
 ## Notes

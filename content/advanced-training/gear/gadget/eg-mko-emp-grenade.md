@@ -9,6 +9,8 @@ type = "gadget"
 unique = true
 +++
 
+The EG MKO EMP Grenade is capable of disabling enemy electronic devices within its blast range.
+
 ## Usage
 
 ## Notes

@@ -9,6 +9,8 @@ type = "gadget"
 unique = true
 +++
 
+The G52 Tactical Shield is an upgrade from a standard ballistic shield that was equipped with a high powered flash device capable of blinding enemies at short range.
+
 ## Usage
 
 ## Notes
