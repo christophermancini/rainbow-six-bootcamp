@@ -26,5 +26,5 @@ The GC90 Signal Disruptor is a critical gadget that offers significant value dur
 ## Notes
 
 - A well timed jump can allow a drone to use its momentum to pass a disruptor
-- If placed under a trap door (with ceilings about 8ft - 10ft high), it will prevent a [breaching charge]({{< ref "breaching-charge.md" >}}) or [Thermite's]({{< ref "thermite.md" >}}) [Brimstone BC-3 Exothermic Charge]({{< ref "brimstone-bc-3.md" >}}) from being able to be detonated
+- If placed under a trap door (with ceilings about 8ft - 10ft high), it will prevent a [breaching charge]({{< ref "breach-charge.md" >}}) or [Thermite's]({{< ref "thermite.md" >}}) [Brimstone BC-3 Exothermic Charge]({{< ref "brimstone-bc-3.md" >}}) from being able to be detonated
 - Placing a disruptor at [Castle's]({{< ref "castle.md" >}}) [UTP1 Universal Tactical Plate]({{< ref "utp1.md">}}) will make it invulnerable to all except [Sledge's]({{< ref "sledge.md">}}) [Caber Tactical Breaching Hammer]({{< ref "caber-tactical-breaching-hammer.md">}}), a [frag grenade]({{< ref "frag-grenade.md">}}) or [Ash's]({{< ref "ash.md">}}) [M120 CREM]({{< ref "m120-crem.md">}})
