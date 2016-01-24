@@ -4,8 +4,8 @@ ctu = "fbi-swat"
 date = "2015-09-26T12:37:51-04:00"
 image = ""
 map = "clubhouse"
-operator = "thermite"
-tags = ["situation","thermite"]
+operator = "Thermite"
+tags = ["situation","Thermite"]
 title = "08 No Intel"
 type = "situation"
 +++

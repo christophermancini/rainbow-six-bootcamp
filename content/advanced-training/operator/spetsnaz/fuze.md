@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:35:25-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-fuze_229884.png"
-tags = ["operator","spetsnaz","fuze"]
+tags = ["operator","Spetsnaz","Fuze"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-fuze_229914.png"
 title = "Fuze"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-fuze_229856.png"
-  ctu = "spetsnaz"
+  ctu = "Spetsnaz"
   dob = "10/12/1982"
   gender = "M"
   height = "1.80M"

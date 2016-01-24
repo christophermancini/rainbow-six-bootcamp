@@ -7,8 +7,8 @@ description = "Close to mid-range submachine gun with high penetration. Favored 
 groupId = 1
 image = "/images/gear/mp7.jpg"
 manufacturers = ["Heckler & Koch"]
-operators = ["bandit"]
-tags = ["primary weapon","mp7"]
+operators = ["Bandit"]
+tags = ["primary weapon","MP7"]
 title = "MP7"
 type = "weapon"
 references = [
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
-  grip = []
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "deu-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser"]
 [specs]
   damage = "38"
   fireRate = "750"

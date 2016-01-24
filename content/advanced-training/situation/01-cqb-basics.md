@@ -1,11 +1,11 @@
 +++
 briefing = ""
-ctu = "sas"
+ctu = "SAS"
 date = "2015-09-26T12:37:51-04:00"
 image = ""
 map = "hereford-base"
 operator = "recruit"
-tags = ["situation","hereford-base"]
+tags = ["situation","Hereford Base"]
 title = "01 CQB Basics"
 type = "situation"
 +++

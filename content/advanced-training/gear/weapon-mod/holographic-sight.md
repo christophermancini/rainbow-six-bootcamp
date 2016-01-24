@@ -2,7 +2,7 @@
 date = "2015-12-09T15:45:14-05:00"
 description = "Replaces iron sights with a holographic precision sight."
 image = "/images/gear/holographic-sight.jpg"
-modType = "sight"
+mod-types = "sight"
 tags = ["weapon mod","sight"]
 title = "Holographic Sight"
 type = "weapon-mod"

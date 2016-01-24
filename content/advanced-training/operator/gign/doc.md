@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:35:53-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-doc_229883.png"
-tags = ["operator","gign","doc"]
+tags = ["operator","GIGN","Doc"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-doc_229913.png"
 title = "Doc"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-doc_229853.png"
-  ctu = "gign"
+  ctu = "GIGN"
   dob = "09/16/1977"
   gender = "M"
   height = "1.77M"

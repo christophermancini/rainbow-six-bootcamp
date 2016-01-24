@@ -7,7 +7,7 @@ description = "Short to medium range submachine gun. High rate of fire and mobil
 groupId = 1
 image = "/images/gear/mp5.jpg"
 manufacturers = ["Heckler & Koch"]
-operators = ["doc","rook"]
+operators = ["Doc","Rook"]
 tags = ["primary weapon"]
 title = "MP5"
 type = "weapon"
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor", "flash-hider"]
-  grip = ["vertical-grip"]
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "fra-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser","vertical-grip"]
 [specs]
   damage = "40"
   fireRate = "800"

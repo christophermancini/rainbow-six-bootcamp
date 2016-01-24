@@ -7,7 +7,7 @@ description = "9mm short range hand gun with high stopping power, favored by Spe
 groupId = 2
 image = "/images/gear/pmm.jpg"
 manufacturers = ["Kalashnikov Concern"]
-operators = ["glaz","fuze","kapkan","tachanka"]
+operators = ["Glaz","Fuze","Kapkan","Tachanka"]
 tags = ["secondary weapon"]
 title = "PMM (Makarov PMM)"
 type = "weapon"
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor"]
-  grip = []
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "rus-wwii-camo"
   ]
   sight = []
-  underBarrel = ["laser"]
+  under-barrel = ["laser"]
 [specs]
   damage = "58"
   fireRate = ""

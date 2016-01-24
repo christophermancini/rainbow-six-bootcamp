@@ -6,9 +6,9 @@ date = "2015-12-06T09:33:00-05:00"
 description = "Medium range carbine, 30 round magazine, medium penetration at optimal range, 690 rounds per minute."
 groupId = 1
 image = "/images/gear/552-commando.jpg"
-manufacturers = ["SIG Sauer"]
-operators = ["iq"]
-tags = ["primary weapon","iq"]
+manufacturers = ["Swiss Arms"]
+operators = ["IQ"]
+tags = ["primary weapon","IQ"]
 title = "552 Commando"
 type = "weapon"
 references = [
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
-  grip = ["vertical-grip"]
   skin = [
     "porter",
     "fire",
@@ -39,7 +38,7 @@ references = [
     "deu-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser","vertical-grip"]
 [specs]
   damage = "50"
   fireRate = "690"

@@ -1,10 +1,10 @@
 +++
 date = "2015-12-09T15:44:23-05:00"
-description = ""
+description = "Mountable laser sight that increases hip fire accuracy."
 image = "/images/gear/laser.jpg"
-modType = "underBarrel"
+mod-types = "under-barrel"
 tags = ["weapon mod"]
-title = "laser"
+title = "Laser"
 type = "weapon-mod"
 
 [cost]

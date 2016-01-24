@@ -1,11 +1,11 @@
 +++
 briefing = ""
-ctu = "spetsnaz"
+ctu = "Spetsnaz"
 date = "2015-09-26T12:37:51-04:00"
 image = ""
 map = "clubhouse"
-operator = "kapkan"
-tags = ["situation","kapkan"]
+operator = "Kapkan"
+tags = ["situation","Kapkan"]
 title = "09 Improvise Defense"
 type = "situation"
 +++

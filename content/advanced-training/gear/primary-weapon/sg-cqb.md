@@ -6,8 +6,8 @@ date = "2015-12-06T09:36:42-05:00"
 description = "Compact pump action 12-gauge shotgun with close range stopping power. Favored by GIGN."
 groupId = 1
 image = "/images/gear/sg-cqb.jpg"
-manufacturers = ["Heckler_%26_Koch","FABARM"]
-operators = ["doc","rook","twitch"]
+manufacturers = ["Heckler & Koch","FABARM"]
+operators = ["Doc","Rook","Twitch"]
 tags = ["primary weapon"]
 title = "SG CQB (FABARM FP6)"
 type = "weapon"
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = []
-  grip = ["vertical-grip"]
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "fra-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser","vertical-grip"]
 [specs]
   damage = "53"
   fireRate = ""

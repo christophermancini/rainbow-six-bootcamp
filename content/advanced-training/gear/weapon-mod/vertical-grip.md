@@ -1,8 +1,8 @@
 +++
 date = "2015-12-09T15:44:15-05:00"
-description = ""
+description = "Vertical grip that decreases a weapon's recoil."
 image = "/images/gear/vertical-grip.jpg"
-modType = "grip"
+mod-types = "under-barrel"
 tags = ["weapon mod","grip"]
 title = "vertical grip"
 type = "weapon-mod"

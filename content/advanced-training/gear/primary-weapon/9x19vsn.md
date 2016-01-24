@@ -7,8 +7,8 @@ description = "Close to mid-range 9mm submachine gun with high penetration."
 groupId = 1
 image = "/images/gear/9x19vsn.jpg"
 manufacturers = ["KBP Instrument Design Bureau"]
-operators = ["kapkan","tachanka"]
-tags = ["primary weapon","kapkan","tachanka","izhmash","spetsnaz"]
+operators = ["Kapkan","Tachanka"]
+tags = ["primary weapon","Kapkan","Tachanka","Spetsnaz"]
 title = "9x19 VSN (Vityaz-SN)"
 type = "weapon"
 references = [
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
-  grip = ["vertical-grip"]
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "rus-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser","vertical-grip"]
 [specs]
   damage = "42"
   fireRate = "750"

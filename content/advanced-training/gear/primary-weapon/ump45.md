@@ -7,7 +7,7 @@ description = "FBI SWAT submachine gun with high stopping power. Use burst fire 
 groupId = 1
 image = "/images/gear/ump45.jpg"
 manufacturers = ["Heckler & Koch"]
-operators = ["castle","pulse"]
+operators = ["Castle","Pulse"]
 tags = ["primary weapon"]
 title = "UMP45"
 type = "weapon"
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
-  grip = ["vertical-grip"]
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "usa-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser","vertical-grip"]
 [specs]
   damage = "48"
   fireRate = "600"

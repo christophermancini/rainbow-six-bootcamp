@@ -7,7 +7,7 @@ description = "9mm close to mid-range submachine gun with moderate recoil and hi
 groupId = 1
 image = "/images/gear/fmg-9.jpg"
 manufacturers = ["Magpul Industries"]
-operators = ["smoke"]
+operators = ["Smoke"]
 tags = ["primary weapon"]
 title = "FMG-9"
 type = "weapon"
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor", "flash-hider"]
-  grip = []
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "gbr-wwii-camo"
   ]
   sight = ["red-dot-sight","reflex-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser"]
 [specs]
   damage = "35"
   fireRate = "800"

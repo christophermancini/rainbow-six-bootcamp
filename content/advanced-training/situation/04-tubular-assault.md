@@ -4,8 +4,8 @@ ctu = "fbi-swat"
 date = "2015-09-26T12:37:51-04:00"
 image = ""
 map = "plane"
-operator = "ash"
-tags = ["situation","ash"]
+operator = "Ash"
+tags = ["situation","Ash"]
 title = "04 Tubular Assault"
 type = "situation"
 +++

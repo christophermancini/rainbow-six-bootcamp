@@ -516,12 +516,12 @@ input[type="checkbox"] {
   border: 1px solid #dadada;
   box-shadow: none;
   margin-bottom: 35px;
-  min-height: 265px;
+  min-height: 275px;
 }
 
 .article-gallery-small-item {
-  margin-bottom: 20px;
-  min-height: 170px;
+  margin-bottom: 14px;
+  min-height: 210px;
 }
 
 .article-gallery-item:hover {
@@ -533,7 +533,7 @@ input[type="checkbox"] {
 }
 
 .article-gallery-item figcaption {
-  padding: 15px 20px;
+  padding: 12px 16px;
   text-align: center;
 }
 
@@ -544,6 +544,12 @@ input[type="checkbox"] {
 .article-gallery-item figcaption h3 {
   font-weight: 400;
   margin: auto;
+  /*text-shadow: 1px 1px 0 #F2F2F2,1px 2px 0 #b1b1b2;*/
+}
+
+.article-gallery-item figcaption h5 {
+  font-weight: 350;
+  margin: 4px 0 4px 0;
   /*text-shadow: 1px 1px 0 #F2F2F2,1px 2px 0 #b1b1b2;*/
 }
 

@@ -7,7 +7,7 @@ description = "Close range 9mm submachine gun with a high rate of fire."
 groupId = 1
 image = "/images/gear/mp5k.jpg"
 manufacturers = ["Heckler & Koch"]
-operators = ["mute"]
+operators = ["Mute"]
 tags = ["primary weapon"]
 title = "MP5K"
 type = "weapon"
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
-  grip = []
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "gbr-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser"]
 [specs]
   damage = "40"
   fireRate = "800"

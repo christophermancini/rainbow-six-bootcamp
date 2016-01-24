@@ -34,7 +34,7 @@
 
             {{ partial "h2Anchor" (dict "text" "Primary Weapons" "page" .) }}
             <div class="clearfix">
-              {{ range where .Site.Pages "Type" "weapon" }}
+              {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
                 {{ if in .Params.tags "primary weapon" }}
                   {{ .Render "gallerySmall" }}
                 {{ end }}
@@ -43,7 +43,7 @@
 
             {{ partial "h2Anchor" (dict "text" "Secondary Weapons" "page" .) }}
             <div class="clearfix">
-              {{ range where .Site.Pages "Type" "weapon" }}
+              {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
                 {{ if in .Params.tags "secondary weapon" }}
                   {{ .Render "gallerySmall" }}
                 {{ end }}

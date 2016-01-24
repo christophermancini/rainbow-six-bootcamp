@@ -7,8 +7,8 @@ description = "GSG 9's medium to long range assault rifle. Capable of firing 770
 groupId = 1
 image = "/images/gear/aug-a2.jpg"
 manufacturers = ["Steyr Mannlicher"]
-operators = ["iq"]
-tags = ["primary weapon","iq"]
+operators = ["IQ"]
+tags = ["primary weapon","IQ"]
 title = "AUG A2"
 type = "weapon"
 references = [
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
-  grip = []
   skin = [
     "bartlett-university",
     "fire",
@@ -39,7 +38,7 @@ references = [
     "deu-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser"]
 [specs]
   damage = "44"
   fireRate = "770"

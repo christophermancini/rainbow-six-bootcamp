@@ -7,7 +7,7 @@ description = "Spetsnaz 9mm short range semi-automatic pistol, with low recoil a
 groupId = 2
 image = "/images/gear/gsh-18.jpg"
 manufacturers = ["KBP Instrument Design Bureau"]
-operators = ["glaz","fuze","kapkan","tachanka"]
+operators = ["Glaz","Fuze","Kapkan","Tachanka"]
 tags = ["secondary weapon"]
 title = "GSH 18"
 type = "weapon"
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor","compensator"]
-  grip = []
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "rus-wwii-camo"
   ]
   sight = []
-  underBarrel = []
+  under-barrel = []
 [specs]
   damage = "42"
   fireRate = ""

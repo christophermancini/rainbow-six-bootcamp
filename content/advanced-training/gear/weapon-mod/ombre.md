@@ -1,11 +1,11 @@
 +++
 date = "2015-12-09T15:53:22-05:00"
-description = "Tier 5 skin available for weapons used by GIGN operators."
+description = "Tier 5 skin available for the SG-CQB used by operators Doc & Rook."
 image = "/images/gear/skin/ombre-sg-cqb.png"
-modType = "skin"
-tags = ["weapon mod","skin","tier 5"]
+mod-types = "skin"
+tags = ["skin","Tier 5","SG-CQB","Doc","Rook"]
 title = "Ombre"
-thumbnail = "/images/gear/skin/ombre-th.jpg"
+thumbnail = "/images/gear/skin/ombre-th.png"
 type = "weapon-mod"
 
 [cost]

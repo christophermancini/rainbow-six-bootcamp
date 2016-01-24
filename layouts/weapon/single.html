@@ -38,7 +38,11 @@
                       <span style="font-weight: bold; font-size: .85em;">Class</span>
                     </td>
                     <td>
-                      <a href="/classes/{{ urlize (index .Params.classes 0) }}/">{{ index .Params.classes 0 }}</a>
+                      {{ range .Params.classes }}
+                      <a href="/classes/{{ urlize . }}/">
+                        {{ . }}
+                      </a>&nbsp;&nbsp;
+                      {{ end }}
                     </td>
                   </tr>
                   <tr>
@@ -48,45 +52,45 @@
                     <td>
                       {{ if ne .Params.recruit false }}<a href="{{ ref . "operators.md#recruit"}}">Recruit</a>,{{ end }}
                       {{ range .Params.operators }}
-                        {{ if eq . "ash" }}
+                        {{ if eq . "Ash" }}
                           <a href="{{ $.Site.Params.operatorRel.ash.src }}">{{ $.Site.Params.operatorRel.ash.title }}</a>
-                        {{ else if eq . "castle" }}
+                        {{ else if eq . "Castle" }}
                           <a href="{{ $.Site.Params.operatorRel.castle.src }}">{{ $.Site.Params.operatorRel.castle.title }}</a>
-                        {{ else if eq . "pulse" }}
+                        {{ else if eq . "Pulse" }}
                           <a href="{{ $.Site.Params.operatorRel.pulse.src }}">{{ $.Site.Params.operatorRel.pulse.title }}</a>
-                        {{ else if eq . "thermite" }}
+                        {{ else if eq . "Thermite" }}
                           <a href="{{ $.Site.Params.operatorRel.thermite.src }}">{{ $.Site.Params.operatorRel.thermite.title }}</a>
-                        {{ else if eq . "doc" }}
+                        {{ else if eq . "Doc" }}
                           <a href="{{ $.Site.Params.operatorRel.doc.src }}">{{ $.Site.Params.operatorRel.doc.title }}</a>
-                        {{ else if eq . "montagne" }}
+                        {{ else if eq . "Montagne" }}
                           <a href="{{ $.Site.Params.operatorRel.montagne.src }}">{{ $.Site.Params.operatorRel.montagne.title }}</a>
-                        {{ else if eq . "rook" }}
+                        {{ else if eq . "Rook" }}
                           <a href="{{ $.Site.Params.operatorRel.rook.src }}">{{ $.Site.Params.operatorRel.rook.title }}</a>
-                        {{ else if eq . "twitch" }}
+                        {{ else if eq . "Twitch" }}
                           <a href="{{ $.Site.Params.operatorRel.twitch.src }}">{{ $.Site.Params.operatorRel.twitch.title }}</a>
-                        {{ else if eq . "bandit" }}
+                        {{ else if eq . "Bandit" }}
                           <a href="{{ $.Site.Params.operatorRel.bandit.src }}">{{ $.Site.Params.operatorRel.bandit.title }}</a>
-                        {{ else if eq . "blitz" }}
+                        {{ else if eq . "Blitz" }}
                           <a href="{{ $.Site.Params.operatorRel.blitz.src }}">{{ $.Site.Params.operatorRel.blitz.title }}</a>
-                        {{ else if eq . "iq" }}
+                        {{ else if eq . "IQ" }}
                           <a href="{{ $.Site.Params.operatorRel.iq.src }}">{{ $.Site.Params.operatorRel.iq.title }}</a>
-                        {{ else if eq . "jäger" }}
+                        {{ else if eq . "Jäger" }}
                           <a href="{{ $.Site.Params.operatorRel.jager.src }}">{{ $.Site.Params.operatorRel.jager.title }}</a>
-                        {{ else if eq . "mute" }}
+                        {{ else if eq . "Mute" }}
                           <a href="{{ $.Site.Params.operatorRel.mute.src }}">{{ $.Site.Params.operatorRel.mute.title }}</a>
-                        {{ else if eq . "sledge" }}
+                        {{ else if eq . "Sledge" }}
                           <a href="{{ $.Site.Params.operatorRel.sledge.src }}">{{ $.Site.Params.operatorRel.sledge.title }}</a>
-                        {{ else if eq . "smoke" }}
+                        {{ else if eq . "Smoke" }}
                           <a href="{{ $.Site.Params.operatorRel.smoke.src }}">{{ $.Site.Params.operatorRel.smoke.title }}</a>
-                        {{ else if eq . "thatcher" }}
+                        {{ else if eq . "Thatcher" }}
                           <a href="{{ $.Site.Params.operatorRel.thatcher.src }}">{{ $.Site.Params.operatorRel.thatcher.title }}</a>
-                        {{ else if eq . "fuze" }}
+                        {{ else if eq . "Fuze" }}
                           <a href="{{ $.Site.Params.operatorRel.fuze.src }}">{{ $.Site.Params.operatorRel.fuze.title }}</a>
-                        {{ else if eq . "glaz" }}
+                        {{ else if eq . "Glaz" }}
                           <a href="{{ $.Site.Params.operatorRel.glaz.src }}">{{ $.Site.Params.operatorRel.glaz.title }}</a>
-                        {{ else if eq . "kapkan" }}
+                        {{ else if eq . "Kapkan" }}
                           <a href="{{ $.Site.Params.operatorRel.kapkan.src }}">{{ $.Site.Params.operatorRel.kapkan.title }}</a>
-                        {{ else if eq . "tachanka" }}
+                        {{ else if eq . "Tachanka" }}
                           <a href="{{ $.Site.Params.operatorRel.tachanka.src }}">{{ $.Site.Params.operatorRel.tachanka.title }}</a>
                         {{ end }}
                       {{ end }}
@@ -97,9 +101,11 @@
                       <span style="font-weight: bold; font-size: .85em;">Manufacturer</span>
                     </td>
                     <td>
-                      <a href="/manufacturers/{{ urlize (index .Params.manufacturers 0) }}/">
-                        {{ index .Params.manufacturers 0 }}
-                      </a>
+                      {{ range .Params.manufacturers }}
+                      <a href="/manufacturers/{{ urlize . }}/">
+                        {{ . }}
+                      </a>&nbsp;&nbsp;
+                      {{ end }}
                     </td>
                   </tr>
                   <tr>
@@ -143,46 +149,50 @@
             {{ .Content }}
 
             {{ partial "h2Anchor" (dict "text" "Modifications" "page" .) }}
-            <div class="clearfix">
-              <h3>Sights</h3>
+
+            {{ partial "h2Anchor" (dict "text" "Sights" "page" .) }}
+            {{ if .Params.mods.sight }}
               {{ range where .Site.Pages "Type" "weapon-mod" }}
                 {{ if in $.Params.mods.sight (urlize .Title) }}
                   {{ .Render "gallery" }}
                 {{ end }}
               {{ end }}
-            </div>
-            <div class="clearfix">
-              <h3>Barrel Mods</h3>
+            {{ else }}
+              None
+            {{ end }}
+            <div class="clearfix"></div>
+
+            {{ partial "h2Anchor" (dict "text" "Barrel mods" "page" .) }}
+            {{ if .Params.mods.barrel }}
               {{ range where .Site.Pages "Type" "weapon-mod" }}
                 {{ if in $.Params.mods.barrel (urlize .Title) }}
                   {{ .Render "gallery" }}
                 {{ end }}
               {{ end }}
-            </div>
-            <div class="clearfix">
-              <h3>Grips</h3>
+            {{ else }}
+              None
+            {{ end }}
+            <div class="clearfix"></div>
+
+            {{ partial "h2Anchor" (dict "text" "Under-barrel mods" "page" .) }}
+            {{ if (index .Params.mods "under-barrel") }}
               {{ range where .Site.Pages "Type" "weapon-mod" }}
-                {{ if in $.Params.mods.grip (urlize .Title) }}
+                {{ if in (index $.Params.mods "under-barrel") (urlize .Title) }}
                   {{ .Render "gallery" }}
                 {{ end }}
               {{ end }}
-            </div>
-            <div class="clearfix">
-              <h3>Under Barrel Mods</h3>
-              {{ range where .Site.Pages "Type" "weapon-mod" }}
-                {{ if in $.Params.mods.underBarrel (urlize .Title) }}
-                  {{ .Render "gallery" }}
-                {{ end }}
+            {{ else }}
+              None
+            {{ end }}
+            <div class="clearfix"></div>
+
+            {{ partial "h2Anchor" (dict "text" "Skins" "page" .) }}
+            {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
+              {{ if in $.Params.mods.skin (urlize .Title) }}
+                {{ .Render "gallerySmall" }}
               {{ end }}
-            </div>
-            <div class="clearfix">
-              <h3>Skins</h3>
-              {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
-                {{ if in $.Params.mods.skin (urlize .Title) }}
-                  {{ .Render "gallery" }}
-                {{ end }}
-              {{ end }}
-            </div>
+            {{ end }}
+            <div class="clearfix"></div>
 
             {{ if isset .Params "images" }}
             {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}

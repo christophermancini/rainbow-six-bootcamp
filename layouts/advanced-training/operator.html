@@ -26,7 +26,7 @@
             {{ partial "h2Anchor" (dict "text" "FBI SWAT" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
-                {{ if in .Params.tags "fbi swat" }}
+                {{ if in .Params.tags "FBI SWAT" }}
                   {{ .Render "gallerySmall" }}
                 {{ end }}
               {{ end }}
@@ -35,7 +35,7 @@
             {{ partial "h2Anchor" (dict "text" "GIGN" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
-                {{ if in .Params.tags "gign" }}
+                {{ if in .Params.tags "GIGN" }}
                   {{ .Render "gallerySmall" }}
                 {{ end }}
               {{ end }}
@@ -44,7 +44,7 @@
             {{ partial "h2Anchor" (dict "text" "GSG 9" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
-                {{ if in .Params.tags "gsg 9" }}
+                {{ if in .Params.tags "GSG 9" }}
                   {{ .Render "gallerySmall" }}
                 {{ end }}
               {{ end }}
@@ -52,10 +52,19 @@
 
             {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
+            {{ partial "h2Anchor" (dict "text" "JTF2" "page" .) }}
+            <div class="clearfix">
+              {{ range where .Site.Pages.ByTitle "Type" "operator" }}
+                {{ if in .Params.tags "JTF2" }}
+                  {{ .Render "gallerySmall" }}
+                {{ end }}
+              {{ end }}
+            </div>
+
             {{ partial "h2Anchor" (dict "text" "SAS" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
-                {{ if in .Params.tags "sas" }}
+                {{ if in .Params.tags "SAS" }}
                   {{ .Render "gallerySmall" }}
                 {{ end }}
               {{ end }}
@@ -64,7 +73,7 @@
             {{ partial "h2Anchor" (dict "text" "Spetsnaz" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
-                {{ if in .Params.tags "spetsnaz" }}
+                {{ if in .Params.tags "Spetsnaz" }}
                   {{ .Render "gallerySmall" }}
                 {{ end }}
               {{ end }}

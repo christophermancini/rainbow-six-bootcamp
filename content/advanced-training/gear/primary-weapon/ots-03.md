@@ -7,8 +7,8 @@ description = "Long range rifle. High recoil per shot with a very small magazine
 groupId = 1
 image = "/images/gear/ots-03.jpg"
 manufacturers = ["KBP Instrument Design Bureau"]
-operators = ["glaz"]
-tags = ["primary weapon","glaz"]
+operators = ["Glaz"]
+tags = ["primary weapon","Glaz"]
 title = "OTs-03 (Dragunov SVU)"
 type = "weapon"
 references = [
@@ -17,7 +17,6 @@ references = [
 recruit = false
 [mods]
   barrel = ["suppressor", "flash-hider"]
-  grip = []
   skin = [
     "fire",
     "elephant",
@@ -39,7 +38,7 @@ recruit = false
     "rus-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
-  underBarrel = []
+  under-barrel = []
 [specs]
   damage = "180"
   fireRate = ""

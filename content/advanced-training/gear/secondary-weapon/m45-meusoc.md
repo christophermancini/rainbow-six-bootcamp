@@ -7,8 +7,8 @@ description = "Semi-automatic, high caliber pistol with medium stopping power an
 groupId = 2
 image = "/images/gear/m45-meusoc.jpg"
 manufacturers = ["FN Herstal"]
-operators = ["ash","castle","thermite","pulse"]
-tags = ["ash","secondary weapon"]
+operators = ["Ash","Castle","Thermite","Pulse"]
+tags = ["Ash","secondary weapon"]
 title = "M45 Meusoc"
 type = "weapon"
 references = [
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor"]
-  grip = []
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "usa-wwii-camo"
   ]
   sight = []
-  underBarrel = ["laser"]
+  under-barrel = ["laser"]
 [specs]
   damage = "50"
   fireRate = ""

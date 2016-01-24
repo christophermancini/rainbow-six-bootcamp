@@ -1,11 +1,11 @@
 +++
 briefing = ""
-ctu = "sas"
+ctu = "SAS"
 date = "2015-09-26T12:37:51-04:00"
 image = ""
 map = "hereford-base"
-operator = "smoke"
-tags = ["situation","smoke","sas","hereford-base"]
+operator = "Smoke"
+tags = ["situation","Smoke","SAS","Hereford Base"]
 title = "06 Asset Protection"
 type = "situation"
 +++

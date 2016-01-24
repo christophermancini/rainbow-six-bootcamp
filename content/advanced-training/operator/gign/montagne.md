@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:35:47-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-montagne_229929.png"
-tags = ["operator","gign","montagne"]
+tags = ["operator","GIGN","Montagne"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-montagne_229919.png"
 title = "Montagne"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Heavy"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-montagne_229868.png"
-  ctu = "gign"
+  ctu = "GIGN"
   dob = "10/11/1968"
   gender = "M"
   height = "1.90M"

@@ -7,7 +7,7 @@ description = "High rate of fire and a large magazine adapts the 9mm submachine 
 groupId = 2
 image = "/images/gear/smg-11.jpg"
 manufacturers = ["Military Armament Corporation"]
-operators = ["sledge","smoke"]
+operators = ["Sledge","Smoke"]
 tags = ["secondary weapon"]
 title = "SMG 11 (MAC-11)"
 type = "weapon"
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
-  grip = ["vertical-grip"]
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "gbr-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser","vertical-grip"]
 [specs]
   damage = "34"
   fireRate = "1270"

@@ -7,7 +7,7 @@ description = "FBI SWAT standard issue assault rifle. Highly customizable, for m
 groupId = 1
 image = "/images/gear/r4-c.jpg"
 manufacturers = ["Remington Arms"]
-operators = ["ash"]
+operators = ["Ash"]
 tags = ["primary weapon"]
 title = "R4-C"
 type = "weapon"
@@ -16,7 +16,6 @@ references = [
 ]
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
-  grip = ["vertical-grip"]
   skin = [
     "fire",
     "elephant",
@@ -38,7 +37,7 @@ references = [
     "usa-wwii-camo"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
-  underBarrel = ["laser"]
+  under-barrel = ["laser","vertical-grip"]
 [specs]
   damage = "44"
   fireRate = "860"

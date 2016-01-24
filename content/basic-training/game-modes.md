@@ -35,29 +35,29 @@ Multiplayer mode places you with four other operators playing against five opera
 
 ### Casual - Ranked - Hardcore Comparison
 
-|                                 | Casual | Ranked<br>(launch) | Ranked<br>(Jan. 2016) | Hardcore<br>(coming 2016) |
-| ------------------------------- | :----: | :-------------: | :----------------: | :-----------------------------: |
-| Clearance Level Required        | 0      | 20              | 20                 | 20                              |
-| # of rounds                     | Bo5    | Bo7             | Bo7                | Bo7                             |
-| Overtime                        | SD     | Bo3             | Bo3                | Bo3                             |
-| Compass                         | 1      | 1               | 1                  | 1                               |
-| Crosshair                       | 1      | 1               | 1                  | 1                               |
-| Enemy name                      | 1      | 1               | 1                  | 0                               |
-| Frag grenade indicator          | 1      | 0               | 1                  | 0                               |
-| Friendly name                   | 1      | 1               | 1                  | 1                               |
-| Friendly outline                | 1      | 0               | 1                  | 0                               |
-| Health bar                      | 1      | 1               | 1                  | 1                               |
-| Hit indicator                   | 1      | 1               | 1                  | 1                               |
-| Hit indicator<br>(gadgets & FF) | 1      | 1               | 1                  | 0                               |
-| Kill cam                        | 1      | 0               | 0                  | 0                               |
-| Kill indicator on crosshair     | 1      | 0               | 1                  | 1                               |
-| Reload indicator                | 1      | 0               | 1                  | 0                               |
-| Scoring indicator               | 1      | 0               | 1                  | 0                               |
-| Spawn vote                      | 0      | 1               | 1                  | 1                               |
-| Spotted warning                 | 1      | 1               | 1                  | 0                               |
-| Threat indicator                | 1      | 0               | 1                  | 0                               |
-| VS notification                 | 1      | 1               | 1                  | 1                               |
-| Weapon panel                    | 1      | 1               | 1                  | 1                               |
+|                                 | Casual | Ranked | Hardcore<br>(coming 2016) |
+| ------------------------------- | :----: | :----: | :-----------------------: |
+| Clearance Level Required        | 0      | 20     | 20                        |
+| # of rounds                     | Bo5    | Bo7    | Bo7                       |
+| Overtime                        | SD     | Bo3    | Bo3                       |
+| Compass                         | 1      | 1      | 1                         |
+| Crosshair                       | 1      | 1      | 1                         |
+| Enemy name                      | 1      | 1      | 0                         |
+| Frag grenade indicator          | 1      | 1      | 0                         |
+| Friendly name                   | 1      | 1      | 1                         |
+| Friendly outline                | 1      | 1      | 0                         |
+| Health bar                      | 1      | 1      | 1                         |
+| Hit indicator                   | 1      | 1      | 1                         |
+| Hit indicator<br>(gadgets & FF) | 1      | 1      | 0                         |
+| Kill cam                        | 1      | 0      | 0                         |
+| Kill indicator on crosshair     | 1      | 1      | 1                         |
+| Reload indicator                | 1      | 1      | 0                         |
+| Scoring indicator               | 1      | 1      | 0                         |
+| Spawn vote                      | 0      | 1      | 1                         |
+| Spotted warning                 | 1      | 1      | 0                         |
+| Threat indicator                | 1      | 1      | 0                         |
+| VS notification                 | 1      | 1      | 1                         |
+| Weapon panel                    | 1      | 1      | 1                         |
 
 **Legend**
 

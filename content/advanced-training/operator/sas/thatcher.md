@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:37:26-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-thatcher_229937.png"
-tags = ["operator","sas","thatcher"]
+tags = ["operator","SAS","Thatcher"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-thatcher_229926.png"
 title = "Thatcher"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-thatcher_229877.png"
-  ctu = "sas"
+  ctu = "SAS"
   dob = "6/22/1961"
   gender = "M"
   height = "1.80M"

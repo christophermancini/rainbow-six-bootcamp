@@ -101,7 +101,7 @@
             {{ partial "h2Anchor" (dict "text" "Loadout" "page" .) }}
             {{ $operator := lower .Title }}
             {{ range $taxonomyName, $values := .Site.Taxonomies.operators }}
-              {{ if eq $taxonomyName $operator }}
+              {{ if eq (lower $taxonomyName) $operator }}
                 {{ range $values.Pages.GroupByParam "groupId" }}
                   <div class="clearfix">
                     {{ if eq .Key 0 }}<h3>Unique Item</h3>{{ end }}

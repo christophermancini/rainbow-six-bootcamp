@@ -1,7 +1,7 @@
 +++
 date = "2015-09-26T12:35:40-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-twitch_229845.png"
-tags = ["operator","gign","twitch"]
+tags = ["operator","GIGN","Twitch"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-twitch_229928.png"
 title = "Twitch"
 type = "operator"
@@ -14,7 +14,7 @@ references = [
 [info]
   armor = "Medium"
   badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-twitch_229879.png"
-  ctu = "gign"
+  ctu = "GIGN"
   dob = "10/12/1988"
   gender = "M"
   height = "1.68M"
