@@ -1,9 +1,17 @@
 ## TODO
 
-1. Skin thumbnails
-1. Skin info
-1. Skin gallery images of skin applied to different weapons
+1. Skin gallery images of skin applied to different weapons [IN PROGRESS]
+1. Gadget info [IN PROGRESS]
+1. Gadget videos
+1. Weapon mods info
+1. Weapon mods images
 1. House map drone video
+1. Situations info
+1. Situations video
+1. Situations images
+1. Analysis of recoil
+1. Analysis of movement noise
+1. Analysis of weapon noise
 1. Bank map info
 1. Bank map drone video
 1. Bank map drone images
@@ -49,16 +57,6 @@
 1. Plane map drone images
 1. Plane map camera images
 1. Plane map camera video
-1. Gadget info
-1. Gadget videos
-1. Weapon mods info
-1. Weapon mods images
-1. Situations info
-1. Situations video
-1. Situations images
-1. Analysis of recoil
-1. Analysis of movement noise
-1. Analysis of weapon noise
 
 ## Commands
 

@@ -14,6 +14,6 @@ type = "weapon-mod"
   units = ""
 
 [images]
-  src = ""
-  alt = ""
+  src = "/images/gear/skin/dev-tester-rc-4-live.jpg"
+  alt = "Dev Tester skin on the RC-4."
 +++

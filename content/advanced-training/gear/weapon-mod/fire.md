@@ -14,6 +14,9 @@ type = "weapon-mod"
   units = ""
 
 [images]
-  alt = ""
-  src = ""
+  src = "/images/gear/skin/fire-mp5k-live.jpg"
+  alt = "Fire skin on the MP5K."
+[images]
+  src = "/images/gear/skin/fire-5.7-usg-live.jpg"
+  alt = "Fire skin on the 5.7 USG."
 +++
