@@ -7,9 +7,8 @@ tags = ["gadget","Thatcher"]
 title = "EG MKO (EMP Grenade)"
 type = "gadget"
 unique = true
-
 +++
 
-# Description
+## Usage
 
-# Usage
+## Notes

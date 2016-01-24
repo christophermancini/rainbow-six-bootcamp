@@ -8,11 +8,11 @@ title = "EDD MK II (Entry Denial Device)"
 type = "gadget"
 unique = true
 
-[images]
+[[images]]
   src = "/images/gear/skin/edd-mk-ii-install-live.jpg"
   alt = "Snapshot of Kapkan installing the EDD MK II."
 
-[images]
+[[images]]
   src = "/images/gear/skin/edd-mk-ii-live.jpg"
   alt = "Snapshot of how it looks in game on an barricaded door way."
 +++

@@ -8,7 +8,7 @@ title = "R1N \"Rhino\" Armor Pack"
 type = "gadget"
 unique = true
 
-[images]
+[[images]]
   src = "/images/gear/skin/r1n-rhino-armor-live.jpg"
   alt = "In game screenshot of Rook's R1N Rhino Armor pack."
 +++

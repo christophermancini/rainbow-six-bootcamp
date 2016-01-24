@@ -7,9 +7,8 @@ tags = ["gadget","Montagne"]
 title = "Le Roc (Extendable Shield)"
 type = "gadget"
 unique = true
-
 +++
 
-# Description
+## Usage
 
-# Usage
+## Notes

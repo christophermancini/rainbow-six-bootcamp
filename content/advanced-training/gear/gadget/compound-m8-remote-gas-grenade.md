@@ -7,9 +7,8 @@ tags = ["gadget"]
 title = "Compound M8 (Remote Gas Grenade)"
 type = "gadget"
 unique = true
-
 +++
 
-# Description
+## Usage
 
-# Usage
+## Notes

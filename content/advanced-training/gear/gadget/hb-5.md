@@ -8,7 +8,7 @@ title = "HB-5 Cardiac Sensor"
 type = "gadget"
 unique = true
 
-[images]
+[[images]]
   src = "/images/gear/skin/gb-5-live.jpg"
   alt = "Snapshot of Pulse using his HB-5."
 +++
@@ -16,6 +16,5 @@ unique = true
 The HB-5 Cardiac Sensor is capable of detecting heartbeats at a short distance through all obstacles.
 
 ## Usage
-
 
 ## Notes

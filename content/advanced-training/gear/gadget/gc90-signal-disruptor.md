@@ -8,11 +8,11 @@ title = "GC90 \"Moni\" Signal Disruptor"
 type = "gadget"
 unique = true
 
-[images]
+[[images]]
   src = "/images/gear/skin/gc90-drone-scramble.jpg"
   alt = "What its like to get your drone caught by Mute's GC90."
 
-[images]
+[[images]]
   src = "/images/gear/skin/gc90-well-placed-result.jpg"
   alt = "Effective placement of Mute's GC90 can provide your team an edge."
 +++

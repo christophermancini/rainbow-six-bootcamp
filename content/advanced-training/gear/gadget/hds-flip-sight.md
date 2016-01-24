@@ -9,8 +9,8 @@ type = "gadget"
 unique = true
 +++
 
-# Description
-
 The HDS Flip Sight allows the operator to quickly change between the standard sights to a barrel mounted scope. It offers the ultimate versatility for an operator who frequently switches from sniping to short range combat.
 
-# Usage
+## Usage
+
+## Notes

@@ -12,4 +12,6 @@ unique = false
 
 Deployable charge capable of blowing up walls, floors and barricades.
 
-# Usage
+## Usage
+
+## Notes

@@ -9,9 +9,9 @@ type = "gadget"
 unique = true
 +++
 
-# Description
-
 The CED-1 is a defensive device used to prevent attackers from being able to mount breaching charges
 or other devices onto metallic surfaces (reinforced walls, windows, or doors) and barbed wire.
 
-# Usage
+## Usage
+
+## Notes

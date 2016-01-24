@@ -11,4 +11,6 @@ unique = false
 
 Fragmentation grenade that explodes shortly after the pin is pulled.
 
-# Usage
+## Usage
+
+## Notes

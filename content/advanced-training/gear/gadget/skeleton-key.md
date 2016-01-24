@@ -11,4 +11,6 @@ unique = true
 
 Toggles under-barrel shotgun attachment on his main weapon.
 
-# Usage
+## Usage
+
+## Notes

@@ -12,4 +12,6 @@ unique = false
 
 Deployable crouch-height cover that blocks all weapon damage.
 
-# Usage
+## Usage
+
+## Notes

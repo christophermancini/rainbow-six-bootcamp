@@ -9,5 +9,6 @@ type = "gadget"
 unique = true
 +++
 
+## Usage
 
-# Usage
+## Notes

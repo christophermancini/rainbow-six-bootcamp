@@ -12,4 +12,6 @@ unique = false
 
 Grenade that emits smoke which obscures vision.
 
-# Usage
+## Usage
+
+## Notes

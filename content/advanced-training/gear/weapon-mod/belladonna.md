@@ -12,8 +12,4 @@ type = "weapon-mod"
   renown = "9600"
   credits = "256"
   units = ""
-
-[images]
-  alt = ""
-  src = ""
 +++

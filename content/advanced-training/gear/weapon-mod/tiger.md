@@ -13,11 +13,11 @@ type = "weapon-mod"
   credits = ""
   units = ""
 
-[images]
+[[images]]
   src = "/images/gear/skin/tiger-556xi-live.jpg"
   alt = "Tiger skin on the 556xi."
 
-[images]
+[[images]]
   src = "/images/gear/skin/tiger-ump45-live.jpg"
   alt = "Tiger skin on the UMP45."
 +++

@@ -13,10 +13,10 @@ type = "weapon-mod"
   credits = ""
   units = ""
 
-[images]
+[[images]]
   src = "/images/gear/skin/fire-mp5k-live.jpg"
   alt = "Fire skin on the MP5K."
-[images]
+[[images]]
   src = "/images/gear/skin/fire-5.7-usg-live.jpg"
   alt = "Fire skin on the 5.7 USG."
 +++

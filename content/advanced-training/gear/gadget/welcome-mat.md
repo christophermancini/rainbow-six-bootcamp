@@ -11,4 +11,6 @@ unique = true
 
 Uses a mechanical trap to incapacitate enemies.
 
-# Usage
+## Usage
+
+## Notes

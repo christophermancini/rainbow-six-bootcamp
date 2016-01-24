@@ -12,4 +12,6 @@ unique = false
 
 Delivers a non-lethal explosion that blinds nearby people.
 
-# Usage
+## Usage
+
+## Notes

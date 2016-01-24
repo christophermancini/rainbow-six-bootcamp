@@ -11,8 +11,4 @@ title = "Paradise"
   renown = "12000"
   credits = "320"
   units = ""
-
-[images]
-  alt = ""
-  src = ""
 +++
