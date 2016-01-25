@@ -21,5 +21,9 @@ Rook can place his R1N "Rhino" Armor Pack pretty much anywhere on the ground. On
 
 ## Notes
 
-- Drones can be blocked by the armor pack if placed directly in front of a drone entryway / hole.
-- If any armor plates are left within the pack on the floor, attackers can equip one themselves, gaining the same benefit.
+- Drones can be blocked by the armor pack if placed directly in front of a drone entryway / hole
+- If any armor plates are left within the pack on the floor, attackers can equip themselves, gaining the extra armor benefit
+
+## Footage
+
+{{% youtube MPfFrjNKrD0 %}}
