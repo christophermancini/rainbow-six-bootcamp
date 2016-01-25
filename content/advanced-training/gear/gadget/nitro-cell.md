@@ -9,11 +9,11 @@ type = "gadget"
 unique = false
 
 [[images]]
-  src = "/images/gear/skin/nitro-cell-toss.jpg"
+  src = "/images/gear/gadgets/nitro-cell-toss.jpg"
   alt = "That moment when you realize your screwed..."
 
 [[images]]
-  src = "/images/gear/skin/nitro-cell-toss2.jpg"
+  src = "/images/gear/gadgets/nitro-cell-toss2.jpg"
   alt = "The moment after you were screwed..."
 +++
 

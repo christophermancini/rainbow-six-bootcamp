@@ -9,11 +9,11 @@ type = "gadget"
 unique = true
 
 [[images]]
-  src = "/images/gear/skin/edd-mk-ii-install-live.jpg"
+  src = "/images/gear/gadgets/edd-mk-ii-install-live.jpg"
   alt = "Snapshot of Kapkan installing the EDD MK II."
 
 [[images]]
-  src = "/images/gear/skin/edd-mk-ii-live.jpg"
+  src = "/images/gear/gadgets/edd-mk-ii-live.jpg"
   alt = "Snapshot of how it looks in game on an barricaded door way."
 +++
 

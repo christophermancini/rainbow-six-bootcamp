@@ -9,7 +9,7 @@ type = "gadget"
 unique = true
 
 [[images]]
-  src = "/images/gear/skin/gb-5-live.jpg"
+  src = "/images/gear/gadgets/gb-5-live.jpg"
   alt = "Snapshot of Pulse using his HB-5."
 +++
 

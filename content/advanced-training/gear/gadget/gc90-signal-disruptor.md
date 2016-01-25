@@ -9,7 +9,7 @@ type = "gadget"
 unique = true
 
 [[images]]
-  src = "/images/gear/skin/gc90-drone-scramble.jpg"
+  src = "/images/gear/gadgets/gc90-drone-scramble.jpg"
   alt = "What its like to get your drone caught by Mute's GC90."
 
 [[images]]
