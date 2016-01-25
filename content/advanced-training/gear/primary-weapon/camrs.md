@@ -9,7 +9,7 @@ image = ""
 manufacturers = ["ArmaLite"]
 operators = ["Buck"]
 tags = ["primary weapon","Buck"]
-title = "CAMRS (Canadian Army Marksman Rifle System - AR-10T) "
+title = "CAMRS (AR-10T) "
 type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/AR-10",

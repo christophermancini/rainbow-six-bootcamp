@@ -13,7 +13,7 @@ unique = true
   alt = "What its like to get your drone caught by Mute's GC90."
 
 [[images]]
-  src = "/images/gear/skin/gc90-well-placed-result.jpg"
+  src = "/images/gear/gadgets/gc90-well-placed-result.jpg"
   alt = "Effective placement of Mute's GC90 can provide your team an edge."
 +++
 

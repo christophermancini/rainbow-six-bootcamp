@@ -33,18 +33,52 @@
             {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
             {{ partial "h2Anchor" (dict "text" "Primary Weapons" "page" .) }}
+            <table class="table">
+            <tr>
+              <th>Weapon</th>
+              <th>Class</th>
+              <th>Damage</th>
+              <th>Fire Rate</th>
+              <th>Mobility</th>
+              <th>Capacity</th>
+            </tr>
+            {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
+              {{ if in .Params.tags "primary weapon" }}
+                {{ .Render "tablerow" }}
+              {{ end }}
+            {{ end }}
+            </table>
+
+            {{ partial "h2Anchor" (dict "text" "Secondary Weapons" "page" .) }}
+            <table class="table">
+            <tr>
+              <th>Weapon</th>
+              <th>Class</th>
+              <th>Damage</th>
+              <th>Fire Rate</th>
+              <th>Mobility</th>
+              <th>Capacity</th>
+            </tr>
+            {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
+              {{ if in .Params.tags "secondary weapon" }}
+                {{ .Render "tablerow" }}
+              {{ end }}
+            {{ end }}
+            </table>
+
+            {{ partial "h2Anchor" (dict "text" "Weapon Attachments" "page" .) }}
             <div class="clearfix">
-              {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
-                {{ if in .Params.tags "primary weapon" }}
-                  {{ .Render "gallerySmall" }}
+              {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
+                {{ if in .Params.tags "weapon mod" }}
+                  {{ .Render "gallery" }}
                 {{ end }}
               {{ end }}
             </div>
 
-            {{ partial "h2Anchor" (dict "text" "Secondary Weapons" "page" .) }}
+            {{ partial "h2Anchor" (dict "text" "Weapon Skins" "page" .) }}
             <div class="clearfix">
-              {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
-                {{ if in .Params.tags "secondary weapon" }}
+              {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
+                {{ if in .Params.tags "skin" }}
                   {{ .Render "gallerySmall" }}
                 {{ end }}
               {{ end }}

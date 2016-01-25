@@ -8,7 +8,7 @@ groupId = 1
 image = ""
 manufacturers = ["Browning"]
 operators = ["Buck","Frost"]
-tags = ["primary weapon","Buck"]
+tags = ["secondary weapon","Buck"]
 title = "Mk1 9mm (Browning Hi-Power)"
 type = "weapon"
 references = [
@@ -36,7 +36,4 @@ references = [
   fireRate = ""
   mobility = "39"
   capacity = "20"
-[images]
-  src = ""
-  alt = ""
 +++
