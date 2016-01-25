@@ -9,7 +9,7 @@ type = "gadget"
 unique = true
 
 [[images]]
-  src = "/images/gear/skin/r1n-rhino-armor-live.jpg"
+  src = "/images/gear/gadgets/r1n-rhino-armor-live.jpg"
   alt = "In game screenshot of Rook's R1N Rhino Armor pack."
 +++
 
