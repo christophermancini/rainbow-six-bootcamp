@@ -91,11 +91,11 @@ There are three different difficulties you can play Terrorist Hunt on: Normal, H
 
 #### Normal
 
-Normal difficulty provides you with an infinite amount of time to complete the objective against fairly easy hostiles. Generally there are two [terrorist bombers]({{< ref "glossary.md#bomber" >}}) and around three [terrorist roamers]({{< ref "glossary.md#roamer" >}}).
+Normal difficulty provides you with an infinite amount of time to complete the objective against fairly easy hostiles. Generally there are two [terrorist bombers]({{< ref "glossary.md#bomber" >}}) and around three [terrorist roamers]({{< ref "glossary.md#roamer" >}}). On Normal, the terrorists have less precise shooting and do less damage.
 
 #### Hard
 
-When playing on Hard difficulty, you are limited to a set time frame to complete the objective. Roughly the same number of hostiles that are spawned in Normal can be expected in Hard.
+When playing on Hard difficulty, you are limited to a set time frame to complete the objective. Roughly the same number of hostiles that are spawned in Normal can be expected in Hard. Also, enemies have precise shooting ability and do normal damage.
 
 #### Realistic
 
