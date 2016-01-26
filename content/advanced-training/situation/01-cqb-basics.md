@@ -1,7 +1,7 @@
 +++
 ctu = "SAS"
 date = "2015-09-26T12:37:51-04:00"
-image = ""
+image = "/images/general/situation-1.jpg"
 map = "hereford-base"
 operator = "recruit"
 tags = ["situation","Hereford Base"]
