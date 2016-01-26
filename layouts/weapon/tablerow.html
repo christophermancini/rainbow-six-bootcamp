@@ -1,8 +1,18 @@
 <tr>
-  <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-  <td>{{ index .Params.classes 0 }}</td>
-  <td>{{ .Params.specs.damage }}</td>
-  <td>{{ .Params.specs.fireRate }}</td>
+  <td style="font-size:.8em;"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+  <td style="font-size:.8em;">{{ index .Params.classes 0 }}</td>
+  <td style="font-size:.8em;">{{ .Params.specs.damage }}</td>
+  {{ if eq .Params.specs.fireRate "2" }}
+    <td style="font-size:.8em;" data-value="2">Semi-automatic</td>
+  {{ else if eq .Params.specs.fireRate "1" }}
+    <td style="font-size:.8em;" data-value="2">Double-action</td>
+  {{ else if eq .Params.specs.fireRate "0" }}
+    <td style="font-size:.8em;" data-value="1">Bolt-action</td>
+  {{ else if eq .Params.specs.fireRate "-1" }}
+    <td style="font-size:.8em;" data-value="1">Pump-action</td>
+  {{ else }}
+    <td>{{ .Params.specs.fireRate }}</td>
+  {{ end }}
   <td>{{ .Params.specs.mobility }}</td>
   <td>{{ .Params.specs.capacity }}</td>
 </tr>

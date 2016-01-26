@@ -1,0 +1,22 @@
+<tr>
+  <td style="font-size:.8em;"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+  <td style="font-size:.8em;">{{ index .Params "mod-types" }}</td>
+  <td>{{ .Params.cost.renown }}</td>
+  <td>
+    {{ if .Params.specs.magnification }}{{ .Params.specs.magnification }}x{{ else }}N/A{{ end }}
+  </td>
+  {{ if gt .Params.specs.recoil "0" }}
+    <td style="font-size:.8em;" data-value="1">Decreases</td>
+  {{ else if lt .Params.specs.recoil "0" }}
+    <td style="font-size:.8em;" data-value="-1">Increases</td>
+  {{ else }}
+    <td style="font-size:.8em;" data-value="0">No impact</td>
+  {{ end }}
+  {{ if gt .Params.specs.spread "0" }}
+    <td style="font-size:.8em;" data-value="1">Decreases</td>
+  {{ else if lt .Params.specs.spread "0" }}
+    <td style="font-size:.8em;" data-value="-1">Increases</td>
+  {{ else }}
+    <td style="font-size:.8em;" data-value="0">No impact</td>
+  {{ end }}
+</tr>

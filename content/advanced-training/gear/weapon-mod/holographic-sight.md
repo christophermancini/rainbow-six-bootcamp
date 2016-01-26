@@ -11,4 +11,9 @@ type = "weapon-mod"
   renown = "150"
   credits = ""
   units = ""
+
+[specs]
+  magnification = "0"
+  recoil = "0"
+  spread = "0"
 +++

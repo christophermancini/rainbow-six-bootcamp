@@ -4,11 +4,16 @@ description = "Hides the muzzle flash of a weapon."
 image = "/images/gear/flash-hider.jpg"
 mod-types = "barrel"
 tags = ["weapon mod","barrel"]
-title = "flash hider"
+title = "Flash Hider"
 type = "weapon-mod"
 
 [cost]
   renown = "70"
   credits = ""
   units = ""
+
+[specs]
+  magnification = ""
+  recoil = "0"
+  spread = "1"
 +++

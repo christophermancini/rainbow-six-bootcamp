@@ -34,7 +34,7 @@
 
             {{ partial "h2Anchor" (dict "text" "Primary Weapons" "page" .) }}
             <table class="table">
-            <tr>
+            <tr style="font-size:.7em;">
               <th>Weapon</th>
               <th>Class</th>
               <th>Damage</th>
@@ -51,7 +51,7 @@
 
             {{ partial "h2Anchor" (dict "text" "Secondary Weapons" "page" .) }}
             <table class="table">
-            <tr>
+            <tr style="font-size:.7em;">
               <th>Weapon</th>
               <th>Class</th>
               <th>Damage</th>
@@ -67,13 +67,21 @@
             </table>
 
             {{ partial "h2Anchor" (dict "text" "Weapon Attachments" "page" .) }}
-            <div class="clearfix">
-              {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
-                {{ if in .Params.tags "weapon mod" }}
-                  {{ .Render "gallery" }}
-                {{ end }}
+            <table class="table">
+            <tr style="font-size:.7em;">
+              <th>Attachment</th>
+              <th>Type</th>
+              <th>Cost</th>
+              <th>Magnification</th>
+              <th>Recoil</th>
+              <th>Spread</th>
+            </tr>
+            {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
+              {{ if in .Params.tags "weapon mod" }}
+                {{ .Render "tablerow" }}
               {{ end }}
-            </div>
+            {{ end }}
+            </table>
 
             {{ partial "h2Anchor" (dict "text" "Weapon Skins" "page" .) }}
             <div class="clearfix">

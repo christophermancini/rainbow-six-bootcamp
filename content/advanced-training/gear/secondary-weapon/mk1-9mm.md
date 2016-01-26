@@ -1,6 +1,6 @@
 +++
 cartridges = ["9×19mm Parabellum"]
-classes = ["Semi-automatic pistol"]
+classes = ["Handgun"]
 country = "Belgium"
 date = "2016-01-23T00:34:21-05:00"
 description = ""
@@ -33,7 +33,7 @@ references = [
   under-barrel = ["laser"]
 [specs]
   damage = "52"
-  fireRate = ""
+  fireRate = "2"
   mobility = "39"
   capacity = "20"
 +++

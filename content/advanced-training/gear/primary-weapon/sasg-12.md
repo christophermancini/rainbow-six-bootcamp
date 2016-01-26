@@ -40,7 +40,7 @@ references = [
   under-barrel = ["laser","vertical-grip"]
 [specs]
   damage = "50"
-  fireRate = ""
+  fireRate = "2"
   mobility = "50"
   capacity = "8"
 +++

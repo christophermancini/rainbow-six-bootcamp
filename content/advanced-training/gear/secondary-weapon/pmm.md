@@ -1,6 +1,6 @@
 +++
 cartridges = ["9×18mm Makarov"]
-classes = ["Semi-automatic pistol"]
+classes = ["Handgun"]
 country = "Russia"
 date = "2015-12-06T09:38:11-05:00"
 description = "9mm short range hand gun with high stopping power, favored by Spetsnaz."
@@ -40,7 +40,7 @@ references = [
   under-barrel = ["laser"]
 [specs]
   damage = "58"
-  fireRate = ""
+  fireRate = "2"
   mobility = "50"
   capacity = "8"
 +++

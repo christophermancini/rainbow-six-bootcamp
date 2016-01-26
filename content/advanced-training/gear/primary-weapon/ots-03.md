@@ -41,7 +41,7 @@ recruit = false
   under-barrel = []
 [specs]
   damage = "180"
-  fireRate = ""
+  fireRate = "2"
   mobility = "36"
   capacity = "10"
 +++

@@ -1,6 +1,6 @@
 +++
 cartridges = ["5.7x28mm"]
-classes = ["Semi-automatic pistol"]
+classes = ["Handgun"]
 country = "Belgium"
 date = "2015-10-07T15:46:14-04:00"
 description = "Semi-automatic, high caliber pistol with medium stopping power and an extended range."
@@ -40,7 +40,7 @@ references = [
   under-barrel = ["laser"]
 [specs]
   damage = "50"
-  fireRate = ""
+  fireRate = "2"
   mobility = "50"
   capacity = "7"
 +++

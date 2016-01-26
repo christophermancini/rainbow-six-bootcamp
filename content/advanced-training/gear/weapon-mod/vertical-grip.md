@@ -4,11 +4,16 @@ description = "Vertical grip that decreases a weapon's recoil."
 image = "/images/gear/vertical-grip.jpg"
 mod-types = "under-barrel"
 tags = ["weapon mod","grip"]
-title = "vertical grip"
+title = "Vertical Grip"
 type = "weapon-mod"
 
 [cost]
   renown = "50"
   credits = ""
   units = ""
+
+[specs]
+  magnification = ""
+  recoil = "1"
+  spread = "0"
 +++

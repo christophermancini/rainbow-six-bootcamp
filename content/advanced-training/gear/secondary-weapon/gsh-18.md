@@ -1,6 +1,6 @@
 +++
 cartridges = ["9×19mm Parabellum"]
-classes = ["Semi-automatic handgun"]
+classes = ["Handgun"]
 country = "Russia"
 date = "2015-12-06T09:37:27-05:00"
 description = "Spetsnaz 9mm short range semi-automatic pistol, with low recoil and low damage."
@@ -40,7 +40,7 @@ references = [
   under-barrel = []
 [specs]
   damage = "42"
-  fireRate = ""
+  fireRate = "2"
   mobility = "50"
   capacity = "18"
 +++
