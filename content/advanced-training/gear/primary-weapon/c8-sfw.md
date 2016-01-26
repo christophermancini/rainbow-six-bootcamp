@@ -9,7 +9,7 @@ image = ""
 manufacturers = ["Colt Canada"]
 operators = ["Buck"]
 tags = ["primary weapon","Buck"]
-title = "C8-SFW (Cold Canada C8)"
+title = "C8-SFW (Colt Canada C8)"
 type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Colt_Canada_C7_rifle#C8SFW"
