@@ -1,11 +1,10 @@
 +++
 country = "France"
-date = "2015-10-03T22:30:34-04:00"
+date = "2015-10-03T22:30:03-04:00"
 image = ""
 tags = ["ctu","GIGN","Doc","Montagne","Rook","Twitch"]
 title = "GIGN"
 type = "ctu"
-weight = -2
 wikipedia = "National_Gendarmerie_Intervention_Group"
 +++
 

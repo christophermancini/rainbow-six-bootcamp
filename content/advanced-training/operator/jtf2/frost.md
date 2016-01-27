@@ -4,7 +4,6 @@ tags = ["operator","JTF2","Frost"]
 title = "Frost"
 type = "operator"
 video = ""
-weight = -7
 references = [
 
 ]

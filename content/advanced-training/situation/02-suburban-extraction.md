@@ -1,6 +1,6 @@
 +++
 ctu = "fbi-swat"
-date = "2015-09-26T12:37:51-04:00"
+date = "2015-09-26T12:38:51-04:00"
 image = "/images/general/situation-2.jpg"
 map = "house"
 operator = "recruit"

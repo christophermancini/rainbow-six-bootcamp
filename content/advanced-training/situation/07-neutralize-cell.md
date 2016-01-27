@@ -1,7 +1,7 @@
 +++
 briefing = ""
 ctu = ""
-date = "2015-09-26T12:37:51-04:00"
+date = "2015-09-26T12:43:51-04:00"
 image = ""
 map = "oregon"
 operator = "IQ"

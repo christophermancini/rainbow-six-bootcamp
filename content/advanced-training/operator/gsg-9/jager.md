@@ -1,12 +1,11 @@
 +++
-date = "2015-09-26T12:34:44-04:00"
+date = "2015-09-26T12:11:44-04:00"
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-jager_229907.png"
 tags = ["operator","GSG 9","Jäger"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-jager_229917.png"
 title = "Jäger"
 type = "operator"
 video = ""
-weight = -18
 references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213913-16&ct=tcm:148-76770-32"
 ]

@@ -1,5 +1,5 @@
 +++
-date = "2015-09-26T12:34:24-04:00"
+date = "2015-09-26T12:09:24-04:00"
 description = "GSG 9 attacking operator with heavy armor and tactical shield."
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-blitz_229881.png"
 tags = ["operator","GSG 9","Blitz"]
@@ -7,7 +7,6 @@ thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-op
 title = "Blitz"
 type = "operator"
 video = "TE9z4Qua1mw"
-weight = -16
 references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213911-16&ct=tcm:148-76770-32"
 ]

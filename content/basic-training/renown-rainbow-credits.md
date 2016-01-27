@@ -1,8 +1,7 @@
 +++
-date = "2015-09-26T12:16:57-04:00"
+date = "2015-09-26T12:10:04-04:00"
 title = "Renown & Rainbow Credits"
 tags = ["renown","rainbow credits"]
-weight = -3
 
 [menu.main]
   parent = "basic-training"

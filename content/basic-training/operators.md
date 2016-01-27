@@ -1,8 +1,7 @@
 +++
-date = "2015-09-26T12:10:55-04:00"
+date = "2015-09-26T12:10:05-04:00"
 title = "Operators"
 tags = ["operator"]
-weight = -4
 
 [menu.main]
   parent = "basic-training"

@@ -1,11 +1,10 @@
 +++
 country = "United Kingdom"
-date = "2015-10-03T22:29:56-04:00"
+date = "2015-10-03T22:30:06-04:00"
 image = ""
 tags = ["ctu","SAS","Mute","Sledge","Smoke","Thatcher"]
 title = "SAS"
 type = "ctu"
-weight = -4
 wikipedia = "Special_Air_Service"
 +++
 

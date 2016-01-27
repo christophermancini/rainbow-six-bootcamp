@@ -1,11 +1,10 @@
 +++
 country = "Germany"
-date = "2015-10-03T22:31:02-04:00"
+date = "2015-10-03T22:30:04-04:00"
 image = ""
 tags = ["ctu","GSG 9","Bandit","Blitz","IQ","Jäger"]
 title = "GSG 9"
 type = "ctu"
-weight = -3
 wikipedia = "GSG_9"
 +++
 

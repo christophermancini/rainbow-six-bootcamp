@@ -1,8 +1,6 @@
 +++
-date = "2015-09-26T12:10:36-04:00"
+date = "2015-09-26T12:10:02-04:00"
 title = "Game Modes"
-tags = []
-weight = -1
 
 [menu.main]
   parent = 'basic-training'
@@ -32,6 +30,10 @@ Also situation mode offers three levels of difficulty (Normal, Hard, and Realist
 ## Multiplayer Mode (PVP)
 
 Multiplayer mode places you with four other operators playing against five operators via a match making server. There are three types of multiplayer game play, casual, ranked and custom. Essentially multiplayer is team death match with the addition of playing to achieve an objective, either as an attacker or a defender. The three different possible scenarios are Bomb, Hostage, or Biohazard container.
+
+Each match consists of a set of rounds where you alternate playing as an attacker or defender. You earn a point for winning the round by either eliminating all members of the opposing team or completing the objective. The number of rounds you play in a single match depends on which PVP mode you are playing and performance of each team.
+
+Winning the round is essentially best of N, where N is the requirement for that PVP mode (casual = 5, ranked = 7), however for ranked, you have to win by two points. For instance, if both sides win 3 rounds each, then the match will enter best of 3 overtime, playing up to another 3 rounds.
 
 ### Casual - Ranked - Hardcore Comparison
 
@@ -65,6 +67,14 @@ Multiplayer mode places you with four other operators playing against five opera
 * SD - Sudden Death
 * 1 - Feature is enabled
 * 0 - Feature is disabled
+
+### Rank System
+
+Rainbow Six Siege uses a system derived from the ELO rank system. Winning is the most important aspect considered for promotion, allowing players who play support roles to progress through the ranks just as quickly if not faster than players who have higher K-D ratios.
+
+Here are all of the possible ranks you can have as a player, Copper I being the lowest and Diamond being the highest:
+
+<img src="/images/ranks/all-ranks.png" class="img-rounded featured-image">
 
 ### Custom Multiplayer
 

@@ -1,7 +1,7 @@
 +++
+date = "2015-10-03T22:30:01-04:00"
 title = "Counter Terrorist Units"
 layout = "ctu"
-weight = 0
 
 [menu.main]
   name = "Counter Terrorism Units"

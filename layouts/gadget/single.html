@@ -25,6 +25,24 @@
 
             {{ partial "featuredImage" . }}
 
+            {{ if .Params.unique }}
+            <div class="pull-right col-md-4">
+              {{ range where .Site.Pages "Title" (title (index .Params.operators 0)) }}
+                  <div class="article-gallery-item article-gallery-small-item">
+                    <h5 class="text-center">Used by</h5>
+                    <a href="{{ .Permalink }}">
+                      <figure>
+                        <img src="{{ .Params.image }}" class="img-responsive center-block" alt="{{ partial "title" . }}">
+                      </figure>
+                      <figcaption>
+                        <h5>{{ .Title }}</h5>
+                      </figcaption>
+                    </a>
+                  </div>
+              {{ end }}
+            </div>
+            {{ end }}
+
             {{ .Content }}
 
             {{ if isset .Params "images" }}

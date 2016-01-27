@@ -1,8 +1,6 @@
 +++
-date = "2015-12-17T21:11:14-04:00"
+date = "2015-09-26T12:10:00-04:00"
 title = "Getting Started with Rainbow Six"
-tags = []
-weight = 1
 
 [menu.main]
   parent = 'basic-training'

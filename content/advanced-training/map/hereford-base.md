@@ -1,5 +1,5 @@
 +++
-date = "2015-11-30T03:28:42-05:00"
+date = "2015-11-30T03:32:42-05:00"
 floor-plans = ["Training Course","Parking","Shooting Range"]
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_03Hereford03_Ludo_Final_227435.jpg"
 location = "Hereford, United Kingdom"

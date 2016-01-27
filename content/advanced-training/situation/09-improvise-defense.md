@@ -1,7 +1,7 @@
 +++
 briefing = ""
 ctu = "Spetsnaz"
-date = "2015-09-26T12:37:51-04:00"
+date = "2015-09-26T12:45:51-04:00"
 image = ""
 map = "clubhouse"
 operator = "Kapkan"

@@ -1,8 +1,7 @@
 +++
-date = "2015-09-26T12:10:44-04:00"
+date = "2015-09-26T12:10:06-04:00"
 title = "Gear"
 tags = ["gear"]
-weight = -5
 
 [menu.main]
   parent = 'basic-training'
@@ -17,21 +16,21 @@ Most operators have the option to carry a primary and secondary firearm. General
 
 ### Primary Weapon
 
-Operators generally have the choice of primary firearms from the assault rifle, shotgun, light machine gun or submachine gun classes. There are two operators who cannot have a primary weapon because they are equipped with unique ballistic shield, those operators are [Blitz]({{< ref "blitz.md" >}}) of the German [GSG-9]({{< ref "gsg-9.md" >}}) and [Montagne]({{< ref "montagne.md" >}}) of the French [GIGN]({{< ref "gign.md" >}}). There is one other operator who can equip a shield, [Fuze]({{< ref "fuze.md" >}}), but he also has the option to use two other rifles.
+Operators generally have the choice of [primary firearms]({{< ref "advanced-training/gear/index.md#primary-weapons" >}}) from the [assault rifle](/classes/assault-rifle/), [shotgun](/classes/shotgun/), [light machine gun](/classes/light-machine-gun/) or [submachine gun](/classes/submachine-gun/) classes. There are two operators who cannot have a primary weapon because they are equipped with unique ballistic shield, those operators are [Blitz]({{< ref "blitz.md" >}}) of the German [GSG-9]({{< ref "gsg-9.md" >}}) and [Montagne]({{< ref "montagne.md" >}}) of the French [GIGN]({{< ref "gign.md" >}}). There is one other operator who can equip a shield, [Fuze]({{< ref "fuze.md" >}}), but he also has the option to use two other rifles.
 
 ### Secondary Weapon
 
-For secondary firearms, operators generally get the option between a handgun with high stopping power or high ammo capacity. There is only one operator who can choose a submachine gun for his sidearm holster, which is [Sledge]({{< ref "sledge.md" >}}) as highlighted above with his [SMG 11]({{< ref "smg-11.md" >}}).
+For [secondary firearms]({{< ref "advanced-training/gear/index.md#secondary-weapons" >}}), operators generally get the option between a [handgun](/classes/handgun/) with high stopping power or high ammo capacity. There are only two operators who can choose a submachine gun for their sidearm holster, [Sledge]({{< ref "sledge.md" >}}) and [Smoke]({{< ref "smoke.md" >}}) with the [SMG 11]({{< ref "smg-11.md" >}}).
 
 ### Weapon Mods
 
-All primary and secondary weapons can be modded, some more than others. Mods are important because they contribute to a successful tactical operation. You can attach a barrel mod like a [suppressor]({{< ref "suppressor.md" >}}) which is critical for a stealth breach or an under barrel [laser]({{< ref "laser.md" >}}) if you need to move quickly and not worry about lining up your sights.
+All primary and secondary weapons can be modded, some more than others. [Mods]({{< ref "advanced-training/gear/index.md#weapon-attachments" >}}) are important because they contribute to a successful tactical operation. You can attach a barrel mod like a [suppressor]({{< ref "suppressor.md" >}}) which is critical for a stealth breach or an under barrel [laser]({{< ref "laser.md" >}}) if you need to move quickly and not worry about lining up your sights.
 
 Most weapons can be equipped with a sight, grip, barrel mod or under barrel laser. At minimum, each weapon can be personalized with a skin which is cosmetic only.
 
 #### Sights
 
-There are four sights available to most primary weapons and [Sledge's SMG 11]({{< ref "smg-11.md" >}}):
+There are four [sights]({{< ref "advanced-training/gear/index.md#weapon-attachments" >}}) available to most primary weapons and the [SMG 11]({{< ref "smg-11.md" >}}):
 
 * [Reflex sight]({{< ref "reflex-sight.md" >}})
 * [Red Dot sight]({{< ref "red-dot-sight.md" >}})
@@ -40,23 +39,23 @@ There are four sights available to most primary weapons and [Sledge's SMG 11]({{
 
 #### Barrel mods
 
-There are three barrel mods available for your weapons.
+There are three [barrel mods]({{< ref "advanced-training/gear/index.md#weapon-attachments">}}) available for your weapons.
 
 * [Silencer]({{< ref "suppressor.md" >}}) - Available for almost all weapons except a few handguns and shotguns
 * [Compensator]({{< ref "compensator.md" >}}) - Available for most primary weapons
 * [Flash hider]({{< ref "flash-hider.md" >}}) - Available for most primary weapons
 
-#### Grips
+#### Under-barrel
 
-The only grip currently available is a [vertical grip]({{< ref "vertical-grip.md" >}}) which is available on most primary weapons.
+[Under-barrel]({{< ref "advanced-training/gear/index.md#weapon-attachments">}}) attachments are available to customize your weapons. Currently there are two under-barrel mods available, the [laser]({{< ref "laser.md" >}}) and [vertical grip]({{< ref "vertical-grip.md" >}}).
 
-#### Under barrel
+#### Skins
 
-The only under barrel mod currently available is a [laser]({{< ref "laser.md" >}}) which is available on almost all weapons.
+There are over 100 in game [weapon skins]({{< ref "advanced-training/gear/index.md#skins">}}) available for you to customize your weapons. The skins are cosmetic only and are visible to all players in the game, not just yourself.
 
 ## Gadgets
 
-Gadgets allow operators to create or capitalize on a tactical advantage.
+[Gadgets]({{< ref "advanced-training/gear/index.md#gadgets">}}) allow operators to create or capitalize on a tactical advantage.
 
 ### Drones
 

@@ -5,7 +5,6 @@ image = ""
 tags = ["ctu","FBI SWAT","Ash","Castle","Pulse","Thermite"]
 title = "FBI SWAT"
 type = "ctu"
-weight = -1
 wikipedia = "FBI_Special_Weapons_and_Tactics_Teams"
 +++
 

@@ -1,7 +1,7 @@
 +++
 briefing = ""
 ctu = "SAS"
-date = "2015-09-26T12:37:51-04:00"
+date = "2015-09-26T12:46:51-04:00"
 image = ""
 map = "chalet"
 operator = "Thatcher"
