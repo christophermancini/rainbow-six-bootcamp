@@ -60,7 +60,7 @@ If beginning your approach from the River Docks, you begin on the East side of t
 
 The side street spawn sets you down on the Southeast side of the house.
 
-* **Drone entry:** The rear entryway blocked by furnature on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
+* **Drone entry:** The rear entryway blocked by furniture on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
 
 ## Levels
 
