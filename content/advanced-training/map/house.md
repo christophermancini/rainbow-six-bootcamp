@@ -45,18 +45,22 @@ The construction site spawn positions you North of the house.
 
 ### APC
 
-The APC (Armored Personnel Carrier) drops you outside the house to the South side. The closest drone entry point is through the barricaded doorway on the Southwest corner of the house on the 1st floor.
-* **Drone entry:** The main entrance to the house on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
+The APC (Armored Personnel Carrier) drops you outside the house to the South side.
+
+* **Drone entry:** The barricaded doorway near the Southwest corner of the house on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
+* **Camera:** Your approach to the house is monitored by the [rear camera]({{<ref "#rear-camera">}}) located in the Southeast side of the house, along the perimeter of the property.
 
 ### River Docks
 
-If beginning your approach from the River Docks, you begin on the East side of the house. The closest drone entry point is between the garage doors.
-* **Drone entry:** The main entrance to the house on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
+If beginning your approach from the River Docks, you begin on the East side of the house.
+
+* **Drone entry:** Between the garage doors on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
 
 ### Side Street
 
-The side street spawn sets you down on the Southeast side of the house. The closest drone entry point from this spawn is the rear entryway blocked by furniture on the 1st floor.
-* **Drone entry:** The main entrance to the house on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
+The side street spawn sets you down on the Southeast side of the house.
+
+* **Drone entry:** The rear entryway blocked by furnature on the [1st floor]({{< ref "#1st-floor-entry">}}) is the closest entry point for your drone.
 
 ## Levels
 
