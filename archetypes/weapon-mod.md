@@ -1,13 +1,17 @@
 +++
-cost = ""
-costCredits = ""
 description = ""
 image = "/images/gear/skin/.jpg"
-modType = "skin"
-tags = ["weapon mod","skin"]
+mod-types = "skin"
+tags = ["skin"]
+thumbnail = "/images/gear/skin/-th.png"
 type = "weapon-mod"
 
-[images]
+[cost]
+  renown = ""
+  credits = ""
+  units = ""
+
+[[images]]
   src = ""
   alt = ""
 +++

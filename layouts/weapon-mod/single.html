@@ -29,17 +29,23 @@
             {{ partial "featuredImage" . }}
 
             <div class="row">
-              <div class="col-md-8">
+              <div class="col-md-6">
                 <p style="padding: 10px; text-align: center;">
                   {{ .Description }}
                 </p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-6">
                 <table class="table">
                   <tr>
-                    <th colspan="2" style="text-align:center;">Pricing</th>
+                    <th colspan="4" style="text-align:center;">Pricing</th>
                   </tr>
                   <tr>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">R6 Credits</span>
+                    </td>
+                    <td>
+                      {{ with .Params.cost.credits }}{{ . }}{{ else }}N/A{{ end }}
+                    </td>
                     <td>
                       <span style="font-weight: bold; font-size: .85em;">Renown</span>
                     </td>
@@ -49,18 +55,16 @@
                   </tr>
                   <tr>
                     <td>
-                      <span style="font-weight: bold; font-size: .85em;">R6 Credits</span>
-                    </td>
-                    <td>
-                      {{ with .Params.cost.credits }}{{ . }}{{ else }}N/A{{ end }}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
                       <span style="font-weight: bold; font-size: .85em;">Uplay Units</span>
                     </td>
                     <td>
                       {{ with .Params.cost.units }}{{ . }}{{ else }}N/A{{ end }}
+                    </td>
+                    <td>
+                      <span style="font-weight: bold; font-size: .85em;">USD</span>
+                    </td>
+                    <td>
+                      {{ with .Params.cost.usd }}${{ . }}{{ else }}N/A{{ end }}
                     </td>
                   </tr>
                 </table>

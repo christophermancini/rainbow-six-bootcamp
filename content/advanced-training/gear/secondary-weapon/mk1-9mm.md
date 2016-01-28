@@ -20,6 +20,7 @@ references = [
   skin = [
     "fire",
     "elephant",
+    "emerald",
     "gold",
     "zebra",
     "snake",

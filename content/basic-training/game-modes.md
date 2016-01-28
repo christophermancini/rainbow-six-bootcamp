@@ -78,7 +78,7 @@ Here are all of the possible ranks you can have as a player, Copper I being the 
 
 ### Custom Multiplayer
 
-Custom multiplayer mode allows you to start your own match with a set rotation of maps and scenarios. Custom games do not get queued up for match making, so other players need to explicitly go to the custom multiplayer game screen to join. Here are more details about Custom matches.
+Custom multiplayer mode allows you to start your own match with a set rotation of maps and scenarios. Custom games do not get queued up for match making, so other players need to explicitly go to the custom multiplayer game screen to join. Also, it is the only game mode where Renown is not earned for completion. Here are more details about Custom matches.
 
 * Will be playable on dedicated servers (in an update shortly after launch), with the following constraints:
 * Match requires 10 players in it

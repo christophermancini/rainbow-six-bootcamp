@@ -19,6 +19,7 @@ recruit = false
   barrel = ["suppressor", "flash-hider"]
   skin = [
     "fire",
+    "emerald",
     "elephant",
     "gold",
     "zebra",

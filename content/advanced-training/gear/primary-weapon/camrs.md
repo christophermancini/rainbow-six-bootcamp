@@ -19,6 +19,7 @@ references = [
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
     "fire",
+    "emerald",
     "elephant",
     "gold",
     "zebra",

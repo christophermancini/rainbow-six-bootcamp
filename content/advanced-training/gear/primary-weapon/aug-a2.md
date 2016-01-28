@@ -19,6 +19,7 @@ references = [
   skin = [
     "bartlett-university",
     "fire",
+    "emerald",
     "elephant",
     "gold",
     "zebra",

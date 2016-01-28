@@ -3,12 +3,12 @@
 1. Skin gallery images of skin applied to different weapons [IN PROGRESS]
 1. Gadget info [IN PROGRESS]
 1. Gadget videos
-1. Weapon mods info
+1. Weapon mods info [IN PROGRESS]
 1. Weapon mods images
 1. House map drone video
-1. Situations info
-1. Situations video
-1. Situations images
+1. Situations info [IN PROGRESS]
+1. Situations video [IN PROGRESS]
+1. Situations images [IN PROGRESS]
 1. Analysis of recoil
 1. Analysis of movement noise
 1. Analysis of weapon noise
@@ -57,6 +57,7 @@
 1. Plane map drone images
 1. Plane map camera images
 1. Plane map camera video
+1. CTU real world history and info
 
 ## Commands
 

@@ -159,7 +159,7 @@ preserveTaxonomyNames = true
   url = "/tags/map"
 
 [[menu.main]]
-  name = "Sitations"
+  name = "Situations"
   identifier = "situations"
   parent = "advanced-training"
   url = "/tags/situation"
