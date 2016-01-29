@@ -6,6 +6,7 @@ location = "Abidjan, CV"
 spawns = []
 tags = ["map","consulate"]
 title = "Consulate"
+thumbnail = ""
 type = "map"
 
 [[images]]

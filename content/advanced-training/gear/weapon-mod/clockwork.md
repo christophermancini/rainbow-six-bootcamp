@@ -1,11 +1,11 @@
 +++
 date = "2016-01-17T14:34:49-05:00"
 description = "Tier 5 skin available for the FMG-9 used by Smoke."
-image = "/images/gear/skin/clockwork-fmg-9.jpg"
+image = "/images/gear/skin/preview/clockwork-fmg-9--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin", "Tier 5", "Smoke","FMG-9"]
 title = "Clockwork"
-thumbnail = "/images/gear/skin/clockwork-th.png"
+thumbnail = "/images/gear/skin/clockwork-th.jpg"
 type = "weapon-mod"
 
 [cost]

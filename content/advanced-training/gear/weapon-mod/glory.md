@@ -1,11 +1,11 @@
 +++
 date = "2015-12-09T15:50:30-05:00"
 description = "Tier 4 skin available for the weapons used by FBI SWAT operators."
-image = "/images/gear/skin/glory-g36c.jpg"
+image = "/images/gear/skin/preview/glory-g36c--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","Tier 4","FBI SWAT"]
 title = "Glory"
-thumbnail = "/images/gear/skin/glory-th.png"
+thumbnail = "/images/gear/skin/glory-th.jpg"
 type = "weapon-mod"
 
 [cost]

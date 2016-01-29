@@ -1,11 +1,11 @@
 +++
 date = "2015-12-09T15:50:45-05:00"
 description = "Tier 5 skin available for the 556xi used by Thermite."
-image = "/images/gear/skin/gem-556xi.jpg"
+image = "/images/gear/skin/preview/gem-556xi--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","Tier 5","Thermite","556xi"]
 title = "Gem"
-thumbnail = "/images/gear/skin/gem-th.png"
+thumbnail = "/images/gear/skin/gem-th.jpg"
 type = "weapon-mod"
 
 [cost]

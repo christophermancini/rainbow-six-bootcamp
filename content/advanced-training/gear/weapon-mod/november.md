@@ -1,11 +1,11 @@
 +++
 date = "2015-12-09T15:58:08-05:00"
 description = "Tier 3 skin available for the M870 used by Jäger & Bandit."
-image = "/images/gear/skin/november-m870.jpg"
+image = "/images/gear/skin/preview/november-m870--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","Tier 3","Jäger","Bandit","M870"]
 title = "November"
-thumbnail = "/images/gear/skin/november-th.png"
+thumbnail = "/images/gear/skin/november-th.jpg"
 type = "weapon-mod"
 
 [cost]

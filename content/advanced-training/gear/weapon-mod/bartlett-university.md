@@ -1,11 +1,11 @@
 +++
 date = "2015-12-09T16:00:43-05:00"
 description = "Special skin available for the Aug A2 used by IQ. It is unlocked by completing the Situation, Article 5."
-image = "/images/gear/skin/bartlett-university-aug-a2.jpg"
+image = "/images/gear/skin/preview/bartlett-university-aug-a2--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","special","IQ","Aug A2","Article 5","Bartlett University"]
 title = "Bartlett University"
-thumbnail = "/images/gear/skin/bartlett-university-th.png"
+thumbnail = "/images/gear/skin/bartlett-university-th.jpg"
 type = "weapon-mod"
 
 [cost]

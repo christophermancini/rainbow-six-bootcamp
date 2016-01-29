@@ -1,11 +1,11 @@
 +++
 date = "2015-12-09T15:55:28-05:00"
 description = "Tier 3 skin available for the MP7 used by Bandit."
-image = "/images/gear/skin/crossroads-mp7.jpg"
+image = "/images/gear/skin/preview/crossroads-mp7--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","Tier 3","MP7","Bandit"]
 title = "Crossroads"
-thumbnail = "/images/gear/skin/crossroads-th.png"
+thumbnail = "/images/gear/skin/crossroads-th.jpg"
 type = "weapon-mod"
 
 [cost]

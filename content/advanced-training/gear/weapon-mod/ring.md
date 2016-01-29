@@ -1,11 +1,11 @@
 +++
 date = "2015-12-09T15:53:58-05:00"
 description = "Tier 3 skin available for the SASG-12 used by Kapkan & Tachanka."
-image = "/images/gear/skin/ring-sasg-12.jpg"
+image = "/images/gear/skin/preview/ring-sasg-12--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","Tier 3","SASG-12","Kapkan","Tachanka"]
 title = "Ring"
-thumbnail = "/images/gear/skin/ring-th.png"
+thumbnail = "/images/gear/skin/ring-th.jpg"
 type = "weapon-mod"
 
 [cost]

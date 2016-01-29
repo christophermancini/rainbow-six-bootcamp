@@ -1,11 +1,11 @@
 +++
 date = "2015-12-09T15:46:25-05:00"
 description = "Tier 5 skin available for the AK-12 used by Fuze."
-image = "/images/gear/skin/black-ops-ak-12.jpg"
+image = "/images/gear/skin/preview/black-ops-ak-12--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","Tier 5","AK-12","Fuze"]
 title = "Black OPS"
-thumbnail = "/images/gear/skin/black-ops-th.png"
+thumbnail = "/images/gear/skin/black-ops-th.jpg"
 type = "weapon-mod"
 
 [cost]

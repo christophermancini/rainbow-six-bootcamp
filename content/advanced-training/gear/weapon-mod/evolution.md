@@ -1,11 +1,11 @@
 +++
 date = "2015-12-10T14:51:02-05:00"
 description = "Tier 3 skin available for weapons used by GIGN operators."
-image = "/images/gear/skin/evolution-417.png"
+image = "/images/gear/skin/preview/evolution-417--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","Tier 3","417","Twitch"]
 title = "Evolution"
-thumbnail = "/images/gear/skin/evolution-th.png"
+thumbnail = "/images/gear/skin/evolution-th.jpg"
 type = "weapon-mod"
 
 [cost]
