@@ -5,10 +5,16 @@ tags = ["operator","FBI SWAT","Ash"]
 thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-ash_229909.png"
 title = "Ash"
 type = "operator"
-video = ""
+video = "-GIEIwfqHEc"
 references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204024-16&ct=tcm:148-76770-32"
 ]
+
+[images]
+  backdrop = "/images/operator/ash-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-ash_229847.png"
+  main = ""
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-ash_229909.png"
 
 [info]
   armor = "Light"
@@ -20,19 +26,19 @@ references = [
   name = "Eliza Cohen"
   pob = "Jerusalem, Israel"
   position = "Attacker"
-  quote = "I MAKE A KILLER ENTRANCE"
+  quote = "I make a killer entrance."
   speed = "Fast"
   weight = "63KG"
 
-[[images]]
+[[gallery.art]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept01_th_205820.jpg"
   alt = "Ash concept art."
 
-[[images]]
+[[gallery.art]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept02_th_205822.jpg"
   alt = "Ash concept art."
 
-[[images]]
+[[gallery.art]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept04_th_205827.jpg"
   alt = "Ash concept art."
 +++

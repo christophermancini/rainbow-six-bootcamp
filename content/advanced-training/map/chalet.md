@@ -6,6 +6,7 @@ location = "Courchevel, France"
 spawns = []
 tags = ["map","chalet"]
 title = "Chalet"
+thumbnail = "/images/maps/chalet--320x162.jpg"
 type = "map"
 
 [[images]]
@@ -54,6 +55,10 @@ type = "map"
 ### Roof
 
 ## Drone Entry Points
+
+### Basement Entry
+
+### 1st Floor Entry
 
 ## Cameras
 

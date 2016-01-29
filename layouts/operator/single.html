@@ -4,141 +4,179 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 
-<html class="no-js"> <!--<![endif]-->
+<html lang="en"> <!--<![endif]-->
 <head>
   {{ partial "head.html" . }}
 </head>
 <body>
 
-  {{ partial "header.html" . }}
+  {{/* partial "header.html" . */}}
+<nav class="navbar navbar-full">
+  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+    &#9776;
+  </button>
+  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+          <img src="/logo.png" alt="{{ .Site.Title }} Logo">
+        </a>
+    <ul class="nav navbar-nav navbar-right">
 
-  <main>
-    <div class="container">
+          {{ $currentNode := . }}
+          {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+            <li class="nav-item dropdown{{ if $currentNode.HasMenuCurrent "main" . }} active{{ end }}">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{ .Name }}<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                {{ range .Children }}
+                <li class="dropdown-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            </li>
+            {{ else }}
+            <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          {{ end }}
+
+    </ul>
+  </div>
+</nav>
+
+  {{ with .Params.images.backdrop }}
+  <div class="backdrop" style="background-image: url('{{ . }}');"></div>
+  {{ end }}
+  <div class="spacer">
+    <div id="operator-header" class="fbi-swat">
+      <h1>{{ .Title }}</h1>
+      <h3><em>"{{ .Params.info.quote }}"</em></h3>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="section-wrapper">
+      <div class="row">
+        <div class="col-md-6 well">
+          {{ if .Params.info.badge }}<img src="{{ .Params.info.badge }}" align="left">{{ end }}
+          <h2>{{ .Title }}</h2>
+          {{ .Params.info.ctu }}
+        </div>
+        <div class="col-md-6">
+          <div class="featured-video">
+          {{ if .Params.video }}
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
+          {{ end }}
+          </div>
+        </div>
+      </div>
+
       <div class="row">
 
-        <!-- blog-contents -->
-        <section class="col-md-8">
-          <article class="single-blog-item">
-            <h1>
-              {{ if .Params.info.badge }}<img src="{{ .Params.info.badge }}">{{ end }}
-              {{ partial "title" . }}
-            </h1>
+          {{ partial "featuredImage" . }}
 
-            {{ partial "tags" . }}
-
-            {{ partial "featuredImage" . }}
-
-            <div class="row">
-              <div class="col-md-5">
-                <p style="padding: 10px; text-align: center;">
-                  <em>"{{ .Params.info.quote }}"</em><br>--{{ .Title }}
-                </p>
-              </div>
-              <div class="col-md-7">
-                <table class="table">
-                  <tr>
-                    <td>
-                      <span style="font-weight: bold; font-size: .85em;">Name</span>
-                    </td>
-                    <td>
-                      {{ .Params.info.name }}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span style="font-weight: bold; font-size: .85em;">Date of Birth</span>
-                    </td>
-                    <td>
-                      {{ .Params.info.dob }}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span style="font-weight: bold; font-size: .85em;">Place of Birth</span>
-                    </td>
-                    <td>
-                      {{ .Params.info.pob }}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span style="font-weight: bold; font-size: .85em;">Armor / Speed</span>
-                    </td>
-                    <td>
-                      {{ .Params.info.armor }} / {{ .Params.info.speed }}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span style="font-weight: bold; font-size: .85em;">Position</span>
-                    </td>
-                    <td>
-                      {{ .Params.info.position }}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span style="font-weight: bold; font-size: .85em;">Gender / Height / Weight</span>
-                    </td>
-                    <td>
-                      {{ .Params.info.gender }} / {{ .Params.info.height }} / {{ .Params.info.weight }}
-                    </td>
-                  </tr>
-                </table>
-
-              </div>
+          <div class="row">
+            <div class="col-md-5">
+              <p style="padding: 10px; text-align: center;">
+                <em>""</em><br>--{{ .Title }}
+              </p>
             </div>
+            <div class="col-md-7">
+              <table class="table">
+                <tr>
+                  <td>
+                    <span style="font-weight: bold; font-size: .85em;">Name</span>
+                  </td>
+                  <td>
+                    {{ .Params.info.name }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span style="font-weight: bold; font-size: .85em;">Date of Birth</span>
+                  </td>
+                  <td>
+                    {{ .Params.info.dob }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span style="font-weight: bold; font-size: .85em;">Place of Birth</span>
+                  </td>
+                  <td>
+                    {{ .Params.info.pob }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span style="font-weight: bold; font-size: .85em;">Armor / Speed</span>
+                  </td>
+                  <td>
+                    {{ .Params.info.armor }} / {{ .Params.info.speed }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span style="font-weight: bold; font-size: .85em;">Position</span>
+                  </td>
+                  <td>
+                    {{ .Params.info.position }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span style="font-weight: bold; font-size: .85em;">Gender / Height / Weight</span>
+                  </td>
+                  <td>
+                    {{ .Params.info.gender }} / {{ .Params.info.height }} / {{ .Params.info.weight }}
+                  </td>
+                </tr>
+              </table>
 
-            {{ .Content }}
+            </div>
+          </div>
 
-            {{ if .Params.video }}
-            {{ partial "h2Anchor" (dict "text" "Operator Video" "page" .) }}
-            <script src="https://apis.google.com/js/platform.js"></script>
-            <div class="g-ytsubscribe" data-channelid="UCXQEfUKsCBMwccbUeQjYMoQ" data-layout="default" data-count="default"></div>
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
-            {{ end }}
+          {{ .Content }}
 
-            {{ partial "h2Anchor" (dict "text" "Loadout" "page" .) }}
-            {{ $operator := lower .Title }}
-            {{ range $taxonomyName, $values := .Site.Taxonomies.operators }}
-              {{ if eq (lower $taxonomyName) $operator }}
-                {{ range $values.Pages.GroupByParam "groupId" }}
-                  <div class="clearfix">
-                    {{ if eq .Key 0 }}<h3>Unique Item</h3>{{ end }}
-                    {{ if eq .Key 1 }}<h3>Primary Weapons</h3>{{ end }}
-                    {{ if eq .Key 2 }}<h3>Secondary Weapons</h3>{{ end }}
-                    {{ if eq .Key 3 }}<h3>Gadgets</h3>{{ end }}
-                    {{ range .Pages }}
-                      {{ .Render "gallery"}}
-                    {{ end }}
-                  </div>
-                {{ end }}
+          {{ if .Params.video }}
+          {{ partial "h2Anchor" (dict "text" "Operator Video" "page" .) }}
+          <script src="https://apis.google.com/js/platform.js"></script>
+          <div class="g-ytsubscribe" data-channelid="UCXQEfUKsCBMwccbUeQjYMoQ" data-layout="default" data-count="default"></div>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
+          {{ end }}
+
+          {{ partial "h2Anchor" (dict "text" "Loadout" "page" .) }}
+          {{ $operator := lower .Title }}
+          {{ range $taxonomyName, $values := .Site.Taxonomies.operators }}
+            {{ if eq (lower $taxonomyName) $operator }}
+              {{ range $values.Pages.GroupByParam "groupId" }}
+                <div class="clearfix">
+                  {{ if eq .Key 0 }}<h3>Unique Item</h3>{{ end }}
+                  {{ if eq .Key 1 }}<h3>Primary Weapons</h3>{{ end }}
+                  {{ if eq .Key 2 }}<h3>Secondary Weapons</h3>{{ end }}
+                  {{ if eq .Key 3 }}<h3>Gadgets</h3>{{ end }}
+                  {{ range .Pages }}
+                    {{ .Render "gallery"}}
+                  {{ end }}
+                </div>
               {{ end }}
             {{ end }}
+          {{ end }}
 
-            {{ if isset .Params "images" }}
-            {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
-            {{ partial "imageGallery" .Params.images }}
-            {{ end }}
+          {{ if isset .Params "images" }}
+          {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
+          {{ partial "imageGallery" .Params.images }}
+          {{ end }}
 
-            {{ partial "references" . }}
+          {{ partial "references" . }}
 
-            {{ partial "sectionNav.html" . }}
-          </article>
+          {{ partial "sectionNav.html" . }}
 
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+        {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
-          {{ partial "related.html" . }}
+        {{ partial "related.html" . }}
 
-          {{ partial "disqus.html" . }}
-
-        </section>
-        <!-- end of blog-contents -->
-
-        {{ partial "sidebar.html" . }}
+        {{ partial "disqus.html" . }}
 
       </div>
-    </div> <!-- end of /.container -->
+    </section>
   </main>
 
   {{ partial "footer.html" . }}

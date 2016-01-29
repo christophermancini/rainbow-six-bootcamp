@@ -6,7 +6,7 @@ location = "Abidjan, CV"
 spawns = []
 tags = ["map","consulate"]
 title = "Consulate"
-thumbnail = ""
+thumbnail = "/images/maps/consulate--320x180.jpg"
 type = "map"
 
 [[images]]
@@ -34,6 +34,8 @@ type = "map"
   alt = ""
 +++
 
+## Spawn Locations
+
 ## Levels
 
 ### Basement
@@ -45,6 +47,10 @@ type = "map"
 ### Roof
 
 ## Drone Entry Points
+
+### Basement Entry
+
+### 1st Floor Entry
 
 ## Cameras
 

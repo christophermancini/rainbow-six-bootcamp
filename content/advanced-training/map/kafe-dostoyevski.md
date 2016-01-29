@@ -6,6 +6,7 @@ location = "United States"
 spawns = []
 tags = ["map","kafe dostoyevski"]
 title = "Kafe Dostoyevski"
+thumbnail = "/images/maps/kafe-dostoyevski--320x162.jpg"
 type = "map"
 
 [[images]]
@@ -33,15 +34,7 @@ type = "map"
   alt = ""
 +++
 
-## Spawn Points
-
-### River Docks
-
-### Christmas Market
-
-### Park
-
-### East Main Street
+## Spawn Locations
 
 ## Levels
 
@@ -54,6 +47,10 @@ type = "map"
 ### Roof
 
 ## Drone Entry Points
+
+### Basement Entry
+
+### 1st Floor Entry
 
 ## Cameras
 

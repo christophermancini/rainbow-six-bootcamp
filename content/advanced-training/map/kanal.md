@@ -6,6 +6,7 @@ location = "Hamburg, Germany"
 spawns = []
 tags = ["map","kanal"]
 title = "Kanal"
+thumbnail = "/images/maps/kanal--320x168.jpg"
 type = "map"
 
 [[images]]
@@ -33,6 +34,7 @@ type = "map"
   alt = ""
 +++
 
+## Spawn Locations
 
 ## Levels
 
@@ -45,6 +47,10 @@ type = "map"
 ### Roof
 
 ## Drone Entry Points
+
+### Basement Entry
+
+### 1st Floor Entry
 
 ## Cameras
 

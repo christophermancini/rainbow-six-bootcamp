@@ -5,7 +5,7 @@ image = "/images/gear/weapon-attachments/preview/laser--1600x900.jpg"
 mod-types = "under-barrel"
 tags = ["weapon mod"]
 title = "Laser"
-thumbnail = "/images/gear/weapon-attachments/preview/laser--320x180.jpg"
+thumbnail = "/images/gear/weapon-attachments/preview/laser--1600x900.jpg"
 type = "weapon-mod"
 
 [cost]

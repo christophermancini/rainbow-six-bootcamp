@@ -6,6 +6,7 @@ location = "Hereford, United Kingdom"
 spawns = []
 tags = ["map","Hereford Base"]
 title = "Hereford Training Base"
+thumbnail = "/images/maps/hereford-base--320x168.jpg"
 type = "map"
 
 [[images]]
@@ -33,6 +34,8 @@ type = "map"
   alt = ""
 +++
 
+## Spawn Locations
+
 ## Levels
 
 ### Basement
@@ -44,6 +47,10 @@ type = "map"
 ### Roof
 
 ## Drone Entry Points
+
+### Basement Entry
+
+### 1st Floor Entry
 
 ## Cameras
 

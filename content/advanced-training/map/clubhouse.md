@@ -1,11 +1,11 @@
 +++
 date = "2015-11-30T03:30:42-05:00"
-floor-plans = [""]
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_04BikersClub02_Ludo_Final_229465.jpg"
 location = "Moscow, RU"
 spawns = []
 tags = ["map","clubhouse"]
 title = "Clubhouse"
+thumbnail = "/images/maps/clubhouse--320x168.jpg"
 type = "map"
 
 [[images]]
@@ -33,6 +33,8 @@ type = "map"
   alt = ""
 +++
 
+## Spawn Locations
+
 ## Levels
 
 ### Basement
@@ -44,6 +46,10 @@ type = "map"
 ### Roof
 
 ## Drone Entry Points
+
+### Basement Entry
+
+### 1st Floor Entry
 
 ## Cameras
 

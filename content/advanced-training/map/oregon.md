@@ -6,6 +6,7 @@ location = "Redmond, Oregon, USA"
 spawns = []
 tags = ["map","oregon"]
 title = "Oregon"
+thumbnail = "/images/maps/oregon--320x167.jpg"
 type = "map"
 
 [[images]]
@@ -33,6 +34,7 @@ type = "map"
   alt = ""
 +++
 
+## Spawn Locations
 
 ## Levels
 
@@ -45,6 +47,10 @@ type = "map"
 ### Roof
 
 ## Drone Entry Points
+
+### Basement Entry
+
+### 1st Floor Entry
 
 ## Cameras
 

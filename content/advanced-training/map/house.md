@@ -5,6 +5,7 @@ location = "Los Angeles, CA, USA"
 spawns = ["River Docks","Construction Site","APC Area","Side Street"]
 tags = ["map","house"]
 title = "Suburban House"
+thumbnail = "/images/maps/house--320x168.jpg"
 type = "map"
 
 [[images]]
@@ -176,9 +177,9 @@ The house supports three game modes: Rescue Hostage, Diffuse Bomb, and Secure Ar
 
 ### Diffuse Bomb
 
-* Kid's Bedroom and Workshop
-* Living Room and Training Room
-* Training Room and Garage
+* Kid's Bedroom & Workshop
+* Living Room & Training Room
+* Training Room & Garage
 
 ### Secure Area
 

@@ -102,6 +102,14 @@ preserveTaxonomyNames = true
   title = "Jäger"
   src = "/advanced-training/operator/gsg-9/jager/"
 
+[params.operatorRel.buck]
+  title = "Buck"
+  src = "/advanced-training/operator/jtf2/buck/"
+
+[params.operatorRel.frost]
+  title = "Frost"
+  src = "/advanced-training/operator/jtf2/frost/"
+
 [params.operatorRel.mute]
   title = "Mute"
   src = "/advanced-training/operator/sas/mute/"

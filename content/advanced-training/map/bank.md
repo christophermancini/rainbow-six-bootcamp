@@ -1,11 +1,11 @@
 +++
 date = "2015-11-30T03:28:42-05:00"
-floor-plans = [""]
 image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_08Bank02_Ludo_Final_229466.jpg"
 location = "United States"
 spawns = []
-tags = ["map","bank"]
+tags = ["map","Bank"]
 title = "Bank"
+thumbnail = "/images/maps/bank--320x162.jpg"
 type = "map"
 
 [[images]]
@@ -33,6 +33,8 @@ type = "map"
   alt = ""
 +++
 
+## Spawn Locations
+
 ## Levels
 
 ### Basement
@@ -44,6 +46,10 @@ type = "map"
 ### Roof
 
 ## Drone Entry Points
+
+### Basement Entry
+
+### 1st Floor Entry
 
 ## Cameras
 
