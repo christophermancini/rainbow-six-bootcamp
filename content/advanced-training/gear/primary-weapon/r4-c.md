@@ -5,7 +5,6 @@ country = "United States of America"
 date = "2015-10-07T20:03:48-04:00"
 description = "FBI SWAT standard issue assault rifle. Highly customizable, for medium to long range conflict."
 groupId = 1
-image = "/images/gear/r4-c.jpg"
 manufacturers = ["Remington Arms"]
 operators = ["Ash"]
 tags = ["primary weapon"]
@@ -14,6 +13,9 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Remington_GPC"
 ]
+[images]
+  main = "/images/gear/weapons/preview/r4-c.jpg"
+  thumbnail = "/images/gear/weapons/preview/r4-c.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [

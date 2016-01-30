@@ -15,7 +15,7 @@
 }
 
 .navbar-brand > img {
-  width: 468px;
+  width: 360px;
 }
 
 .navbar-nav {
@@ -25,8 +25,8 @@
 .navbar-full .navbar-nav > li > a {
 	color: rgba(238, 238, 238, 0.7);
 	font-size: 1.2em;
-	margin-left: 15px;
-	letter-spacing: .75px;
+	margin-left: 12px;
+	letter-spacing: .6px;
 	padding-right: 0px;
 	word-spacing: 2px;
 	-webkit-transition: all 0.75s;
@@ -97,11 +97,13 @@ h1,h2,h3,h4,h5,h6 {
   min-height: 150px;
   width: 100%;
   margin: 50px auto 7px auto;
+  padding: 0px 15px;
   background: #dedede none repeat-y;
 }
 
 .featured-video {
   margin-top: 20px;
+  height: 275px;
 }
 
 .content-border {
@@ -123,8 +125,9 @@ h1,h2,h3,h4,h5,h6 {
   box-shadow: 0 0 2px 0 #868686;
   background-color: #dedede;
 }
+
 .white-stone {
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   background: #e9eaec;
   color: #333132;
@@ -132,11 +135,24 @@ h1,h2,h3,h4,h5,h6 {
   position: relative;
 }
 
+.white-stone h2 {
+  margin-top: 0px;
+}
+
+.white-stone h3 {
+  margin-top: 0px;
+}
+
+.white-stone div {
+  padding: 0px;
+}
+
 .ctu	a {
   display: inline-block;
   padding-left: 40px;
 	padding-top: 5px;
 	height: 30px;
+  min-width: 50px;
 	font-weight: bold;
 	vertical-align: middle;
 }
@@ -165,6 +181,32 @@ h1,h2,h3,h4,h5,h6 {
   background: url('/images/ctu/R6_flags_CTU.png') 0 0 no-repeat;
 }
 
+#loadout {
+  box-sizing: border-box;
+  padding: 4px;
+  margin-top: 0px;
+  background-color: transparent;
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+#loadout h2 {
+  width: 100%;
+  background-color: #1e1e1e;
+  padding: 5px 10px;
+  margin-top: 0px;
+  color: #A96113;
+}
+
+#loadout h2 a {
+  color: #A96113;
+}
+
 @media(min-width: 1600px) {
 	.container {
 		max-width: 1500px;
@@ -176,6 +218,9 @@ h1,h2,h3,h4,h5,h6 {
 		background-size: 1280px 720px;
 		top: 100px;
 	}
+  .featured-video {
+    height: 250px;
+  }
 }
 
 @media(max-width: 600px) {
@@ -183,6 +228,12 @@ h1,h2,h3,h4,h5,h6 {
 		background-size: 640px 360px;
 		top: 150px;
 	}
+  .featured-video {
+    height: 225px;
+  }
+  .position {
+    display: hidden;
+  }
 }
 /*---------------------------------- REDESIGN -----------------------------------*/
 
@@ -523,8 +574,11 @@ input[type="checkbox"] {
   background-color: #ffffff;
   border: 1px solid #dadada;
   box-shadow: none;
-  margin-bottom: 35px;
-  min-height: 275px;
+  margin-bottom: 15px;
+}
+
+.article-gallery-item figure {
+  width: 100%;
 }
 
 .article-gallery-small-item {
@@ -541,7 +595,7 @@ input[type="checkbox"] {
 }
 
 .article-gallery-item figcaption {
-  padding: 12px 16px;
+  padding: 8px 10px;
   text-align: center;
 }
 

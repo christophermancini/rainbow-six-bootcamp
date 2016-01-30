@@ -5,7 +5,6 @@ country = "Belgium"
 date = "2015-10-07T15:46:14-04:00"
 description = "Semi-automatic, high caliber pistol with medium stopping power and an extended range."
 groupId = 2
-image = "/images/gear/m45-meusoc.jpg"
 manufacturers = ["FN Herstal"]
 operators = ["Ash","Castle","Thermite","Pulse"]
 tags = ["Ash","secondary weapon"]
@@ -14,6 +13,9 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/FN_Five-seven"
 ]
+[images]
+  main = "/images/gear/weapons/preview/m45-meusoc.jpg"
+  thumbnail = "/images/gear/weapons/preview/m45-meusoc.jpg"
 [mods]
   barrel = ["suppressor"]
   skin = [

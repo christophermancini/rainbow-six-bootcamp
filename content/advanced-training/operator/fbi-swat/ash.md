@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:00:51-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-ash_229846.png"
 tags = ["operator","FBI SWAT","Ash"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-ash_229909.png"
 title = "Ash"
 type = "operator"
 video = "-GIEIwfqHEc"
@@ -16,7 +14,7 @@ references = [
 [images]
   backdrop = "/images/operator/ash-backdrop.jpg"
   icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-ash_229847.png"
-  main = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-ash_229846.png"
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-ash_229909.png"
 
 [info]
@@ -45,6 +43,14 @@ references = [
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept04_th_205827.jpg"
   alt = "Ash concept art."
 +++
+
+Ash is the only female operator on team Rainbow from the [FBI SWAT]({{< ref "fbi-swat.md" >}}) unit. She is equipped with light armor, making her one of the faster operators in the game. Her [M120 CREM]({{< ref "m120-crem.md" >}}) enables her to breach fortified entryways from a safe distance and combined with her explosive speed, gives her the advantage of keeping her enemies clueless of her location.<!--more-->
+
+## Bio
+
+Eliza Cohen cut her teeth serving in her native Israel's IDF. She's currently part of FBI SWAT thanks to an international law enforcement exchange program.
+
+Cohen brought her knowledge of demolitions with her in producing a weapon-mounted breach charge capable of blowing open a door or wall from a distance.
 
 ## Tactical Profile
 

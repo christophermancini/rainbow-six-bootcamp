@@ -12,33 +12,33 @@
 
   <nav class="navbar navbar-full">
     <div class="container">
-    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">&#9776;</button>
-    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-      <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-        <img src="/logo-banner.png" alt="{{ .Site.Title }} Logo">
-      </a>
-      <ul class="nav navbar-nav pull-right">
-      {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
-        <li class="nav-item dropdown">
+      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">&#9776;</button>
+      <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+          <img src="/logo-banner.png" alt="{{ .Site.Title }} Logo">
+        </a>
+        <ul class="nav navbar-nav pull-right">
+        {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
             <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link{{ if $.HasMenuCurrent "main" . }} active{{ end }}">{{ .Name }}<b class="caret"></b></a>
             <ul class="dropdown-menu">
               {{ range .Children }}
               <li class="dropdown-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
               {{ end }}
             </ul>
-        </li>
-        {{ else }}
-        <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+          </li>
+          {{ else }}
+          <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
         {{ end }}
-      {{ end }}
-      </ul>
+        </ul>
+      </div>
     </div>
-  </div>
   </nav>
 
   {{ with .Params.images.backdrop }}
-  <div class="backdrop col-md-12" style="background-image: url('{{ . }}');"></div>
+  <div class="backdrop" style="background-image: url('{{ . }}');"></div>
   {{ end }}
 
   <div class="container">
@@ -52,143 +52,143 @@
 
   <main class="container">
     <section class="section-wrapper">
-      <div class="row-fluid">
-        <div class="col-md-6 col-xs-12">
+      <div class="row">
+        <div class="col-md-7 col-xs-12">
           <div class="content-border">
             <div class="white-stone">
-              {{ if .Params.info.badge }}<img src="{{ .Params.info.badge }}" align="left">{{ end }}
-              <h2>{{ .Title }}</h2>
-              <div class="ctu">
-                {{ range where .Site.Pages "Type" "ctu" }}
-                  {{ if eq $.Params.info.ctu (urlize .Title)}}
-                  <a href="{{ .Permalink }}" class="ctu-flag-{{ $.Params.info.ctu }}">{{ .Title }}</a>
+              <h3>
+                {{ if .Params.info.badge }}<img src="{{ .Params.info.badge }}">{{ end }}
+                {{ .Params.info.name }}
+              </h3>
+              <div style="position: absolute;top:20px;right:20px;">
+                <p class="ctu">
+                  {{ range where .Site.Pages "Type" "ctu" }}
+                    {{ if eq $.Params.info.ctu (urlize .Title)}}
+                    <a href="{{ .Permalink }}" class="ctu-flag-{{ $.Params.info.ctu }}">{{ .Title }}</a>
+                    {{ end }}
                   {{ end }}
-                {{ end }}
+                </p>
               </div>
+              <div class="col-xs-6">
+                <p>
+                  <strong>DOB:</strong> {{ .Params.info.dob }}<br>
+                  <strong>POB:</strong> {{ .Params.info.pob }}<br>
+                  <strong>Position:</strong> {{ .Params.info.position }}
+                </p>
+              </div>
+              <div class="col-xs-6">
+                <p>
+                  <strong>Height:</strong> {{ .Params.info.height }}<br>
+                  <strong>Weight:</strong> {{ .Params.info.weight }}<br>
+                  <strong>Gender:</strong> {{ .Params.info.gender }}
+                </p>
+              </div>
+              <div class="clearfix"></div>
             </div>
             <div class="white-stone">
-              <img src="/images/operator/armor-{{ urlize .Params.info.armor }}.png">
-              <img src="/images/operator/speed-{{ urlize .Params.info.speed }}.png">
+              <div class="col-xs-6 center-block">
+                <img class="img-rounded" src="/images/operator/armor-{{ urlize .Params.info.armor }}.png">
+              </div>
+              <div class="col-xs-6 center-block">
+                <img class="img-rounded" src="/images/operator/speed-{{ urlize .Params.info.speed }}.png">
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="white-stone">
+              <h3>Unique Gadget</h3>
+              {{ range where .Site.Pages "Type" "gadget" }}
+                {{ if and .Params.unique (in .Params.operators $.Title) }}
+                <div class="col-md-8">
+                  <a href="{{ .Permalink }}">
+                    <figcaption class="figure-caption">{{ .Title }}</figcaption>
+                    <figure>
+                      <img src="{{ .Params.images.main }}" class="figure-img img-fluid img-rounded" alt="{{ partial "title" . }}">
+                    </figure>
+                  </a>
+                </div>
+                <div class="col-md-4">
+                  {{ .Summary }}<a href="{{ .Permalink }}">Read more...</a>
+                </div>
+                {{ end }}
+              {{ end }}
+              <div class="clearfix"></div>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-xs-12">
+        <div class="col-md-5 col-xs-12">
           <div class="featured-video">
           {{ if .Params.video }}
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
           {{ end }}
           </div>
+          <div class="lead"><p></p>{{ .Summary }} <a href="{{ ref . "ash.md#bio" }}">Read more...</a></div>
         </div>
       </div>
 
-      <div class="row">
+      {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
 
-          {{ partial "featuredImage" . }}
-
-          <div class="row">
-            <div class="col-md-5">
-              <p style="padding: 10px; text-align: center;">
-                <em>""</em><br>--{{ .Title }}
-              </p>
-            </div>
-            <div class="col-md-7">
-              <table class="table">
-                <tr>
-                  <td>
-                    <span style="font-weight: bold; font-size: .85em;">Name</span>
-                  </td>
-                  <td>
-                    {{ .Params.info.name }}
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span style="font-weight: bold; font-size: .85em;">Date of Birth</span>
-                  </td>
-                  <td>
-                    {{ .Params.info.dob }}
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span style="font-weight: bold; font-size: .85em;">Place of Birth</span>
-                  </td>
-                  <td>
-                    {{ .Params.info.pob }}
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span style="font-weight: bold; font-size: .85em;">Armor / Speed</span>
-                  </td>
-                  <td>
-                    {{ .Params.info.armor }} / {{ .Params.info.speed }}
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span style="font-weight: bold; font-size: .85em;">Position</span>
-                  </td>
-                  <td>
-                    {{ .Params.info.position }}
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span style="font-weight: bold; font-size: .85em;">Gender / Height / Weight</span>
-                  </td>
-                  <td>
-                    {{ .Params.info.gender }} / {{ .Params.info.height }} / {{ .Params.info.weight }}
-                  </td>
-                </tr>
-              </table>
-
-            </div>
-          </div>
-
-          {{ .Content }}
-
-          {{ if .Params.video }}
-          {{ partial "h2Anchor" (dict "text" "Operator Video" "page" .) }}
-          <script src="https://apis.google.com/js/platform.js"></script>
-          <div class="g-ytsubscribe" data-channelid="UCXQEfUKsCBMwccbUeQjYMoQ" data-layout="default" data-count="default"></div>
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
-          {{ end }}
-
-          {{ partial "h2Anchor" (dict "text" "Loadout" "page" .) }}
-          {{ $operator := lower .Title }}
-          {{ range $taxonomyName, $values := .Site.Taxonomies.operators }}
-            {{ if eq (lower $taxonomyName) $operator }}
-              {{ range $values.Pages.GroupByParam "groupId" }}
-                <div class="clearfix">
-                  {{ if eq .Key 0 }}<h3>Unique Item</h3>{{ end }}
+      <div id="loadout">
+        {{ partial "h2Anchor" (dict "text" "Loadout" "page" .) }}
+        <div class="row">
+        {{ range $taxonomyName, $values := .Site.Taxonomies.operators }}
+          {{ if eq (lower $taxonomyName) (lower $.Title) }}
+            {{ range $values.Pages.GroupByParam "groupId" }}
+              {{ if gt .Key 0 }}
+                <div class="col-md-6 col-lg-6">
                   {{ if eq .Key 1 }}<h3>Primary Weapons</h3>{{ end }}
                   {{ if eq .Key 2 }}<h3>Secondary Weapons</h3>{{ end }}
                   {{ if eq .Key 3 }}<h3>Gadgets</h3>{{ end }}
                   {{ range .Pages }}
-                    {{ .Render "gallery"}}
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div class="article-gallery-item">
+                        <a href="{{ .Permalink }}">
+                          <figure>
+                            <img src="{{ .Params.images.thumbnail }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+                          </figure>
+                          <figcaption class="figure-caption">{{ .Title }}</figcaption>
+                        </a>
+                      </div>
+                    </div>
                   {{ end }}
                 </div>
               {{ end }}
             {{ end }}
           {{ end }}
+        {{ end }}
+        </div>
+      </div>
 
-          {{ if isset .Params "images" }}
-          {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
-          {{ partial "imageGallery" .Params.images }}
-          {{ end }}
+      <div class="row">
+        <div class="col-md-8">
+          <p></p>
+          {{ .Content }}
+        </div>
+        <div class="col-md-4">
+          <div class="content-border">
+            <div class="white-stone">
+              {{ if .Params.gallery.art }}
+                {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
+                {{ partial "imageGallery" .Params.gallery.art }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
 
-          {{ partial "references" . }}
+      {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
-          {{ partial "sectionNav.html" . }}
+      <div class="row">
+        {{ partial "references" . }}
+
+        {{ partial "sectionNav.html" . }}
 
         {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
         {{ partial "related.html" . }}
 
         {{ partial "disqus.html" . }}
-
       </div>
+
     </section>
   </main>
 
