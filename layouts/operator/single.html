@@ -113,28 +113,6 @@
               {{ end }}
               <div class="clearfix"></div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-5 col-xs-12">
-          <div class="featured-video">
-          {{ if .Params.video }}
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
-          {{ end }}
-          </div>
-          <div class="lead"><p></p>{{ .Summary }} <a href="{{ ref . "ash.md#bio" }}">Read more...</a></div>
-        </div>
-      </div>
-
-      {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
-
-      <div class="row">
-        <div class="col-md-5">
-          <p></p>
-          {{ .Content }}
-          {{ partial "references" . }}
-        </div>
-        <div class="col-md-7">
-          <div class="content-border">
             <div class="white-stone">
               {{ partial "h2Anchor" (dict "text" "Loadout" "page" .) }}
               <div class="row">
@@ -142,6 +120,7 @@
                 {{ if eq (lower $taxonomyName) (lower $.Title) }}
                   {{ range $values.Pages.GroupByParam "groupId" }}
                     {{ if gt .Key 0 }}
+                      <div class="clearfix">
                       {{ if eq .Key 1 }}<h3>Primary Weapons</h3>{{ end }}
                       {{ if eq .Key 2 }}<h3>Secondary Weapons</h3>{{ end }}
                       {{ if eq .Key 3 }}<h3>Gadgets</h3>{{ end }}
@@ -157,6 +136,7 @@
                           </div>
                         </div>
                       {{ end }}
+                    </div>
                     {{ end }}
                   {{ end }}
                 {{ end }}
@@ -170,6 +150,18 @@
                 {{ partial "imageGallery" .Params.gallery.art }}
               {{ end }}
             </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-xs-12">
+          <div class="featured-video">
+          {{ if .Params.video }}
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
+          {{ end }}
+          </div>
+          <div id="content">
+            {{ .Content }}
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
+            {{ partial "references" . }}
           </div>
         </div>
       </div>
