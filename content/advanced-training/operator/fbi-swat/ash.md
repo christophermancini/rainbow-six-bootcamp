@@ -10,6 +10,9 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204024-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
 [images]
   backdrop = "/images/operator/ash-backdrop.jpg"
   icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-ash_229847.png"

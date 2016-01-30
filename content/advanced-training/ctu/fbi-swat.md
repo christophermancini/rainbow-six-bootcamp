@@ -6,6 +6,12 @@ tags = ["ctu","FBI SWAT","Ash","Castle","Pulse","Thermite"]
 title = "FBI SWAT"
 type = "ctu"
 wikipedia = "FBI_Special_Weapons_and_Tactics_Teams"
+
+[images]
+  backdrop = ""
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-ash_229847.png"
+  main = ""
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-ash_229909.png"
 +++
 
 ## History

@@ -143,12 +143,6 @@ preserveTaxonomyNames = true
   src = "/advanced-training/operator/spetsnaz/tachanka.md"
 
 [[menu.main]]
-  name = "HOME"
-  identifier = "home"
-  url = "/"
-  weight = 0
-
-[[menu.main]]
   name = "Basic Training"
   identifier = "basic-training"
   url = "/basic-training/"
