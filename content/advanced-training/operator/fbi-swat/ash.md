@@ -5,7 +5,8 @@ title = "Ash"
 type = "operator"
 video = "-GIEIwfqHEc"
 references = [
-  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204024-16&ct=tcm:148-76770-32"
+  "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204024-16&ct=tcm:148-76770-32",
+  "http://rainbow6.ubi.com/siege/en-US/game-info/operator/ash.aspx"
 ]
 
 [menu.main]
@@ -34,14 +35,17 @@ references = [
 [[gallery.art]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept01_th_205820.jpg"
   alt = "Ash concept art."
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept01_th_205820.jpg"
 
 [[gallery.art]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept02_th_205822.jpg"
   alt = "Ash concept art."
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept02_th_205822.jpg"
 
 [[gallery.art]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept04_th_205827.jpg"
   alt = "Ash concept art."
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept04_th_205827.jpg"
 +++
 
 Ash is the only female operator on team Rainbow from the [FBI SWAT]({{< ref "fbi-swat.md" >}}) unit. She is equipped with light armor, making her one of the faster operators in the game. Her [M120 CREM]({{< ref "m120-crem.md" >}}) enables her to breach fortified entryways from a safe distance and combined with her explosive speed, gives her the advantage of keeping her enemies clueless of her location.<!--more-->

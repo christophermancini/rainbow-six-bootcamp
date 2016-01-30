@@ -1,23 +1,25 @@
 {{ if len . }}
-<div itemscope itemtype="http://schema.org/ImageGallery">
+<div id="image-gallery" class="row" itemscope itemtype="http://schema.org/ImageGallery">
   {{ range . }}
     {{ if isset . "src" }}
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="{{ .src }}" itemprop="contentUrl">
-        <img src="{{ .thumbnail }}" itemprop="thumbnail" alt="{{ .alt }}" />
-      </a>
+    <div class="col-md-3">
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="{{ .src }}" itemprop="contentUrl">
+          <img class="img-thumbnail" src="{{ .thumbnail }}" itemprop="thumbnail" alt="{{ .alt }}" />
+        </a>
 
-      <meta itemprop="width" content="{{ .width }}">
-      <meta itemprop="height" content="{{ .height }}">
+        <meta itemprop="width" content="{{ .width }}">
+        <meta itemprop="height" content="{{ .height }}">
 
-      <figcaption itemprop="caption description">
-        {{ .caption }}
+        <figcaption itemprop="caption description">
+          {{ .caption }}
 
-        {{ with .copyright }}
-        <span itemprop="copyrightHolder">{{ . }}</span>
-        {{ end }}
-      </figcaption>
-    </figure>
+          {{ with .copyright }}
+          <span itemprop="copyrightHolder">{{ . }}</span>
+          {{ end }}
+        </figcaption>
+      </figure>
+    </div>
     {{ end }}
   {{ end }}
 </div>

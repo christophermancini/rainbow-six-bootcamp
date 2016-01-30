@@ -186,30 +186,10 @@ h1,h2,h3,h4,h5,h6 {
   background: url('/images/ctu/R6_flags_CTU.png') 0 0 no-repeat;
 }
 
-#loadout {
-  box-sizing: border-box;
-  padding: 4px;
-  margin-top: 0px;
-  background-color: transparent;
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
-  background-color: rgba(0,0,0,0.1);
-  border-left: 1px solid rgba(84,84,84,0.3);
-  border-top: 1px solid rgba(84,84,84,0.3);
-  border-bottom: 1px solid rgba(255,255,255,0.6);
-  border-right: 1px solid rgba(255,255,255,0.6);
-}
-
-#loadout h2 {
-  width: 100%;
-  background-color: #1e1e1e;
-  padding: 5px 10px;
-  margin-top: 0px;
-  color: #A96113;
-}
-
-#loadout h2 a {
-  color: #A96113;
+#image-gallery a {
+  display: block;
+  height: 70px;
+  overflow: hidden;
 }
 
 @media(min-width: 1600px) {
