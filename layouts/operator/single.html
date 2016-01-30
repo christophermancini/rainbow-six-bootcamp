@@ -127,45 +127,44 @@
 
       {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
 
-      <div id="loadout">
-        {{ partial "h2Anchor" (dict "text" "Loadout" "page" .) }}
-        <div class="row">
-        {{ range $taxonomyName, $values := .Site.Taxonomies.operators }}
-          {{ if eq (lower $taxonomyName) (lower $.Title) }}
-            {{ range $values.Pages.GroupByParam "groupId" }}
-              {{ if gt .Key 0 }}
-                <div class="col-md-6 col-lg-6">
-                  {{ if eq .Key 1 }}<h3>Primary Weapons</h3>{{ end }}
-                  {{ if eq .Key 2 }}<h3>Secondary Weapons</h3>{{ end }}
-                  {{ if eq .Key 3 }}<h3>Gadgets</h3>{{ end }}
-                  {{ range .Pages }}
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <div class="article-gallery-item">
-                        <a href="{{ .Permalink }}">
-                          <figure>
-                            <img src="{{ .Params.images.thumbnail }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
-                          </figure>
-                          <figcaption class="figure-caption">{{ .Title }}</figcaption>
-                        </a>
-                      </div>
-                    </div>
-                  {{ end }}
-                </div>
-              {{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
-        </div>
-      </div>
-
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-5">
           <p></p>
           {{ .Content }}
+          {{ partial "references" . }}
         </div>
-        <div class="col-md-4">
+        <div class="col-md-7">
           <div class="content-border">
             <div class="white-stone">
+              {{ partial "h2Anchor" (dict "text" "Loadout" "page" .) }}
+              <div class="row">
+              {{ range $taxonomyName, $values := .Site.Taxonomies.operators }}
+                {{ if eq (lower $taxonomyName) (lower $.Title) }}
+                  {{ range $values.Pages.GroupByParam "groupId" }}
+                    {{ if gt .Key 0 }}
+                      {{ if eq .Key 1 }}<h3>Primary Weapons</h3>{{ end }}
+                      {{ if eq .Key 2 }}<h3>Secondary Weapons</h3>{{ end }}
+                      {{ if eq .Key 3 }}<h3>Gadgets</h3>{{ end }}
+                      {{ range .Pages }}
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                          <div class="article-gallery-item">
+                            <a href="{{ .Permalink }}">
+                              <figure>
+                                <img src="{{ .Params.images.thumbnail }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+                              </figure>
+                              <figcaption class="figure-caption">{{ .Title }}</figcaption>
+                            </a>
+                          </div>
+                        </div>
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              </div>
+
+              {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
+
               {{ if .Params.gallery.art }}
                 {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
                 {{ partial "imageGallery" .Params.gallery.art }}
@@ -178,11 +177,8 @@
       {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
       <div class="row">
-        {{ partial "references" . }}
 
         {{ partial "sectionNav.html" . }}
-
-        {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
         {{ partial "related.html" . }}
 
