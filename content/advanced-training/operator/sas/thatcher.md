@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:15:26-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-thatcher_229937.png"
 tags = ["operator","SAS","Thatcher"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-thatcher_229926.png"
 title = "Thatcher"
 type = "operator"
 video = ""
@@ -10,9 +8,17 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-200759-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/thatcher-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-thatcher_229877.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-thatcher_229937.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-thatcher_229926.png"
+
 [info]
   armor = "Medium"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-thatcher_229877.png"
   ctu = "SAS"
   dob = "6/22/1961"
   gender = "M"
@@ -24,18 +30,22 @@ references = [
   speed = "Medium"
   weight = "86KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_thatcher_concept01_th_200798.jpg"
   alt = "Concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_thatcher_concept02_th_200796.jpg"
   alt = "Concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_thatcher_concept03_th_200800.jpg"
   alt = "Concept art."
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

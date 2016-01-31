@@ -2,10 +2,15 @@
 type = "gadget"
 tags = []
 
-image = ""
 groupId = 0
-operators = []
+operators = ""
 unique = true
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = ""
+  thumbnail = ""
 +++
 
 # Description

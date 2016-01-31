@@ -1,18 +1,23 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
 groupId = 0
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-kapkan_229894.png"
 operators = ["Kapkan"]
 tags = ["gadget","Kapkan"]
 title = "EDD MK II (Entry Denial Device)"
 type = "gadget"
 unique = true
 
-[[images]]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-kapkan_229894.png"
+  thumbnail = ""
+
+[[gallery]]
   src = "/images/gear/gadgets/edd-mk-ii-install-live.jpg"
   alt = "Snapshot of Kapkan installing the EDD MK II."
 
-[[images]]
+[[gallery]]
   src = "/images/gear/gadgets/edd-mk-ii-live.jpg"
   alt = "Snapshot of how it looks in game on an barricaded door way."
 +++

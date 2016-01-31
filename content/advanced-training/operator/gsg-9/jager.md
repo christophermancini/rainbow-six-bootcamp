@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:11:44-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-jager_229907.png"
 tags = ["operator","GSG 9","Jäger"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-jager_229917.png"
 title = "Jäger"
 type = "operator"
 video = ""
@@ -10,9 +8,17 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213913-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/jager-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-jager_229864.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-jager_229907.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-jager_229917.png"
+
 [info]
   armor = "Light"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-jager_229864.png"
   ctu = "gsg-9"
   dob = "03/09/1978"
   gender = "M"
@@ -24,14 +30,18 @@ references = [
   speed = "Fast"
   weight = "69KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_jager_concept01_th_213876.jpg"
   alt = "Concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_jager_concept02_th_213878.jpg"
   alt = "Concept art."
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

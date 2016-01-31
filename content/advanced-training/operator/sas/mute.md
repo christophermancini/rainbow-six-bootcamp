@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:12:32-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-mute_229930.png"
 tags = ["operator","SAS","Mute"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-mute_229920.png"
 title = "Mute"
 type = "operator"
 video = "HAZAHR71lPc"
@@ -10,9 +8,17 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-201484-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/mute-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-mute_229870.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-mute_229930.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-mute_229920.png"
+
 [info]
   armor = "Medium"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-mute_229870.png"
   ctu = "SAS"
   dob = "10/11/1991"
   gender = "M"
@@ -24,18 +30,22 @@ references = [
   speed = "Medium"
   weight = "80KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_mute_concept01_th_201497.jpg"
   alt = "Concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_mute_concept02_th_201499.jpg"
   alt = "Concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_mute_concept03_th_201501.jpg"
   alt = "Concept art."
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

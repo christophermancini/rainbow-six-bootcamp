@@ -5,7 +5,6 @@ country = "Germany"
 date = "2015-12-06T09:35:20-05:00"
 description = "Short to medium range submachine gun. High rate of fire and mobility. Favored by GIGN."
 groupId = 1
-image = "/images/gear/mp5.jpg"
 manufacturers = ["Heckler & Koch"]
 operators = ["Doc","Rook"]
 tags = ["primary weapon"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Heckler_%26_Koch_MP5"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/mp5.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [

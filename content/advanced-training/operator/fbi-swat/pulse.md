@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:02:01-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-pulse_229931.png"
 tags = ["operator","FBI SWAT","Pulse"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-pulse_229921.png"
 title = "Pulse"
 type = "operator"
 video = ""
@@ -10,9 +8,17 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204027-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/pulse-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-pulse_229871.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-pulse_229931.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-pulse_229921.png"
+
 [info]
   armor = "Light"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-pulse_229871.png"
   ctu = "fbi-swat"
   dob = "10/11/1984"
   gender = "M"
@@ -24,10 +30,14 @@ references = [
   speed = "Fast"
   weight = "85KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_pulse_concept01_th_205811.jpg"
   alt = "Concept art."
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

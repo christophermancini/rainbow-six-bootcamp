@@ -5,7 +5,6 @@ country = "Austria"
 date = "2015-12-06T09:33:30-05:00"
 description = "GSG 9's medium to long range assault rifle. Capable of firing 770 rounds per minute."
 groupId = 1
-image = "/images/gear/aug-a2.jpg"
 manufacturers = ["Steyr Mannlicher"]
 operators = ["IQ"]
 tags = ["primary weapon","IQ"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Steyr_AUG"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/aug-a2.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [

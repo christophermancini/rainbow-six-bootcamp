@@ -1,18 +1,25 @@
 +++
 date = "2015-09-26T12:01:57-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-castle_229882.png"
 tags = ["operator","FBI SWAT","Castle"]
 title = "Castle"
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-castle_229912.png"
 type = "operator"
 video = ""
 references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-204026-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/castle-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-castle_229852.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-castle_229882.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-castle_229912.png"
+
 [info]
   armor = "Medium"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-castle_229852.png"
+  badge = ""
   ctu = "fbi-swat"
   dob = "09/20/1980"
   gender = "M"
@@ -24,18 +31,22 @@ references = [
   speed = "Medium"
   weight = "95.3KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_castle_concept01_th_205829.jpg"
   alt = "Concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_castle_concept02_th_205831.jpg"
   alt = "Concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_castle_concept03_th_205833.jpg"
   alt = "Concept art."
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

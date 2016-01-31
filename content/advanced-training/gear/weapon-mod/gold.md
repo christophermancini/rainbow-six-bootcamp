@@ -13,7 +13,7 @@ type = "weapon-mod"
   credits = ""
   units = ""
 
-[[images]]
+[[gallery]]
   src = "/images/gear/skin/in-game/gold-ar33-live--1600x900.jpg"
   alt = "Gold skin on the AR33."
   thumbnail = "/images/gear/skin/in-game/gold-ar33-live--320x180.jpg"

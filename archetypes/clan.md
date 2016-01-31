@@ -2,12 +2,17 @@
 tags = ["clan"]
 type = "clan"
 
-image = "http://linktoclanimageorlogo.com"
 website = "http://clansiteorpage.com"
 joinLink = "http://linktoapplicationorinfotoapply.com"
 platforms = ["xbox","pc","ps"] # remove any platforms you don't use
 recruiting = true
 size = 0 # please enter an approximate number of members, integers only (e.g. "100" not "100+" or "more than 100")
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = ""
+  thumbnail = ""
 +++
 
 Describe your clan here, make sure its interesting enough to get people to join your clan.

@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:07:40-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-twitch_229845.png"
 tags = ["operator","GIGN","Twitch"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-twitch_229928.png"
 title = "Twitch"
 type = "operator"
 video = "mzrNixTFevs"
@@ -10,10 +8,18 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210692-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/twitch-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-twitch_229879.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-twitch_229845.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-twitch_229928.png"
+
 [info]
   armor = "Medium"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-twitch_229879.png"
-  ctu = "GIGN"
+  ctu = "gign"
   dob = "10/12/1988"
   gender = "M"
   height = "1.68M"
@@ -24,14 +30,18 @@ references = [
   speed = "Medium"
   weight = "58KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_twitch_concept01_th_210668.jpg"
   alt = "Twitch concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_twitch_concept02_th_210670.jpg"
   alt = "Twitch concept art."
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

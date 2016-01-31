@@ -8,27 +8,27 @@ title = "Clubhouse"
 thumbnail = "/images/maps/clubhouse--320x168.jpg"
 type = "map"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-01_227835.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-04_229709.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-05_229710.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-06_229711.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-07_229712.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-08_229713.jpg"
   alt = ""
 +++

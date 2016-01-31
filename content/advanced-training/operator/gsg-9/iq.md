@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:10:10-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-iq_229906.png"
 tags = ["operator","GSG 9","IQ"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-iq_229916.png"
 title = "IQ"
 type = "operator"
 video = ""
@@ -10,9 +8,17 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213828-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/iq-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-iq_229861.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-iq_229906.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-iq_229916.png"
+
 [info]
   armor = "Light"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-iq_229861.png"
   ctu = "gsg-9"
   dob = "08/01/1979"
   gender = "F"
@@ -24,10 +30,14 @@ references = [
   speed = "Fast"
   weight = "70KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_iq_concept01_th_213867.jpg"
   alt = "Concept art."
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

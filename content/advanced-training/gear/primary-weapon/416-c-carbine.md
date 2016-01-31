@@ -5,7 +5,6 @@ country = "Germany"
 date = "2015-12-09T13:17:57-05:00"
 description = "GSG 9 medium range 5.56 x 45mm caliber assault rifle, with high recoil and rate of fire."
 groupId = 1
-image = "/images/gear/416-c-carbine.jpg"
 manufacturers = ["Heckler & Koch"]
 operators = ["Jäger"]
 tags = ["primary weapon","Jäger"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Heckler_%26_Koch_HK416"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/416-c-carbine.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [

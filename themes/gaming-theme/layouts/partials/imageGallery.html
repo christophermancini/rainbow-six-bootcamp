@@ -2,10 +2,10 @@
 <div id="image-gallery" class="row" itemscope itemtype="http://schema.org/ImageGallery">
   {{ range . }}
     {{ if isset . "src" }}
-    <div class="col-md-3">
+    <div class="col-xs-12 col-md-6">
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ .src }}" itemprop="contentUrl">
-          <img class="img-thumbnail" src="{{ .thumbnail }}" itemprop="thumbnail" alt="{{ .alt }}" />
+          <img class="img-thumbnail" src="{{ with .thumbnail }}{{ . }}{{ else }}{{ .src }}{{ end }}" itemprop="thumbnail" alt="{{ .alt }}" />
         </a>
 
         <meta itemprop="width" content="{{ .width }}">

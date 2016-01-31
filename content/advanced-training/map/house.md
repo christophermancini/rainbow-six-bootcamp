@@ -8,27 +8,27 @@ title = "Suburban House"
 thumbnail = "/images/maps/house--320x168.jpg"
 type = "map"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-house-01_211956.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-house-15_229724.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-house-16_229725.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-house-17_229726.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-house-18_229727.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-house-19_229728.jpg"
   alt = ""
 +++

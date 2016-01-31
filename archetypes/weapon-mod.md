@@ -1,17 +1,21 @@
 +++
 description = ""
-image = "/images/gear/skin/.jpg"
 mod-types = "skin"
 tags = ["skin"]
-thumbnail = "/images/gear/skin/-th.png"
 type = "weapon-mod"
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/skin/preview/.jpg"
+  thumbnail = "/images/gear/skin/-th.jpg"
 
 [cost]
   renown = ""
   credits = ""
   units = ""
 
-[[images]]
+[[gallery]]
   src = ""
   alt = ""
 +++

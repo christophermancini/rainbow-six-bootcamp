@@ -8,6 +8,15 @@ references = [
 
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/buck-backdrop.jpg"
+  icon = ""
+  main = ""
+  thumbnail = ""
+
 [info]
   armor = "Light"
   badge = ""
@@ -22,6 +31,10 @@ references = [
   speed = "Fast"
   weight = "KG"
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

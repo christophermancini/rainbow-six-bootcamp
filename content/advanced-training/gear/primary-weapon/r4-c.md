@@ -7,13 +7,15 @@ description = "FBI SWAT standard issue assault rifle. Highly customizable, for m
 groupId = 1
 manufacturers = ["Remington Arms"]
 operators = ["Ash"]
-tags = ["primary weapon"]
+tags = ["primary weapon","Ash"]
 title = "R4-C"
 type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Remington_GPC"
 ]
 [images]
+  backdrop = ""
+  icon = ""
   main = "/images/gear/weapons/preview/r4-c.jpg"
   thumbnail = "/images/gear/weapons/preview/r4-c.jpg"
 [mods]

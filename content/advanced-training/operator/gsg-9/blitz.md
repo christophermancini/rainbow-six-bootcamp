@@ -1,9 +1,7 @@
 +++
 date = "2015-09-26T12:09:24-04:00"
 description = "GSG 9 attacking operator with heavy armor and tactical shield."
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-blitz_229881.png"
 tags = ["operator","GSG 9","Blitz"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-blitz_229911.png"
 title = "Blitz"
 type = "operator"
 video = "TE9z4Qua1mw"
@@ -11,9 +9,18 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-213911-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/blitz-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-blitz_229849.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-blitz_229881.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-blitz_229911.png"
+
 [info]
   armor = "Heavy"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-blitz_229849.png"
+  badge = ""
   ctu = "gsg-9"
   dob = "04/02/1980"
   gender = "M"
@@ -25,16 +32,18 @@ references = [
   speed = "Slow"
   weight = "75KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_blitz_concept01_th_213858.jpg"
   alt = "Concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_blitz_concept02_th_213860.jpg"
   alt = "Concept art."
 +++
 
 Blitz is GSG 9's most durable operator however this durability comes at a cost, making him also the slowest of the unit. Blitz offers a bit more than some of the other heavily armored operators that are equipped with ballistic shields. His [G52 Tactical Shield]({{<ref "g52-tactical-shield.md">}}) has been engineered to offer a blinding flash that is the equivalent of 24 flash bang grenades.<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

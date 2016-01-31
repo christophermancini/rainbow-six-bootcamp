@@ -13,12 +13,12 @@ type = "weapon-mod"
   credits = ""
   units = ""
 
-[[images]]
+[[gallery]]
   src = "/images/gear/skin/in-game/tiger-556xi-live--1600x900.jpg"
   alt = "Tiger skin on the 556xi."
   thumbnail = "/images/gear/skin/in-game/tiger-556xi-live--320x180.jpg"
 
-[[images]]
+[[gallery]]
   src = "/images/gear/skin/in-game/tiger-ump45-live"
   alt = "Tiger skin on the UMP45."
   thumbnail = "/images/gear/skin/in-game/tiger-ump45-live--320x180.jpg"

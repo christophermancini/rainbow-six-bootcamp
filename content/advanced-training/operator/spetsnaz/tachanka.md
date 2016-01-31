@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:19:40-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-tachanka_229936.png"
 tags = ["operator","Spetsnaz","Tachanka"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-tachanka_229925.png"
 title = "Tachanka"
 type = "operator"
 video = ""
@@ -10,10 +8,18 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228986-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/tachanka-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-tachanka_229876.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-tachanka_229936.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-tachanka_229925.png"
+
 [info]
   armor = "Heavy"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-tachanka_229876.png"
-  ctu = "Spetsnaz"
+  ctu = "spetsnaz"
   dob = "11/03/1967"
   gender = "M"
   height = "1.83M"
@@ -24,18 +30,22 @@ references = [
   speed = "Slow"
   weight = "99.8KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_tachanka_concept01_th_229012.jpg"
   alt = "Tachanka concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_tachanka_concept02_th_229010.jpg"
   alt = "Tachanka concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_tachanka_concept03_th_229008.jpg"
   alt = "Tachanka concept art."
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

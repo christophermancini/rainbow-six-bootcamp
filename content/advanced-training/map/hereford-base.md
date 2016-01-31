@@ -9,27 +9,27 @@ title = "Hereford Training Base"
 thumbnail = "/images/maps/hereford-base--320x168.jpg"
 type = "map"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-hereford-01_212000.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-hereford-13_229719.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-hereford-14_229720.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-hereford-15_229721.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-hereford-16_229722.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-hereford-17_229723.jpg"
   alt = ""
 +++

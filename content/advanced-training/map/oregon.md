@@ -9,27 +9,27 @@ title = "Oregon"
 thumbnail = "/images/maps/oregon--320x167.jpg"
 type = "map"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-oregon-01_227852.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-oregon-14_229739.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-oregon-15_229740.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-oregon-16_229741.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-oregon-17_229742.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-oregon-18_229743.jpg"
   alt = ""
 +++

@@ -1,11 +1,19 @@
 +++
 country = "France"
 date = "2015-10-03T22:30:03-04:00"
-image = ""
+fulltitle = "National Gendarmerie Intervention Group"
 tags = ["ctu","GIGN","Doc","Montagne","Rook","Twitch"]
 title = "GIGN"
 type = "ctu"
-wikipedia = "National_Gendarmerie_Intervention_Group"
+references = [
+  "https://en.wikipedia.org/wiki/National_Gendarmerie_Intervention_Group"
+]
+
+[images]
+  backdrop = "/images/ctu/gign-backdrop.jpg"
+  icon = "/images/ctu/gign-insignia.png"
+  main = ""
+  thumbnail = "/images/ctu/gign-patch.jpg"
 +++
 
 ## History

@@ -5,7 +5,6 @@ country = "Russia"
 date = "2015-10-07T15:46:14-04:00"
 description = "Semi-automatic shotgun, favored by the Spetsnaz. Limited range, large spread decreases accuracy."
 groupId = 1
-image = "/images/gear/sasg-12.jpg"
 manufacturers = ["KBP Instrument Design Bureau"]
 operators = ["Kapkan","Tachanka"]
 tags = ["primary weapon"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Saiga-12"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/sasg-12.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor"]
   skin = [

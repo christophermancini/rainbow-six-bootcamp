@@ -1,9 +1,15 @@
 +++
+country = ""
 tags = []
 type = "ctu"
 
-image = ""
-wikipedia = ""
+references = []
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = ""
+  thumbnail = ""
 +++
 
 ## History

@@ -5,7 +5,6 @@ country = "Russia"
 date = "2015-12-06T09:35:47-05:00"
 description = "Long range rifle. High recoil per shot with a very small magazine. Used by Glaz from Spetsnaz."
 groupId = 1
-image = "/images/gear/ots-03.jpg"
 manufacturers = ["KBP Instrument Design Bureau"]
 operators = ["Glaz"]
 tags = ["primary weapon","Glaz"]
@@ -15,6 +14,11 @@ references = [
   "https://en.wikipedia.org/wiki/Dragunov_SVU"
 ]
 recruit = false
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/ots-03.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [

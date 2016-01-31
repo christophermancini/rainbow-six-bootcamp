@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:04:53-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-doc_229883.png"
 tags = ["operator","GIGN","Doc"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-doc_229913.png"
 title = "Doc"
 type = "operator"
 video = ""
@@ -10,10 +8,18 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210704-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/doc-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-doc_229853.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-doc_229883.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-doc_229913.png"
+
 [info]
   armor = "Heavy"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-doc_229853.png"
-  ctu = "GIGN"
+  ctu = "gign"
   dob = "09/16/1977"
   gender = "M"
   height = "1.77M"
@@ -24,14 +30,18 @@ references = [
   speed = "Slow"
   weight = "79KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_doc_concept01_th_210637.jpg"
   alt = "Doc concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_doc_concept02_th_210639.jpg"
   alt = "Doc concept art."
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

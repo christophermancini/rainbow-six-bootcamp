@@ -1,26 +1,40 @@
 +++
-armor = "Medium"
-badge = ""
-ctu = ""
-dob = ""
-gadgets = []
-gender = "M"
-height = "M"
-image = ""
-name = ""
-pob = ""
-positon = "Attacker"
-primaryWeapons = []
-quote = ""
-secondaryWeapons = []
-speed = "Medium"
-spotlight = "http://rainbow6.ubi.com/siege/en-us/news/detail.aspx"
-tags = []
-thumbnail = ""
+references = []
+tags = ["operator"]
 type = "operator"
-unique = ""
-weight = "KG"
+video = ""
+
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/-backdrop.jpg"
+  icon = ""
+  main = ""
+  thumbnail = ""
+
+[info]
+  armor = "Medium"
+  badge = ""
+  ctu = ""
+  dob = ""
+  gender = "M"
+  height = "M"
+  name = ""
+  pob = ""
+  position = "Attacker"
+  quote = ""
+  speed = "Medium"
+  weight = "KG"
+
+[[gallery]]
+  src = ""
+  alt = ""
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 
@@ -33,3 +47,5 @@ weight = "KG"
 ### Relevant Experience
 
 ### Notes
+
+## Community Guides

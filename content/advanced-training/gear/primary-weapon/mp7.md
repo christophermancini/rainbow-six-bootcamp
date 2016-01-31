@@ -5,7 +5,6 @@ country = "Germany"
 date = "2015-10-07T20:31:15-04:00"
 description = "Close to mid-range submachine gun with high penetration. Favored by GSG 9."
 groupId = 1
-image = "/images/gear/mp7.jpg"
 manufacturers = ["Heckler & Koch"]
 operators = ["Bandit"]
 tags = ["primary weapon","MP7"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Heckler_%26_Koch_MP7"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/mp7.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [

@@ -9,6 +9,8 @@ type = "gadget"
 unique = false
 
 [images]
+  backdrop = ""
+  icon = ""
   main = "/images/gear/gadgets/preview/smoke-grenade.jpg"
   thumbnail = "/images/gear/gadgets/preview/smoke-grenade.jpg"
 +++

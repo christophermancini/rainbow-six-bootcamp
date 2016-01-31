@@ -5,7 +5,6 @@ country = "Belgium"
 date = "2016-01-23T00:34:21-05:00"
 description = ""
 groupId = 1
-image = ""
 manufacturers = ["Browning"]
 operators = ["Buck","Frost"]
 tags = ["secondary weapon","Buck"]
@@ -15,6 +14,11 @@ references = [
   "https://en.wikipedia.org/wiki/Browning_Hi-Power",
   "http://www.casr.ca/101-army-smallarm-4.htm"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/mk1-9mm.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor"]
   skin = [

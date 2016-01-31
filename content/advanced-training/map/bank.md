@@ -8,27 +8,33 @@ title = "Bank"
 thumbnail = "/images/maps/bank--320x162.jpg"
 type = "map"
 
-[[images]]
+[images]
+  backdrop = ""
+  icon = ""
+  main = ""
+  thumbnail = ""
+
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-bank-01_227817.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-bank-07_229699.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-bank-08_229700.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-bank-09_229701.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-bank-10_229702.jpg"
   alt = ""
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-bank-11_229703.jpg"
   alt = ""
 +++

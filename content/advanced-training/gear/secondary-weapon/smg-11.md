@@ -5,7 +5,6 @@ country = "United States of America"
 date = "2015-12-06T09:38:22-05:00"
 description = "High rate of fire and a large magazine adapts the 9mm submachine gun for close combat."
 groupId = 2
-image = "/images/gear/smg-11.jpg"
 manufacturers = ["Military Armament Corporation"]
 operators = ["Sledge","Smoke"]
 tags = ["secondary weapon"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/MAC-11"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/smg-11.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [

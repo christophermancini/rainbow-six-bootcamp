@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 
-<html class="no-js"> <!--<![endif]-->
+<html lang="en"> <!--<![endif]-->
 <head>
   {{ partial "head.html" . }}
 </head>
@@ -12,43 +12,74 @@
 
   {{ partial "header.html" . }}
 
-  <main>
-    <div class="container">
-      <div class="row">
+  <div class="container">
+    {{ partial "socialLinks.html" . }}
+    <ol class="breadcrumb hidden-sm-down">
+      <li><a href="/">HOME</a></li>
+      <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
+      <li class="active">{{ upper .Title }}</li>
+    </ol>
+  </div>
 
-        <!-- blog-contents -->
-        <section class="col-md-8">
-          <article class="single-blog-item">
-            <h1>{{ partial "title" . }}</h1>
+  {{ partial "backdrop.html" . }}
 
-            {{ partial "tags" . }}
-
-            {{ partial "featuredImage" . }}
-
-            {{ .Content }}
-
-            {{ if isset .Params "images" }}
-            {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
-            {{ partial "imageGallery" .Params.images }}
-            {{ end }}
-
-            {{ partial "references" . }}
-
-            {{ partial "sectionNav.html" . }}
-          </article>
-
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
-
-          {{ partial "related.html" . }}
-
-          {{ partial "disqus.html" . }}
-        </section>
-        <!-- end of blog-contents -->
-
-        {{ partial "sidebar.html" . }}
-
+  <div class="container">
+    <div class="spacer">
+      <div id="operator-header" class="fbi-swat">
+        <h1 class="display-1">{{ .Title }}</h1>
+        <h4 class="display-4">{{ .Params.fulltitle }}</h4>
       </div>
-    </div> <!-- end of /.container -->
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="section-wrapper">
+      <div class="row">
+        <div class="col-md-7 col-xs-12">
+          <div class="content-border">
+            <div class="white-stone">
+              <div class="col-xs-3">
+                {{ if .Params.images.thumbnail }}<img src="{{ .Params.images.thumbnail }}" width="100%">{{ end }}
+              </div>
+              <div class="col-xs-6" style="padding-left: 10px;">
+                <p style="padding: 10px 0;">
+                  <strong>Country:</strong>
+                  <span class="ctu-flag-{{ urlize .Title }}" style="line-height: 1.2em; padding-left: 40px;">{{ .Params.country }}</span>
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="white-stone">
+              <h3>Operators</h3>
+              {{ range where .Site.Pages.ByTitle "Type" "operator" }}
+                {{ if in .Params.info.ctu (urlize $.Title) }}
+                  {{ .Render "gallery" }}
+                {{ end }}
+              {{ end }}
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-xs-12">
+          <div id="content">
+            {{ .Content }}
+          </div>
+          {{ if .Params.gallery }}
+            {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
+            {{ partial "imageGallery" .Params.gallery }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          {{ partial "references" . }}
+          {{ partial "sectionNav.html" . }}
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+          {{ partial "related.html" . }}
+          {{ partial "disqus.html" . }}
+        </div>
+      </div>
+    </section>
   </main>
 
   {{ partial "footer.html" . }}

@@ -5,7 +5,6 @@ country = "United Kingdom"
 date = "2016-01-23T00:36:30-05:00"
 description = "Classic submachine gun, close to mid-range. Slower rate of fire, with medium stopping power."
 groupId = 1
-image = ""
 manufacturers = ["Sterling Armaments Company"]
 operators = ["Frost"]
 tags = ["primary weapon","Frost"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Sterling_submachine_gun#Variants"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/9mm-c1.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [

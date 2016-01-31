@@ -10,36 +10,23 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-full">
-    <div class="container">
-      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">&#9776;</button>
-      <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-        <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-          <img src="/logo-banner.png" alt="{{ .Site.Title }} Logo">
-        </a>
-        <ul class="nav navbar-nav pull-right">
-        {{ range .Site.Menus.main }}
-          {{ if .HasChildren }}
-          <li class="nav-item dropdown">
-            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link{{ if $.HasMenuCurrent "main" . }} active{{ end }}">{{ .Name }}<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              {{ range .Children }}
-              <li class="dropdown-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-          </li>
-          {{ else }}
-          <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
-          {{ end }}
-        {{ end }}
-        </ul>
-      </div>
-    </div>
-  </nav>
+  {{ partial "header.html" . }}
 
-  {{ with .Params.images.backdrop }}
-  <div class="backdrop" style="background-image: url('{{ . }}');"></div>
-  {{ end }}
+  <div class="container">
+    {{ partial "socialLinks.html" . }}
+    <ol class="breadcrumb hidden-sm-down">
+      <li><a href="/">HOME</a></li>
+      <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
+      <li>
+        <a href="/advanced-training/ctu/{{ .Params.info.ctu }}/">
+          {{  upper (index (index .Site.Data.operators.ctu .Params.info.ctu) "title") }}
+        </a>
+      </li>
+      <li class="active">{{ upper .Title }}</li>
+    </ol>
+  </div>
+
+  {{ partial "backdrop.html" . }}
 
   <div class="container">
     <div class="spacer">
@@ -57,16 +44,14 @@
           <div class="content-border">
             <div class="white-stone">
               <h3>
-                {{ if .Params.info.badge }}<img src="{{ .Params.info.badge }}">{{ end }}
+                {{ if .Params.images.icon }}<img src="{{ .Params.images.icon }}">{{ end }}
                 {{ .Params.info.name }}
               </h3>
               <div style="position: absolute;top:20px;right:20px;">
                 <p class="ctu">
-                  {{ range where .Site.Pages "Type" "ctu" }}
-                    {{ if eq $.Params.info.ctu (urlize .Title)}}
-                    <a href="{{ .Permalink }}" class="ctu-flag-{{ $.Params.info.ctu }}">{{ .Title }}</a>
-                    {{ end }}
-                  {{ end }}
+                  <a href="/advanced-training/ctu/{{ .Params.info.ctu }}/" class="ctu-flag-{{ .Params.info.ctu }}">
+                    {{  index (index .Site.Data.operators.ctu .Params.info.ctu) "title" }}
+                  </a>
                 </p>
               </div>
               <div class="col-xs-6">
@@ -129,7 +114,7 @@
                           <div class="article-gallery-item">
                             <a href="{{ .Permalink }}">
                               <figure>
-                                <img src="{{ .Params.images.thumbnail }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+                                <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
                               </figure>
                               <figcaption class="figure-caption">{{ .Title }}</figcaption>
                             </a>
@@ -145,9 +130,9 @@
 
               {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
 
-              {{ if .Params.gallery.art }}
+              {{ if .Params.gallery }}
                 {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
-                {{ partial "imageGallery" .Params.gallery.art }}
+                {{ partial "imageGallery" .Params.gallery }}
               {{ end }}
             </div>
           </div>
@@ -161,7 +146,6 @@
           <div id="content">
             {{ .Content }}
             {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
-            {{ partial "references" . }}
           </div>
         </div>
       </div>
@@ -169,12 +153,12 @@
       {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
       <div class="row">
-
-        {{ partial "sectionNav.html" . }}
-
-        {{ partial "related.html" . }}
-
-        {{ partial "disqus.html" . }}
+        <div class="col-xs-12">
+          {{ partial "sectionNav.html" . }}
+          {{ partial "references" . }}
+          {{ partial "related.html" . }}
+          {{ partial "disqus.html" . }}
+        </div>
       </div>
 
     </section>

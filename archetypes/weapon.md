@@ -2,22 +2,46 @@
 type = "weapon"
 tags = []
 
-image = ""
 operators = []
 groupId = 1
 
-barrel-mods = ["suppressor","flash","compensator"]
 cartridges = [""]
-classes =""
+classes = ""
 country = ""
-damage = 40
 description = ""
-fire-rate = 600
-laser-mod = true
-magazine = 30
 manufacturers = [""]
-mobility = 0
-sight-mods = []
-skins = []
-wikipedia = ""
+
+references = [
+  "https://en.wikipedia.org/wiki/"
+]
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/{{ .Title }}.jpg"
+  thumbnail = ""
+
+[mods]
+  barrel = ["suppressor", "flash-hider","compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "modern-usa-camo",
+    "swe-reganomics"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+[specs]
+  damage = ""
+  fireRate = ""
+  mobility = ""
+  capacity = ""
 +++

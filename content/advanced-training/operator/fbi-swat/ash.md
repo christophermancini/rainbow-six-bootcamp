@@ -20,7 +20,6 @@ references = [
 
 [info]
   armor = "Light"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-ash_229847.png"
   ctu = "fbi-swat"
   dob = "12/14/1983"
   gender = "F"
@@ -32,17 +31,17 @@ references = [
   speed = "Fast"
   weight = "63KG"
 
-[[gallery.art]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept01_th_205820.jpg"
   alt = "Ash concept art."
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept01_th_205820.jpg"
 
-[[gallery.art]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept02_th_205822.jpg"
   alt = "Ash concept art."
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept02_th_205822.jpg"
 
-[[gallery.art]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept04_th_205827.jpg"
   alt = "Ash concept art."
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_ash_concept04_th_205827.jpg"

@@ -1,11 +1,18 @@
 +++
 country = "Russia"
 date = "2015-10-03T22:30:07-04:00"
-image = ""
 tags = ["ctu","Spetsnaz","Fuze","Glaz","Kapkan","Tachanka"]
 title = "Spetsnaz"
 type = "ctu"
-wikipedia = "Spetsnaz"
+references = [
+  "https://en.wikipedia.org/wiki/Spetsnaz"
+]
+
+[images]
+  backdrop = "/images/ctu/spetsnaz-backdrop.jpg"
+  icon = "/images/ctu/spetsnaz-insignia.png"
+  main = ""
+  thumbnail = "/images/ctu/spetsnaz-patch.jpg"
 +++
 
 ## History

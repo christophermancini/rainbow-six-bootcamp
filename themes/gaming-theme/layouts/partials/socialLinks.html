@@ -1,0 +1,7 @@
+    <div class="social-links hidden-md-down">
+      <ul class="social-share text-center">
+        {{ range $i, $e := .Site.Params.socialLinks }}
+        <li><a href="{{ .link }}" target="_blank"><i class="fa fa-{{ .key }}"></i></a></li>
+        {{ end }}
+      </ul>
+    </div>

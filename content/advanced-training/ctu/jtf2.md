@@ -1,11 +1,19 @@
 +++
 country = "Canada"
 date = "2015-10-03T22:30:05-04:00"
-image = ""
 tags = ["ctu","JTF2","Frost","Buck"]
-title = "JTF2 - Joint Task Force 2"
+title = "JTF2"
+subtitle = "Joint Task Force 2"
 type = "ctu"
-wikipedia = "Joint_Task_Force_2"
+references = [
+  "https://en.wikipedia.org/wiki/Joint_Task_Force_2"
+]
+
+[images]
+  backdrop = "/images/ctu/jtf2-backdrop.jpg"
+  icon = "/images/ctu/jtf2-insignia.png"
+  main = ""
+  thumbnail = "/images/ctu/jtf2-patch.jpg"
 +++
 
 ## History

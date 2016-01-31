@@ -1,18 +1,23 @@
 +++
 date = "2015-12-06T09:29:43-05:00"
 groupId = 3
-image = "/images/gear/nitro-cell.jpg"
 operators = ["Mute","Bandit","Kapkan","Pulse","Frost"]
 tags = ["gadget"]
 title = "Nitro Cell"
 type = "gadget"
 unique = false
 
-[[images]]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/nitro-cell.jpg"
+  thumbnail = ""
+
+[[gallery]]
   src = "/images/gear/gadgets/nitro-cell-toss.jpg"
   alt = "That moment when you realize your screwed..."
 
-[[images]]
+[[gallery]]
   src = "/images/gear/gadgets/nitro-cell-toss2.jpg"
   alt = "The moment after you were screwed..."
 +++

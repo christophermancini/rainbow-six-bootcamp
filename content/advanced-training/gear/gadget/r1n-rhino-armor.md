@@ -1,14 +1,19 @@
 +++
 date = "2015-12-06T15:32:42-05:00"
 groupId = 0
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-rook_229898.png"
 operators = ["Rook"]
 tags = ["gadget","Rook"]
 title = "R1N \"Rhino\" Armor Pack"
 type = "gadget"
 unique = true
 
-[[images]]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-rook_229898.png"
+  thumbnail = ""
+
+[[gallery]]
   src = "/images/gear/gadgets/r1n-rhino-armor-live.jpg"
   alt = "In game screenshot of Rook's R1N Rhino Armor pack."
 +++

@@ -5,7 +5,6 @@ country = "Russia"
 date = "2015-12-06T09:38:11-05:00"
 description = "9mm short range hand gun with high stopping power, favored by Spetsnaz."
 groupId = 2
-image = "/images/gear/pmm.jpg"
 manufacturers = ["Kalashnikov Concern"]
 operators = ["Glaz","Fuze","Kapkan","Tachanka"]
 tags = ["secondary weapon"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Makarov_pistol"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/pmm.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor"]
   skin = [

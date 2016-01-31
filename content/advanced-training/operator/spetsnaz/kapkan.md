@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:18:40-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-kapkan_229908.png"
 tags = ["operator","Spetsnaz","Kapkan"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-kapkan_229918.png"
 title = "Kapkan"
 type = "operator"
 video = ""
@@ -10,10 +8,18 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-228985-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/kapkan-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-kapkan_229866.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-kapkan_229908.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-kapkan_229918.png"
+
 [info]
   armor = "Heavy"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-kapkan_229866.png"
-  ctu = "Spetsnaz"
+  ctu = "spetsnaz"
   dob = "05/14/1979"
   gender = "M"
   height = "1.80M"
@@ -24,14 +30,18 @@ references = [
   speed = "Slow"
   weight = "68KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_kapkan_concept01_th_229001.jpg"
   alt = "Kapkan concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_kapkan_concept02_th_228999.jpg"
   alt = "Kapkan concept art."
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

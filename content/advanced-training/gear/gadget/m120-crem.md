@@ -8,7 +8,10 @@ type = "gadget"
 unique = true
 
 [images]
+  backdrop = ""
+  icon = ""
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-ash_229885.png"
+  thumbnail = ""
 +++
 
 The M120 CREM is a 40mm explosive breaching round used with a modified grenade launcher to enter

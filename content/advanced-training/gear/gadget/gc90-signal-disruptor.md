@@ -1,18 +1,23 @@
 +++
 date = "2015-12-06T15:17:33-05:00"
 groupId = 0
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-mute_229896.png"
 operators = ["mute"]
 tags = ["gadget","Mute"]
 title = "GC90 \"Moni\" Signal Disruptor"
 type = "gadget"
 unique = true
 
-[[images]]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-mute_229896.png"
+  thumbnail = ""
+
+[[gallery]]
   src = "/images/gear/gadgets/gc90-drone-scramble.jpg"
   alt = "What its like to get your drone caught by Mute's GC90."
 
-[[images]]
+[[gallery]]
   src = "/images/gear/gadgets/gc90-well-placed-result.jpg"
   alt = "Effective placement of Mute's GC90 can provide your team an edge."
 +++

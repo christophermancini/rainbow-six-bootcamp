@@ -1,11 +1,26 @@
 +++
 country = "Germany"
 date = "2015-10-03T22:30:04-04:00"
-image = ""
+fulltitle = "Grenzschutzgruppe 9 der Bundespolizei"
 tags = ["ctu","GSG 9","Bandit","Blitz","IQ","Jäger"]
 title = "GSG 9"
 type = "ctu"
-wikipedia = "GSG_9"
+references = [
+  "https://en.wikipedia.org/wiki/GSG_9",
+  "http://www.bundespolizei.de/Web/DE/05Die-Bundespolizei/04Einsatzkraefte/03GSG9/GSG9_node.html"
+]
+
+[images]
+  backdrop = "/images/ctu/gsg-9-backdrop.jpg"
+  icon = "/images/ctu/gsg-9-insignia.png"
+  main = ""
+  thumbnail = "/images/ctu/gsg-9-patch.jpg"
+
+[[gallery]]
+  src = "http://www.bundespolizei.de/Web/DE/05Die-Bundespolizei/04Einsatzkraefte/03GSG9/gsg9_img.jpg?__blob=normal"
+  alt = "Team photo."
+  width = 630
+  height = 353
 +++
 
 ## History

@@ -13,7 +13,7 @@ type = "weapon-mod"
   credits = ""
   units = ""
 
-[[images]]
+[[gallery]]
   src = "/images/gear/skin/in-game/dev-tester-rc-4-live--1600x900.jpg"
   alt = "Dev Tester skin on the RC-4."
   thumbnail = "/images/gear/skin/in-game/dev-tester-rc-4-live--320x180.jpg"

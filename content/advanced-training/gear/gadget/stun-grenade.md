@@ -7,7 +7,10 @@ tags = ["gadget"]
 title = "Stun Grenade"
 type = "gadget"
 unique = false
+
 [images]
+  backdrop = ""
+  icon = ""
   main = "/images/gear/gadgets/preview/stun-grenade.jpg"
   thumbnail = "/images/gear/gadgets/preview/stun-grenade.jpg"
 +++

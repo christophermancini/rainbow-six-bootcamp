@@ -1,20 +1,26 @@
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-full">
     <div class="container">
-
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">&#9776;</button>
+      <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
         <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-          <img src="/logo.png" alt="{{ .Site.Title }} Logo">
+          <img src="/logo-banner.png" alt="{{ .Site.Title }} Logo">
         </a>
+        <ul class="nav navbar-nav pull-right">
+        {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link{{ if $.HasMenuCurrent "main" . }} active{{ end }}">{{ .Name }}<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              {{ range .Children }}
+              <li class="dropdown-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
+          </li>
+          {{ else }}
+          <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        {{ end }}
+        </ul>
       </div>
-
-      {{ partial "navmenu" . }}
-
-    </div><!-- end of /.container -->
+    </div>
   </nav>

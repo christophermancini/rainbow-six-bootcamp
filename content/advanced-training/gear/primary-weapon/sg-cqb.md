@@ -5,7 +5,6 @@ country = "Italy & Germany"
 date = "2015-12-06T09:36:42-05:00"
 description = "Compact pump action 12-gauge shotgun with close range stopping power. Favored by GIGN."
 groupId = 1
-image = "/images/gear/sg-cqb.jpg"
 manufacturers = ["Heckler & Koch","FABARM"]
 operators = ["Doc","Rook","Twitch"]
 tags = ["primary weapon"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Heckler_%26_Koch_FABARM_FP6"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/sg-cqb.jpg"
+  thumbnail = ""
 [mods]
   barrel = []
   skin = [

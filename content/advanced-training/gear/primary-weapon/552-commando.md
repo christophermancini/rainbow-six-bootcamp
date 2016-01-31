@@ -5,7 +5,6 @@ country = "Switzerland"
 date = "2015-12-06T09:33:00-05:00"
 description = "Medium range carbine, 30 round magazine, medium penetration at optimal range, 690 rounds per minute."
 groupId = 1
-image = "/images/gear/552-commando.jpg"
 manufacturers = ["Swiss Arms"]
 operators = ["IQ"]
 tags = ["primary weapon","IQ"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/SIG_SG_550"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/552-commando.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [

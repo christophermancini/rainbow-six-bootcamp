@@ -5,7 +5,6 @@ country = "United States of America"
 date = "2015-12-06T09:38:22-05:00"
 description = "9mm close to mid-range submachine gun with moderate recoil and high rate of fire."
 groupId = 1
-image = "/images/gear/fmg-9.jpg"
 manufacturers = ["Magpul Industries"]
 operators = ["Smoke"]
 tags = ["primary weapon"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Magpul_FMG-9"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/fmg-9.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [

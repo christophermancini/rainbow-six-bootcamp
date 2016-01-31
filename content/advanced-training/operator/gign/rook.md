@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:06:58-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-rook_229933.png"
 tags = ["operator","GIGN","Rook"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-rook_229922.png"
 title = "Rook"
 type = "operator"
 video = "f9_xIszLn0U"
@@ -10,10 +8,18 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-210708-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/rook-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-rook_229872.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-rook_229933.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-rook_229922.png"
+
 [info]
   armor = "Heavy"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-rook_229872.png"
-  ctu = "GIGN"
+  ctu = "gign"
   dob = "1/6/1990"
   gender = "M"
   height = "1.75M"
@@ -24,25 +30,29 @@ references = [
   speed = "Slow"
   weight = "63KG"
 
-[[images]]
+[[gallery]]
   src = "/images/operator/rook-vid.jpg"
   alt = "Rook testing armor strength."
-[[images]]
+[[gallery]]
   src = "/images/operator/rook-vid2.jpg"
   alt = ""
-[[images]]
+[[gallery]]
   src = "/images/operator/rook-vid3.jpg"
   alt = ""
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_rook_concept01_th_210657.jpg"
   alt = "Concept art."
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_rook_concept02_th_210659.jpg"
   alt = "Concept art."
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_rook_concept03_th_210661.jpg"
   alt = "Concept art."  
 +++
+
+Intro / description paragraph...<!--more-->
+
+## Bio
 
 ## Tactical Profile
 

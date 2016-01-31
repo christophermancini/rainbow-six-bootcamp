@@ -14,6 +14,8 @@ references = [
   "https://en.wikipedia.org/wiki/FN_Five-seven"
 ]
 [images]
+  backdrop = ""
+  icon = ""
   main = "/images/gear/weapons/preview/m45-meusoc.jpg"
   thumbnail = "/images/gear/weapons/preview/m45-meusoc.jpg"
 [mods]

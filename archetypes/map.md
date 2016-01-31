@@ -1,11 +1,19 @@
 +++
-tags = ["house"]
+tags = ["map"]
 type = "map"
 
-floor-plans = []
-location = "Los Angeles, CA, USA"
-spawns = ["River Docks","Construction Site","APC Area","Side Street"]
-image = ""
+location = ""
+spawns = []
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = ""
+  thumbnail = ""
+
+[[gallery]]
+  src = ""
+  alt = ""
 +++
 
 ## Description

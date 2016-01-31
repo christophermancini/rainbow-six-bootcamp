@@ -1,12 +1,17 @@
 +++
 date = "2015-12-06T15:03:00-05:00"
 groupId = 0
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-castle_229888.png"
 operators = ["Castle"]
 tags = ["gadget","Castle"]
 title = "UTP1 (Universal Tactical Panel)"
 type = "gadget"
 unique = true
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-gadget-castle_229888.png"
+  thumbnail = ""
 +++
 
 The UTP1 - Universal Tactical Panel is a bulletproof barricade that is more resistant than the standard ones available to all defenders.

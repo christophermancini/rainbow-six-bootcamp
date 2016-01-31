@@ -5,7 +5,6 @@ country = "Russia"
 date = "2015-10-07T15:46:14-04:00"
 description = "Close to mid-range 9mm submachine gun with high penetration."
 groupId = 1
-image = "/images/gear/9x19vsn.jpg"
 manufacturers = ["KBP Instrument Design Bureau"]
 operators = ["Kapkan","Tachanka"]
 tags = ["primary weapon","Kapkan","Tachanka","Spetsnaz"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/Vityaz-SN"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/9x19vsn.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [

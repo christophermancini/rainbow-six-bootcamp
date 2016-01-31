@@ -1,8 +1,6 @@
 +++
 date = "2015-09-26T12:13:20-04:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-sledge_229934.png"
 tags = ["operator","SAS","Sledge"]
-thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-sledge_229923.png"
 title = "Sledge"
 type = "operator"
 video = ""
@@ -10,10 +8,18 @@ references = [
   "http://rainbow6.ubi.com/siege/en-US/news/detail.aspx?c=tcm:152-199468-16&ct=tcm:148-76770-32"
 ]
 
+[menu.main]
+  parent = "operator"
+
+[images]
+  backdrop = "/images/operator/sledge-backdrop.jpg"
+  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-sledge_229873.png"
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-sledge_229934.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-sledge_229923.png"
+
 [info]
   armor = "Medium"
-  badge = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-sledge_229873.png"
-  ctu = "SAS"
+  ctu = "sas"
   dob = "04/02/1982"
   gadgets = ["breach-charge","frag-grenade"]
   gender = "M"
@@ -21,25 +27,30 @@ references = [
   name = "Seamus Cowden"
   pob = "John O'Groats, England"
   position = "Attacker"
-  primaryWeapons = ["590a1", "l85a2"]
   quote = "WHO NEEDS EXPLOSIVES"
-  secondaryWeapons = ["226-mk-25", "mac-11"]
   speed = "Medium"
-  unique = "caber-tactical-breaching-hammer"
   weight = "104KG"
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_sledge_concept01_th_200207.jpg"
   alt = "Sledge concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_sledge_concept02_th_200209.jpg"
   alt = "Sledge concept art."
 
-[[images]]
+[[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/news_sledge_concept03_th_200211.jpg"
   alt = "Sledge concept art."
 +++
+
+Description here...<!--more-->
+
+## Bio
+
+Seamus Cowden is a natural leader and intimidating physical powerhouse; he holds the all-time speed and strength record for the SAS qualifying physical exam. He prefers to be the point person on operations, ready to create a path for his teammates with one swing of his tactical breaching hammer “The Caber”.
+
+Sledge is the operator to choose for quick and relatively silent destruction. His breaching hammer can be used to quickly go through multiple destructible walls, floors and barricades.
 
 ## Tactical Profile
 

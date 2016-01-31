@@ -1,11 +1,17 @@
 +++
 type = "situation"
-tags = []
+tags = ["situation"]
 
 ctu = ""
 operator = ""
 map = ""
 briefing = ""
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = ""
+  thumbnail = ""
 +++
 
 ## Objective

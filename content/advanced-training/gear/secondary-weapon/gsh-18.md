@@ -5,7 +5,6 @@ country = "Russia"
 date = "2015-12-06T09:37:27-05:00"
 description = "Spetsnaz 9mm short range semi-automatic pistol, with low recoil and low damage."
 groupId = 2
-image = "/images/gear/gsh-18.jpg"
 manufacturers = ["KBP Instrument Design Bureau"]
 operators = ["Glaz","Fuze","Kapkan","Tachanka"]
 tags = ["secondary weapon"]
@@ -14,6 +13,11 @@ type = "weapon"
 references = [
   "https://en.wikipedia.org/wiki/GSh-18"
 ]
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapons/preview/gsh-18.jpg"
+  thumbnail = ""
 [mods]
   barrel = ["suppressor","compensator"]
   skin = [

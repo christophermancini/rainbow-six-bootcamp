@@ -4,6 +4,12 @@ tags = ["gadget","drone"]
 title = "Drone"
 type = "gadget"
 unique = false
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = ""
+  thumbnail = ""
 +++
 
 Every attacking operator is equipped with a remote controlled drone with a camera allowing them to gain intel inside fortified buildings.
