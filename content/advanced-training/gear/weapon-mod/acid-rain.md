@@ -8,6 +8,12 @@ title = "Acid Rain"
 thumbnail = "/images/gear/skin/acid-rain-th.jpg"
 type = "weapon-mod"
 
+[images]
+  backdrop = ""
+  icon = "/images/ctu/fbi-swat-insignia.png"
+  main = ""
+  thumbnail = "/images/ctu/fbi-swat-patch.png"
+
 [cost]
   renown = "6000"
   credits = "180"

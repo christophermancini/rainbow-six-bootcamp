@@ -13,21 +13,7 @@ references = [
   backdrop = "/images/ctu/gign-backdrop.jpg"
   icon = "/images/ctu/gign-insignia.png"
   main = ""
-  thumbnail = "/images/ctu/gign-patch.jpg"
+  thumbnail = "/images/ctu/gign-insignia.png"
 +++
 
-## History
-
-"The National Gendarmerie Intervention Group (GIGN) created in 1973, specializes in counter-terrorist and rescue misssions. Having taken part in over 1000 operations, since the GIGN was founded the unit has only seen 9 fatalities."
-
-## Operators
-
-**Attackers**
-
-- [Montagne]({{<relref "advanced-training/operator/gign/montagne.md">}})
-- [Twitch]({{<relref "advanced-training/operator/gign/twitch.md">}})
-
-**Defenders**
-
-- [Doc]({{<relref "advanced-training/operator/gign/doc.md">}})
-- [Rook]({{<relref "advanced-training/operator/gign/rook.md">}})
+The National Gendarmerie Intervention Group (GIGN) created in 1973, specializes in counter-terrorist and rescue misssions. Having taken part in over 1000 operations, since the GIGN was founded the unit has only seen 9 fatalities.

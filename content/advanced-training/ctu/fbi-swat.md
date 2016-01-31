@@ -19,20 +19,10 @@ references = [
 [[gallery]]
   src = "http://img8.photobucket.com/albums/v26/DSumner/SWAT1/FBI_LA_SWAT.jpg"
   alt = "FBI SWAT of LA conducting a CT exercise."
+
+[[gallery]]
+  src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6S_Screenshot_5_196978.jpg"
+  alt = "Concept art."
 +++
 
-## History
-
-"Created in 1983, the FBI Enhanced Special Weapons and Tactics (SWAT) Teams are trained to intervene in high-risk situations. Their expertise varies from hostage rescues, aircraft hijackings, tracking fugitives, stronghold and tubular assaults, to specialized sniper operations."
-
-## Operators
-
-**Attackers**
-
-- [Ash]({{<ref "ash.md">}})
-- [Thermite]({{<ref "thermite.md">}})
-
-**Defenders**
-
-- [Castle]({{<ref "castle.md">}})
-- [Pulse]({{<ref "pulse.md">}})
+Created in 1983, the FBI Enhanced Special Weapons and Tactics (SWAT) Teams are trained to intervene in high-risk situations. Their expertise varies from hostage rescues, aircraft hijackings, tracking fugitives, stronghold and tubular assaults, to specialized sniper operations.

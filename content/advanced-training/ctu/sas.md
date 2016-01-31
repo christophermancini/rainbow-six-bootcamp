@@ -13,21 +13,7 @@ references = [
   backdrop = "/images/ctu/sas-backdrop.jpg"
   icon = "/images/ctu/sas-insignia.png"
   main = ""
-  thumbnail = "/images/ctu/sas-patch.jpg"
+  thumbnail = "/images/ctu/sas-patch.png"
 +++
 
-## History
-
-"Founded in 1941, the Special Air Service (SAS) was a unit of the British Army during WW2. The SAS moved from obscurity in 1980 when they successfully rescued hostages from the Iranian Embassy siege. Their focus is on counter terrorism, hostage rescues and covert operations."
-
-## Operators
-
-**Attackers**
-
-- [Sledge]({{<relref "advanced-training/operator/sas/sledge.md">}})
-- [Thatcher]({{<relref "advanced-training/operator/sas/thatcher.md">}})
-
-**Defenders**
-
-- [Mute]({{<relref "advanced-training/operator/sas/mute.md">}})
-- [Smoke]({{<relref "advanced-training/operator/sas/smoke.md">}})
+Founded in 1941, the Special Air Service (SAS) was a unit of the British Army during WW2. The SAS moved from obscurity in 1980 when they successfully rescued hostages from the Iranian Embassy siege. Their focus is on counter terrorism, hostage rescues and covert operations.
