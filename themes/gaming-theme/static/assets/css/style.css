@@ -252,6 +252,18 @@ footer .social-links ul li a i {
   overflow: hidden;
 }
 
+#TableOfContents > ul {
+	margin-left: 10px;
+	padding-left: 0px;
+	list-style: none;
+}
+
+#TableOfContents ul:nth-child(1) {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
 @media(min-width: 1600px) {
   .container {
     max-width: 1550px;

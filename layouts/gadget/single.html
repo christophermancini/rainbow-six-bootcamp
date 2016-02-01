@@ -45,7 +45,6 @@
         <div class="col-md-8 col-xs-12">
           <article id="content">
             {{ partial "featuredImage" . }}
-            {{ partial "tags" . }}
             {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
 
             {{ .Content }}

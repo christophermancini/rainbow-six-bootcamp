@@ -11,7 +11,7 @@ type = "map"
   backdrop = "/images/maps/oregon-backdrop.jpg"
   icon = ""
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_02Farmhouse_Ludo_Final_229463.jpg"
-  thumbnail = "/images/maps/oregon--320x162.jpg"
+  thumbnail = "/images/maps/oregon--320x167.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-oregon-01_227852.jpg"

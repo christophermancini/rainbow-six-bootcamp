@@ -11,7 +11,7 @@ type = "map"
   backdrop = "/images/maps/kanal-backdrop.jpg"
   icon = ""
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_09Kanal_Ludo_Final_227434.jpg"
-  thumbnail = "/images/maps/kanal--320x162.jpg"
+  thumbnail = "/images/maps/kanal--320x168.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-kanal-01_227842.jpg"

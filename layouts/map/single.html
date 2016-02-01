@@ -45,19 +45,18 @@
 
         <div class="col-md-8 col-xs-12">
           <article id="content">
-            {{ partial "featuredImage" . }}
-            {{ partial "tags" . }}
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
-
             {{ .Content }}
 
             {{ partial "references" . }}
-            {{ partial "related" . }}
           </article>
         </div>
         <div class="col-md-4 col-xs-12">
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
           <div class="content-border">
+            <div class="white-stone">
+              {{ partial "hAnchor" (dict "text" "Table of Contents" "page" .) }}
+              {{ .TableOfContents }}
+            </div>
             <div class="white-stone">
               {{ with .Params.video }}
               <div class="featured-video">
@@ -65,14 +64,28 @@
               </div>
               {{ end }}
               <div class="clearfix"></div>
-            </div>
-            <div class="white-stone">
               {{ if .Params.gallery }}
                 {{ partial "hAnchor" (dict "text" "Gallery" "page" .) }}
                 {{ partial "imageGallery" .Params.gallery }}
               {{ end }}
             </div>
+            <div id="other-maps" class="white-stone">
+              {{ partial "hAnchor" (dict "text" "Other Siege Maps" "page" .) }}
+              {{ range where .Site.Pages.ByTitle "Type" "map" }}
+                {{ if ne $.Permalink .Permalink }}
+                  {{ .Render "gallery" }}
+                {{ end }}
+              {{ end }}
+              <div class="clearfix"></div>
+            </div>
+            <div class="white-stone">
+              {{ partial "hAnchor" (dict "text" "Related Articles" "page" .) }}
+              {{ partial "relatedBy.html" (dict "key" "Type" "value" "post" "tag" .Title "page" .) }}
+            </div>
           </div>
+
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}
+
         </div>
       </div>
 

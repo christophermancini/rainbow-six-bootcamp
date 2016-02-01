@@ -11,7 +11,7 @@ type = "map"
   backdrop = "/images/maps/consulate-backdrop.jpg"
   icon = ""
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_07Consulat03_Ludo_Final_229464.jpg"
-  thumbnail = "/images/maps/consulate--320x162.jpg"
+  thumbnail = "/images/maps/consulate--320x180.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-consulate-01_211993.jpg"
