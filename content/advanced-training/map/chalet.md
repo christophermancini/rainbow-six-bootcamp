@@ -1,13 +1,17 @@
 +++
 date = "2015-11-30T03:29:42-05:00"
 floor-plans = [""]
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_10Chalet02_Ludo_Final_229467.jpg"
 location = "Courchevel, France"
 spawns = []
 tags = ["map","chalet"]
 title = "Chalet"
-thumbnail = "/images/maps/chalet--320x162.jpg"
 type = "map"
+
+[images]
+  backdrop = "/images/maps/chalet-backdrop.jpg"
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_10Chalet02_Ludo_Final_229467.jpg"
+  thumbnail = "/images/maps/chalet--320x162.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-chalet-01_227824.jpg"

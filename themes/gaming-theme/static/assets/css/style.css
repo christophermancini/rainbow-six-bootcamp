@@ -135,13 +135,12 @@ footer .social-links ul li a i {
 }
 
 .spacer {
-  height: 350px;
   width: 100%;
   margin: 0 auto;
-  padding: 150px 0px;
+  padding: 150px 0px 80px 0px;
 }
 
-#operator-header {
+.spacer h1, .spacer h4 {
   text-shadow: rgb(0,0,0) 1px 1px 1px;
   color: #fff;
   margin: 0;
@@ -255,7 +254,7 @@ footer .social-links ul li a i {
 
 @media(min-width: 1600px) {
   .container {
-    max-width: 1500px;
+    max-width: 1550px;
   }
 }
 
@@ -559,7 +558,12 @@ input[type="checkbox"] {
 }
 
 .advertisement {
-    margin: 20px 0px;
+  margin: 20px 0px;
+}
+
+.white-stone .advertisement {
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
 .detail-box {

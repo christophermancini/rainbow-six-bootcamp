@@ -1,0 +1,12 @@
+{{ $template := index . "template" }}
+
+{{ range where .page.Site.Pages.ByTitle .key .value }}
+  {{ if and (in .Params.tags $.tag) (ne .Permalink $.page.Permalink) }}
+    {{ if $template }}
+      {{ .Render $template }}
+    {{ else }}
+      {{ .Render "gallery" }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<div class="clearfix"></div>

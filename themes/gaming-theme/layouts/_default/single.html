@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 
-<html class="no-js"> <!--<![endif]-->
+<html lang="en"> <!--<![endif]-->
 <head>
   {{ partial "head.html" . }}
 </head>
@@ -12,46 +12,78 @@
 
   {{ partial "header.html" . }}
 
-  <main>
-    <div class="container">
+  <div id="breadcrumb" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ol class="breadcrumb hidden-sm-down">
+          <li><a href="/">HOME</a></li>
+          <li class="active">{{ upper .Title }}</li>
+        </ol>
+      </div>
+      <div class="col-md-4 hidden-md-down">
+        {{ partial "socialLinks.html" . }}
+      </div>
+    </div>
+  </div>
+
+  {{ partial "backdrop.html" . }}
+
+  <div class="container">
+    <div class="spacer">
+      <div>
+        <h1 class="display-1">{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="section-wrapper">
       <div class="row">
 
-        <!-- blog-contents -->
-        <section class="col-md-8">
-          <article class="single-blog-item">
-            <h1>{{ partial "title" . }}</h1>
-
+        <div class="col-md-8 col-xs-12">
+          <article id="content">
             {{ partial "tags" . }}
-
             {{ partial "featuredImage" . }}
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
 
             {{ .Content }}
 
-            {{ if isset .Params "images" }}
-              {{ partial "imageGallery" .Params.images }}
-            {{ end }}
-
-            {{ partial "sectionNav.html" . }}
+            {{ partial "references" . }}
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}
+            {{ partial "related" . }}
           </article>
-
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
-
-          {{ partial "related.html" . }}
-
-          {{ partial "disqus.html" . }}
-        </section>
-        <!-- end of blog-contents -->
-
-        {{ partial "sidebar.html" . }}
-
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="content-border">
+            <div class="white-stone">
+              {{ with .Params.video }}
+              <div class="featured-video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ . }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+              {{ end }}
+            </div>
+            <div class="white-stone">
+              {{ if .Params.gallery }}
+                {{ partial "hAnchor" (dict "text" "Gallery" "page" .) }}
+                {{ partial "imageGallery" .Params.gallery }}
+              {{ end }}
+            </div>
+        </div>
       </div>
-    </div> <!-- end of /.container -->
+
+      {{ partial "sectionNav.html" . }}
+
+      <div class="row">
+        <div class="col-xs-12">
+          {{ partial "disqus.html" . }}
+        </div>
+      </div>
+
+    </section>
   </main>
 
   {{ partial "footer.html" . }}
-
   {{ partial "foot.html" . }}
-
   {{ partial "structuredDataArticle.html" . }}
 
 </body>

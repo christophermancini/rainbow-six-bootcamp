@@ -26,7 +26,7 @@ references = [
   name = "Maxim Basuda"
   pob = "Kovrov, Russia"
   position = "Defender"
-  quote = "MIND YOUR STEP"
+  quote = "Mind your step."
   speed = "Slow"
   weight = "68KG"
 

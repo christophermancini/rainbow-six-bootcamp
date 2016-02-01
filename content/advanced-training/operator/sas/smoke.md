@@ -26,7 +26,7 @@ references = [
   name = "James Porter"
   pob = "London, England"
   position = "Defender"
-  quote = "WHAT'S YOUR POISON?"
+  quote = "What's your poison?"
   speed = "Medium"
   weight = "70KG"
 

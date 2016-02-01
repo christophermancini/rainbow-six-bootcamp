@@ -26,7 +26,7 @@ references = [
   name = "Jack Estrada"
   pob = "Goldsboro, NC"
   position = "Defender"
-  quote = "I SEE I'VE GOT YOUR HEART RACING"
+  quote = "I see I've got your heart racing."
   speed = "Fast"
   weight = "85KG"
 

@@ -1,4 +1,6 @@
 
-  {{ with .Params.images.backdrop }}
+{{ with .Params.images.backdrop }}
   <div class="backdrop" style="background-image: url('{{ . }}');"></div>
-  {{ end }}
+{{ else }}
+  <div class="backdrop" style="background-image: url('/images/default-backdrop.jpg');"></div>
+{{ end }}

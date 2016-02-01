@@ -26,7 +26,7 @@ references = [
   name = "Gustave Kateb"
   pob = "Paris, France"
   position = "Defender"
-  quote = "TRY NOT TO GET YOURSELVES HURT"
+  quote = "Try not to get yourselves hurt."
   speed = "Slow"
   weight = "79KG"
 

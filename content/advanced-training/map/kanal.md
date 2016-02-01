@@ -1,13 +1,17 @@
 +++
 date = "2015-11-30T03:35:42-05:00"
 floor-plans = [""]
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_09Kanal_Ludo_Final_227434.jpg"
 location = "Hamburg, Germany"
 spawns = []
 tags = ["map","kanal"]
 title = "Kanal"
-thumbnail = "/images/maps/kanal--320x168.jpg"
 type = "map"
+
+[images]
+  backdrop = "/images/maps/kanal-backdrop.jpg"
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_09Kanal_Ludo_Final_227434.jpg"
+  thumbnail = "/images/maps/kanal--320x162.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-kanal-01_227842.jpg"

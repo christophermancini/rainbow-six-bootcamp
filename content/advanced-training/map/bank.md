@@ -1,18 +1,16 @@
 +++
 date = "2015-11-30T03:28:42-05:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_08Bank02_Ludo_Final_229466.jpg"
 location = "United States"
 spawns = []
 tags = ["map","Bank"]
 title = "Bank"
-thumbnail = "/images/maps/bank--320x162.jpg"
 type = "map"
 
 [images]
-  backdrop = ""
+  backdrop = "/images/maps/bank-backdrop.jpg"
   icon = ""
-  main = ""
-  thumbnail = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_08Bank02_Ludo_Final_229466.jpg"
+  thumbnail = "/images/maps/bank--320x162.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-bank-01_227817.jpg"

@@ -1,13 +1,17 @@
 +++
 date = "2015-11-30T03:34:42-05:00"
 floor-plans = [""]
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_11CafePouchkine_Ludo_Final_229468.jpg"
 location = "United States"
 spawns = []
 tags = ["map","kafe dostoyevski"]
 title = "Kafe Dostoyevski"
-thumbnail = "/images/maps/kafe-dostoyevski--320x162.jpg"
 type = "map"
+
+[images]
+  backdrop = "/images/maps/kafe-dostoyevski-backdrop.jpg"
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_11CafePouchkine_Ludo_Final_229468.jpg"
+  thumbnail = "/images/maps/kafe-dostoyevski--320x162.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-kafe-dostoyevsky-01_227839.jpg"

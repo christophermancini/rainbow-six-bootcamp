@@ -1,12 +1,16 @@
 +++
 date = "2015-11-30T03:30:42-05:00"
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_04BikersClub02_Ludo_Final_229465.jpg"
-location = "Moscow, RU"
+location = "Moscow, Russia"
 spawns = []
 tags = ["map","clubhouse"]
 title = "Clubhouse"
-thumbnail = "/images/maps/clubhouse--320x168.jpg"
 type = "map"
+
+[images]
+  backdrop = "/images/maps/clubhouse-backdrop.jpg"
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_04BikersClub02_Ludo_Final_229465.jpg"
+  thumbnail = "/images/maps/clubhouse--320x162.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-clubhouse-01_227835.jpg"

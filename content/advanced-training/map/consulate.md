@@ -1,13 +1,17 @@
 +++
 date = "2015-11-30T03:31:42-05:00"
 floor-plans = [""]
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_07Consulat03_Ludo_Final_229464.jpg"
 location = "Abidjan, CV"
 spawns = []
 tags = ["map","consulate"]
 title = "Consulate"
-thumbnail = "/images/maps/consulate--320x180.jpg"
 type = "map"
+
+[images]
+  backdrop = "/images/maps/consulate-backdrop.jpg"
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_07Consulat03_Ludo_Final_229464.jpg"
+  thumbnail = "/images/maps/consulate--320x162.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-consulate-01_211993.jpg"

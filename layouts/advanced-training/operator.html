@@ -23,7 +23,7 @@
 
             {{ .Content }}
 
-            {{ partial "h2Anchor" (dict "text" "FBI SWAT" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "FBI SWAT" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
                 {{ if in .Params.tags "FBI SWAT" }}
@@ -32,7 +32,7 @@
               {{ end }}
             </div>
 
-            {{ partial "h2Anchor" (dict "text" "GIGN" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "GIGN" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
                 {{ if in .Params.tags "GIGN" }}
@@ -41,7 +41,7 @@
               {{ end }}
             </div>
 
-            {{ partial "h2Anchor" (dict "text" "GSG 9" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "GSG 9" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
                 {{ if in .Params.tags "GSG 9" }}
@@ -52,7 +52,7 @@
 
             {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
-            {{ partial "h2Anchor" (dict "text" "JTF2" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "JTF2" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
                 {{ if in .Params.tags "JTF2" }}
@@ -61,7 +61,7 @@
               {{ end }}
             </div>
 
-            {{ partial "h2Anchor" (dict "text" "SAS" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "SAS" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
                 {{ if in .Params.tags "SAS" }}
@@ -70,7 +70,7 @@
               {{ end }}
             </div>
 
-            {{ partial "h2Anchor" (dict "text" "Spetsnaz" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Spetsnaz" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
                 {{ if in .Params.tags "Spetsnaz" }}

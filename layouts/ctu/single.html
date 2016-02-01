@@ -18,6 +18,7 @@
         <ol class="breadcrumb hidden-sm-down">
           <li><a href="/">HOME</a></li>
           <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
+          <li><a href="/ctus/">COUNTER TERRORIST UNIT</a></li>
           <li class="active">{{ upper .Title }}</li>
         </ol>
       </div>
@@ -31,7 +32,7 @@
 
   <div class="container">
     <div class="spacer">
-      <div id="operator-header">
+      <div>
         <h1 class="display-1">{{ .Title }}</h1>
       </div>
     </div>
@@ -69,7 +70,7 @@
             {{ .Content }}
           </div>
           {{ if .Params.gallery }}
-            {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Gallery" "page" .) }}
             {{ partial "imageGallery" .Params.gallery }}
           {{ end }}
         </div>
@@ -77,12 +78,18 @@
       <div class="row">
         <div class="col-xs-12">
           {{ partial "references" . }}
-          {{ partial "sectionNav.html" . }}
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
           {{ partial "related.html" . }}
+        </div>
+      </div>
+
+      {{ partial "sectionNav.html" . }}
+
+      <div class="row">
+        <div class="col-xs-12">
           {{ partial "disqus.html" . }}
         </div>
       </div>
+
     </section>
   </main>
 

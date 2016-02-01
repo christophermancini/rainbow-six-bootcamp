@@ -1,13 +1,17 @@
 +++
 date = "2015-11-30T03:32:42-05:00"
 floor-plans = ["Training Course","Parking","Shooting Range"]
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_03Hereford03_Ludo_Final_227435.jpg"
 location = "Hereford, United Kingdom"
 spawns = []
 tags = ["map","Hereford Base"]
 title = "Hereford Training Base"
-thumbnail = "/images/maps/hereford-base--320x168.jpg"
 type = "map"
+
+[images]
+  backdrop = "/images/maps/hereford-base-backdrop.jpg"
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_03Hereford03_Ludo_Final_227435.jpg"
+  thumbnail = "/images/maps/hereford-base--320x162.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-hereford-01_212000.jpg"

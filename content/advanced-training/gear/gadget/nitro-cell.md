@@ -10,7 +10,7 @@ unique = false
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/nitro-cell.jpg"
+  main = "/images/gear/gadgets/preview/nitro-cell.jpg"
   thumbnail = ""
 
 [[gallery]]

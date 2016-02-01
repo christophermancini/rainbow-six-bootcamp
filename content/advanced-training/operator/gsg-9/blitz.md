@@ -28,7 +28,7 @@ references = [
   name = "Elias Kötz"
   pob = "Bremen, Germany"
   position = "Attacker"
-  quote = "STICK BEHIND ME AND YOUR UGLY MUG MIGHT LIVE TO SEE ANOTHER DAY!"
+  quote = "Stick behind me and your ugly mug might live to see another day!"
   speed = "Slow"
   weight = "75KG"
 

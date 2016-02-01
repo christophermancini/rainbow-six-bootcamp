@@ -26,7 +26,7 @@ references = [
   name = "Alexsandr Senaviev"
   pob = "Saint Petersburg, Russia"
   position = "Defender"
-  quote = "KILLING ZONE DEPLOYED"
+  quote = "Killing zone deployed."
   speed = "Slow"
   weight = "99.8KG"
 

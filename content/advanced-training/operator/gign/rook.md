@@ -26,7 +26,7 @@ references = [
   name = "Julien Nizan"
   pob = "Tours, France"
   position = "Defender"
-  quote = "TIME FOR SOME SERIOUS PROTECTION"
+  quote = "Time for some serious protection."
   speed = "Slow"
   weight = "63KG"
 

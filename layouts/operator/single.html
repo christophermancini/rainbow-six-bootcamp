@@ -1,3 +1,4 @@
+{{ $ctuTitle := index (index .Site.Data.operators.ctu .Params.info.ctu) "title" }}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -18,11 +19,7 @@
         <ol class="breadcrumb hidden-sm-down">
           <li><a href="/">HOME</a></li>
           <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
-          <li>
-            <a href="/advanced-training/ctu/{{ .Params.info.ctu }}/">
-              {{  upper (index (index .Site.Data.operators.ctu .Params.info.ctu) "title") }}
-            </a>
-          </li>
+          <li><a href="/advanced-training/ctu/{{ .Params.info.ctu }}/">{{ upper $ctuTitle }}</a></li>
           <li class="active">{{ upper .Title }}</li>
         </ol>
       </div>
@@ -36,7 +33,7 @@
 
   <div class="container">
     <div class="spacer">
-      <div id="operator-header">
+      <div>
         <h1 class="display-1">{{ .Title }}</h1>
         {{ with .Params.info.quote }}<h4 class="display-4"><em>"{{ . }}"</em></h4>{{ end }}
       </div>
@@ -46,7 +43,8 @@
   <main class="container">
     <section class="section-wrapper">
       <div class="row">
-        <div class="col-md-7 col-xs-12">
+
+        <div class="col-md-6 col-xs-12">
           <div class="content-border">
             <div class="white-stone">
               <h3>
@@ -56,7 +54,7 @@
               <div style="position: absolute;top:20px;right:20px;">
                 <p class="ctu">
                   <a href="/advanced-training/ctu/{{ .Params.info.ctu }}/" class="ctu-flag-{{ .Params.info.ctu }}">
-                    {{  index (index .Site.Data.operators.ctu .Params.info.ctu) "title" }}
+                    {{ $ctuTitle }}
                   </a>
                 </p>
               </div>
@@ -87,6 +85,7 @@
             </div>
             <div class="white-stone">
               <h3>Unique Gadget</h3>
+              <p>Gadget only available to this operator.</p>
               {{ range where .Site.Pages "Type" "gadget" }}
                 {{ if and .Params.unique (in .Params.operators $.Title) }}
                 <div class="col-md-8">
@@ -105,19 +104,20 @@
               <div class="clearfix"></div>
             </div>
             <div class="white-stone">
-              {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
+              {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
             </div>
             <div class="white-stone">
-              {{ partial "h2Anchor" (dict "text" "Loadout" "page" .) }}
+              {{ partial "hAnchor" (dict "text" "Loadout" "page" .) }}
               <div class="row">
+              {{ $page := . }}
               {{ range $taxonomyName, $values := .Site.Taxonomies.operators }}
                 {{ if eq (lower $taxonomyName) (lower $.Title) }}
                   {{ range $values.Pages.GroupByParam "groupId" }}
                     {{ if gt .Key 0 }}
-                      <div class="clearfix">
-                      {{ if eq .Key 1 }}<h3>Primary Weapons</h3>{{ end }}
-                      {{ if eq .Key 2 }}<h3>Secondary Weapons</h3>{{ end }}
-                      {{ if eq .Key 3 }}<h3>Gadgets</h3>{{ end }}
+                      <div class="clearfix"></div>
+                      {{ if eq .Key 1 }}{{ partial "hAnchor" (dict "size" "3" "text" "Primary Weapons" "page" $page) }}{{ end }}
+                      {{ if eq .Key 2 }}{{ partial "hAnchor" (dict "size" "3" "text" "Secondary Weapons" "page" $page) }}{{ end }}
+                      {{ if eq .Key 3 }}{{ partial "hAnchor" (dict "size" "3" "text" "Gadgets" "page" $page) }}{{ end }}
                       {{ range .Pages }}
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                           <div class="article-gallery-item">
@@ -130,43 +130,53 @@
                           </div>
                         </div>
                       {{ end }}
-                    </div>
                     {{ end }}
                   {{ end }}
                 {{ end }}
               {{ end }}
               </div>
-              {{ if .Params.gallery }}
-                {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
-                {{ partial "imageGallery" .Params.gallery }}
-              {{ end }}
+            </div>
+            <div class="white-stone">
+              {{ partial "hAnchor" (dict "text" "Unique Skins" "page" .) }}
+              <p>Skins applicable to weapons only available to one or two operators.</p>
+              {{ partial "relatedBy.html" (dict "key" ".Params.mod-types" "value" "skin" "tag" .Title "page" .) }}
+            </div>
+            <div class="white-stone">
+              {{ partial "hAnchor" (dict "text" "Teammates" "page" .) }}
+              <p>Fellow operators from <a href="/advanced-training/ctu/{{ .Params.info.ctu }}/">{{ upper $ctuTitle }}</a>.</p>
+              {{ partial "relatedBy.html" (dict "key" "Type" "value" "operator" "tag" $ctuTitle "page" . "template" "gallerySmall") }}
             </div>
           </div>
         </div>
-        <div class="col-md-5 col-xs-12">
+        <div class="col-md-6 col-xs-12">
           {{ with .Params.video }}
           <div class="featured-video">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ . }}" frameborder="0" allowfullscreen></iframe>
           </div>
           {{ end }}
+
           <div id="content">
             {{ .Content }}
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.sidebarAd) }}
           </div>
-          {{ partial "related.html" . }}
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-xs-12">
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
-        </div>
-      </div>
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}
 
-      <div class="row">
-        <div class="col-xs-12">
+          {{ if .Params.gallery }}
+            {{ partial "hAnchor" (dict "text" "Gallery" "page" .) }}
+            {{ partial "imageGallery" .Params.gallery }}
+          {{ end }}
+
           {{ partial "references" . }}
-          {{ partial "sectionNav.html" . }}
+
+          {{ partial "hAnchor" (dict "text" "Related Articles" "page" .) }}
+          {{ partial "relatedBy.html" (dict "key" "Type" "value" "post" "tag" .Title "page" .) }}
+        </div>
+      </div>
+
+      {{ partial "sectionNav.html" . }}
+
+      <div class="row">
+        <div class="col-xs-12">
           {{ partial "disqus.html" . }}
         </div>
       </div>

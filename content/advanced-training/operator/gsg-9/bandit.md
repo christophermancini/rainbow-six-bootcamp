@@ -26,7 +26,7 @@ references = [
   name = "Dominic Brunsmeier"
   pob = "Berlin, Germany"
   position = "Defender"
-  quote = "YOUR GEAR COME WITH THAT POLISH?"
+  quote = "Your gear come with that polish?"
   speed = "Fast"
   weight = "95KG"
 

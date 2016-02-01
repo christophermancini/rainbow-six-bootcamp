@@ -26,7 +26,7 @@ references = [
   name = "Gilles Touré"
   pob = "Bordeaux, France"
   position = "Attacker"
-  quote = "GET BEHIND ME"
+  quote = "Get behind me!"
   speed = "Slow"
   weight = "100KG"
 

@@ -26,7 +26,7 @@ references = [
   name = "Marius Streicher"
   pob = "Düsseldorf, Germany"
   position = "Defender"
-  quote = "YOU CAN STOP SHOUTING \"GRENADE\" NOW, I GOT US COVERED"
+  quote = "You can stop shouting \"Grenade!\" now, I got us covered."
   speed = "Fast"
   weight = "69KG"
 

@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 
-<html class="no-js"> <!--<![endif]-->
+<html lang="en"> <!--<![endif]-->
 <head>
   {{ partial "head.html" . }}
 </head>
@@ -12,64 +12,89 @@
 
   {{ partial "header.html" . }}
 
-  <main>
-    <div class="container">
+  <div id="breadcrumb" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ol class="breadcrumb hidden-sm-down">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
+          <li><a href="/advanced-training/gear/">GEAR</a></li>
+          <li class="active">{{ upper .Title }}</li>
+        </ol>
+      </div>
+      <div class="col-md-4 hidden-md-down">
+        {{ partial "socialLinks.html" . }}
+      </div>
+    </div>
+  </div>
+
+  {{ partial "backdrop.html" . }}
+
+  <div class="container">
+    <div class="spacer">
+      <div>
+        <h1 class="display-1">{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="section-wrapper">
       <div class="row">
 
-        <!-- blog-contents -->
-        <section class="col-md-8">
-          <article class="single-blog-item">
-            <h1>{{ partial "title" . }}</h1>
-
-            {{ partial "tags" . }}
-
+        <div class="col-md-8 col-xs-12">
+          <article id="content">
             {{ partial "featuredImage" . }}
-
-            {{ if .Params.unique }}
-            <div class="pull-right col-md-4">
-              {{ range where .Site.Pages "Title" (title (index .Params.operators 0)) }}
-                  <div class="article-gallery-item article-gallery-small-item">
-                    <h5 class="text-center">Used by</h5>
-                    <a href="{{ .Permalink }}">
-                      <figure>
-                        <img src="{{ .Params.image }}" class="img-responsive center-block" alt="{{ partial "title" . }}">
-                      </figure>
-                      <figcaption>
-                        <h5>{{ .Title }}</h5>
-                      </figcaption>
-                    </a>
-                  </div>
-              {{ end }}
-            </div>
-            {{ end }}
+            {{ partial "tags" . }}
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
 
             {{ .Content }}
 
-            {{ if isset .Params "images" }}
-            {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
-            {{ partial "imageGallery" .Params.images }}
-            {{ end }}
+            {{ partial "references" . }}
+            {{ partial "related" . }}
           </article>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}
+          <div class="content-border">
+            <div class="white-stone">
+              {{ with .Params.video }}
+              <div class="featured-video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ . }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+              {{ end }}
 
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
-
-          {{ partial "related.html" . }}
-
-          {{ partial "disqus.html" . }}
-
-        </section>
-        <!-- end of blog-contents -->
-
-        {{ partial "sidebar.html" . }}
-
+              {{ partial "hAnchor" (dict "text" "Used By" "page" .) }}
+              {{ range where .Site.Pages.ByTitle "Type" "operator" }}
+                {{ if in $.Params.operators .Title }}
+                  {{ .Render "gallerySmall" }}
+                {{ end }}
+              {{ end }}
+              <div class="clearfix"></div>
+            </div>
+            <div class="white-stone">
+              {{ if .Params.gallery }}
+                {{ partial "hAnchor" (dict "text" "Gallery" "page" .) }}
+                {{ partial "imageGallery" .Params.gallery }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
       </div>
-    </div> <!-- end of /.container -->
+
+      {{ partial "sectionNav.html" . }}
+
+      <div class="row">
+        <div class="col-xs-12">
+          {{ partial "disqus.html" . }}
+        </div>
+      </div>
+
+    </section>
   </main>
 
   {{ partial "footer.html" . }}
-
   {{ partial "foot.html" . }}
-
   {{ partial "structuredDataArticle.html" . }}
 
 </body>

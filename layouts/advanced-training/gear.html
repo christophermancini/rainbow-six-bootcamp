@@ -23,7 +23,7 @@
 
             {{ .Content }}
 
-            {{ partial "h2Anchor" (dict "text" "Gadgets" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Gadgets" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "gadget" }}
                 {{ .Render "gallerySmall" }}
@@ -32,7 +32,7 @@
 
             {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
-            {{ partial "h2Anchor" (dict "text" "Primary Weapons" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Primary Weapons" "page" .) }}
             <table class="table">
             <tr style="font-size:.7em;">
               <th>Weapon</th>
@@ -49,7 +49,7 @@
             {{ end }}
             </table>
 
-            {{ partial "h2Anchor" (dict "text" "Secondary Weapons" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Secondary Weapons" "page" .) }}
             <table class="table">
             <tr style="font-size:.7em;">
               <th>Weapon</th>
@@ -66,7 +66,7 @@
             {{ end }}
             </table>
 
-            {{ partial "h2Anchor" (dict "text" "Weapon Attachments" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Weapon Attachments" "page" .) }}
             <table class="table">
             <tr style="font-size:.7em;">
               <th>Attachment</th>
@@ -83,7 +83,7 @@
             {{ end }}
             </table>
 
-            {{ partial "h2Anchor" (dict "text" "Weapon Skins" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Weapon Skins" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
                 {{ if in .Params.tags "skin" }}

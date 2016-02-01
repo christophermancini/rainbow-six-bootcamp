@@ -26,7 +26,7 @@ references = [
   name = "Monika Weiss"
   pob = "Leipzig, Germany"
   position = "Attacker"
-  quote = "WE'RE NOT GOING IN BLIND."
+  quote = "We're not going in blind."
   speed = "Fast"
   weight = "70KG"
 

@@ -1,13 +1,17 @@
 +++
 date = "2015-11-30T03:36:42-05:00"
 floor-plans = [""]
-image = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_02Farmhouse_Ludo_Final_229463.jpg"
-location = "Redmond, Oregon, USA"
+location = "Redmond, Oregon, U.S.A."
 spawns = []
 tags = ["map","oregon"]
 title = "Oregon"
-thumbnail = "/images/maps/oregon--320x167.jpg"
 type = "map"
+
+[images]
+  backdrop = "/images/maps/oregon-backdrop.jpg"
+  icon = ""
+  main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_02Farmhouse_Ludo_Final_229463.jpg"
+  thumbnail = "/images/maps/oregon--320x162.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-oregon-01_227852.jpg"

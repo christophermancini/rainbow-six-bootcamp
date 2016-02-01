@@ -26,7 +26,7 @@ references = [
   name = "Jordan Trace"
   pob = "Plano, TX"
   position = "Attacker"
-  quote = "WHERE THERE'S A WALL, THERE'S A WAY"
+  quote = "Where there's a wall, there's a way."
   speed = "Medium"
   weight = "81.6KG"
 

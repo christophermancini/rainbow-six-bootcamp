@@ -26,7 +26,7 @@ references = [
   name = "Shuhrat Kessikbayev"
   pob = "Samarkand, Uzbekistan"
   position = "Attacker"
-  quote = "PLACING CLUSTER CHARGE"
+  quote = "Placing cluster charge."
   speed = "Slow"
   weight = "85KG"
 

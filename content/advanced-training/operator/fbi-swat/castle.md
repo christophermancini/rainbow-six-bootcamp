@@ -27,7 +27,7 @@ references = [
   name = "Miles Campbell"
   pob = "Sherman Oaks, CA"
   position = "Defender"
-  quote = "THE BEST OFFENSE IS A BULLETPROOF DEFENSE"
+  quote = "The best offense is a bulletproof defense."
   speed = "Medium"
   weight = "95.3KG"
 

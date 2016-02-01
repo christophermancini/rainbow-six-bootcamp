@@ -12,8 +12,34 @@
 
   {{ partial "header.html" . }}
 
-  <main>
-    <div class="container">
+  <div id="breadcrumb" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ol class="breadcrumb hidden-sm-down">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
+          <li><a href="/advanced-training/gear/">GEAR</a></li>
+          <li class="active">{{ upper .Title }}</li>
+        </ol>
+      </div>
+      <div class="col-md-4 hidden-md-down">
+        {{ partial "socialLinks.html" . }}
+      </div>
+    </div>
+  </div>
+
+  {{ partial "backdrop.html" . }}
+
+  <div class="container">
+    <div class="spacer">
+      <div>
+        <h1 class="display-1">{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="section-wrapper">
       <div class="row">
 
         <!-- blog-contents -->
@@ -158,9 +184,9 @@
 
             {{ .Content }}
 
-            {{ partial "h2Anchor" (dict "text" "Modifications" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Modifications" "page" .) }}
 
-            {{ partial "h2Anchor" (dict "text" "Sights" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Sights" "page" .) }}
             {{ if .Params.mods.sight }}
               {{ range where .Site.Pages "Type" "weapon-mod" }}
                 {{ if in $.Params.mods.sight (urlize .Title) }}
@@ -172,7 +198,7 @@
             {{ end }}
             <div class="clearfix"></div>
 
-            {{ partial "h2Anchor" (dict "text" "Barrel mods" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Barrel mods" "page" .) }}
             {{ if .Params.mods.barrel }}
               {{ range where .Site.Pages "Type" "weapon-mod" }}
                 {{ if in $.Params.mods.barrel (urlize .Title) }}
@@ -184,7 +210,7 @@
             {{ end }}
             <div class="clearfix"></div>
 
-            {{ partial "h2Anchor" (dict "text" "Under-barrel mods" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Under-barrel mods" "page" .) }}
             {{ if (index .Params.mods "under-barrel") }}
               {{ range where .Site.Pages "Type" "weapon-mod" }}
                 {{ if in (index $.Params.mods "under-barrel") (urlize .Title) }}
@@ -196,7 +222,7 @@
             {{ end }}
             <div class="clearfix"></div>
 
-            {{ partial "h2Anchor" (dict "text" "Skins" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Skins" "page" .) }}
             {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
               {{ if in $.Params.mods.skin (urlize .Title) }}
                 {{ .Render "gallerySmall" }}
@@ -205,7 +231,7 @@
             <div class="clearfix"></div>
 
             {{ if isset .Params "images" }}
-            {{ partial "h2Anchor" (dict "text" "Gallery" "page" .) }}
+            {{ partial "hAnchor" (dict "text" "Gallery" "page" .) }}
             {{ partial "imageGallery" .Params.images }}
             {{ end }}
 
@@ -221,17 +247,21 @@
           {{ partial "disqus.html" . }}
         </section>
         <!-- end of blog-contents -->
-
-        {{ partial "sidebar.html" . }}
-
       </div>
-    </div> <!-- end of /.container -->
+
+      {{ partial "sectionNav.html" . }}
+
+      <div class="row">
+        <div class="col-xs-12">
+          {{ partial "disqus.html" . }}
+        </div>
+      </div>
+
+    </section>
   </main>
 
   {{ partial "footer.html" . }}
-
   {{ partial "foot.html" . }}
-
   {{ partial "structuredDataArticle.html" . }}
 
 </body>

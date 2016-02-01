@@ -26,7 +26,7 @@ references = [
   name = "Mark Chandar"
   pob = "York, England"
   position = "Defender"
-  quote = "I THINK YOU'VE SAID QUITE ENOUGH"
+  quote = "I think you've said enough."
   speed = "Medium"
   weight = "80KG"
 

@@ -26,7 +26,7 @@ references = [
   name = "Mike Baker"
   pob = "Bideford, England"
   position = "Attacker"
-  quote = "LIGHT'S OUT."
+  quote = "Light's out."
   speed = "Medium"
   weight = "86KG"
 

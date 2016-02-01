@@ -26,7 +26,7 @@ references = [
   name = "Emmanuelle Pichon"
   pob = "Nancy, France"
   position = "Attacker"
-  quote = "STOP COMPLAINING, IT'S JUST ELECTRICITY"
+  quote = "Stop complaining, it's just electricity."
   speed = "Medium"
   weight = "58KG"
 

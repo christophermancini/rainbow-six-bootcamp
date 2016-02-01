@@ -27,7 +27,7 @@ references = [
   name = "Seamus Cowden"
   pob = "John O'Groats, England"
   position = "Attacker"
-  quote = "WHO NEEDS EXPLOSIVES"
+  quote = "Who needs explosives."
   speed = "Medium"
   weight = "104KG"
 

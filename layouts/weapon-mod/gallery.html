@@ -1,0 +1,14 @@
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <div class="article-gallery-item">
+    <a href="{{ .Permalink }}">
+      <figure>
+        {{ if in .Params.tags "skin" }}
+          <img src="{{ with .Params.images.main }}{{ . }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+        {{ else }}
+          <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+        {{ end }}
+      </figure>
+      <figcaption class="figure-caption">{{ .Title }}</figcaption>
+    </a>
+  </div>
+</div>

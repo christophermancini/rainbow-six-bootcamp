@@ -26,7 +26,7 @@ references = [
   name = "Timur Glazkov"
   pob = "Vladivostok, Russia"
   position = "Attacker"
-  quote = "ONE SHOT, ONE KILL"
+  quote = "One shot, one kill."
   speed = "Medium"
   weight = "84KG"
 
