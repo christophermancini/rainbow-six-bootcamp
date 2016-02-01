@@ -1,7 +1,5 @@
 +++
-country = "Germany"
 date = "2015-10-03T22:30:04-04:00"
-fulltitle = "Grenzschutzgruppe 9 der Bundespolizei"
 tags = ["ctu","GSG 9","Bandit","Blitz","IQ","Jäger"]
 title = "GSG 9"
 type = "ctu"
@@ -9,6 +7,11 @@ references = [
   "https://en.wikipedia.org/wiki/GSG_9",
   "http://www.bundespolizei.de/Web/DE/05Die-Bundespolizei/04Einsatzkraefte/03GSG9/GSG9_node.html"
 ]
+
+[info]
+  country = "Germany"
+  founded = 1972
+  name = "Grenzschutzgruppe 9 der Bundespolizei"
 
 [images]
   backdrop = "/images/ctu/gsg-9-backdrop.jpg"

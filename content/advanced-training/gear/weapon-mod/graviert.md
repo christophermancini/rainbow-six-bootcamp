@@ -1,12 +1,16 @@
 +++
 date = "2015-12-09T15:58:01-05:00"
 description = "Tier 5 skin available for the M870 used by Jäger & Bandit."
-image = "/images/gear/skin/preview/graviert-m870--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","Tier 5","Jäger","Bandit","M870"]
 title = "Graviert"
-thumbnail = "/images/gear/skin/graviert-th.jpg"
 type = "weapon-mod"
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/skin/preview/graviert-m870--1600x900.jpg"
+  thumbnail = "/images/gear/skin/graviert-th.jpg"
 
 [cost]
   renown = ""

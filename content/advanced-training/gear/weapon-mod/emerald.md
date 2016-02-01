@@ -1,12 +1,16 @@
 +++
 date = "2016-01-28T08:12:46-05:00"
 description = "Special weapon skin available as a DLC purchase."
-image = "/images/gear/skin/preview/emerald-mp5k--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","special","DLC"]
-thumbnail = "/images/gear/skin/emerald-th.jpg"
 title = "Emerald"
 type = "weapon-mod"
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/skin/preview/emerald-mp5k--1600x900.jpg"
+  thumbnail = "/images/gear/skin/emerald-th.jpg"
 
 [cost]
   credits = ""

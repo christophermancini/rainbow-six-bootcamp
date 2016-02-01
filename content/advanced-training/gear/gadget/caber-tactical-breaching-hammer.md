@@ -2,7 +2,7 @@
 date = "2015-12-06T15:19:34-05:00"
 groupId = 0
 operators = ["Sledge"]
-tags = ["gadget"]
+tags = ["gadget","Sledge"]
 title = "The Caber (Tactical Breaching Hammer)"
 type = "gadget"
 unique = true

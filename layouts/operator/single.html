@@ -36,9 +36,9 @@
 
   <div class="container">
     <div class="spacer">
-      <div id="operator-header" class="fbi-swat">
+      <div id="operator-header">
         <h1 class="display-1">{{ .Title }}</h1>
-        <h4 class="display-4"><em>"{{ .Params.info.quote }}"</em></h4>
+        {{ with .Params.info.quote }}<h4 class="display-4"><em>"{{ . }}"</em></h4>{{ end }}
       </div>
     </div>
   </div>

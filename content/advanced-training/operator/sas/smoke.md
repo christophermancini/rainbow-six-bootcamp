@@ -19,7 +19,7 @@ references = [
 
 [info]
   armor = "Medium"
-  ctu = "SAS"
+  ctu = "sas"
   dob = "05/14/1990"
   gender = "M"
   height = "1.73M"

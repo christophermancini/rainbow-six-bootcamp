@@ -1,13 +1,16 @@
 +++
-country = "United Kingdom"
 date = "2015-10-03T22:30:06-04:00"
-fulltitle = "Special Air Service"
 tags = ["ctu","SAS","Mute","Sledge","Smoke","Thatcher"]
 title = "SAS"
 type = "ctu"
 references = [
   "https://en.wikipedia.org/wiki/Special_Air_Service"
 ]
+
+[info]
+  country = "United Kingdom"
+  founded = 1941
+  name = "Special Air Service"
 
 [images]
   backdrop = "/images/ctu/sas-backdrop.jpg"

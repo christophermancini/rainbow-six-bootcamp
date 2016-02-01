@@ -10,7 +10,7 @@ unique = false
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/barbed-wire.jpg"
+  main = "/images/gear/gadgets/preview/barbed-wire.jpg"
   thumbnail = ""
 +++
 

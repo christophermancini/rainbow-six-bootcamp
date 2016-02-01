@@ -1,7 +1,7 @@
 +++
 date = "2015-12-06T15:17:33-05:00"
 groupId = 0
-operators = ["mute"]
+operators = ["Mute"]
 tags = ["gadget","Mute"]
 title = "GC90 \"Moni\" Signal Disruptor"
 type = "gadget"

@@ -1,12 +1,16 @@
 +++
 date = "2016-01-17T14:07:22-05:00"
 description = "Tier 5 skin available for the P226 Mk 25 used by SAS operators."
-image = "/images/gear/skin/preview/rookie-p226-mk-25--1600x900.jpg"
 mod-types = "skin"
 tags = ["skin","Tier 5","SAS","P226 Mk 25"]
 title = "Rookie"
-thumbnail = "/images/gear/skin/rookie-th.jpg"
 type = "weapon-mod"
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/skin/preview/rookie-p226--1600x900.jpg"
+  thumbnail = "/images/gear/skin/rookie-th.jpg"
 
 [cost]
   renown = ""

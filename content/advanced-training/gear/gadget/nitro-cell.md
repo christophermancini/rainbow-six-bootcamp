@@ -1,7 +1,7 @@
 +++
 date = "2015-12-06T09:29:43-05:00"
 groupId = 3
-operators = ["Mute","Bandit","Kapkan","Pulse","Frost"]
+operators = ["Mute","Bandit","Kapkan","Pulse","Frost","Smoke"]
 tags = ["gadget"]
 title = "Nitro Cell"
 type = "gadget"

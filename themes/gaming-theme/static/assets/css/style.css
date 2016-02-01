@@ -616,6 +616,10 @@ input[type="checkbox"] {
 .article-gallery-item figcaption {
   padding: 8px 10px;
   text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
 }
 
 .article-gallery-small-item figcaption {

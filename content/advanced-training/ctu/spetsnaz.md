@@ -1,5 +1,4 @@
 +++
-country = "Russia"
 date = "2015-10-03T22:30:07-04:00"
 tags = ["ctu","Spetsnaz","Fuze","Glaz","Kapkan","Tachanka"]
 title = "Spetsnaz"
@@ -7,6 +6,11 @@ type = "ctu"
 references = [
   "https://en.wikipedia.org/wiki/Spetsnaz"
 ]
+
+[info]
+  country = "Russia"
+  founded = 1974
+  name = "Spetsgruppa 'A' (Alpha Group)"
 
 [images]
   backdrop = "/images/ctu/spetsnaz-backdrop.jpg"

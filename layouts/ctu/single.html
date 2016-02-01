@@ -12,22 +12,27 @@
 
   {{ partial "header.html" . }}
 
-  <div class="container">
-    {{ partial "socialLinks.html" . }}
-    <ol class="breadcrumb hidden-sm-down">
-      <li><a href="/">HOME</a></li>
-      <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
-      <li class="active">{{ upper .Title }}</li>
-    </ol>
+  <div id="breadcrumb" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ol class="breadcrumb hidden-sm-down">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
+          <li class="active">{{ upper .Title }}</li>
+        </ol>
+      </div>
+      <div class="col-md-4 hidden-md-down">
+        {{ partial "socialLinks.html" . }}
+      </div>
+    </div>
   </div>
 
   {{ partial "backdrop.html" . }}
 
   <div class="container">
     <div class="spacer">
-      <div id="operator-header" class="fbi-swat">
+      <div id="operator-header">
         <h1 class="display-1">{{ .Title }}</h1>
-        <h4 class="display-4">{{ .Params.fulltitle }}</h4>
       </div>
     </div>
   </div>
@@ -39,13 +44,12 @@
           <div class="content-border">
             <div class="white-stone">
               <div class="col-xs-3">
-                {{ if .Params.images.thumbnail }}<img src="{{ .Params.images.thumbnail }}" width="100%">{{ end }}
+                {{ with .Params.images.thumbnail }}<img src="{{ . }}" width="100%">{{ end }}
               </div>
               <div class="col-xs-6" style="padding-left: 10px;">
-                <p style="padding: 10px 0;">
-                  <strong>Country:</strong>
-                  <span class="ctu-flag-{{ urlize .Title }}" style="line-height: 1.2em; padding-left: 40px;">{{ .Params.country }}</span>
-                </p>
+                <h3>{{ .Title }} ({{ with .Params.info.name }}{{ . }}{{ end }})</h3>
+                <p style="padding-left: 40px; vertical-align: middle; line-height: 2em;" class="ctu-flag-{{ urlize .Title }}">{{ .Params.info.country }}</p>
+                {{ with .Params.info.founded }}<p>Founded in {{ . }}.</p>{{ end }}
               </div>
               <div class="clearfix"></div>
             </div>
@@ -83,9 +87,7 @@
   </main>
 
   {{ partial "footer.html" . }}
-
   {{ partial "foot.html" . }}
-
   {{ partial "structuredDataArticle.html" . }}
 
 </body>

@@ -1,12 +1,16 @@
 +++
 date = "2015-12-09T15:44:23-05:00"
 description = "Mountable laser sight that increases hip fire accuracy."
-image = "/images/gear/weapon-attachments/preview/laser--1600x900.jpg"
 mod-types = "under-barrel"
 tags = ["weapon mod"]
 title = "Laser"
-thumbnail = "/images/gear/weapon-attachments/preview/laser--1600x900.jpg"
 type = "weapon-mod"
+
+[images]
+  backdrop = ""
+  icon = ""
+  main = "/images/gear/weapon-attachments/preview/laser--1600x900.jpg"
+  thumbnail = "/images/gear/weapon-attachments/preview/laser--320x180.jpg"
 
 [cost]
   renown = "200"

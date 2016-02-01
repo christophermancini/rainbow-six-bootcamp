@@ -2,7 +2,7 @@
 date = "2015-12-06T15:23:05-05:00"
 groupId = 0
 operators = ["Smoke"]
-tags = ["gadget"]
+tags = ["gadget","Smoke"]
 title = "Compound M8 (Remote Gas Grenade)"
 type = "gadget"
 unique = true
