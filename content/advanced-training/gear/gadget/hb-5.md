@@ -14,7 +14,7 @@ unique = true
   thumbnail = ""
 
 [[gallery]]
-  src = "/images/gear/gadgets/gb-5-live.jpg"
+  src = "/images/gear/gadgets/in-game/gb-5-live--1600x900.jpg"
   alt = "Snapshot of Pulse using his HB-5."
 +++
 

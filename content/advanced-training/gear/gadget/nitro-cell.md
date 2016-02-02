@@ -14,11 +14,11 @@ unique = false
   thumbnail = ""
 
 [[gallery]]
-  src = "/images/gear/gadgets/nitro-cell-toss.jpg"
+  src = "/images/gear/gadgets/in-game/nitro-cell-toss--1600x900.jpg"
   alt = "That moment when you realize your screwed..."
 
 [[gallery]]
-  src = "/images/gear/gadgets/nitro-cell-toss2.jpg"
+  src = "/images/gear/gadgets/in-game/nitro-cell-toss2--1600x900.jpg"
   alt = "The moment after you were screwed..."
 +++
 

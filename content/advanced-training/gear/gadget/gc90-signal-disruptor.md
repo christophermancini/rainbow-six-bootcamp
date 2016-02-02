@@ -14,11 +14,11 @@ unique = true
   thumbnail = ""
 
 [[gallery]]
-  src = "/images/gear/gadgets/gc90-drone-scramble.jpg"
+  src = "/images/gear/gadgets/in-game/gc90-drone-scramble--1600x900.jpg"
   alt = "What its like to get your drone caught by Mute's GC90."
 
 [[gallery]]
-  src = "/images/gear/gadgets/gc90-well-placed-result.jpg"
+  src = "/images/gear/gadgets/in-game/gc90-well-placed-result--1600x900.jpg"
   alt = "Effective placement of Mute's GC90 can provide your team an edge."
 +++
 

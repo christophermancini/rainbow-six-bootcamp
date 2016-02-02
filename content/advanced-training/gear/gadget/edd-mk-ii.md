@@ -14,11 +14,11 @@ unique = true
   thumbnail = ""
 
 [[gallery]]
-  src = "/images/gear/gadgets/edd-mk-ii-install-live.jpg"
+  src = "/images/gear/gadgets/in-game/edd-mk-ii-install-live--1600x900.jpg"
   alt = "Snapshot of Kapkan installing the EDD MK II."
 
 [[gallery]]
-  src = "/images/gear/gadgets/edd-mk-ii-live.jpg"
+  src = "/images/gear/gadgets/in-game/edd-mk-ii-live--1600x900.jpg"
   alt = "Snapshot of how it looks in game on an barricaded door way."
 +++
 
