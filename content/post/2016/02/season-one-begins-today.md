@@ -24,8 +24,8 @@ The first official season DLC release for Rainbow Six Siege, Black Ice, is being
 
 - A new CTU, [Canadian Special Forces - JTF2]({{< ref "jtf2.md" >}}), is being added to the game
 - Two new operators are being added to the game, [Buck]({{< ref "buck.md" >}}) and [Frost]({{< ref "frost.md" >}})
-- A new map is being added, coming from the frozen wasteland of Canada, is the [Yacht]({{< ref "yacht.md" >}}) map
-- Season pass holders will have access to the new operators starting today while everyone else has to wait till 2/9/2016
+- A new map is being added, coming from the frozen wasteland of Canada, is the [Yacht]({{< ref "yacht.md" >}}) map, the map is available immediately
+- Season pass holders will have access to the new operators starting today while everyone else has to wait till 2/9/2016 and they will be available for 25000 renown or 600 R6 credits
 - In order to release the new content, the developers need to put the system into maintenance mode, which should be happening between 9AM - 11:30AM EST starting with PS4, then X1, and finally PC
 - You will need to exit the game client and re-enter to download the latest game files
 
