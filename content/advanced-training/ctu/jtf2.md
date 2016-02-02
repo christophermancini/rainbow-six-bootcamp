@@ -16,5 +16,5 @@ references = [
   backdrop = "/images/ctu/jtf2-backdrop.jpg"
   icon = "/images/ctu/jtf2-insignia.png"
   main = ""
-  thumbnail = "/images/ctu/jtf2-patch.jpg"
+  thumbnail = "/images/ctu/jtf2-patch.png"
 +++

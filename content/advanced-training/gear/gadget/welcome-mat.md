@@ -10,8 +10,8 @@ unique = true
 [images]
   backdrop = ""
   icon = ""
-  main = ""
-  thumbnail = ""
+  main = "/images/hqdefault.jpg"
+  thumbnail = "/images/hqdefault.jpg"
 +++
 
 Uses a mechanical trap to incapacitate enemies.

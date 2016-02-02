@@ -5,9 +5,9 @@
           {{ $pagePermalink := .Permalink }}
           {{ range $taxonomyName, $values := .Site.Taxonomies.tags }}
             {{ if and (in $pageTags $taxonomyName) (not (in $.Site.Params.relatedArticles.excludedTags $taxonomyName)) }}
-              {{ range $values.Pages }}
+              {{ range first 2 $values.Pages }}
                 {{ if ne $pagePermalink .Permalink }}
-                  {{ .Render "gallery" }}
+                  {{ .Render "gallerySmall" }}
                 {{ end }}
               {{ end }}
             {{ end }}

@@ -13,9 +13,9 @@ references = [
 
 [images]
   backdrop = "/images/operator/buck-backdrop.jpg"
-  icon = ""
+  icon = "https://ubistatic-a.akamaihd.net/0058/prod/img/package/badges/normal/image_badge_26_buck.b04a3210.png"
   main = ""
-  thumbnail = ""
+  thumbnail = "https://ubistatic-a.akamaihd.net/0058/prod/img/package/operators/retina/image_operator_26_buck.803f38d6.png"
 
 [info]
   armor = "Light"

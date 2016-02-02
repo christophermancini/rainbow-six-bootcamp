@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 
-<html class="no-js"> <!--<![endif]-->
+<html lang="en"> <!--<![endif]-->
 <head>
   {{ partial "head.html" . }}
 </head>
@@ -12,15 +12,37 @@
 
   {{ partial "header.html" . }}
 
-  <main>
-    <div class="container">
+  <div id="breadcrumb" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ol class="breadcrumb hidden-sm-down">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
+          <li class="active">{{ upper .Title }}</li>
+        </ol>
+      </div>
+      <div class="col-md-4 hidden-md-down">
+        {{ partial "socialLinks.html" . }}
+      </div>
+    </div>
+  </div>
+
+  {{ partial "backdrop.html" . }}
+
+  <div class="container">
+    <div class="spacer">
+      <div>
+        <h1 class="display-1">{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="section-wrapper">
       <div class="row">
 
-        <!-- blog-contents -->
-        <section class="col-md-8">
-          <article class="single-blog-item">
-            <h1>{{ partial "title" . }}</h1>
-
+        <div class="col-md-12">
+          <div id="content">
             {{ .Content }}
 
             {{ partial "hAnchor" (dict "text" "Gadgets" "page" .) }}
@@ -30,7 +52,7 @@
               {{ end }}
             </div>
 
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
 
             {{ partial "hAnchor" (dict "text" "Primary Weapons" "page" .) }}
             <table class="table">
@@ -83,6 +105,8 @@
             {{ end }}
             </table>
 
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}
+
             {{ partial "hAnchor" (dict "text" "Weapon Skins" "page" .) }}
             <div class="clearfix">
               {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
@@ -91,18 +115,22 @@
                 {{ end }}
               {{ end }}
             </div>
-          </article>
-        </section>
-        <!-- end of blog-contents -->
-
-        {{ partial "sidebar.html" . }}
+          </div>
+        </div>
 
       </div>
-    </div> <!-- end of /.container -->
+
+      <div class="row">
+        <div class="col-xs-12">
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+        </div>
+      </div>
+
+    </section>
   </main>
 
   {{ partial "footer.html" . }}
-
   {{ partial "foot.html" . }}
+
 </body>
 </html>

@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-3">
       <a href="{{ .Permalink }}">
-        <img src="{{ if isset .Params "thumbnail" }}{{ .Params.thumbnail }}{{ else }}{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.image }}{{ end }}{{ end }}" class="img-thumbnail center-block" alt="{{ partial "title" . }}">
+        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ if .Params.images.main }}{{ .Params.images.main }}{{ else }}{{ .Site.Params.image }}{{ end }}{{ end }}" class="img-thumbnail center-block" alt="{{ partial "title" . }}">
       </a>
     </div>
     <div class="col-md-9">

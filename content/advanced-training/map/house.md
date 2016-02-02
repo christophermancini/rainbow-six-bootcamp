@@ -3,14 +3,14 @@ date = "2015-11-30T03:33:42-05:00"
 location = "Los Angeles, CA, U.S.A."
 spawns = ["River Docks","Construction Site","APC Area","Side Street"]
 tags = ["map","house"]
-title = "Suburban House"
+title = "House"
 type = "map"
 
 [images]
   backdrop = "/images/maps/house-backdrop.jpg"
   icon = ""
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6_EV_01HouseMoodDay_Ludo_Final_227436.jpg"
-  thumbnail = "/images/maps/house--320x162.jpg"
+  thumbnail = "/images/maps/house--320x168.jpg"
 
 [[gallery]]
   src = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-game-info-map-house-01_211956.jpg"

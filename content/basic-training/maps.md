@@ -49,3 +49,7 @@ Nestled within the suburbs of Los Angeles, this [Suburban House map]({{<ref "hou
 ## Presidential Plane
 
 The [Presidential Plane map]({{<ref "presidential-plane.md">}}) is modeled after Air Force One and offers a unique siege experience with plenty of destruction and close quarters combat.
+
+## Yacht
+
+In haste, attackers approach the stranded [Yacht]({{< ref "yacht.md" >}}) from the frozen wastelands of Canada.

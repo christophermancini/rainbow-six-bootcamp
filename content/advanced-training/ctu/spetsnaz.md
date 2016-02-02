@@ -16,7 +16,7 @@ references = [
   backdrop = "/images/ctu/spetsnaz-backdrop.jpg"
   icon = "/images/ctu/spetsnaz-insignia.png"
   main = ""
-  thumbnail = "/images/ctu/spetsnaz-patch.jpg"
+  thumbnail = "/images/ctu/spetsnaz-patch.png"
 +++
 
 Created in 1974, Spetsnaz are members of Russian units dedicated to counter-terrorism paramilitary and covert operations. They're tasked with protecting Russia's strategic installations, both domestic and international, though little is known about the exact nature of their mission.

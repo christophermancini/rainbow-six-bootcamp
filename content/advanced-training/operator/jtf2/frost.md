@@ -13,9 +13,9 @@ references = [
 
 [images]
   backdrop = "/images/operator/frost-backdrop.jpg"
-  icon = ""
+  icon = "https://ubistatic-a.akamaihd.net/0058/prod/img/package/badges/normal/image_badge_36_frost.96fad148.png"
   main = ""
-  thumbnail = ""
+  thumbnail = "https://ubistatic-a.akamaihd.net/0058/prod/img/package/operators/retina/image_operator_36_frost.9868d732.png"
 
 [info]
   armor = "Light"

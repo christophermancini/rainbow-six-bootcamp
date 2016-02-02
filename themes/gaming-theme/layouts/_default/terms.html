@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 
-<html class="no-js"> <!--<![endif]-->
+<html lang="en"> <!--<![endif]-->
 <head>
   {{ partial "head.html" . }}
 </head>
@@ -12,45 +12,65 @@
 
   {{ partial "header.html" . }}
 
-  <main>
-    <div class="container">
+  <div id="breadcrumb" class="container">
+    <div class="row">
+      <div class="col-md-8">
+      </div>
+      <div class="col-md-4 hidden-md-down">
+        {{ partial "socialLinks.html" . }}
+      </div>
+    </div>
+  </div>
+
+  {{ partial "backdrop.html" . }}
+
+  <div class="container">
+    <div class="spacer">
+      <div>
+        <h1 class="display-1">{{ replace .Title "-" " " }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="section-wrapper">
       <div class="row">
 
         <!-- blog-contents -->
-        <section class="col-md-8">
-          <article class="single-blog-item">
-            <h1>{{ replace .Title "-" " " }}</h1>
-            <table>
-            <thead>
+        <div class="col-md-8">
+          <table>
+          <thead>
+          <tr>
+            <th>{{ title (replace .Data.Singular "-" " ") }}</th>
+            <th>Item Count</th>
+          </tr>
+          </thead>
+          <tbody>
+            {{ $data := .Data }}
+            {{ range $key, $value := .Data.Terms.Alphabetical }}
             <tr>
-              <th>{{ title (replace .Data.Singular "-" " ") }}</th>
-              <th>Item Count</th>
+              <td><a href="{{ $value.Name | urlize }}" style="display: block; width: 100%; height: 100%;">{{ $value.Name }}</a></td>
+              <td>{{ $value.Count }}</td>
             </tr>
-            </thead>
-            <tbody>
-              {{ $data := .Data }}
-              {{ range $key, $value := .Data.Terms.Alphabetical }}
-              <tr>
-                <td><a href="{{ $value.Name | urlize }}" style="display: block; width: 100%; height: 100%;">{{ $value.Name }}</a></td>
-                <td>{{ $value.Count }}</td>
-              </tr>
-              {{ end }}
-            </tbody>
-            </table>
-          </article>
+            {{ end }}
+          </tbody>
+          </table>
 
           {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
-        </section>
-        <!-- end of blog-contents -->
-
-        {{ partial "sidebar.html" . }}
+        </div>
 
       </div>
-    </div> <!-- end of /.container -->
+
+      <div class="row">
+        <div class="col-xs-12">
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+        </div>
+      </div>
+
+    </section>
   </main>
 
   {{ partial "footer.html" . }}
-
   {{ partial "foot.html" . }}
 
 </body>

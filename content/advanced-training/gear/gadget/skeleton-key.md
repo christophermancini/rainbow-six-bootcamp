@@ -10,8 +10,8 @@ unique = true
 [images]
   backdrop = ""
   icon = ""
-  main = ""
-  thumbnail = ""
+  main = "/images/hqdefault.jpg"
+  thumbnail = "/images/hqdefault.jpg"
 +++
 
 Toggles under-barrel shotgun attachment on his main weapon.
