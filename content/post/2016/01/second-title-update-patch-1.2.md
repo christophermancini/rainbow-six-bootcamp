@@ -1,9 +1,11 @@
 +++
 categories = []
 date = "2016-01-07T10:48:17-05:00"
-image = "/images/general/logo-shield-lead-breach.jpg"
 tags = ["maintenance","update"]
 title = "second title update patch 1.2"
+
+[images]
+  main = "/images/general/logo-shield-lead-breach.jpg"
 +++
 
 Ubisoft today announced the official second title update to be released starting today for PC and 01-14-2016 for consoles. This update is being released first to PC to verify improvements before releasing to consoles.
