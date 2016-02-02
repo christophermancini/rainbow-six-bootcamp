@@ -12,7 +12,7 @@ references = [
   parent = "operator"
 
 [images]
-  backdrop = "/images/operator/thermite-backdrop.jpg"
+  backdrop = "/images/operator/thermite-backdrop-2.jpg"
   icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-thermite_229878.png"
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-thermite_229938.png"
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-thermite_229927.png"
