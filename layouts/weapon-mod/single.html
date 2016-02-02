@@ -1,3 +1,4 @@
+{{ $skin := (in .Params.tags "skin") }}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -43,104 +44,97 @@
       <div class="row">
 
         <!-- blog-contents -->
-        <section class="col-md-8">
-          <article class="single-blog-item">
-            <h1>
-              {{ if .Params.thumbnail }}<img width="61" src="{{ .Params.thumbnail }}">{{ end }}
-              {{ partial "title" . }}
-            </h1>
+        <div class="col-md-8">
+          <h1>
+            <img width="61" src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}-th.jpg">
+            {{ partial "title" . }}
+          </h1>
 
-            {{ partial "tags" . }}
+          {{ partial "tags" . }}
 
-            {{ partial "featuredImage" . }}
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}--1600x900.jpg" class="img-rounded featured-image" alt="{{ $.Title }}">
 
-            <div class="row">
-              <div class="col-md-6">
-                <p style="padding: 10px; text-align: center;">
-                  {{ .Description }}
-                </p>
-              </div>
-              <div class="col-md-6">
-                <table class="table">
-                  <tr>
-                    <th colspan="4" style="text-align:center;">Pricing</th>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span style="font-weight: bold; font-size: .85em;">R6 Credits</span>
-                    </td>
-                    <td>
-                      {{ with .Params.cost.credits }}{{ . }}{{ else }}N/A{{ end }}
-                    </td>
-                    <td>
-                      <span style="font-weight: bold; font-size: .85em;">Renown</span>
-                    </td>
-                    <td>
-                      {{ with .Params.cost.renown }}{{ . }}{{ else }}N/A{{ end }}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span style="font-weight: bold; font-size: .85em;">Uplay Units</span>
-                    </td>
-                    <td>
-                      {{ with .Params.cost.units }}{{ . }}{{ else }}N/A{{ end }}
-                    </td>
-                    <td>
-                      <span style="font-weight: bold; font-size: .85em;">USD</span>
-                    </td>
-                    <td>
-                      {{ with .Params.cost.usd }}${{ . }}{{ else }}N/A{{ end }}
-                    </td>
-                  </tr>
-                </table>
-              </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p style="padding: 10px; text-align: center;">
+                {{ .Description }}
+              </p>
             </div>
+            <div class="col-md-6">
+              <table class="table">
+                <tr>
+                  <th colspan="4" style="text-align:center;">Pricing</th>
+                </tr>
+                <tr>
+                  <td>
+                    <span style="font-weight: bold; font-size: .85em;">R6 Credits</span>
+                  </td>
+                  <td>
+                    {{ with .Params.cost.credits }}{{ . }}{{ else }}N/A{{ end }}
+                  </td>
+                  <td>
+                    <span style="font-weight: bold; font-size: .85em;">Renown</span>
+                  </td>
+                  <td>
+                    {{ with .Params.cost.renown }}{{ . }}{{ else }}N/A{{ end }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span style="font-weight: bold; font-size: .85em;">Uplay Units</span>
+                  </td>
+                  <td>
+                    {{ with .Params.cost.units }}{{ . }}{{ else }}N/A{{ end }}
+                  </td>
+                  <td>
+                    <span style="font-weight: bold; font-size: .85em;">USD</span>
+                  </td>
+                  <td>
+                    {{ with .Params.cost.usd }}${{ . }}{{ else }}N/A{{ end }}
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
 
+          <div id="content">
             {{ .Content }}
+          </div>
 
-            {{ partial "hAnchor" (dict "text" "Compatible Weapons" "page" .) }}
-            {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
-              {{ if eq (index $.Params "mod-types") "skin" }}
-                {{ if in .Params.mods.skin (urlize $.Title) }}
-                  {{ .Render "gallery" }}
-                {{ end }}
-              {{ end }}
-              {{ if eq (index $.Params "mod-types") "barrel" }}
-                {{ if in .Params.mods.barrel (urlize $.Title) }}
-                  {{ .Render "gallery" }}
-                {{ end }}
-              {{ end }}
-              {{ if eq (index $.Params "mod-types") "sight" }}
-                {{ if in .Params.mods.sight (urlize $.Title) }}
-                  {{ .Render "gallery" }}
-                {{ end }}
-              {{ end }}
-              {{ if eq (index $.Params "mod-types") "under-barrel" }}
-                {{ if in (index .Params.mods "under-barrel") (urlize $.Title) }}
-                  {{ .Render "gallery" }}
-                {{ end }}
+          {{ partial "hAnchor" (dict "text" "Compatible Weapons" "page" .) }}
+          {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
+            {{ if eq (index $.Params "mod-types") "skin" }}
+              {{ if in .Params.mods.skin (urlize $.Title) }}
+                {{ .Render "gallery" }}
               {{ end }}
             {{ end }}
+            {{ if eq (index $.Params "mod-types") "barrel" }}
+              {{ if in .Params.mods.barrel (urlize $.Title) }}
+                {{ .Render "gallery" }}
+              {{ end }}
+            {{ end }}
+            {{ if eq (index $.Params "mod-types") "sight" }}
+              {{ if in .Params.mods.sight (urlize $.Title) }}
+                {{ .Render "gallery" }}
+              {{ end }}
+            {{ end }}
+            {{ if eq (index $.Params "mod-types") "under-barrel" }}
+              {{ if in (index .Params.mods "under-barrel") (urlize $.Title) }}
+                {{ .Render "gallery" }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
 
-            <div  class="clearfix"></div>
-            <div>
-              View other weapon mods:
-              <a href="/mod-types/sight/">Sights</a>,
-              <a href="/mod-types/barrel/">Barrel mods</a>,
-              <a href="/mod-types/under-barrel/">Under-barrel mods</a>,
-              <a href="/mod-types/skin/">Skins</a>
-            </div>
-          </article>
+          <div  class="clearfix"></div>
+          <div>
+            View other weapon mods:
+            <a href="/mod-types/sight/">Sights</a>,
+            <a href="/mod-types/barrel/">Barrel mods</a>,
+            <a href="/mod-types/under-barrel/">Under-barrel mods</a>,
+            <a href="/mod-types/skin/">Skins</a>
+          </div>
 
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
-
-          {{ partial "related.html" . }}
-
-          {{ partial "disqus.html" . }}
-
-        </section>
-        <!-- end of blog-contents -->
+        </div>
       </div>
 
       {{ partial "sectionNav.html" . }}

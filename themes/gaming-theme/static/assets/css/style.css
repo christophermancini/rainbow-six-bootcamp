@@ -639,7 +639,8 @@ input[type="checkbox"] {
 }
 
 .article-gallery-small-item figcaption {
-  padding: 5px 8px;
+  padding: 3px 5px;
+  font-size: .75em;
 }
 
 .article-gallery-item figcaption h3 {

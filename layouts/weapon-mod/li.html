@@ -1,0 +1,18 @@
+<article class="list-item">
+  <div class="row">
+    <div class="col-md-3">
+      <a href="{{ .Permalink }}">
+        {{ if in .Params.tags "skin" }}
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}-th.jpg" class="img-thumbnail center-block" alt="{{ partial "title" . }}">
+        {{ else }}
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}-320x180.jpg" class="img-thumbnail center-block" alt="{{ partial "title" . }}">
+        {{ end }}
+      </a>
+    </div>
+    <div class="col-md-9">
+      <h3>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h3>
+    </div>
+  </div>
+</article> <!-- /.blog-item -->

@@ -19,7 +19,7 @@ references = [
   main = "/images/gear/weapons/preview/9mm-c1.jpg"
   thumbnail = ""
 [mods]
-  barrel = ["suppressor", "flash-hider"]
+  barrel = ["suppressor"]
   skin = [
     "fire",
     "elephant",
@@ -31,10 +31,20 @@ references = [
     "tiger",
     "leopard",
     "ralphie",
-    "modern-usa-camo"
+    "modern-usa-camo",
+    "dwyer-hill",
+    "black-ice",
+    "glacier",
+    "tigers-breath",
+    "invaders",
+    "usa-winter-camo",
+    "modern-can-camo",
+    "dissociate",
+    "splatter",
+    "pointed"
   ]
-  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
-  under-barrel = ["laser","vertical-grip"]
+  sight = ["red-dot-sight","reflex-sight"]
+  under-barrel = ["laser"]
 [specs]
   damage = "38"
   fireRate = "575"

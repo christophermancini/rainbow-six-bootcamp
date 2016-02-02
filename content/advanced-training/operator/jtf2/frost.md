@@ -18,18 +18,18 @@ references = [
   thumbnail = "https://ubistatic-a.akamaihd.net/0058/prod/img/package/operators/retina/image_operator_36_frost.9868d732.png"
 
 [info]
-  armor = "Light"
+  armor = "Medium"
   badge = ""
   ctu = "jtf2"
-  dob = ""
-  gender = "M"
-  height = "M"
-  name = ""
-  pob = ""
+  dob = "05/04/1995"
+  gender = "F"
+  height = "1.72M"
+  name = "Tina Lin Tsang"
+  pob = "Vancouver, British Columbia"
   position = "Defender"
   quote = ""
-  speed = "Fast"
-  weight = "KG"
+  speed = "Medium"
+  weight = "58KG"
 +++
 
 Intro / description paragraph...<!--more-->

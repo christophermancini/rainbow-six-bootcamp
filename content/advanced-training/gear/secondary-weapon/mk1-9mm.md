@@ -32,13 +32,23 @@ references = [
     "tiger",
     "leopard",
     "ralphie",
-    "modern-usa-camo"
+    "modern-usa-camo",
+    "dwyer-hill",
+    "black-ice",
+    "glacier",
+    "tigers-breath",
+    "invaders",
+    "usa-winter-camo",
+    "modern-can-camo",
+    "dissociate",
+    "pearl",
+    "traction"
   ]
   sight = []
   under-barrel = ["laser"]
 [specs]
-  damage = "52"
+  damage = "45"
   fireRate = "2"
-  mobility = "39"
-  capacity = "20"
+  mobility = "50"
+  capacity = "13"
 +++

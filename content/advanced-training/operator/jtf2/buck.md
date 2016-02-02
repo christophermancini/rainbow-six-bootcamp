@@ -18,18 +18,18 @@ references = [
   thumbnail = "https://ubistatic-a.akamaihd.net/0058/prod/img/package/operators/retina/image_operator_26_buck.803f38d6.png"
 
 [info]
-  armor = "Light"
+  armor = "Medium"
   badge = ""
   ctu = "jtf2"
-  dob = ""
+  dob = "8/20/1980"
   gender = "M"
-  height = "M"
-  name = ""
-  pob = ""
+  height = "1.78M"
+  name = "Sebastien Côté"
+  pob = "Montreal, Quebec"
   position = "Attacker"
   quote = ""
-  speed = "Fast"
-  weight = "KG"
+  speed = "Medium"
+  weight = "84KG"
 +++
 
 Intro / description paragraph...<!--more-->

@@ -16,7 +16,7 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/c8-swf.jpg"
+  main = "/images/gear/skin/preview/mech-c8-swf.jpg"
   thumbnail = ""
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
@@ -31,10 +31,20 @@ references = [
     "tiger",
     "leopard",
     "ralphie",
-    "modern-usa-camo"
+    "modern-usa-camo",
+    "dwyer-hill",
+    "black-ice",
+    "glacier",
+    "tigers-breath",
+    "invaders",
+    "usa-winter-camo",
+    "modern-can-camo",
+    "dissociate",
+    "mech",
+    "madness"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
-  under-barrel = ["laser","vertical-grip"]
+  under-barrel = ["laser"]
 [specs]
   damage = "42"
   fireRate = "837"

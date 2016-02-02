@@ -1,12 +1,17 @@
-{{ if in .Params.tags "skin" }}
+{{ $skin := (in .Params.tags "skin") }}
+{{ if $skin }}
 <div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 {{ else }}
 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 {{ end }}
-  <div class="article-gallery-item article-gallery-small-item" style="min-height: 180px;">
+  <div class="article-gallery-item article-gallery-small-item" style="min-height: {{ if $skin }}120px{{ else }}180px{{ end }};">
     <a href="{{ .Permalink }}">
       <figure>
-        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+        {{ if $skin }}
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}-th.jpg" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+        {{ else }}
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}--320x180.jpg" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+        {{ end }}
       </figure>
       <figcaption class="figure-caption">{{ .Title }}</figcaption>
     </a>
