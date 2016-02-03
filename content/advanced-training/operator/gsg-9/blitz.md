@@ -14,7 +14,7 @@ references = [
 
 [images]
   backdrop = "/images/operator/blitz-backdrop.jpg"
-  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-blitz_229849.png"
+  icon = "/images/operator/blitz_badge.png"
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-blitz_229881.png"
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-blitz_229911.png"
 

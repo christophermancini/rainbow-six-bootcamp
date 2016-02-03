@@ -13,7 +13,7 @@ references = [
 
 [images]
   backdrop = "/images/operator/thatcher-backdrop.jpg"
-  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-thatcher_229877.png"
+  icon = "/images/operator/thatcher_badge.png"
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-thatcher_229937.png"
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-thatcher_229926.png"
 

@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/fmg-9.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/fmg-9--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/fmg-9--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "sapien",
     "swe-reganomics",
-    "gbr-wwii-camo"
+    "gbr-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "strawberry-fields"
   ]
   sight = ["red-dot-sight","reflex-sight"]
   under-barrel = ["laser"]

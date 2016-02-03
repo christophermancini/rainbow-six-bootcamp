@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/9x19vsn.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/9x19vsn--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/9x19vsn--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "triple-helix",
     "swe-reganomics",
-    "rus-wwii-camo"
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "pit-crew"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
   under-barrel = ["laser","vertical-grip"]

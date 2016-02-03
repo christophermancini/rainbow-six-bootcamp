@@ -85,14 +85,34 @@
             <div class="white-stone">
               <h2>Maps</h2>
               {{ range where .Site.Pages.ByTitle "Type" "map" }}
-                {{ .Render "gallerySmall" }}
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                  <div class="article-gallery-item article-gallery-small-item" style="min-height:100px;">
+                    <a href="{{ .Permalink }}">
+                      <figure>
+                        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+                      </figure>
+                      <figcaption class="figure-caption">{{ .Title }}</figcaption>
+                    </a>
+                  </div>
+                </div>
               {{ end }}
               <div class="clearfix"></div>
             </div>
             <div class="white-stone">
               <h2>Unique Gadgets</h2>
               {{ range where .Site.Pages.ByTitle "Type" "gadget" }}
-                {{ if .Params.unique }}{{ .Render "gallerySmall" }}{{ end }}
+                {{ if .Params.unique }}
+                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="article-gallery-item article-gallery-small-item" style="min-height:100px;">
+                      <a href="{{ .Permalink }}">
+                        <figure>
+                          <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+                        </figure>
+                        <figcaption class="figure-caption">{{ .Title }}</figcaption>
+                      </a>
+                    </div>
+                  </div>
+                {{ end }}
               {{ end }}
               <div class="clearfix"></div>
             </div>

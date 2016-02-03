@@ -13,7 +13,7 @@ references = [
 
 [images]
   backdrop = "/images/operator/twitch-backdrop.jpg"
-  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-twitch_229879.png"
+  icon = "/images/operator/twitch_badge.png"
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-twitch_229845.png"
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-twitch_229928.png"
 

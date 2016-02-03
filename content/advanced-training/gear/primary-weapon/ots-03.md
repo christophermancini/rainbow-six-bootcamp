@@ -17,8 +17,8 @@ recruit = false
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/ots-03.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/ots-03--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/ots-03--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [
@@ -40,7 +40,11 @@ recruit = false
     "modern-usa-camo",
     "triple-helix",
     "swe-reganomics",
-    "rus-wwii-camo"
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "cubist"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
   under-barrel = []

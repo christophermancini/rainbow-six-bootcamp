@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/mp5k.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/mp5k--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/mp5k--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "sapien",
     "swe-reganomics",
-    "gbr-wwii-camo"
+    "gbr-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "red-asphalt"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
   under-barrel = ["laser"]

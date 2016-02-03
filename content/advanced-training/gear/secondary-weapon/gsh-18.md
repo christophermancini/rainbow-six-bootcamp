@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/gsh-18.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/gsh-18--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/gsh-18--320x180.jpg"
 [mods]
   barrel = ["suppressor","compensator"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "triple-helix",
     "swe-reganomics",
-    "rus-wwii-camo"
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "gear"
   ]
   sight = []
   under-barrel = []

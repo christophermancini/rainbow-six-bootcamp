@@ -1,7 +1,7 @@
 +++
 cartridges = ["12 gauge"]
 classes = ["Shotgun"]
-country = ""
+country = "Italy"
 date = "2016-01-23T00:33:58-05:00"
 description = "Compact 12-gauge pump action shotgun. Effective as a breach tool."
 groupId = 1
@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/super-90.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/super-90--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/super-90--320x180.jpg"
 [mods]
   barrel = []
   skin = [

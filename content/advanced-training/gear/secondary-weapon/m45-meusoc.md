@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/m45-meusoc.jpg"
-  thumbnail = "/images/gear/weapons/preview/m45-meusoc.jpg"
+  main = "/images/gear/weapons/m45-meusoc--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/m45-meusoc--320x180.jpg"
 [mods]
   barrel = ["suppressor"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "spores",
     "swe-reganomics",
-    "usa-wwii-camo"
+    "usa-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "sonic"
   ]
   sight = []
   under-barrel = ["laser"]

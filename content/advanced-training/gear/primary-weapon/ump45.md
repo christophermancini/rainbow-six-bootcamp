@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/ump45.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/ump45--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/ump45--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "spores",
     "swe-reganomics",
-    "usa-wwii-camo"
+    "usa-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "tagger"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
   under-barrel = ["laser","vertical-grip"]

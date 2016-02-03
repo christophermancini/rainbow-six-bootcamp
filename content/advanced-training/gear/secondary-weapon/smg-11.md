@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/smg-11.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/smg-11--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/smg-11--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "sapien",
     "swe-reganomics",
-    "gbr-wwii-camo"
+    "gbr-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "monster"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
   under-barrel = ["laser","vertical-grip"]

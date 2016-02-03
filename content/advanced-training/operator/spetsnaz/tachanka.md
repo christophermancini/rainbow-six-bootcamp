@@ -13,7 +13,7 @@ references = [
 
 [images]
   backdrop = "/images/operator/tachanka-backdrop.jpg"
-  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-tachanka_229876.png"
+  icon = "/images/operator/tachanka_badge.png"
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-tachanka_229936.png"
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-tachanka_229925.png"
 

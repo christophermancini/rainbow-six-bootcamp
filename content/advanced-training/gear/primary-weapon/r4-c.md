@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/r4-c.jpg"
-  thumbnail = "/images/gear/weapons/preview/r4-c.jpg"
+  main = "/images/gear/weapons/r4-c--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/r4-c--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "spores",
     "swe-reganomics",
-    "usa-wwii-camo"
+    "usa-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "nebula"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
   under-barrel = ["laser","vertical-grip"]

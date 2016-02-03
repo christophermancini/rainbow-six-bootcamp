@@ -14,7 +14,7 @@ references = [
 
 [images]
   backdrop = "/images/operator/ash-backdrop.jpg"
-  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-ash_229847.png"
+  icon = "/images/operator/ash_badge.png"
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-ash_229846.png"
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-ash_229909.png"
 

@@ -13,7 +13,7 @@ references = [
 
 [images]
   backdrop = "/images/operator/smoke-backdrop.jpg"
-  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-smoke_229874.png"
+  icon = "/images/operator/smoke_badge.png"
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-smoke_229935.png"
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-smoke_229924.png"
 

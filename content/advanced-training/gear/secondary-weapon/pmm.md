@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/pmm.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/pmm--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/pmm--320x180.jpg"
 [mods]
   barrel = ["suppressor"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "triple-helix",
     "swe-reganomics",
-    "rus-wwii-camo"
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "balanced"
   ]
   sight = []
   under-barrel = ["laser"]

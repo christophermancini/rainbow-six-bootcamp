@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/mp5.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/mp5--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/mp5--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "acid-rain",
     "swe-reganomics",
-    "fra-wwii-camo"
+    "fra-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "skull"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
   under-barrel = ["laser","vertical-grip"]

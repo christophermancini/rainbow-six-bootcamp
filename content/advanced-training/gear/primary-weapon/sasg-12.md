@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/sasg-12.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/sasg-12--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/sasg-12--320x180.jpg"
 [mods]
   barrel = ["suppressor"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "triple-helix",
     "swe-reganomics",
-    "rus-wwii-camo"
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "firefox"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
   under-barrel = ["laser","vertical-grip"]

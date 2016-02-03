@@ -17,8 +17,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/mk1-9mm.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/mk1-9mm--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/mk1-9mm--320x180.jpg"
 [mods]
   barrel = ["suppressor"]
   skin = [

@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/aug-a2.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/aug-a2--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/aug-a2--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
@@ -40,7 +40,11 @@ references = [
     "modern-usa-camo",
     "mushroom",
     "swe-reganomics",
-    "deu-wwii-camo"
+    "deu-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "thread"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
   under-barrel = ["laser"]

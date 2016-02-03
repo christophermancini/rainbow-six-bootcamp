@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/skin/preview/mech-c8-swf.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/c8-sfw--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/c8-sfw--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [

@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/sg-cqb.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/sg-cqb--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/sg-cqb--320x180.jpg"
 [mods]
   barrel = []
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "acid-rain",
     "swe-reganomics",
-    "fra-wwii-camo"
+    "fra-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "bulldozer"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight"]
   under-barrel = ["laser","vertical-grip"]

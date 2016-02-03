@@ -13,7 +13,7 @@ references = [
 
 [images]
   backdrop = "/images/operator/fuze-backdrop.jpg"
-  icon = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-badge-fuze_229856.png"
+  icon = "/images/operator/fuze_badge.png"
   main = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-fuze_229884.png"
   thumbnail = "http://static9.cdn.ubi.com/resource/en-US/game/rainbow6/siege/R6-operators-list-fuze_229914.png"
 

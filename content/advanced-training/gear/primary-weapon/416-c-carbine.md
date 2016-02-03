@@ -16,8 +16,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/416-c-carbine.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/416-c-carbine--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/416-c-carbine--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
@@ -39,7 +39,11 @@ references = [
     "modern-usa-camo",
     "mushroom",
     "swe-reganomics",
-    "deu-wwii-camo"
+    "deu-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "oh-hamburgers"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
   under-barrel = ["laser","vertical-grip"]

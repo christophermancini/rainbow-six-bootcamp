@@ -17,8 +17,8 @@ references = [
 [images]
   backdrop = ""
   icon = ""
-  main = "/images/gear/weapons/preview/camrs.jpg"
-  thumbnail = ""
+  main = "/images/gear/weapons/camrs--1600x900.jpg"
+  thumbnail = "/images/gear/weapons/camrs--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
