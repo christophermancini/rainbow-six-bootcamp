@@ -5,7 +5,7 @@
     <div class="col-xs-12 col-md-6">
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ .src }}" itemprop="contentUrl">
-          <img class="img-fluid" src="{{ with .thumbnail }}{{ . }}{{ else }}{{ .src }}{{ end }}" itemprop="thumbnail" alt="{{ .alt }}" />
+          <img class="img-fluid" src="{{ with .thumbnail }}{{ . }}{{ else }}{{ .src }}{{ end }}" itemprop="thumbnail" alt="{{ .alt }}" title="{{ .Title }}">
         </a>
 
         <meta itemprop="width" content="{{ .width }}">
