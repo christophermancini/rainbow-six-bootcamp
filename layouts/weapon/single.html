@@ -102,10 +102,19 @@
                     <span style="font-weight: bold; font-size: .85em;">Operators</span>
                   </td>
                   <td>
-                    {{ if ne .Params.recruit false }}<a href="{{ ref . "operators.md#recruit"}}">Recruit</a>,{{ end }}
-                    {{ range .Params.operators }}
-                      {{ $operator := index $.Site.Params.operatorRel (urlize .) }}
-                      <a href="{{ $operator.src }}">{{ $operator.title }}</a>
+                    {{ if ne .Params.recruit false }}
+                      <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="margin-bottom: 20px;">
+                        <a href="{{ ref . "operators.md#recruit"}}">
+                          <figure style="margin-bottom: 0; padding-bottom: 0;">
+                            <img src="/images/operator/recruit-badge.png" class="figure-img img-fluid" alt="Rainbow Six Siege: Recruit" title="Recruit">
+                          </figure>
+                        </a>
+                      </div>
+                    {{ end }}
+                    {{ range where .Site.Pages "Type" "operator" }}
+                      {{ if in $.Params.operators .Title }}
+                        {{ .Render "galleryTiny" }}
+                      {{ end }}
                     {{ end }}
                   </td>
                 </tr>

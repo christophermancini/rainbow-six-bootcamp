@@ -8,9 +8,9 @@
     <a href="{{ .Permalink }}">
       <figure>
         {{ if $skin }}
-          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}-th.jpg" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}-th.jpg" class="figure-img img-fluid" alt="{{ partial "title" . }}" title="{{ .Title }}">
         {{ else }}
-          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}--320x180.jpg" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}--320x180.jpg" class="figure-img img-fluid" alt="{{ partial "title" . }}" title="{{ .Title }}">
         {{ end }}
       </figure>
       <figcaption class="figure-caption">{{ .Title }}</figcaption>
