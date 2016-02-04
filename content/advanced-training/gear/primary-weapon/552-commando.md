@@ -17,7 +17,7 @@ references = [
   backdrop = ""
   icon = ""
   main = "/images/gear/weapons/552-commando--1600x900.jpg"
-  thumbnail = "/images/gear/weapons/552-commandp--320x180.jpg"
+  thumbnail = "/images/gear/weapons/552-commando--320x180.jpg"
 [mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
