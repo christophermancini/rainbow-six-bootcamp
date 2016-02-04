@@ -39,6 +39,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+A brilliant overachiever and a fast learner, Monika Weiss is a natural at almost everything she tries. With an Ivy League education in electrical engineering and service in GSG9's technical testing and airborne units, she uses a device which detects electronic traps and gadgets at a distance.
+
 ## Tactical Profile
 
 ### Background

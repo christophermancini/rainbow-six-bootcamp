@@ -48,6 +48,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+A third generation law enforcement officer, Castle brings an expertise in defense and reinforcement to Rainbow squad, ever ready to deploy his signature reinforced barricades.
+
 ## Tactical Profile
 
 ### Background

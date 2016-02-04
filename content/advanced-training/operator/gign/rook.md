@@ -54,6 +54,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+Julien Nizan is the deliverer of the GIGN's famous trust exercise for new recruits: taking a bullet fired by one of your colleagues with only a small armor plate to protect you. He carries these same armor plates into combat, dropping them for his allies to reinforce their defenses.
+
 ## Tactical Profile
 
 ### Background

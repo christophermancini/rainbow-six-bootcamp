@@ -43,6 +43,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+A former undercover agent within the Hannover Hells Angels, Brunsmeier is known for taking obsolete items and repurposing them into weapons. He has cobbled together a device that can electrify barbed wires and barricades, and injure or destroy anything that comes into contact with it.
+
 ## Tactical Profile
 
 ### Background

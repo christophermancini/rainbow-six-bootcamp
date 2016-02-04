@@ -43,6 +43,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+Emmanuelle Pichon is an expert technologist with a penchant for using gadgetry to aid her squad. She enters operations with a small drone capable of delivering disabling electric shocks to hostile forces and their traps.
+
 ## Tactical Profile
 
 ### Background

@@ -47,6 +47,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+Alexsandr Senaviev is an iconoclast who came of age in a pre-glasnost red army family and has retained an interest in soviet machinery and weaponry. During operations, he deploys a signature vintage mounted machine gun that he has restored and maintained with loving care.
+
 ## Tactical Profile
 
 ### Background

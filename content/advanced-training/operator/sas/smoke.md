@@ -47,6 +47,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+Smoke is a fearless thrill seeker in battle and can be a great asset for defensive maneuvers with his detonatable chemical gas charge that deals damage to anyone in the smoke.
+
 ## Tactical Profile
 
 ### Background

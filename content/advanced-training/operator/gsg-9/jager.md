@@ -43,6 +43,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+A veteran of GSG9 anti-piracy ops in the Indian Ocean, Marius Streicher has seen action as a helicopter operator and technology advisor. He can secure areas against airborne explosives using his active defense system or "Magpie", capable of neutralizing any projectiles on approach.
+
 ## Tactical Profile
 
 ### Background

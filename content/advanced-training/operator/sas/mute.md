@@ -47,6 +47,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+Mute is a signals intelligence specialist. He uses a tool which allows him to jam all communications in a set area, preventing all remote detonations and usage of drones.
+
 ## Tactical Profile
 
 ### Background

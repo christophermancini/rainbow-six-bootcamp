@@ -47,6 +47,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+Timur Glazkov is an expert marksman with experience in the South Ossetian conflict and years of VIP protection duty. As Rainbow's sniper, he is the squad member with the most expertise in long range scoped weaponry.
+
 ## Tactical Profile
 
 ### Background

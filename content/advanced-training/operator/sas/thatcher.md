@@ -47,6 +47,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+Thatcher knows the danger in over-reliance on technology. He uses an EMP grenade that disables all electronics in its blast radius to level the playing field.
+
 ## Tactical Profile
 
 ### Background

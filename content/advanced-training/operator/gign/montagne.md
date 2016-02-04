@@ -47,6 +47,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+A veteran of the National Gendarmerie, Gilles Touré is the longest-serving GIGN operative. Fiercely protective of his teammates, this gentle giant would not hesitate to throw himself in front of a bullet if it meant protecting his fellow operators from harm.
+
 ## Tactical Profile
 
 ### Background

@@ -39,6 +39,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+A former intern for the FBI biometrics program, Pulse's ability to read people makes him a natural negotiator. He was the first to use the Heartbeat Sensor prototype in the field.
+
 ## Tactical Profile
 
 ### Background

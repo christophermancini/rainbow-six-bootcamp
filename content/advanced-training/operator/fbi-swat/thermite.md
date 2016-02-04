@@ -47,6 +47,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+Thermite is a prominent demolitions expert recruited from the ranks of the FBI SWAT. He carries a thermite breach charge capable of burning through the most resilient barriers.
+
 ## Tactical Profile
 
 ### Background

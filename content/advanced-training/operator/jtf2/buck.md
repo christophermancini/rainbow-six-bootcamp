@@ -1,6 +1,6 @@
 +++
 date = "2016-01-23T00:56:29-05:00"
-tags = ["operator","JTF2","Buck"]
+tags = ["operator","JTF2","Buck","Black Ice"]
 title = "Buck"
 type = "operator"
 video = ""

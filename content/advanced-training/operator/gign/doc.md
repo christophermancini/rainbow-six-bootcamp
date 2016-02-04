@@ -43,6 +43,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+Gustave Kateb is cut from a rare cloth: a genuine altruist, a true believer in making the world a safer place for his fellow man. A volunteer for Doctors Without Borders and medical officer for the Brigade des Forces Speciales Terre, he is a proficient field medic who carries a Stim Pistol allowing him to revive downed teammates from a distance.
+
 ## Tactical Profile
 
 ### Background

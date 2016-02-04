@@ -45,6 +45,8 @@ Blitz is GSG 9's most durable operator however this durability comes at a cost, 
 
 ## Bio
 
+Known for his tendency to use humor to diffuse stressful situations, Elias Kötz carries a similarly unorthodox device into operations: a riot shield equipped with bright flash charges capable of stunning hostiles while offering substantial protection.
+
 ## Tactical Profile
 
 ### Background

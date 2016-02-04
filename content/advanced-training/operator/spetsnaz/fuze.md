@@ -43,6 +43,8 @@ Intro / description paragraph...<!--more-->
 
 ## Bio
 
+Growing up in a military family in Samarkand, Uzbekistan, Shuhrat Kessikbayev emigrated to Russia shortly before the fall of the Soviet Union. He is an expert tinkerer and master craftsman, more at ease with the workings of machines than people.
+
 ## Tactical Profile
 
 ### Background
