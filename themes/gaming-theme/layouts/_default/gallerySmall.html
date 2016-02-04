@@ -2,7 +2,7 @@
   <div class="article-gallery-item article-gallery-small-item">
     <a href="{{ .Permalink }}">
       <figure>
-        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}" title="{{ .Title }}">
       </figure>
       <figcaption class="figure-caption">{{ .Title }}</figcaption>
     </a>
