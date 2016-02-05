@@ -1,6 +1,5 @@
 +++
 date = "2015-10-03T22:30:02-04:00"
-fulltitle = ""
 tags = ["ctu","FBI SWAT","Ash","Castle","Pulse","Thermite"]
 title = "FBI SWAT"
 type = "ctu"
@@ -12,7 +11,7 @@ references = [
 [info]
   country = "United States of America"
   founded = 1983
-  name = "FBI: Special Weapons and Tactics Teams"
+  name = "FBI: Special Weapons and Tactics Team"
 
 [images]
   backdrop = "/images/ctu/fbi-swat-backdrop.jpg"

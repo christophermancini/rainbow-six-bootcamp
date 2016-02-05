@@ -42,7 +42,7 @@ references = [
     "modern-can-camo",
     "dissociate",
     "blaze",
-    "laser"
+    "laser-skin"
   ]
   sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
   under-barrel = ["laser"]

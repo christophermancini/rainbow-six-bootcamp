@@ -35,7 +35,6 @@ preserveTaxonomyNames = true
   contentAd1 = "4318473570"
   contentAd2 = "1972804778"
 
-
 [[params.socialLinks]]
   key = "facebook"
   link = "https://www.facebook.com/rainbowsixbootcamp/"
@@ -56,102 +55,14 @@ preserveTaxonomyNames = true
   key = "youtube"
   link = "https://www.youtube.com/channel/UCXQEfUKsCBMwccbUeQjYMoQ"
 
-[params.operatorRel.ash]
-  title = "Ash"
-  src = "/advanced-training/operator/fbi-swat/ash/"
-
-[params.operatorRel.castle]
-  title = "Castle"
-  src = "/advanced-training/operator/fbi-swat/castle/"
-
-[params.operatorRel.pulse]
-  title = "Pulse"
-  src = "/advanced-training/operator/fbi-swat/pulse/"
-
-[params.operatorRel.thermite]
-  title = "Thermite"
-  src = "/advanced-training/operator/fbi-swat/thermite/"
-
-[params.operatorRel.doc]
-  title = "Doc"
-  src = "/advanced-training/operator/gign/doc/"
-
-[params.operatorRel.montagne]
-  title = "Montagne"
-  src = "/advanced-training/operator/gign/montagne/"
-
-[params.operatorRel.rook]
-  title = "Rook"
-  src = "/advanced-training/operator/gign/rook/"
-
-[params.operatorRel.twitch]
-  title = "Twitch"
-  src = "/advanced-training/operator/gign/twitch/"
-
-[params.operatorRel.bandit]
-  title = "Bandit"
-  src = "/advanced-training/operator/gsg-9/bandit/"
-
-[params.operatorRel.blitz]
-  title = "Blitz"
-  src = "/advanced-training/operator/gsg-9/blitz/"
-
-[params.operatorRel.iq]
-  title = "IQ"
-  src = "/advanced-training/operator/gsg-9/iq/"
-
-[params.operatorRel.jager]
-  title = "Jäger"
-  src = "/advanced-training/operator/gsg-9/jager/"
-
-[params.operatorRel.buck]
-  title = "Buck"
-  src = "/advanced-training/operator/jtf2/buck/"
-
-[params.operatorRel.frost]
-  title = "Frost"
-  src = "/advanced-training/operator/jtf2/frost/"
-
-[params.operatorRel.mute]
-  title = "Mute"
-  src = "/advanced-training/operator/sas/mute/"
-
-[params.operatorRel.sledge]
-  title = "Sledge"
-  src = "/advanced-training/operator/sas/sledge/"
-
-[params.operatorRel.smoke]
-  title = "Smoke"
-  src = "/advanced-training/operator/sas/smoke/"
-
-[params.operatorRel.thatcher]
-  title = "Thatcher"
-  src = "/advanced-training/operator/sas/thatcher/"
-
-[params.operatorRel.fuze]
-  title = "Fuze"
-  src = "/advanced-training/operator/spetsnaz/fuze/"
-
-[params.operatorRel.glaz]
-  title = "Glaz"
-  src = "/advanced-training/operator/spetsnaz/glaz/"
-
-[params.operatorRel.kapkan]
-  title = "Kapkan"
-  src = "/advanced-training/operator/spetsnaz/kapkan/"
-
-[params.operatorRel.tachanka]
-  title = "Tachanka"
-  src = "/advanced-training/operator/spetsnaz/tachanka.md"
-
 [[menu.main]]
-  name = "Basic Training"
+  name = "Basics"
   identifier = "basic-training"
   url = "/basic-training/"
   weight = 1
 
 [[menu.main]]
-  name = "Advanced Training"
+  name = "Advanced"
   identifier = "advanced-training"
   url = "/advanced-training/"
   weight = 2
@@ -167,24 +78,6 @@ preserveTaxonomyNames = true
   identifier = "situations"
   parent = "advanced-training"
   url = "/tags/situation"
-
-[[menu.main]]
-  name = "Primary Weapons"
-  identifier = "primary-weapons"
-  parent = "gear"
-  url = "/tags/primary weapon"
-
-[[menu.main]]
-  name = "Secondary Weapons"
-  identifier = "secondary-weapons"
-  parent = "gear"
-  url = "/tags/secondary weapon"
-
-[[menu.main]]
-  name = "Gadgets"
-  identifier = "gadgets"
-  parent = "gear"
-  url = "/tags/gadget"
 
 [[menu.main]]
   name = "Community"

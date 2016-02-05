@@ -1,6 +1,6 @@
 {{ $skin := (in .Params.tags "skin") }}
 {{ if $skin }}
-<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4" style="padding: 0 10px 0 0;">
 {{ else }}
 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 {{ end }}
@@ -8,9 +8,9 @@
     <a href="{{ .Permalink }}">
       <figure>
         {{ if $skin }}
-          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}-th.jpg" class="figure-img img-fluid" alt="{{ partial "title" . }}" title="{{ .Title }}">
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ .Source.BaseFileName }}-th.jpg" class="figure-img img-fluid" alt="{{ partial "title" . }}" title="{{ .LinkTitle }}">
         {{ else }}
-          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}--320x180.jpg" class="figure-img img-fluid" alt="{{ partial "title" . }}" title="{{ .Title }}">
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ .Source.BaseFileName }}--320x180.jpg" class="figure-img img-fluid" alt="{{ partial "title" . }}" title="{{ .Title }}">
         {{ end }}
       </figure>
       <figcaption class="figure-caption">{{ .Title }}</figcaption>

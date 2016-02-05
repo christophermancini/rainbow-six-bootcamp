@@ -17,7 +17,7 @@
       <div class="col-md-8">
         <ol class="breadcrumb hidden-sm-down">
           <li><a href="/">HOME</a></li>
-          <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
+          <li><a href="/advanced-training/">ADVANCED</a></li>
           <li><a href="/advanced-training/ctu/">COUNTER TERRORIST UNIT</a></li>
           <li class="active">{{ upper .Title }}</li>
         </ol>
@@ -48,8 +48,8 @@
                 {{ with .Params.images.thumbnail }}<img src="{{ . }}" width="100%">{{ end }}
               </div>
               <div class="col-xs-6" style="padding-left: 10px;">
-                <h3>{{ .Title }} ({{ with .Params.info.name }}{{ . }}{{ end }})</h3>
-                <p style="padding-left: 40px; vertical-align: middle; line-height: 2em;" class="ctu-flag-{{ urlize .Title }}">{{ .Params.info.country }}</p>
+                <h3>{{ with .Params.info.name }}{{ . }}{{ end }}</h3>
+                <p style="padding-left: 40px; vertical-align: middle; line-height: 2em;" class="ctu-flag-{{ .Source.BaseFileName }}">{{ .Params.info.country }}</p>
                 {{ with .Params.info.founded }}<p>Founded in {{ . }}.</p>{{ end }}
               </div>
               <div class="clearfix"></div>

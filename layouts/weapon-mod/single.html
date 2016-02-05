@@ -18,7 +18,7 @@
       <div class="col-md-8">
         <ol class="breadcrumb hidden-sm-down">
           <li><a href="/">HOME</a></li>
-          <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
+          <li><a href="/advanced-training/">ADVANCED</a></li>
           <li><a href="/advanced-training/gear/">GEAR</a></li>
           <li class="active">{{ upper .Title }}</li>
         </ol>
@@ -34,9 +34,9 @@
   <div class="container">
     <div class="spacer">
       <div>
-        <h1 class="display-1">
-          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}-th.jpg" class="img-thumbnail">
-          {{ .Title }}
+        <h1 class="display-2">
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ .Source.BaseFileName }}-th.jpg" class="img-thumbnail">
+          {{ .Render "seoTitle" }}
         </h1>
       </div>
     </div>
@@ -47,7 +47,7 @@
       <div class="row">
 
         <div class="col-md-8" style="padding-top: 20px">
-          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ urlize .Title }}--1600x900.jpg" class="img-rounded featured-image" alt="{{ $.Title }}">
+          <img src="/images/gear/weapon-mod/{{ index .Params "mod-types" }}/{{ .Source.BaseFileName }}--1600x900.jpg" class="img-rounded featured-image" alt="{{ .Title }}" title="{{ .Render "seoTitle" }}">
 
           {{ partial "tags" . }}
 
@@ -98,6 +98,7 @@
                   </td>
                 </tr>
               </table>
+
             </div>
           </div>
         </div>
@@ -109,22 +110,22 @@
           {{ partial "hAnchor" (dict "text" "Compatible Weapons" "page" .) }}
           {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
             {{ if eq (index $.Params "mod-types") "skin" }}
-              {{ if in .Params.mods.skin (urlize $.Title) }}
+              {{ if in .Params.mods.skin $.Source.BaseFileName }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
             {{ if eq (index $.Params "mod-types") "barrel" }}
-              {{ if in .Params.mods.barrel (urlize $.Title) }}
+              {{ if in .Params.mods.barrel $.Source.BaseFileName }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
             {{ if eq (index $.Params "mod-types") "sight" }}
-              {{ if in .Params.mods.sight (urlize $.Title) }}
+              {{ if in .Params.mods.sight $.Source.BaseFileName }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
             {{ if eq (index $.Params "mod-types") "under-barrel" }}
-              {{ if in (index .Params.mods "under-barrel") (urlize $.Title) }}
+              {{ if in (index .Params.mods "under-barrel") $.Source.BaseFileName }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
@@ -140,6 +141,7 @@
           </div>
         </div>
       </div>
+
       {{ partial "sectionNav.html" . }}
 
       <div class="row">

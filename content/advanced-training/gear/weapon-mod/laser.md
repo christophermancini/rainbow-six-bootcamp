@@ -6,12 +6,6 @@ tags = ["weapon mod"]
 title = "Laser"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/weapon-attachments/preview/laser--1600x900.jpg"
-  thumbnail = "/images/gear/weapon-attachments/preview/laser--320x180.jpg"
-
 [cost]
   renown = "200"
   credits = ""

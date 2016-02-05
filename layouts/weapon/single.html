@@ -17,7 +17,7 @@
       <div class="col-md-8">
         <ol class="breadcrumb hidden-sm-down">
           <li><a href="/">HOME</a></li>
-          <li><a href="/advanced-training/">ADVANCED TRAINING</a></li>
+          <li><a href="/advanced-training/">ADVANCED</a></li>
           <li><a href="/advanced-training/gear/">GEAR</a></li>
           <li class="active">{{ upper .Title }}</li>
         </ol>
@@ -33,7 +33,7 @@
   <div class="container">
     <div class="spacer">
       <div>
-        <h1 class="display-1">{{ .Title }}</h1>
+        <h1 class="display-1">{{ .Render "seoTitle" }}</h1>
       </div>
     </div>
   </div>
@@ -161,7 +161,7 @@
           {{ partial "hAnchor" (dict "text" "Sights" "page" .) }}
           {{ if .Params.mods.sight }}
             {{ range where .Site.Pages "Type" "weapon-mod" }}
-              {{ if in $.Params.mods.sight (urlize .Title) }}
+              {{ if in $.Params.mods.sight .Source.BaseFileName }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
@@ -173,7 +173,7 @@
           {{ partial "hAnchor" (dict "text" "Barrel mods" "page" .) }}
           {{ if .Params.mods.barrel }}
             {{ range where .Site.Pages "Type" "weapon-mod" }}
-              {{ if in $.Params.mods.barrel (urlize .Title) }}
+              {{ if in $.Params.mods.barrel .Source.BaseFileName }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
@@ -185,7 +185,7 @@
           {{ partial "hAnchor" (dict "text" "Under-barrel mods" "page" .) }}
           {{ if (index .Params.mods "under-barrel") }}
             {{ range where .Site.Pages "Type" "weapon-mod" }}
-              {{ if in (index $.Params.mods "under-barrel") (urlize .Title) }}
+              {{ if in (index $.Params.mods "under-barrel") .Source.BaseFileName }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
@@ -196,7 +196,7 @@
 
           {{ partial "hAnchor" (dict "text" "Skins" "page" .) }}
           {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
-            {{ if and (in $.Params.mods.skin (urlize .Title)) (in .Params.tags "skin") }}
+            {{ if and (in $.Params.mods.skin .Source.BaseFileName) (in .Params.tags "skin") }}
               {{ .Render "gallerySmall" }}
             {{ end }}
           {{ end }}
