@@ -55,7 +55,7 @@
               {{ partial "searchbox" . }}
             </div>
             <div class="white-stone">
-              <h2>Counter Terrorism Units</h2>
+              <h2>Counter Terrorist Units</h2>
               {{ range where .Site.Pages.ByTitle "Type" "ctu" }}
                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px; min-height: 220px;">
                   <a href="{{ .Permalink }}">
@@ -116,6 +116,7 @@
               {{ end }}
               <div class="clearfix"></div>
             </div>
+          </div>
         </div>
       </div>
 

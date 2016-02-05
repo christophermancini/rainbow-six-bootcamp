@@ -1,6 +1,10 @@
 +++
 date = "2015-12-30T11:01:29-05:00"
 title = "Contributing"
+
+[images]
+  main = "/images/general/what_will_you_contribute.png"
+  caption = "By Ragesoss (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons"
 +++
 
 Contributing to the site, no matter how small a contribution, is incredibly valuable to the Rainbow Six community. Whether your contribution is fixing a typo or a strategy guide, it will provide players a better overall experience within the community with the end result of a strong and long lasting community. The stronger the community, the more resources Ubisoft will invest in improving or adding content to the game. Not to mention, you get added to the list of contributors of the site.

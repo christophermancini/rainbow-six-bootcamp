@@ -1,3 +1,10 @@
-{{ with .Params.images.main }}
-<img src="{{ . }}" class="img-rounded featured-image" alt="{{ $.Title }}">
+{{ if .Params.images.main }}
+<figure class="figure">
+  <img src="{{ .Params.images.main }}" class="img-rounded featured-image" alt="{{ $.Title }}" title="{{ $.Render "seoTitle" }}">
+  {{ with .Params.images.caption }}
+  <figcaption class="figure-caption" style="font-size: .7em;">
+    {{ . }}
+  </figcaption>
+  {{ end }}
+</figure>
 {{ end }}
