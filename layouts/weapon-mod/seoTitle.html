@@ -1,1 +1,2 @@
-{{ .Title }} Weapon {{ if eq (index .Params "mod-types") "skin" }}Skin{{ else }}Attachment{{ end }}
+{{ $type := index .Params "mod-types" }}
+{{ .Title }} {{ if eq $type "skin" }}Weapon Skin{{ else if ne $type "sight" }}Attachment{{ end }}

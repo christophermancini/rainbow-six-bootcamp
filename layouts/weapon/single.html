@@ -158,7 +158,7 @@
         <div class="col-xs-12">
           {{ partial "hAnchor" (dict "text" "Modifications" "page" .) }}
 
-          {{ partial "hAnchor" (dict "text" "Sights" "page" .) }}
+          {{ partial "hAnchor" (dict "text" "Weapon Sights" "page" .) }}
           {{ if .Params.mods.sight }}
             {{ range where .Site.Pages "Type" "weapon-mod" }}
               {{ if in $.Params.mods.sight .Source.BaseFileName }}
@@ -170,7 +170,7 @@
           {{ end }}
           <div class="clearfix"></div>
 
-          {{ partial "hAnchor" (dict "text" "Barrel mods" "page" .) }}
+          {{ partial "hAnchor" (dict "text" "Barrel Attachments" "page" .) }}
           {{ if .Params.mods.barrel }}
             {{ range where .Site.Pages "Type" "weapon-mod" }}
               {{ if in $.Params.mods.barrel .Source.BaseFileName }}
@@ -182,7 +182,7 @@
           {{ end }}
           <div class="clearfix"></div>
 
-          {{ partial "hAnchor" (dict "text" "Under-barrel mods" "page" .) }}
+          {{ partial "hAnchor" (dict "text" "Under-barrel Attachments" "page" .) }}
           {{ if (index .Params.mods "under-barrel") }}
             {{ range where .Site.Pages "Type" "weapon-mod" }}
               {{ if in (index $.Params.mods "under-barrel") .Source.BaseFileName }}
@@ -194,7 +194,7 @@
           {{ end }}
           <div class="clearfix"></div>
 
-          {{ partial "hAnchor" (dict "text" "Skins" "page" .) }}
+          {{ partial "hAnchor" (dict "text" "Weapon Skins" "page" .) }}
           {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
             {{ if and (in $.Params.mods.skin .Source.BaseFileName) (in .Params.tags "skin") }}
               {{ .Render "gallerySmall" }}
