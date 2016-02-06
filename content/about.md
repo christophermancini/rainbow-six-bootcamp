@@ -10,7 +10,7 @@ Rainbow Six Bootcamp is an informational site for the community of the Rainbow S
 
 ## Contribute
 
-The site is generated using the [Hugo Website Engine](http://gohugo.io/). The content has been released under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) which means that you may share content we have created as long as it is not for commercial purposes and you credit [Rainbow Six Bootcamp](http://rainbowsixbootcamp.com) as the source.
+The site is generated using the [Hugo Website Engine](http://gohugo.io/). The content has been released under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) which means that you may share content we have created, even for commercial purposes, as long as you credit [Rainbow Six Bootcamp](http://rainbowsixbootcamp.com) as the source.
 
 The code and content for the site is available in [Github](https://github.com/christophermancini/rainbow-six-bootcamp). If you notice an error in the content, a problem with the code, or want to contribute new content, feel free to fork the repository, make your changes and submit a pull request. After your pull request has been reviewed and approved, it will get merged and pushed to the site with the next release. Any work you contribute to the site will be protected under the Creative Commons license mentioned above as well.
 

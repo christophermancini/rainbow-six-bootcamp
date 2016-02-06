@@ -29,11 +29,31 @@ Also situation mode offers three levels of difficulty (Normal, Hard, and Realist
 
 ## Multiplayer Mode (PVP)
 
-Multiplayer mode places you with four other operators playing against five operators via a match making server. There are three types of multiplayer game play, casual, ranked and custom. Essentially multiplayer is team death match with the addition of playing to achieve an objective, either as an attacker or a defender. The three different possible scenarios are Bomb, Hostage, or Biohazard container.
+Multiplayer mode places you with four other operators playing against five operators via a match making server. There are three types of multiplayer game play, casual, ranked and custom. Essentially multiplayer is team death match with the addition of playing to achieve an [objective]({{< ref "#pvp-objectives" >}}), either as an attacker or a defender. The three different possible scenarios are [Bomb]({{< ref "#pvp-bomb" >}}), [Hostage]({{< ref "#pvp-hostage" >}}), or [Secure Area]({{< ref "#pvp-secure-area" >}}).
 
 Each match consists of a set of rounds where you alternate playing as an attacker or defender. You earn a point for winning the round by either eliminating all members of the opposing team or completing the objective. The number of rounds you play in a single match depends on which PVP mode you are playing and performance of each team.
 
 Winning the round is essentially best of N, where N is the requirement for that PVP mode (casual = 5, ranked = 7), however for ranked, you have to win by two points. For instance, if both sides win 3 rounds each, then the match will enter best of 3 overtime, playing up to another 3 rounds.
+
+### Objectives {#pvp-objectives}
+
+Each multiplayer match has one objective that is played for all rounds of the match. There three possible objectives are below.
+
+#### Secure Area {#pvp-secure-area}
+
+Secure area is effectively capture the flag. The terrorists have a container filled with a biochemical that they intend to use as a weapon. Team Rainbow has received intel of the containers location and have arrived to secure the container until the hazmat team can come and retrieve the container.
+
+If you are on the terrorist team (defending), you win the objective by eliminating all Team Rainbow operators or preventing them from securing the container before the round ends.
+
+If you are on Team Rainbow (attacking), you win the objective by eliminating all hostile terrorists or by securing the container. In order to secure the container, you have to enter the room with the container in it and stay in the room for 10 consecutive seconds.
+
+The container enters contested state if there are operators from both teams in the room at the same time. If you have begun securing the container and a defender contests the container by entering the room, it will interrupt the timer, preventing you from completely securing the container. The defender must be eliminated or pushed back to finish securing the container.
+
+{{% youtube PcAYTnbs1tQ %}}
+
+#### Bomb {#pvp-bomb}
+
+#### Hostage {#pvp-hostage}
 
 ### Casual - Ranked - Hardcore Comparison
 
@@ -115,18 +135,18 @@ Like in Hard difficulty, Realistic also requires you to complete the objective w
 
 In each Terrorist Hunt you are tasked to siege a fortified compound filled with hostile terrorists with a specific objective. The four possible objectives are below.
 
-#### Terrorist Hunt Classic
+#### Terrorist Hunt Classic {#pve-classic}
 
 The objective of this mode is to eliminate all enemy terrorists that are fortified within the compound.
 
-#### Hostage Extraction
+#### Hostage Extraction {#pve-hostage}
 
 This mode requires you to locate and safely extract the hostage back to a certain location on the map.
 
-#### Protect Asset
+#### Protect Asset {#pve-asset}
 
 You and your team have been ordered to protect a high value asset at all costs, you start off within a room and need to fortify defenses before attackers arrive to eliminate your asset.
 
-#### Disarm Bombs
+#### Disarm Bombs {#pve-bomb}
 
 Terrorists have fortified a target location and armed two bombs that are minutes away from detonation. You need to infiltrate their defenses and disarm both bombs.
