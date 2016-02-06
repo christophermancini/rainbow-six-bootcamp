@@ -20,7 +20,7 @@ their intended destination.
 
 ## Usage
 
-To make use of the ADS-MK IV, simply place the device on a wall within the fortified room you are defending.
+To make use of the ADS-MK IV, simply place the device on a wall or floor within the fortified room you are defending.
 
 ## Notes
 

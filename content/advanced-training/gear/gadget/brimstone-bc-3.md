@@ -2,7 +2,7 @@
 date = "2015-10-03T23:06:55-04:00"
 groupId = 0
 operators = ["Thermite"]
-tags = ["gadget"]
+tags = ["gadget","Thermite"]
 title = "Brimstone BC-3 Exothermic Charge"
 type = "gadget"
 unique = true
@@ -14,8 +14,13 @@ unique = true
   thumbnail = ""
 +++
 
-The Brimstone BC-3 Exothermic Charge is a breach charge that is capable of breaching metal reinforced walls.
+The Brimstone BC-3 Exothermic Charge is a [breach charge]({{< ref "breach-charge.md" >}}) that is capable of breaching all [destructible material]({{< ref "glossary.md#destructible-material" >}}) surfaces even if they have been reinforced with metal plating.
 
 ## Usage
 
+Place on a barricade, wall, floor, or garage door. Then back away and remotely detonate the device.
+
 ## Notes
+
+- [Mute's GC90 Signal Disruptor]({{< ref "gc90-signal-disruptor.md" >}}) can interfere with your ability to remotely detonate the device
+- It is possible to injure or kill anyone who is standing too close to the breaching device when it detonates

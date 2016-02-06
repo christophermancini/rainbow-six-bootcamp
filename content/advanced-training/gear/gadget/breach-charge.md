@@ -14,8 +14,13 @@ unique = false
   thumbnail = ""
 +++
 
-Deployable charge capable of blowing up walls, floors and barricades.
+Deployable charge capable of blowing up walls, garage doors, floors and barricades unless they have reinforced with metal plating.
 
 ## Usage
 
+Place on a barricade, wall, floor, or garage door. Then back away and remotely detonate the device.
+
 ## Notes
+
+- [Mute's GC90 Signal Disruptor]({{< ref "gc90-signal-disruptor.md" >}}) can interfere with your ability to remotely detonate the device
+- It is possible to injure or kill anyone who is standing too close to the breaching device when it detonates

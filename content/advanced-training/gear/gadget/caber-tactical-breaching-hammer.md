@@ -14,8 +14,14 @@ unique = true
   thumbnail = ""
 +++
 
-The Caber Tactical Breaching Hammer is capable of creating a large hole in any destructible surface.
+The Caber Tactical Breaching Hammer is capable of creating a large hole in any [destructible surface]({{< ref "glossary.md#destructible-material.md" >}}).
 
 ## Usage
 
+Simply aim your reticle at the surface you wish to breach and activate your primary gadget button / key.
+
 ## Notes
+
+- The hammer is limited to 25 uses per round
+- It is possible to kill an enemy with the Caber hammer
+- Cannot breach walls and floors that have been reinforced with metal plating

@@ -8,7 +8,7 @@ unique = false
 [images]
   backdrop = ""
   icon = ""
-  main = ""
+  main = "/images/gear/gadgets/drone.jpg"
   thumbnail = ""
 +++
 
