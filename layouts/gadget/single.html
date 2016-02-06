@@ -45,16 +45,14 @@
         <div class="col-md-8 col-xs-12">
           <article id="content">
             {{ partial "featuredImage" . }}
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
-
             {{ .Content }}
 
             {{ partial "references" . }}
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
             {{ partial "related" . }}
           </article>
         </div>
         <div class="col-md-4 col-xs-12">
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}
           <div class="content-border">
             <div class="white-stone">
               {{ with .Params.video }}
@@ -66,16 +64,42 @@
               {{ partial "hAnchor" (dict "text" "Used By" "page" .) }}
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
                 {{ if in $.Params.operators .Title }}
-                  {{ .Render "gallerySmall" }}
+                  {{ if $.Params.unique }}
+                    <a href="{{ .Permalink }}">
+                      <figure class="figure">
+                        <img src="{{ with .Params.images.main }}{{ . }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}" title="{{ .Title }}">
+                        <figcaption class="figure-caption" style="text-align: center;">{{ .Title }}</figcaption>
+                      </figure>
+                    </a>
+                  {{ else }}
+                    {{ .Render "gallerySmall" }}
+                  {{ end }}
                 {{ end }}
               {{ end }}
-              <div class="clearfix"></div>
+            </div>
+            <div class="white-stone">
+              {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}
             </div>
             <div class="white-stone">
               {{ if .Params.gallery }}
                 {{ partial "hAnchor" (dict "text" "Gallery" "page" .) }}
                 {{ partial "imageGallery" .Params.gallery }}
+              </div>
+              <div class="white-stone">
               {{ end }}
+              <h2>Other Gadgets</h2>
+              {{ range where .Site.Pages.ByTitle "Type" "gadget" }}
+                {{ if ne .Permalink $.Permalink }}
+                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <a href="{{ .Permalink }}" title="{{ .Render "seoTitle" }}">
+                      <figure>
+                        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+                      </figure>
+                    </a>
+                  </div>
+                {{ end }}
+              {{ end }}
+              <div class="clearfix"></div>
             </div>
           </div>
         </div>

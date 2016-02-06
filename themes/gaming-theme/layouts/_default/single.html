@@ -47,6 +47,11 @@
           <article id="content">
             {{ partial "tags" . }}
             {{ partial "featuredImage" . }}
+
+            {{ if gt (len .TableOfContents) 1000 }}
+              <div class="content-border"><div class="white-stone"><h5 style="margin-top: 0px;">Table of Contents</h5>{{ .TableOfContents }}</div></div>
+            {{ end }}
+
             {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
 
             {{ .Content }}
