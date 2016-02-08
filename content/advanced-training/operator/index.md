@@ -1,5 +1,5 @@
 +++
-title = "Rainbow Six Operators"
+title = "Rainbow Six Siege Operators"
 layout = "operator"
 weight = -6
 

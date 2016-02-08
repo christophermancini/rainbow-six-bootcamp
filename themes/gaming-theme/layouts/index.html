@@ -57,7 +57,7 @@
             <div class="white-stone">
               <h2>Counter Terrorist Units</h2>
               {{ range where .Site.Pages.ByTitle "Type" "ctu" }}
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px; min-height: 220px;">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
                   <a href="{{ .Permalink }}">
                     <figure style="margin-bottom: 0; padding-bottom: 0;">
                       <img src="{{ .Params.images.thumbnail }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">

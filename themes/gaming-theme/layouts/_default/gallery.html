@@ -1,10 +1,10 @@
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
   <div class="article-gallery-item">
-    <a href="{{ .Permalink }}">
-      <figure>
-        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}" title="{{ .Title }}">
+    <a href="{{ .Permalink }}" title="{{ .Render "seoTitle" }}">
+      <figure class="figure">
+        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+        <figcaption class="figure-caption">{{ .Title }}</figcaption>
       </figure>
-      <figcaption class="figure-caption">{{ .Title }}</figcaption>
     </a>
   </div>
 </div>
