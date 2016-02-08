@@ -1,5 +1,6 @@
 +++
 date = "2015-12-06T15:32:42-05:00"
+description = "Rook's R1N \"Rhino\" Armor Pack in Tom Clancy's Rainbow Six Siege provides additional protection when you need it most. Click to read more and start winning."
 groupId = 0
 operators = ["Rook"]
 tags = ["gadget","Rook"]
@@ -18,7 +19,7 @@ unique = true
   alt = "In game screenshot of Rook's R1N Rhino Armor pack."
 +++
 
-The R1N "Rhino" Armor Pack is a bag full of armor plates that can be equipped by Rook's team. It provides a little bit extra protection against projectiles.
+The R1N "Rhino" Armor Pack is a bag full of armor plates that can be equipped by Rook's team. It provides a little bit extra protection against projectiles by reducing damage by an additional ~15%.<!--more-->
 
 ## Usage
 

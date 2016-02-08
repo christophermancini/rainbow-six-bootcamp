@@ -1,5 +1,6 @@
 +++
 date = "2015-10-03T23:05:49-04:00"
+description = "Breach Charge in Tom Clancy's Rainbow Six Siege is the standard device needed to get into any room. Click to read more and start winning."
 groupId = 3
 operators = ["Ash","Twitch","Sledge","Thatcher","Thermite","Glaz","Fuze","IQ","Blitz","Buck"]
 tags = ["gadget"]
@@ -14,7 +15,7 @@ unique = false
   thumbnail = ""
 +++
 
-Deployable charge capable of blowing up walls, garage doors, floors and barricades unless they have reinforced with metal plating.
+Deployable charge capable of blowing up walls, garage doors, floors and barricades unless they have reinforced with metal plating.<!--more-->
 
 ## Usage
 

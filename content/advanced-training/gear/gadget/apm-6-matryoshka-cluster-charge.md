@@ -1,5 +1,6 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
+description = "Fuze's APM-6 \"Matryoshka\" Cluster Charge in Tom Clancy's Rainbow Six Siege is the ultimate destruction device. Click to read more and start winning."
 groupId = 0
 operators = ["Fuze"]
 tags = ["gadget","Fuze"]
@@ -15,7 +16,7 @@ unique = true
 +++
 
 The "Matryoshka" cluster charge is a breaching charge that is designed to inflict significant damage to hostiles
-within the room that is being breached. When detonated, the device propels multiple black puck shaped explosive grenades into the room from where it was mounted.
+within the room that is being breached. When detonated, the device propels multiple black puck shaped explosive grenades into the room from where it was mounted.<!--more-->
 
 ## Usage
 

@@ -1,6 +1,6 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
-description = "Delivers a non-lethal explosion that blinds nearby people."
+description = "Stun grenades in Tom Clancy's Rainbow Six Siege produce a non-lethal explosion that blinds and deafens enemies. Click to read more and start winning."
 groupId = 3
 operators = ["Thatcher","Montagne","Fuze","IQ","Buck"]
 tags = ["gadget"]
@@ -15,7 +15,7 @@ unique = false
   thumbnail = "/images/gear/gadgets/preview/stun-grenade.jpg"
 +++
 
-Delivers a non-lethal explosion that blinds nearby people.
+Delivers a non-lethal explosion that blinds nearby people.<!--more-->
 
 ## Usage
 

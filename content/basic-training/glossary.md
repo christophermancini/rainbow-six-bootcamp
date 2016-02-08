@@ -19,6 +19,10 @@ A bomber is a terrorist bot engaged in [Terrorist Hunt]({{<ref "game-modes.md">}
 ### Clans
 ### Clearance Level
 ### CTU
+### DBNO
+
+DBNO stands for Down But Not Out and in Rainbow Six Siege, means that a player has been injured and is waiting for a teammate to come to their aid to revive them.
+
 ### Destructible material
 
 A destructible material in Rainbow Six Siege is any surface that can be damaged by bullets, explosives, [Sledge's Caber]({{< ref "caber-tactical-breaching-hammer.md" >}}), or normal melee attack. This includes sheetrock / drywall surfaces, green window / door barricades, [Castle's UTP Barricade]({{< ref "utp1.md" >}}), plywood, trap doors, wood wall panels, wood flooring, etc. Surfaces that are not destructible are bullet proof glass, concrete, stone / ceramic tile, aluminum panels, brick walls, tar & gravel roofs, etc.

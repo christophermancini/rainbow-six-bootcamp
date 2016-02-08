@@ -1,5 +1,6 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
+description = "Bandit's CED-1 in Tom Clancy's Rainbow Six Siege offers some of the most creative defensive options. Click to read more and start winning."
 groupId = 0
 operators = ["Bandit"]
 tags = ["gadget"]
@@ -14,8 +15,7 @@ unique = true
   thumbnail = ""
 +++
 
-The CED-1 is a defensive device used to prevent attackers from being able to mount breaching charges
-or other devices onto metallic surfaces (reinforced walls, windows, or doors) and barbed wire.
+The CED-1 is a defensive device used to prevent attackers from being able to mount breaching charges or other devices onto metallic surfaces (reinforced walls, windows, or doors) and barbed wire.<!--more-->
 
 ## Usage
 

@@ -1,5 +1,6 @@
 +++
 date = "2015-12-06T15:28:43-05:00"
+description = "Twitch's RSD Model1 Shock Drone in Tom Clancy's Rainbow Six Siege offers the best way to annoy defenders. Click to read more and start winning."
 groupId = 0
 operators = ["Twitch"]
 tags = ["gadget","Twitch"]
@@ -14,7 +15,7 @@ unique = true
   thumbnail = ""
 +++
 
-The RSD Model1 Shock Drone is a tactical drone that shoots a shock dart to disable traps or injure enemies.
+The RSD Model1 Shock Drone is a tactical drone that shoots a shock dart to disable traps or injure enemies.<!--more-->
 
 ## Usage
 

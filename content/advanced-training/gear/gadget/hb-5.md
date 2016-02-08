@@ -1,5 +1,6 @@
 +++
 date = "2015-12-06T15:13:22-05:00"
+description = "Pulse's HB-5 Cardiac Sensor in Tom Clancy's Rainbow Six Siege provides defenders with awareness of incoming attackers. Click to read more and start winning."
 groupId = 0
 operators = ["Pulse"]
 tags = ["gadget","Pulse"]
@@ -18,7 +19,7 @@ unique = true
   alt = "Snapshot of Pulse using his HB-5."
 +++
 
-The HB-5 Cardiac Sensor is capable of detecting heartbeats at a short distance through all obstacles.
+The HB-5 Cardiac Sensor is capable of detecting heartbeats at a short distance through all obstacles.<!--more-->
 
 ## Usage
 

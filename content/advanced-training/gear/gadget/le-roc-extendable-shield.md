@@ -1,5 +1,6 @@
 +++
 date = "2015-12-06T15:27:13-05:00"
+description = "Montagne's Le Roc Extendable Shield in Tom Clancy's Rainbow Six Siege provides the ultimate cover for attackers. Click to read more and start winning."
 groupId = 0
 operators = ["Montagne"]
 tags = ["gadget","Montagne"]
@@ -14,7 +15,7 @@ unique = true
   thumbnail = ""
 +++
 
-The Le Roc Extendable Shield can expand to offer full protection while standing.
+The Le Roc Extendable Shield can expand to offer full protection while standing.<!--more-->
 
 ## Usage
 

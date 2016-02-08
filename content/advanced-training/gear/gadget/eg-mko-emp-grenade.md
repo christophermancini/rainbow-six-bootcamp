@@ -1,5 +1,6 @@
 +++
 date = "2015-12-06T15:25:06-05:00"
+description = "Thatcher's EG MKO EMP Grenade in Tom Clancy's Rainbow Six Siege is critical to counter defensive counter measures. Click to read more and start winning."
 groupId = 0
 operators = ["Thatcher"]
 tags = ["gadget","Thatcher"]
@@ -14,7 +15,7 @@ unique = true
   thumbnail = ""
 +++
 
-The EG MKO EMP Grenade is capable of disabling enemy electronic devices within its blast range.
+The EG MKO EMP Grenade is capable of disabling enemy electronic devices within its blast range.<!--more-->
 
 ## Usage
 

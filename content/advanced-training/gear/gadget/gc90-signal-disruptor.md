@@ -1,5 +1,6 @@
 +++
 date = "2015-12-06T15:17:33-05:00"
+description = "Mute's GC90 \"Moni\" Signal Disruptor in Tom Clancy's Rainbow Six Siege is a powerful support device for defenders. Click to read more and start winning."
 groupId = 0
 operators = ["Mute"]
 tags = ["gadget","Mute"]
@@ -22,7 +23,7 @@ unique = true
   alt = "Effective placement of Mute's GC90 can provide your team an edge."
 +++
 
-The GC90 "Moni" Signal Disruptor jams communications for remotely detonated gadgets or drones within its range.
+The GC90 "Moni" Signal Disruptor jams communications for remotely detonated gadgets or drones within its range.<!--more-->
 
 ## Usage
 

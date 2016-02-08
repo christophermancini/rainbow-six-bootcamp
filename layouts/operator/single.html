@@ -88,17 +88,13 @@
               <p>Gadget only available to this operator.</p>
               {{ range where .Site.Pages "Type" "gadget" }}
                 {{ if and .Params.unique (in .Params.operators $.Title) }}
-                <div class="col-md-8">
                   <a href="{{ .Permalink }}">
-                    <figcaption class="figure-caption">{{ .Title }}</figcaption>
-                    <figure>
-                      <img src="{{ .Params.images.main }}" class="figure-img img-fluid img-rounded" alt="{{ partial "title" . }}">
+                    <figure class="figure">
+                      <figcaption class="figure-caption">{{ .Title }}</figcaption>
+                      <img src="{{ .Params.images.main }}" class="figure-img img-fluid img-rounded" alt="{{ partial "title" . }}" align="left">
                     </figure>
                   </a>
-                </div>
-                <div class="col-md-4">
                   {{ .Summary }} <a href="{{ .Permalink }}">Read more...</a>
-                </div>
                 {{ end }}
               {{ end }}
               <div class="clearfix"></div>

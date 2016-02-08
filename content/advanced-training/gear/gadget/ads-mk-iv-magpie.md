@@ -1,5 +1,6 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
+description = "Jäger's ADS-MK IV \"Magpie\" Active Defense System in Tom Clancy's Rainbow Six Siege protects you from Fuze's fury. Click to read more and start winning."
 groupId = 0
 operators = ["Jäger"]
 tags = ["gadget","Jäger"]
@@ -16,7 +17,7 @@ unique = true
 
 The ADS-MK IV "Magpie" is an active defense system designed to intercept grenades thrown into a room.
 It uses its advanced cameras to identify and target explosives to be disabled before they reach
-their intended destination.
+their intended destination.<!--more-->
 
 ## Usage
 

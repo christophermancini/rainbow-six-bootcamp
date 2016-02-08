@@ -1,5 +1,6 @@
 +++
 date = "2015-12-06T15:31:12-05:00"
+description = "Doc's MPD-0 Stim Pistol in Tom Clancy's Rainbow Six Siege gives defenders the ultimate second chance. Click to read more and start winning."
 groupId = 0
 operators = ["Doc"]
 tags = ["gadget","Doc"]
@@ -14,7 +15,7 @@ unique = true
   thumbnail = ""
 +++
 
-The MPD-0 Stim Pistol fires a hypodermic shot to revive himself or teammates from a distance when an operator is down.
+The MPD-0 Stim Pistol fires a hypodermic shot to revive himself or teammates from a distance when an operator is down.<!--more-->
 
 ## Usage
 

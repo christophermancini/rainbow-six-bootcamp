@@ -1,5 +1,6 @@
 +++
 date = "2015-12-06T15:19:34-05:00"
+description = "Sledge's Caber Tactical Breaching Hammer in Tom Clancy's Rainbow Six Siege is designed to destroy, walls, floors and humans. Click to read more and start winning."
 groupId = 0
 operators = ["Sledge"]
 tags = ["gadget","Sledge"]
@@ -14,7 +15,7 @@ unique = true
   thumbnail = ""
 +++
 
-The Caber Tactical Breaching Hammer is capable of creating a large hole in any [destructible surface]({{< ref "glossary.md#destructible-material.md" >}}).
+The Caber Tactical Breaching Hammer is capable of creating a large hole in any [destructible surface]({{< ref "glossary.md#destructible-material.md" >}}).<!--more-->
 
 ## Usage
 

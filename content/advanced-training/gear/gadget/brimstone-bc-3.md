@@ -1,5 +1,6 @@
 +++
 date = "2015-10-03T23:06:55-04:00"
+description = "Thermite's Brimstone BC-3 Exothermic Charge in Tom Clancy's Rainbow Six Siege is a requirement in certain situations. Click to read more and start winning."
 groupId = 0
 operators = ["Thermite"]
 tags = ["gadget","Thermite"]
@@ -14,7 +15,7 @@ unique = true
   thumbnail = ""
 +++
 
-The Brimstone BC-3 Exothermic Charge is a [breach charge]({{< ref "breach-charge.md" >}}) that is capable of breaching all [destructible material]({{< ref "glossary.md#destructible-material" >}}) surfaces even if they have been reinforced with metal plating.
+The Brimstone BC-3 Exothermic Charge is a [breach charge]({{< ref "breach-charge.md" >}}) that is capable of breaching all [destructible material]({{< ref "glossary.md#destructible-material" >}}) surfaces even if they have been reinforced with metal plating.<!--more-->
 
 ## Usage
 

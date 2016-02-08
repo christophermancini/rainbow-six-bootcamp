@@ -1,5 +1,6 @@
 +++
 date = "2015-10-03T23:06:10-04:00"
+description = "Kapkan's EDD MK II Entry Denial Device in Tom Clancy's Rainbow Six Siege is always the last thing his enemies see. Click to read more and start winning."
 groupId = 0
 operators = ["Kapkan"]
 tags = ["gadget","Kapkan"]
@@ -22,7 +23,7 @@ unique = true
   alt = "Snapshot of how it looks in game on an barricaded door way."
 +++
 
-The EDD MK II is an advanced claymore mine designed to deny entry into entryways that offer little escape from the shrapnel of the device as it explodes.
+The EDD MK II is an advanced claymore mine designed to deny entry into entryways that offer little escape from the shrapnel of the device as it explodes.<!--more-->
 
 ## Usage
 
