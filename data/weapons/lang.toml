@@ -1,0 +1,3 @@
+ninjaScore = "Score for how stealthy the weapon is. MAX = 100"
+marksmanScore = "Score for how useful the weapon is as a marksman. MAX = 100"
+supportScore = "Score for how good the weapon is at providing cover fire. MAX = 100"

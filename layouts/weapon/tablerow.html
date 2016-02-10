@@ -1,18 +1,23 @@
+{{ $scores := (index .Site.Data.weapons.scores .Source.BaseFileName) }}
+{{ $specs := (index .Site.Data.weapons.specs .Source.BaseFileName) }}
 <tr>
-  <td style="font-size:.8em;"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-  <td style="font-size:.8em;">{{ index .Params.classes 0 }}</td>
-  <td style="font-size:.8em;">{{ .Params.specs.damage }}</td>
-  {{ if eq .Params.specs.fireRate "2" }}
+  <td><a href="{{ .Permalink }}" title="{{ .Render "seoTitle" }}">{{ .Title }}</a></td>
+  <td style="font-size:.8em;">{{ with .Params.classes }}{{ . }}{{ end }}</td>
+  <td>{{ $specs.damage }}</td>
+  {{ if eq $specs.fireRate 2 }}
     <td style="font-size:.8em;" data-value="2">Semi-automatic</td>
-  {{ else if eq .Params.specs.fireRate "1" }}
+  {{ else if eq $specs.fireRate 1 }}
     <td style="font-size:.8em;" data-value="2">Double-action</td>
-  {{ else if eq .Params.specs.fireRate "0" }}
+  {{ else if eq $specs.fireRate 0 }}
     <td style="font-size:.8em;" data-value="1">Bolt-action</td>
-  {{ else if eq .Params.specs.fireRate "-1" }}
+  {{ else if eq $specs.fireRate -1 }}
     <td style="font-size:.8em;" data-value="1">Pump-action</td>
   {{ else }}
-    <td>{{ .Params.specs.fireRate }}</td>
+    <td>{{ $specs.fireRate }}</td>
   {{ end }}
-  <td>{{ .Params.specs.mobility }}</td>
-  <td>{{ .Params.specs.capacity }}</td>
+  <td>{{ $specs.mobility }}</td>
+  <td>{{ $specs.capacity }}</td>
+  <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">{{ $scores.marksman }}</td>
+  <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">{{ $scores.ninja }}</td>
+  <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">{{ $scores.support }}</td>
 </tr>

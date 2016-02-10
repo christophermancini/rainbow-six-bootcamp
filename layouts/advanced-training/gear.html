@@ -61,7 +61,10 @@
               <th>Damage</th>
               <th>Fire Rate</th>
               <th>Mobility</th>
-              <th>Capacity</th>
+              <th>Ammo<br>Capacity</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">Marksman<br>Score</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">Ninja<br>Score</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">Support<br>Score</th>
             </tr>
             {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
               {{ if in .Params.tags "primary weapon" }}
@@ -78,7 +81,10 @@
               <th>Damage</th>
               <th>Fire Rate</th>
               <th>Mobility</th>
-              <th>Capacity</th>
+              <th>Ammo<br>Capacity</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">Marksman<br>Score</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">Ninja<br>Score</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">Support<br>Score</th>
             </tr>
             {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
               {{ if in .Params.tags "secondary weapon" }}

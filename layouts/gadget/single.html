@@ -65,9 +65,9 @@
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
                 {{ if in $.Params.operators .Title }}
                   {{ if $.Params.unique }}
-                    <a href="{{ .Permalink }}">
+                    <a href="{{ .Permalink }}" title="{{ .Title }}">
                       <figure class="figure">
-                        <img src="{{ with .Params.images.main }}{{ . }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}" title="{{ .Title }}">
+                        <img src="{{ with .Params.images.main }}{{ . }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
                         <figcaption class="figure-caption" style="text-align: center;">{{ .Title }}</figcaption>
                       </figure>
                     </a>
@@ -76,6 +76,7 @@
                   {{ end }}
                 {{ end }}
               {{ end }}
+              <div class="clearfix"></div>
             </div>
             <div class="white-stone">
               {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}

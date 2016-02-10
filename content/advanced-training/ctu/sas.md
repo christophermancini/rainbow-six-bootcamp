@@ -8,7 +8,7 @@ references = [
 ]
 
 [info]
-  country = "United Kingdom"
+  country = "Germany"
   founded = 1941
   name = "Special Air Service"
 

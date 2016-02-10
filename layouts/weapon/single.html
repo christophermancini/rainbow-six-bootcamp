@@ -1,9 +1,10 @@
+{{ $scores := (index .Site.Data.weapons.scores .Source.BaseFileName) }}
+{{ $specs := (index .Site.Data.weapons.specs .Source.BaseFileName) }}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-
 <html class="no-js"> <!--<![endif]-->
 <head>
   {{ partial "head.html" . }}
@@ -48,27 +49,33 @@
           {{ partial "tags" . }}
 
           <table class="table">
-            <tr>
-              <th style="font-size:.9em;">Damage</th>
-              <th style="font-size:.9em;">Fire Rate</th>
-              <th style="font-size:.9em;">Mobility</th>
-              <th style="font-size:.9em;">Ammo Capacity</th>
+            <tr style="font-size: .8em;">
+              <th>Damage</th>
+              <th>Fire Rate</th>
+              <th>Mobility</th>
+              <th>Ammo<br>Capacity</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">Marksman<br>Score</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">Ninja<br>Score</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">Support<br>Score</th>
             </tr>
             <tr>
-              <td>{{ .Params.specs.damage }}</td>
-              {{ if eq .Params.specs.fireRate "2" }}
-                <td data-value="2">Semi-automatic</td>
-              {{ else if eq .Params.specs.fireRate "1" }}
-                <td data-value="2">Double-action</td>
-              {{ else if eq .Params.specs.fireRate "0" }}
-                <td data-value="1">Bolt-action</td>
-              {{ else if eq .Params.specs.fireRate "-1" }}
-                <td data-value="1">Pump-action</td>
+              <td>{{ $specs.damage }}</td>
+              {{ if eq $specs.fireRate 2 }}
+              <td data-value="2">Semi-automatic</td>
+              {{ else if eq $specs.fireRate 1 }}
+              <td data-value="2">Double-action</td>
+              {{ else if eq $specs.fireRate 0 }}
+              <td data-value="1">Bolt-action</td>
+              {{ else if eq $specs.fireRate -1 }}
+              <td data-value="1">Pump-action</td>
               {{ else }}
-                <td>{{ .Params.specs.fireRate }}</td>
+              <td>{{ $specs.fireRate }}</td>
               {{ end }}
-              <td>{{ .Params.specs.mobility }}</td>
-              <td>{{ .Params.specs.capacity }}</td>
+              <td>{{ $specs.mobility }}</td>
+              <td>{{ $specs.capacity }}</td>
+              <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">{{ $scores.marksman }}</td>
+              <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">{{ $scores.ninja }}</td>
+              <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">{{ $scores.support }}</td>
             </tr>
           </table>
 
@@ -80,7 +87,7 @@
           <div class="content-border">
             <div class="white-stone">
               <p style="text-align: center;">
-                <em>"{{ .Description }}"</em><br>--in game description
+                <em>"{{ .Params.info.description }}"</em><br>--in game description
               </p>
             </div>
             <div class="white-stone">
@@ -90,11 +97,7 @@
                     <span style="font-weight: bold; font-size: .85em;">Class</span>
                   </td>
                   <td>
-                    {{ range .Params.classes }}
-                    <a href="/classes/{{ urlize . }}/">
-                      {{ . }}
-                    </a>&nbsp;&nbsp;
-                    {{ end }}
+                    {{ with .Params.classes }}<a href="/classes/{{ urlize . }}/">{{ . }}</a>{{ end }}
                   </td>
                 </tr>
                 <tr>
@@ -103,13 +106,13 @@
                   </td>
                   <td>
                     {{ if ne .Params.recruit false }}
-                      <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="margin-bottom: 20px;">
-                        <a href="{{ ref . "operators.md#recruit"}}">
-                          <figure style="margin-bottom: 0; padding-bottom: 0;">
-                            <img src="/images/operator/recruit-badge.png" class="figure-img img-fluid" alt="Rainbow Six Siege: Recruit" title="Recruit">
-                          </figure>
-                        </a>
-                      </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="margin-bottom: 20px;">
+                      <a href="{{ ref . "operators.md#recruit" }}">
+                        <figure class="figure">
+                          <img src="/images/operator/recruit-badge.png" class="figure-img img-fluid" alt="Rainbow Six Siege: Recruit" title="Recruit">
+                        </figure>
+                      </a>
+                    </div>
                     {{ end }}
                     {{ range where .Site.Pages "Type" "operator" }}
                       {{ if in $.Params.operators .Title }}
@@ -124,9 +127,7 @@
                   </td>
                   <td>
                     {{ range .Params.manufacturers }}
-                    <a href="/manufacturers/{{ urlize . }}/">
-                      {{ . }}
-                    </a>&nbsp;&nbsp;
+                    <a href="/manufacturers/{{ urlize . }}/">{{ . }}</a>
                     {{ end }}
                   </td>
                 </tr>
@@ -135,7 +136,7 @@
                     <span style="font-weight: bold; font-size: .85em;">Country of Origin</span>
                   </td>
                   <td>
-                    {{ .Params.country }}
+                    {{ .Params.info.country }}
                   </td>
                 </tr>
                 <tr>
@@ -143,9 +144,7 @@
                     <span style="font-weight: bold; font-size: .85em;">Cartridges</span>
                   </td>
                   <td>
-                    {{ range .Params.cartridges }}
-                      <a href="/cartridges/{{ urlize . }}/">{{ title . }}</a><br>
-                    {{ end }}
+                    {{ range .Params.cartridges }}<a href="/cartridges/{{ urlize . }}/">{{ title . }}</a><br>{{ end }}
                   </td>
                 </tr>
               </table>
@@ -159,9 +158,9 @@
           {{ partial "hAnchor" (dict "text" "Modifications" "page" .) }}
 
           {{ partial "hAnchor" (dict "text" "Weapon Sights" "page" .) }}
-          {{ if .Params.mods.sight }}
+          {{ if $specs.mods.sight }}
             {{ range where .Site.Pages "Type" "weapon-mod" }}
-              {{ if in $.Params.mods.sight .Source.BaseFileName }}
+              {{ if in $specs.mods.sight .Source.BaseFileName }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
@@ -171,9 +170,9 @@
           <div class="clearfix"></div>
 
           {{ partial "hAnchor" (dict "text" "Barrel Attachments" "page" .) }}
-          {{ if .Params.mods.barrel }}
+          {{ if $specs.mods.barrel }}
             {{ range where .Site.Pages "Type" "weapon-mod" }}
-              {{ if in $.Params.mods.barrel .Source.BaseFileName }}
+              {{ if in $specs.mods.barrel .Source.BaseFileName }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
@@ -183,9 +182,9 @@
           <div class="clearfix"></div>
 
           {{ partial "hAnchor" (dict "text" "Under-barrel Attachments" "page" .) }}
-          {{ if (index .Params.mods "under-barrel") }}
+          {{ if (index $specs.mods "under-barrel") }}
             {{ range where .Site.Pages "Type" "weapon-mod" }}
-              {{ if in (index $.Params.mods "under-barrel") .Source.BaseFileName }}
+              {{ if in (index $specs.mods "under-barrel") .Source.BaseFileName }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
@@ -196,7 +195,7 @@
 
           {{ partial "hAnchor" (dict "text" "Weapon Skins" "page" .) }}
           {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
-            {{ if and (in $.Params.mods.skin .Source.BaseFileName) (in .Params.tags "skin") }}
+            {{ if and (in $specs.mods.skin .Source.BaseFileName) (in .Params.tags "skin") }}
               {{ .Render "gallerySmall" }}
             {{ end }}
           {{ end }}

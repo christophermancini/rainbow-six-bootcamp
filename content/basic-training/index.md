@@ -31,4 +31,4 @@ Over the course of this [Rainbow Six Basic Training series]({{<ref "basic-traini
 
 ## Advanced Training
 
-After you have successfully completed basic training, you can choose to advance your skills as a Siege operator by beginning the [Rainbow Six Bootcamp Advanced Training](/advanced-training/) content.
+After you have successfully completed basic training, you can choose to advance your skills as a Siege operator by reviewing the [Rainbow Six Bootcamp Advanced Training](/advanced-training/) content.

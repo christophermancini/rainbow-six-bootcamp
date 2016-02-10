@@ -9,7 +9,7 @@ references = [
 
 [info]
   country = "Canada"
-  founded = 1993
+  founded = 1992
   name = "Joint Task Force 2"
 
 [images]
@@ -18,3 +18,5 @@ references = [
   main = ""
   thumbnail = "/images/ctu/jtf2-patch.png"
 +++
+
+Due to public concern over the RCMP SERT police officers being taught to use primarily lethal means, the Joint Task Force 2 (JTF2) was activated in 1992. The Government of Canada does not comment on JTF2 and much of the information regarding the unit is classified.

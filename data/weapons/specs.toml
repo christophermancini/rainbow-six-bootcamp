@@ -1,0 +1,1434 @@
+[6p41]
+  damage = 39
+  fireRate = 680
+  mobility = 35
+  capacity = 100
+
+[6p41.mods]
+  barrel = ["suppressor", "flash-hider"]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+  skin = [
+    "black-ice",
+    "dev-tester",
+    "elephant",
+    "emerald",
+    "fire",
+    "gold",
+    "leopard",
+    "modern-usa-camo",
+    "ralphie",
+    "snake",
+    "swe-reganomics",
+    "tiger",
+    "usa-winter-camo",
+    "zebra",
+    "dahlia",
+    "glacier",
+    "guardian",
+    "kamehameha",
+    "khokhloma",
+    "pustoy",
+    "rocket",
+    "rus-wwii-camo",
+    "triple-helix"
+  ]
+
+[9mm-c1]
+  damage = 38
+  fireRate = 575
+  mobility = 45
+  capacity = 34
+
+[9mm-c1.mods]
+  barrel = ["suppressor"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "modern-usa-camo",
+    "dwyer-hill",
+    "black-ice",
+    "glacier",
+    "tigers-breath",
+    "invaders",
+    "usa-winter-camo",
+    "modern-can-camo",
+    "dissociate",
+    "splatter",
+    "pointed"
+  ]
+  sight = ["red-dot-sight","reflex-sight"]
+  under-barrel = ["laser"]
+
+[9x19vsn]
+  damage = 36
+  fireRate = 750
+  mobility = 45
+  capacity = 30
+
+[9x19vsn.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "khokhloma",
+    "verkh",
+    "mechanical",
+    "dahlia",
+    "kamehameha",
+    "modern-usa-camo",
+    "triple-helix",
+    "swe-reganomics",
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "pit-crew"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[416-c-carbine]
+  damage = 42
+  fireRate = 700
+  mobility = 41
+  capacity = 30
+
+[416-c-carbine.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "leder",
+    "baustelle",
+    "ice",
+    "oahu",
+    "lurks-beneath",
+    "modern-usa-camo",
+    "mushroom",
+    "swe-reganomics",
+    "deu-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "oh-hamburgers"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[417]
+  damage = 61
+  fireRate = 2
+  mobility = 38
+  capacity = 10
+
+[417.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "liberte",
+    "acier",
+    "iceman",
+    "evolution",
+    "kona",
+    "modern-usa-camo",
+    "acid-rain",
+    "swe-reganomics",
+    "fra-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "radio-silence"
+  ]
+  sight = ["red-dot-sight","holographic-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+["5.7-usg"]
+  damage = 36
+  fireRate = 2
+  mobility = 50
+  capacity = 20
+
+["5.7-usg".mods]
+  barrel = ["suppressor"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "glory",
+    "faded",
+    "verdant",
+    "weave",
+    "maui",
+    "modern-usa-camo",
+    "spores",
+    "swe-reganomics",
+    "usa-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "zygote"
+  ]
+  sight = []
+  under-barrel = ["laser"]
+
+[552-commando]
+  damage = 47
+  fireRate = 690
+  mobility = 40
+  capacity = 30
+
+[552-commando.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "porter",
+    "fire",
+    "emerald",
+    "elephant",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "leder",
+    "hindernis",
+    "ice",
+    "oahu",
+    "ishi",
+    "modern-usa-camo",
+    "mushroom",
+    "swe-reganomics",
+    "deu-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "nirvana"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[556xi]
+  damage = 46
+  fireRate = 690
+  mobility = 40
+  capacity = 30
+
+[556xi.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "glory",
+    "gem",
+    "cactus",
+    "weave",
+    "maui",
+    "modern-usa-camo",
+    "spores",
+    "swe-reganomics",
+    "usa-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "nitro"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[ak-12]
+  damage = 44
+  fireRate = 850
+  mobility = 40
+  capacity = 30
+
+[ak-12.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "guerrilla",
+    "fire",
+    "emerald",
+    "elephant",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "khokhloma",
+    "black-ops",
+    "paisley",
+    "dahlia",
+    "kamehameha",
+    "modern-usa-camo",
+    "triple-helix",
+    "swe-reganomics",
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "cluster"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[ar33]
+  damage = 42
+  fireRate = 749
+  mobility = 40
+  capacity = 25
+
+[ar33.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "engraved",
+    "smiths",
+    "waves",
+    "molokai",
+    "black-widow",
+    "modern-usa-camo",
+    "sapien",
+    "swe-reganomics",
+    "gbr-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "lightning"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[aug-a2]
+  damage = 41
+  fireRate = 770
+  mobility = 40
+  capacity = 30
+
+[aug-a2.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "bartlett-university",
+    "fire",
+    "emerald",
+    "elephant",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "leder",
+    "hauten",
+    "ice",
+    "oahu",
+    "phoenix",
+    "modern-usa-camo",
+    "mushroom",
+    "swe-reganomics",
+    "deu-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "thread"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser"]
+
+[c8-sfw]
+  damage = 42
+  fireRate = 837
+  mobility = 40
+  capacity = 30
+
+[c8-sfw.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "modern-usa-camo",
+    "dwyer-hill",
+    "black-ice",
+    "glacier",
+    "tigers-breath",
+    "invaders",
+    "usa-winter-camo",
+    "modern-can-camo",
+    "dissociate",
+    "mech",
+    "madness"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser"]
+
+[camrs]
+  damage = 52
+  fireRate = 2
+  mobility = 39
+  capacity = 20
+
+[camrs.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "emerald",
+    "elephant",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "modern-usa-camo",
+    "dwyer-hill",
+    "black-ice",
+    "glacier",
+    "tigers-breath",
+    "invaders",
+    "usa-winter-camo",
+    "modern-can-camo",
+    "dissociate",
+    "blaze",
+    "laser-skin"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser"]
+
+[f2]
+  damage = 39
+  fireRate = 980
+  mobility = 40
+  capacity = 30
+
+[f2.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "liberte",
+    "requin",
+    "iceman",
+    "paradise",
+    "kona",
+    "modern-usa-camo",
+    "acid-rain",
+    "swe-reganomics",
+    "fra-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "trail"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[fmg-9]
+  damage = 33
+  fireRate = 800
+  mobility = 45
+  capacity = 30
+
+[fmg-9.mods]
+  barrel = ["suppressor", "flash-hider"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "engraved",
+    "clockwork",
+    "waves",
+    "molokai",
+    "biohazzard",
+    "modern-usa-camo",
+    "sapien",
+    "swe-reganomics",
+    "gbr-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "strawberry-fields"
+  ]
+  sight = ["red-dot-sight","reflex-sight"]
+  under-barrel = ["laser"]
+
+[g8a1]
+  damage = 37
+  fireRate = 850
+  mobility = 35
+  capacity = 50
+
+[g8a1.mods]
+  barrel = ["suppressor", "flash-hider"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "leder",
+    "schar",
+    "ice",
+    "oahu",
+    "jellyfish",
+    "modern-usa-camo",
+    "mushroom",
+    "swe-reganomics",
+    "deu-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "aero"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["vertical-grip"]
+
+[g36c]
+  damage = 38
+  fireRate = 780
+  mobility = 41
+  capacity = 30
+
+[g36c.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "ghost-recon-future-soldier",
+    "glory",
+    "restricted",
+    "bayside",
+    "weave",
+    "maui",
+    "modern-usa-camo",
+    "spores",
+    "swe-reganomics",
+    "usa-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "turbo"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[gsh-18]
+  damage = 39
+  fireRate = 2
+  mobility = 50
+  capacity = 18
+
+[gsh-18.mods]
+  barrel = ["suppressor","compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "khokhloma",
+    "risunok",
+    "road-warrior",
+    "dahlia",
+    "kamehameha",
+    "modern-usa-camo",
+    "triple-helix",
+    "swe-reganomics",
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "gear"
+  ]
+  sight = []
+  under-barrel = []
+
+[l85a2]
+  damage = 45
+  fireRate = 670
+  mobility = 40
+  capacity = 30
+
+[l85a2.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "engraved",
+    "mod",
+    "waves",
+    "molokai",
+    "gleizes",
+    "modern-usa-camo",
+    "sapien",
+    "swe-reganomics",
+    "gbr-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "badge"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[lfp586]
+  damage = 60
+  fireRate = 1
+  mobility = 50
+  capacity = 6
+
+[lfp586.mods]
+  barrel = []
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "liberte",
+    "millesime",
+    "iceman",
+    "belladonna",
+    "kona",
+    "modern-usa-camo",
+    "acid-rain",
+    "swe-reganomics",
+    "fra-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "streamline"
+  ]
+  sight = []
+  under-barrel = ["laser"]
+
+[m45-meusoc]
+  damage = 47
+  fireRate = 2
+  mobility = 50
+  capacity = 7
+
+[m45-meusoc.mods]
+  barrel = ["suppressor"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "glory",
+    "chameleon",
+    "gris",
+    "weave",
+    "maui",
+    "modern-usa-camo",
+    "spores",
+    "swe-reganomics",
+    "usa-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "sonic"
+  ]
+  sight = []
+  under-barrel = ["laser"]
+
+[m590a1]
+  damage = 45
+  fireRate = -1
+  mobility = 42
+  capacity = 7
+
+[m590a1.mods]
+  barrel = []
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "engraved",
+    "woody",
+    "waves",
+    "molokai",
+    "armor",
+    "modern-usa-camo",
+    "sapien",
+    "swe-reganomics",
+    "gbr-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "branches"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  under-barrel = ["laser"]
+
+[m870]
+  damage = 57
+  fireRate = -1
+  mobility = 43
+  capacity = 7
+
+[m870.mods]
+  barrel = []
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "leder",
+    "graviert",
+    "ice",
+    "oahu",
+    "november",
+    "modern-usa-camo",
+    "mushroom",
+    "swe-reganomics",
+    "deu-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "flux"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  under-barrel = ["laser"]
+
+[m1014]
+  damage = 42
+  fireRate = 2
+  mobility = 42
+  capacity = 8
+
+[m1014.mods]
+  barrel = []
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "glory",
+    "lace",
+    "sailor",
+    "weave",
+    "maui",
+    "modern-usa-camo",
+    "spores",
+    "swe-reganomics",
+    "usa-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "zap"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  under-barrel = ["laser"]
+
+[mk1-9mm]
+  damage = 45
+  fireRate = 2
+  mobility = 50
+  capacity = 13
+
+[mk1-9mm.mods]
+  barrel = ["suppressor"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "modern-usa-camo",
+    "dwyer-hill",
+    "black-ice",
+    "glacier",
+    "tigers-breath",
+    "invaders",
+    "usa-winter-camo",
+    "modern-can-camo",
+    "dissociate",
+    "pearl",
+    "traction"
+  ]
+  sight = []
+  under-barrel = ["laser"]
+
+[mp5]
+  damage = 33
+  fireRate = 800
+  mobility = 45
+  capacity = 30
+
+[mp5.mods]
+  barrel = ["suppressor", "flash-hider"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "liberte",
+    "cramoisi",
+    "iceman",
+    "burial",
+    "kona",
+    "modern-usa-camo",
+    "acid-rain",
+    "swe-reganomics",
+    "fra-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "skull"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[mp5k]
+  damage = 31
+  fireRate = 800
+  mobility = 45
+  capacity = 30
+
+[mp5k.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "engraved",
+    "ruby",
+    "waves",
+    "molokai",
+    "amazona",
+    "modern-usa-camo",
+    "sapien",
+    "swe-reganomics",
+    "gbr-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "red-asphalt"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  under-barrel = ["laser"]
+
+[mp7]
+  damage = 36
+  fireRate = 750
+  mobility = 45
+  capacity = 30
+
+[mp7.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "leder",
+    "schneien",
+    "ice",
+    "oahu",
+    "crossroads",
+    "modern-usa-camo",
+    "mushroom",
+    "swe-reganomics",
+    "deu-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "fractyl"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser"]
+
+[ots-03]
+  damage = 152
+  fireRate = 2
+  mobility = 36
+  capacity = 10
+
+[ots-03.mods]
+  barrel = ["suppressor", "flash-hider"]
+  skin = [
+    "fire",
+    "emerald",
+    "elephant",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "khokhloma",
+    "belizna",
+    "pablo",
+    "dahlia",
+    "kamehameha",
+    "modern-usa-camo",
+    "triple-helix",
+    "swe-reganomics",
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "cubist"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  under-barrel = []
+
+[p12]
+  damage = 45
+  fireRate = 2
+  mobility = 50
+  capacity = 15
+
+[p12.mods]
+  barrel = ["suppressor"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "leder",
+    "slate",
+    "ice",
+    "oahu",
+    "turtle",
+    "modern-usa-camo",
+    "mushroom",
+    "swe-reganomics",
+    "deu-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "guard"
+  ]
+  sight = []
+  under-barrel = ["laser"]
+
+[p226-mk-25]
+  damage = 50
+  fireRate = 2
+  mobility = 50
+  capacity = 15
+
+[p226-mk-25.mods]
+  barrel = ["suppressor"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "engraved",
+    "rookie",
+    "waves",
+    "molokai",
+    "rover",
+    "modern-usa-camo",
+    "sapien",
+    "swe-reganomics",
+    "gbr-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "longboard"
+  ]
+  sight = []
+  under-barrel = ["laser"]
+
+[p9]
+  damage = 38
+  fireRate = 2
+  mobility = 50
+  capacity = 16
+
+[p9.mods]
+  barrel = ["suppressor"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "liberte",
+    "jade",
+    "iceman",
+    "under-sea",
+    "kona",
+    "modern-usa-camo",
+    "acid-rain",
+    "swe-reganomics",
+    "fra-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "chaos"
+  ]
+  sight = []
+  under-barrel = ["laser"]
+
+[p90]
+  damage = 28
+  fireRate = 970
+  mobility = 45
+  capacity = 50
+
+[p90.mods]
+  barrel = ["suppressor", "flash-hider"]
+  skin = [
+    "splinter-cell",
+    "fire",
+    "emerald",
+    "elephant",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "liberte",
+    "sang",
+    "iceman",
+    "stain-glass",
+    "kona",
+    "modern-usa-camo",
+    "acid-rain",
+    "swe-reganomics",
+    "fra-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "garden"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser"]
+
+[pmm]
+  damage = 55
+  fireRate = 2
+  mobility = 50
+  capacity = 8
+
+[pmm.mods]
+  barrel = ["suppressor"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "khokhloma",
+    "trek",
+    "pyramid",
+    "dahlia",
+    "kamehameha",
+    "modern-usa-camo",
+    "triple-helix",
+    "swe-reganomics",
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "balanced"
+  ]
+  sight = []
+  under-barrel = ["laser"]
+
+[r4-c]
+  damage = 41
+  fireRate = 860
+  mobility = 41
+  capacity = 30
+
+[r4-c.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "glory",
+    "target",
+    "slater",
+    "weave",
+    "maui",
+    "modern-usa-camo",
+    "spores",
+    "swe-reganomics",
+    "usa-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "nebula"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[sasg-12]
+  damage = 47
+  fireRate = 2
+  mobility = 50
+  capacity = 8
+
+[sasg-12.mods]
+  barrel = ["suppressor"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "khokhloma",
+    "politsiya",
+    "ring",
+    "dahlia",
+    "kamehameha",
+    "modern-usa-camo",
+    "triple-helix",
+    "swe-reganomics",
+    "rus-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "firefox"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[sg-cqb]
+  damage = 50
+  fireRate = -1
+  mobility = 42
+  capacity = 7
+
+[sg-cqb.mods]
+  barrel = []
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "liberte",
+    "ombre",
+    "iceman",
+    "seance",
+    "kona",
+    "modern-usa-camo",
+    "acid-rain",
+    "swe-reganomics",
+    "fra-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "bulldozer"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[smg-11]
+  damage = 32
+  fireRate = 1270
+  mobility = 48
+  capacity = 16
+
+[smg-11.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "engraved",
+    "trafalgar",
+    "waves",
+    "molokai",
+    "web",
+    "modern-usa-camo",
+    "sapien",
+    "swe-reganomics",
+    "gbr-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "monster"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight","acog-sight"]
+  under-barrel = ["laser","vertical-grip"]
+
+[super-90]
+  damage = 42
+  fireRate = -1
+  mobility = 42
+  capacity = 8
+
+[super-90.mods]
+  barrel = []
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "modern-usa-camo",
+    "dwyer-hill",
+    "black-ice",
+    "glacier",
+    "tigers-breath",
+    "invaders",
+    "usa-winter-camo",
+    "modern-can-camo",
+    "dissociate",
+    "snow",
+    "zod"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  under-barrel = ["laser"]
+
+[ump45]
+  damage = 38
+  fireRate = 600
+  mobility = 45
+  capacity = 25
+
+[ump45.mods]
+  barrel = ["suppressor", "flash-hider", "compensator"]
+  skin = [
+    "fire",
+    "elephant",
+    "emerald",
+    "gold",
+    "zebra",
+    "snake",
+    "dev-tester",
+    "tiger",
+    "leopard",
+    "ralphie",
+    "glory",
+    "yucca-flats",
+    "comet",
+    "weave",
+    "maui",
+    "modern-usa-camo",
+    "spores",
+    "swe-reganomics",
+    "usa-wwii-camo",
+    "usa-winter-camo",
+    "black-ice",
+    "glacier",
+    "tagger"
+  ]
+  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
+  under-barrel = ["laser","vertical-grip"]

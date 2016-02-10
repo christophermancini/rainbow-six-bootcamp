@@ -1,6 +1,6 @@
 +++
 cartridges = [".45 ACP"]
-classes = ["Submachine gun"]
+classes = "Submachine gun"
 country = "Germany"
 date = "2015-12-06T09:36:57-05:00"
 description = "FBI SWAT submachine gun with high stopping power. Use burst fire in medium range for accuracy."
@@ -18,38 +18,4 @@ references = [
   icon = ""
   main = "/images/gear/weapons/ump45--1600x900.jpg"
   thumbnail = "/images/gear/weapons/ump45--320x180.jpg"
-[mods]
-  barrel = ["suppressor", "flash-hider", "compensator"]
-  skin = [
-    "fire",
-    "elephant",
-    "emerald",
-    "gold",
-    "zebra",
-    "snake",
-    "dev-tester",
-    "tiger",
-    "leopard",
-    "ralphie",
-    "glory",
-    "yucca-flats",
-    "comet",
-    "weave",
-    "maui",
-    "modern-usa-camo",
-    "spores",
-    "swe-reganomics",
-    "usa-wwii-camo",
-    "usa-winter-camo",
-    "black-ice",
-    "glacier",
-    "tagger"
-  ]
-  sight = ["red-dot-sight","holographic-sight","reflex-sight"]
-  under-barrel = ["laser","vertical-grip"]
-[specs]
-  damage = "48"
-  fireRate = "600"
-  mobility = "45"
-  capacity = "25"
 +++
