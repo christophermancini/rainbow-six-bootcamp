@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Jäger","Bandit","M870"]
 title = "Graviert"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/graviert-m870--1600x900.jpg"
-  thumbnail = "/images/gear/skin/graviert-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

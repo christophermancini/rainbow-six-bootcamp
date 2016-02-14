@@ -21,7 +21,7 @@ references = [
   armor = "Medium"
   ctu = "gign"
   dob = "10/12/1988"
-  gender = "M"
+  gender = "F"
   height = "1.68M"
   name = "Emmanuelle Pichon"
   pob = "Nancy, France"
@@ -39,7 +39,22 @@ references = [
   alt = "Twitch concept art."
 +++
 
-Intro / description paragraph...<!--more-->
+Twitch is French born operator with Medium armor and speed with an affinity for engineering. She offers immense amounts of versatility in play style which is why she is an incredibly valuable operator within Team Rainbow. Having three very different weapons available ([417]({{< ref "417.md" >}}), [F2]({{< ref "f2.md" >}}), and [SG CQB]({{< ref "sg-cqb.md" >}})) combined with the [RSD Model1 Shock Drone]({{< ref "rsd-model1-shock-drone.md" >}}) are what enable her to be so versatile.<!--more-->
+
+## Operator Review
+
+### Loadout Highlights
+
+ - The [HK 417 Battle Rifle]({{< ref "417.md" >}}) is one of the highest rated rifles in the game for a [marksman operator]({{< ref "weapon-ratings.md#marksman-score" >}}) and is only available to Twitch.
+ - The [Famas F2 Assault Rifle]({{< ref "f2.md" >}}) is one of the highest rated rifles for a [player operating solo or rogue]({{< ref "weapon-ratings.md#rogue-score" >}}) and also is only available to Twitch.
+
+### Strengths
+
+Twitch's strengths lie within her versatility to assume many different roles within Team Rainbow. Whether you need a marksman to provide intel and cover as your team breaches, an operator to go solo and distract the enemies while the team breaches from the other side, or extra firepower on the front lines, Twitch is your gal.
+
+### Weaknesses
+
+Although Twitch has one of the best stealth weapons in the game, her medium armor reduces her mobility. This increases her dependency on intel and her need to use her drones effectively.
 
 ## Bio
 

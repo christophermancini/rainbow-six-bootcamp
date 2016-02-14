@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Jäger","416-C"]
 title = "Baustelle"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/baustelle-416--1600x900.jpg"
-  thumbnail = "/images/gear/skin/baustelle-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

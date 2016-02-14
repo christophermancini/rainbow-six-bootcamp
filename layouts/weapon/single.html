@@ -54,9 +54,18 @@
               <th>Fire Rate</th>
               <th>Mobility</th>
               <th>Ammo<br>Capacity</th>
-              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">Marksman<br>Score</th>
-              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">Ninja<br>Score</th>
-              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">Support<br>Score</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">
+                Marksman<br>Score
+                <a href="{{ ref . "weapon-ratings.md#marksman-score" }}"><i class="fa fa-question-circle"></i></a>
+              </th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">
+                Rogue<br>Score
+                <a href="{{ ref . "weapon-ratings.md#rogue-score" }}"><i class="fa fa-question-circle"></i></a>
+              </th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">
+                Support<br>Score
+                <a href="{{ ref . "weapon-ratings.md#support-score" }}"><i class="fa fa-question-circle"></i></a>
+              </th>
             </tr>
             <tr>
               <td>{{ $specs.damage }}</td>
@@ -73,9 +82,15 @@
               {{ end }}
               <td>{{ $specs.mobility }}</td>
               <td>{{ $specs.capacity }}</td>
-              <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">{{ $scores.marksman }}</td>
-              <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">{{ $scores.ninja }}</td>
-              <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">{{ $scores.support }}</td>
+              <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">
+                {{ $scores.marksman }}
+              </td>
+              <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">
+                {{ $scores.rogue }}
+              </td>
+              <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">
+                {{ $scores.support }}
+              </td>
             </tr>
           </table>
 
@@ -89,6 +104,9 @@
               <p style="text-align: center;">
                 <em>"{{ .Params.info.description }}"</em><br>--in game description
               </p>
+            </div>
+            <div class="white-stone">
+              {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1 "Class" "rectangle") }}
             </div>
             <div class="white-stone">
               <table class="table">
@@ -192,6 +210,8 @@
             None
           {{ end }}
           <div class="clearfix"></div>
+
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1 "Class" "leaderboard") }}
 
           {{ partial "hAnchor" (dict "text" "Weapon Skins" "page" .) }}
           {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}

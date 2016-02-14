@@ -1,31 +1,69 @@
-        <!-- sidebar -->
-        <aside class="col-md-4 col-sm-8 col-xs-8">
-          <div class="sidebar">
-
-            <center>
-              <script src="https://apis.google.com/js/platform.js" async defer></script>
-              <div class="g-page" data-href="https://plus.google.com/102116020583969691630" data-layout="landscape" data-width="325"></div>
-            </center>
-
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
-
-            {{ partial "searchbox" . }}
-
-            {{ partial "subscribe.html" . }}
-
-            <!-- sidebar share button -->
-            <div class="share-widget hidden-xs hidden-sm">
-              <ul class="social-share text-center">
-                {{ range $i, $e := .Site.Params.socialLinks }}
-                <li><a href="{{ .link }}" target="_blank"><i class="fa fa-{{ .key }}"></i></a></li>
+          <div class="content-border">
+            <div class="white-stone">
+              {{ partial "searchbox" . }}
+            </div>
+            {{ with .Params.video }}
+            <div class="white-stone">
+              <div class="featured-video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ . }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            {{ end }}
+            {{ if .Params.gallery }}
+            <div class="white-stone">
+              {{ partial "hAnchor" (dict "text" "Gallery" "page" .) }}
+              {{ partial "imageGallery" .Params.gallery }}
+            </div>
+            {{ end }}
+            <div class="white-stone">
+              <h2>Counter Terrorist Units</h2>
+              {{ range where .Site.Pages.ByTitle "Type" "ctu" }}
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                  <a href="{{ .Permalink }}" title="{{ .Render "seoTitle" }}">
+                    <figure style="margin-bottom: 0; padding-bottom: 0;">
+                      <img src="{{ .Params.images.thumbnail }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+                    </figure>
+                  </a>
+                </div>
+              {{ end }}
+              <div class="clearfix"></div>
+            </div>
+            <div class="white-stone">
+              <h2>Operators</h2>
+              {{ range where .Site.Pages.ByTitle "Type" "operator" }}
+                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="margin-bottom: 10px;">
+                  <a href="{{ .Permalink }}" title="{{ .Render "seoTitle" }}">
+                    <figure style="margin-bottom: 0; padding-bottom: 0;">
+                      <img src="{{ .Params.images.icon }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+                    </figure>
+                  </a>
+                </div>
+              {{ end }}
+              <div class="clearfix"></div>
+            </div>
+            <div class="white-stone">
+              {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2 "Class" "skyscraper") }}
+            </div>
+            <div class="white-stone">
+              <h2>Maps</h2>
+              {{ range where .Site.Pages.ByTitle "Type" "map" }}
+                {{ .Render "gallerySmall" }}
+              {{ end }}
+              <div class="clearfix"></div>
+            </div>
+            <div class="white-stone">
+              <h2>Unique Gadgets</h2>
+              {{ range where .Site.Pages.ByTitle "Type" "gadget" }}
+                {{ if .Params.unique }}
+                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <a href="{{ .Permalink }}" title="{{ .Render "seoTitle" }}">
+                      <figure>
+                        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
+                      </figure>
+                    </a>
+                  </div>
                 {{ end }}
-              </ul> <!-- /.sidebar-share-button -->
-            </div> <!-- /.share-widget -->
-
-            <div class="well">
-              <a class="twitter-timeline" href="https://twitter.com/hashtag/rainbow6" data-widget-id="677496522196590592">#rainbow6 Tweets</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              {{ end }}
+              <div class="clearfix"></div>
             </div>
           </div>
-        </aside>
-        <!-- end of sidebar -->

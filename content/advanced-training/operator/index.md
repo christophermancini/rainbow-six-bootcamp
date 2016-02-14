@@ -1,4 +1,5 @@
 +++
+date = "2015-09-25T12:00:51-04:00"
 title = "Rainbow Six Siege Operators"
 layout = "operator"
 weight = -6

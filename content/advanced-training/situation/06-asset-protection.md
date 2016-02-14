@@ -10,6 +10,8 @@ title = "06 Asset Protection"
 type = "situation"
 +++
 
+<!--more-->
+
 ## Objective
 
 Protect the asset from being assassinated.

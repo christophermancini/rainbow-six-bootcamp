@@ -17,7 +17,13 @@
   {{ end }}
   <td>{{ $specs.mobility }}</td>
   <td>{{ $specs.capacity }}</td>
-  <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">{{ $scores.marksman }}</td>
-  <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">{{ $scores.ninja }}</td>
-  <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">{{ $scores.support }}</td>
+  <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">
+    {{ $scores.marksman }}
+  </td>
+  <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">
+    {{ $scores.rogue }}
+  </td>
+  <td data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">
+    {{ $scores.support }}
+  </td>
 </tr>

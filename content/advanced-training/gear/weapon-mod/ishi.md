@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","IQ"]
 title = "Ishi"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/ishi-552--1600x900.jpg"
-  thumbnail = "/images/gear/skin/ishi-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

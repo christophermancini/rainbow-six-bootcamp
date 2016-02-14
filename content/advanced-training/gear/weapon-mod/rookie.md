@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","SAS","P226 Mk 25"]
 title = "Rookie"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/rookie-p226--1600x900.jpg"
-  thumbnail = "/images/gear/skin/rookie-th.jpg"
-
 [cost]
   renown = ""
   credits = "575"

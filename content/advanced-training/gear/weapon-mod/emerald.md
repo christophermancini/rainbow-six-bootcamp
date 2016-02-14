@@ -6,12 +6,6 @@ tags = ["skin","special","DLC"]
 title = "Emerald"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/emerald-mp5k--1600x900.jpg"
-  thumbnail = "/images/gear/skin/emerald-th.jpg"
-
 [cost]
   credits = ""
   renown = ""

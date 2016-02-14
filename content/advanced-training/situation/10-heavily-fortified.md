@@ -10,6 +10,8 @@ title = "10 Heavily Fortified"
 type = "situation"
 +++
 
+<!--more-->
+
 ## Objective
 
 Extract the hostage from a remote location.

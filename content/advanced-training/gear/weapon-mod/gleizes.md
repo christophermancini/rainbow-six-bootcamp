@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","Sledge","Thatcher","L85A2"]
 title = "Gleizes"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/gleizes-l85a2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/gleizes-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

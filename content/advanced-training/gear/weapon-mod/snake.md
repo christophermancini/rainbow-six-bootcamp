@@ -6,12 +6,6 @@ mod-types = "skin"
 tags = ["skin","season pass","special","Safari bundle"]
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/snake-l85a2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/snake-th.jpg"
-
 [cost]
   renown = ""
   credits = ""

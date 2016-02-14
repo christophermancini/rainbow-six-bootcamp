@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Sledge","M590A1","Smoke"]
 title = "Woody"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/woody-m590a1--1600x900.jpg"
-  thumbnail = "/images/gear/skin/woody-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

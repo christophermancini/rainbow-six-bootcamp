@@ -1,359 +1,399 @@
 [416-c-carbine]
+  weapon = "416-c-carbine"
   damage = 69.0
   fireRate = 55.0
   mobility = 82.0
   capacity = 30.0
   marksman = 74.0
-  ninja = 91.0
+  rogue = 91.0
   support = 61.0
 
 [417]
+  weapon = "417"
   damage = 100.0
   fireRate = 31.0
   mobility = 76.0
   capacity = 10.0
   marksman = 100.0
-  ninja = 66.0
+  rogue = 66.0
   support = 29.0
 
 ["5.7-usg"]
+  weapon = "5.7-usg"
   damage = 59.0
   fireRate = 31.0
   mobility = 100.0
   capacity = 20.0
   marksman = 46.0
-  ninja = 61.0
+  rogue = 61.0
   support = 37.0
 
 [552-commando]
+  weapon = "552-commando"
   damage = 77.0
   fireRate = 54.0
   mobility = 80.0
   capacity = 30.0
   marksman = 83.0
-  ninja = 93.0
+  rogue = 93.0
   support = 61.0
 
 [556xi]
+  weapon = "556xi"
   damage = 75.0
   fireRate = 54.0
   mobility = 80.0
   capacity = 30.0
   marksman = 81.0
-  ninja = 92.0
+  rogue = 92.0
   support = 61.0
 
 [6p41]
+  weapon = "6p41"
   damage = 64.0
   fireRate = 54.0
   mobility = 70.0
   capacity = 100.0
   marksman = 69.0
-  ninja = 82.0
+  rogue = 82.0
   support = 100.0
 
 [9mm-c1]
+  weapon = "9mm-c1"
   damage = 62.0
   fireRate = 45.0
   mobility = 90.0
   capacity = 34.0
   marksman = 34.0
-  ninja = 87.0
+  rogue = 87.0
   support = 58.0
 
 [9x19vsn]
+  weapon = "9x19vsn"
   damage = 59.0
   fireRate = 59.0
   mobility = 90.0
   capacity = 30.0
   marksman = 32.0
-  ninja = 92.0
+  rogue = 92.0
   support = 64.0
 
 [ak-12]
+  weapon = "ak-12"
   damage = 72.0
   fireRate = 67.0
   mobility = 80.0
   capacity = 30.0
   marksman = 78.0
-  ninja = 96.0
+  rogue = 96.0
   support = 69.0
 
 [ar33]
+  weapon = "ar33"
   damage = 69.0
   fireRate = 59.0
   mobility = 80.0
   capacity = 25.0
   marksman = 74.0
-  ninja = 91.0
+  rogue = 91.0
   support = 59.0
 
 [aug-a2]
+  weapon = "aug-a2"
   damage = 67.0
   fireRate = 61.0
   mobility = 80.0
   capacity = 30.0
   marksman = 73.0
-  ninja = 91.0
+  rogue = 91.0
   support = 65.0
 
 [c8-sfw]
+  weapon = "c8-sfw"
   damage = 69.0
   fireRate = 66.0
   mobility = 80.0
   capacity = 30.0
   marksman = 74.0
-  ninja = 94.0
+  rogue = 94.0
   support = 68.0
 
 [camrs]
+  weapon = "camrs"
   damage = 85.0
   fireRate = 31.0
   mobility = 78.0
   capacity = 20.0
   marksman = 100.0
-  ninja = 62.0
+  rogue = 62.0
   support = 37.0
 
 [f2]
+  weapon = "f2"
   damage = 64.0
   fireRate = 77.0
   mobility = 80.0
   capacity = 30.0
   marksman = 69.0
-  ninja = 97.0
+  rogue = 97.0
   support = 76.0
 
 [fmg-9]
+  weapon = "fmg-9"
   damage = 54.0
   fireRate = 63.0
   mobility = 90.0
   capacity = 30.0
   marksman = 29.0
-  ninja = 91.0
+  rogue = 91.0
   support = 66.0
 
 [g36c]
+  weapon = "g36c"
   damage = 62.0
   fireRate = 61.0
   mobility = 82.0
   capacity = 30.0
   marksman = 67.0
-  ninja = 91.0
+  rogue = 91.0
   support = 65.0
 
 [g8a1]
+  weapon = "g8a1"
   damage = 61.0
   fireRate = 67.0
   mobility = 70.0
   capacity = 50.0
   marksman = 66.0
-  ninja = 87.0
+  rogue = 87.0
   support = 86.0
 
 [gsh-18]
+  weapon = "gsh-18"
   damage = 64.0
   fireRate = 31.0
   mobility = 100.0
   capacity = 18.0
   marksman = 50.0
-  ninja = 63.0
+  rogue = 63.0
   support = 36.0
 
 [l85a2]
+  weapon = "l85a2"
   damage = 74.0
   fireRate = 53.0
   mobility = 80.0
   capacity = 30.0
   marksman = 80.0
-  ninja = 91.0
+  rogue = 91.0
   support = 60.0
 
 [lfp586]
+  weapon = "lfp586"
   damage = 98.0
   fireRate = 31.0
   mobility = 100.0
   capacity = 6.0
   marksman = 77.0
-  ninja = 37.0
+  rogue = 37.0
   support = 26.0
 
 [m1014]
+  weapon = "m1014"
   damage = 69.0
   fireRate = 31.0
   mobility = 84.0
   capacity = 8.0
   marksman = 54.0
-  ninja = 29.0
+  rogue = 29.0
   support = 27.0
 
 [m45-meusoc]
+  weapon = "m45-meusoc"
   damage = 77.0
   fireRate = 31.0
   mobility = 100.0
   capacity = 7.0
   marksman = 60.0
-  ninja = 67.0
+  rogue = 67.0
   support = 26.0
 
 [m590a1]
+  weapon = "m590a1"
   damage = 74.0
   fireRate = 16.0
   mobility = 84.0
   capacity = 7.0
   marksman = 31.0
-  ninja = 17.0
+  rogue = 17.0
   support = 16.0
 
 [m870]
+  weapon = "m870"
   damage = 93.0
   fireRate = 16.0
   mobility = 86.0
   capacity = 7.0
   marksman = 39.0
-  ninja = 20.0
+  rogue = 20.0
   support = 16.0
 
 [mk1-9mm]
+  weapon = "mk1-9mm"
   damage = 74.0
   fireRate = 31.0
   mobility = 100.0
   capacity = 13.0
   marksman = 58.0
-  ninja = 66.0
+  rogue = 66.0
   support = 31.0
 
 [mp5]
+  weapon = "mp5"
   damage = 54.0
   fireRate = 63.0
   mobility = 90.0
   capacity = 30.0
   marksman = 58.0
-  ninja = 91.0
+  rogue = 91.0
   support = 66.0
 
 [mp5k]
+  weapon = "mp5k"
   damage = 51.0
   fireRate = 63.0
   mobility = 90.0
   capacity = 30.0
   marksman = 27.0
-  ninja = 90.0
+  rogue = 90.0
   support = 66.0
 
 [mp7]
+  weapon = "mp7"
   damage = 59.0
   fireRate = 59.0
   mobility = 90.0
   capacity = 30.0
   marksman = 64.0
-  ninja = 92.0
+  rogue = 92.0
   support = 64.0
 
 [ots-03]
+  weapon = "ots-03"
   damage = 249.0
   fireRate = 31.0
   mobility = 72.0
   capacity = 10.0
   marksman = 100.0
-  ninja = 100.0
+  rogue = 100.0
   support = 29.0
 
 [p12]
+  weapon = "p12"
   damage = 74.0
   fireRate = 31.0
   mobility = 100.0
   capacity = 15.0
   marksman = 58.0
-  ninja = 66.0
+  rogue = 66.0
   support = 33.0
 
 [p226-mk-25]
+  weapon = "p226-mk-25"
   damage = 82.0
   fireRate = 31.0
   mobility = 100.0
   capacity = 15.0
   marksman = 64.0
-  ninja = 68.0
+  rogue = 68.0
   support = 33.0
 
 [p9]
+  weapon = "p9"
   damage = 62.0
   fireRate = 31.0
   mobility = 100.0
   capacity = 16.0
   marksman = 49.0
-  ninja = 62.0
+  rogue = 62.0
   support = 34.0
 
 [p90]
+  weapon = "p90"
   damage = 46.0
   fireRate = 76.0
   mobility = 90.0
   capacity = 50.0
   marksman = 50.0
-  ninja = 93.0
+  rogue = 93.0
   support = 92.0
 
 [pmm]
+  weapon = "pmm"
   damage = 90.0
   fireRate = 31.0
   mobility = 100.0
   capacity = 8.0
   marksman = 70.0
-  ninja = 71.0
+  rogue = 71.0
   support = 27.0
 
 [r4-c]
+  weapon = "r4-c"
   damage = 67.0
   fireRate = 68.0
   mobility = 82.0
   capacity = 30.0
   marksman = 73.0
-  ninja = 95.0
+  rogue = 95.0
   support = 69.0
 
 [sasg-12]
+  weapon = "sasg-12"
   damage = 77.0
   fireRate = 31.0
   mobility = 100.0
   capacity = 8.0
   marksman = 60.0
-  ninja = 67.0
+  rogue = 67.0
   support = 27.0
 
 [sg-cqb]
+  weapon = "sg-cqb"
   damage = 82.0
   fireRate = 16.0
   mobility = 84.0
   capacity = 7.0
   marksman = 34.0
-  ninja = 18.0
+  rogue = 18.0
   support = 16.0
 
 [smg-11]
+  weapon = "smg-11"
   damage = 52.0
   fireRate = 100.0
   mobility = 96.0
   capacity = 16.0
   marksman = 57.0
-  ninja = 100.0
+  rogue = 100.0
   support = 79.0
 
 [super-90]
+  weapon = "super-90"
   damage = 69.0
   fireRate = 16.0
   mobility = 84.0
   capacity = 8.0
   marksman = 29.0
-  ninja = 17.0
+  rogue = 17.0
   support = 17.0
 
 [ump45]
+  weapon = "ump45"
   damage = 62.0
   fireRate = 47.0
   mobility = 90.0
   capacity = 25.0
   marksman = 34.0
-  ninja = 88.0
+  rogue = 88.0
   support = 52.0

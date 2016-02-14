@@ -6,12 +6,6 @@ tags = ["skin","Tier 1"]
 title = "SWE Reganomics"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/swe-reganomics-g8a1--1600x900.jpg"
-  thumbnail = "/images/gear/skin/swe-reganomics-th.jpg"
-
 [cost]
   renown = "1800"
   credits = ""

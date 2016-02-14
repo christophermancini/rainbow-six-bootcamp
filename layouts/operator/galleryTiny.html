@@ -1,0 +1,8 @@
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 text-xs-center">
+  <a href="{{ .Permalink }}" title="{{ .Render "seoTitle" }}">
+    <figure class="figure">
+      <img src="{{ with .Params.images.icon }}{{ . }}{{ end }}" class="img-fluid" alt="{{ partial "title" . }}" style="margin-bottom: 0px;">
+      <figcaption class="figure-caption hidden-md-down">{{ .Title }}</figcaption>
+    </figure>
+  </a>
+</div>

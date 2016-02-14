@@ -6,12 +6,6 @@ tags = ["skin","Tier 2"]
 title = "Iceman"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/iceman-417--1600x900.jpg"
-  thumbnail = "/images/gear/skin/iceman-th.jpg"
-
 [cost]
   renown = ""
   credits = "180"

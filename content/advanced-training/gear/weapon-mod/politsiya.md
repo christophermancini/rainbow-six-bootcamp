@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","SASG-12","Kapkan","Tachanka"]
 title = "Politsiya"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/politsiya-sasg-12--1600x900.jpg"
-  thumbnail = "/images/gear/skin/politsiya-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

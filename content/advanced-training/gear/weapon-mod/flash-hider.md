@@ -6,12 +6,6 @@ tags = ["weapon mod","barrel"]
 title = "Flash Hider"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/weapon-attachments/preview/flash-hider--1600x900.jpg"
-  thumbnail = "/images/gear/weapon-attachments/preview/flash-hider--320x180.jpg"
-
 [cost]
   renown = "70"
   credits = ""

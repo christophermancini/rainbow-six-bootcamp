@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","LFP586","GIGN"]
 title = "Millesime"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/millesime-lfp586--1600x900.jpg"
-  thumbnail = "/images/gear/skin/millesime-th.jpg"
-
 [cost]
   renown = ""
   credits = "575"

@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","R4-C","Ash"]
 title = "Target"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/target-r4-c--1600x900.jpg"
-  thumbnail = "/images/gear/skin/target-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","GSG 9","P12"]
 title = "Turtle"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/turtle-p12--1600x900.jpg"
-  thumbnail = "/images/gear/skin/turtle-th.jpg"
-
 [cost]
   renown = "9600"
   credits = "256"

@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","IQ", "552 Commando"]
 title = "Hindernis"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/hindernis-552--1600x900.jpg"
-  thumbnail = "/images/gear/skin/hindernis-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

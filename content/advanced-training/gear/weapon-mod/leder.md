@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","GSG 9"]
 title = "Leder"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/leder-g8a1--1600x900.jpg"
-  thumbnail = "/images/gear/skin/leder-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

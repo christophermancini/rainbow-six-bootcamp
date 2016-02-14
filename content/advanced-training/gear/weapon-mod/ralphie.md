@@ -6,12 +6,6 @@ mod-types = "skin"
 tags = ["special","skin"]
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/ralphie-l85a2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/ralphie-th.jpg"
-
 [cost]
   renown = ""
   credits = ""

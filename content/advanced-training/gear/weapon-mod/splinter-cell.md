@@ -6,12 +6,6 @@ tags = ["skin","special","P90","Doc","Rook"]
 title = "Splinter Cell"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/splinter-cell-p90--1600x900.jpg"
-  thumbnail = "/images/gear/skin/splinter-cell-th.jpg"
-
 [cost]
   renown = ""
   credits = ""

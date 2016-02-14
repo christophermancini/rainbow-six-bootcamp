@@ -6,12 +6,6 @@ tags = ["skin","Tier 5"]
 title = "Lace"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/lace-m1014--1600x900.jpg"
-  thumbnail = "/images/gear/skin/lace-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

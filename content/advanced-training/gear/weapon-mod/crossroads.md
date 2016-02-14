@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","MP7","Bandit"]
 title = "Crossroads"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/crossroads-mp7--1600x900.jpg"
-  thumbnail = "/images/gear/skin/crossroads-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

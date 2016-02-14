@@ -6,12 +6,6 @@ mod-types = "skin"
 tags = ["skin","special"]
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/devtester-l85a2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/dev-tester-th.jpg"
-
 [cost]
   renown = ""
   credits = ""

@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","G36C","Ash"]
 title = "Restricted"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/restricted-g36c--1600x900.jpg"
-  thumbnail = "/images/gear/skin/restricted-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

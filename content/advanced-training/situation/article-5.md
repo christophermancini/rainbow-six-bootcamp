@@ -9,7 +9,7 @@ title = "Article 5"
 type = "situation"
 +++
 
-You and four of your fellow operators are called in to eliminate the threat on Bartlett University where terrorists have fortified themselves within one of the campus buildings. The terrorists have released a toxic gas within the building which has reduced visibility and forces the team to be equipped with gas masks. Article 5 is the only situation where you are matched up with other operators.
+You and four of your fellow operators are called in to eliminate the threat on Bartlett University where terrorists have fortified themselves within one of the campus buildings. The terrorists have released a toxic gas within the building which has reduced visibility and forces the team to be equipped with gas masks. Article 5 is the only situation where you are matched up with other operators.<!--more-->
 
 ## Objective
 

@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Thermite","556xi"]
 title = "Gem"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/gem-556xi--1600x900.jpg"
-  thumbnail = "/images/gear/skin/gem-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

@@ -10,6 +10,8 @@ title = "07 Neutralize Cell"
 type = "situation"
 +++
 
+<!--more-->
+
 ## Objective
 
 Eliminate the terrorist cell.

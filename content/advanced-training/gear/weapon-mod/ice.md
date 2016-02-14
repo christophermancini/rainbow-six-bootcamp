@@ -6,12 +6,6 @@ tags = ["skin","Tier 2"]
 title = "Ice"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/ice-g8a1--1600x900.jpg"
-  thumbnail = "/images/gear/skin/ice-th.jpg"
-
 [cost]
   renown = ""
   credits = "180"

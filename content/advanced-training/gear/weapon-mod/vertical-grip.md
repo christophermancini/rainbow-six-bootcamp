@@ -6,12 +6,6 @@ tags = ["weapon mod","grip"]
 title = "Vertical Grip"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/weapon-attachments/preview/vertical-grip--1600x900.jpg"
-  thumbnail = "/images/gear/weapon-attachments/preview/vertical-grip--320x180.jpg"
-
 [cost]
   renown = "50"
   credits = ""

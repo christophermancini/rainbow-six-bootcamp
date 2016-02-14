@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","9x19VSN","Kapkan","Tachanka"]
 title = "Verkh"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/verkh-9x19vsn--1600x900.jpg"
-  thumbnail = "/images/gear/skin/verkh-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

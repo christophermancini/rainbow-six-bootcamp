@@ -9,7 +9,7 @@ title = "02 Suburban Extraction"
 type = "situation"
 +++
 
-In this solo mission, you are infiltrating a fortified [suburban home]({{< ref "house.md" >}}) outside of Los Angeles, California.
+In this solo mission, you are infiltrating a fortified [suburban home]({{< ref "house.md" >}}) outside of Los Angeles, California.<!--more-->
 
 ## Mission Briefing
 

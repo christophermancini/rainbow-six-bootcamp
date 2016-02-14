@@ -6,12 +6,6 @@ tags = ["skin","Tier 1","FBI SWAT"]
 title = "USA WWII Camo"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/usa-wwii-camo-g36c--1600x900.jpg"
-  thumbnail = "/images/gear/skin/usa-wwii-camo-th.jpg"
-
 [cost]
   renown = "2000"
   credits = ""

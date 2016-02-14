@@ -4,12 +4,7 @@ description = "Tier 3 skin available for weapons used by GIGN operators."
 mod-types = "skin"
 tags = ["skin","Tier 3","Twitch","F2"]
 title = "Paradise"
-
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/paradise-f2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/paradise-th.jpg"
+type = "weapon-mod"
 
 [cost]
   renown = "12000"

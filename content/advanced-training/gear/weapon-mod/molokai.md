@@ -6,12 +6,6 @@ tags = ["skin","Tier 2","SAS"]
 title = "Molokai"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/molokai-l85a2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/molokai-th.jpg"
-
 [cost]
   renown = "4000"
   credits = "180"

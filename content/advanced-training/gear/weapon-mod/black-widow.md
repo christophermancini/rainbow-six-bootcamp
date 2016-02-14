@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","Thatcher","AR33"]
 title = "Black Widow"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/black-widow-ar33--1600x900.jpg"
-  thumbnail = "/images/gear/skin/black-widow-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","GSH-18","Spetsnaz"]
 title = "Risunok"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/risunok-gsh-18--1600x900.jpg"
-  thumbnail = "/images/gear/skin/risunok-th.jpg"
-
 [cost]
   renown = ""
   credits = "575"

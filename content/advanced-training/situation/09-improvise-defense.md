@@ -10,6 +10,8 @@ title = "09 Improvise Defense"
 type = "situation"
 +++
 
+<!--more-->
+
 ## Objective
 
 Protect your source from being assassinated.

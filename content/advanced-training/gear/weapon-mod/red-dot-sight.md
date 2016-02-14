@@ -6,12 +6,6 @@ tags = ["weapon mod","sight"]
 title = "Red Dot Sight"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/weapon-attachments/preview/red-dot-sight--1600x900.jpg"
-  thumbnail = "/images/gear/weapon-attachments/preview/red-dot-sight--320x180.jpg"
-
 [cost]
   renown = "200"
   credits = ""

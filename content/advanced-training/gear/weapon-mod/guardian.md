@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","6P41","Fuze"]
 title = "Guardian"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/guardian-6p41--1600x900.jpg"
-  thumbnail = "/images/gear/skin/guardian-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

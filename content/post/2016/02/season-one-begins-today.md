@@ -1,5 +1,5 @@
 +++
-categories = []
+categories = ["news"]
 date = "2016-02-02T00:11:55-05:00"
 tags = ["season pass","Black Ice","Buck","JTF2","Frost","Yacht"]
 title = "Season 1 Begins Today"
@@ -20,7 +20,9 @@ title = "Season 1 Begins Today"
   alt = ""
 +++
 
-The first official season DLC release for Rainbow Six Siege, Black Ice, is being released today, 2/2/2016. Here are the details you need to know about Black Ice:
+The first official season DLC release for Rainbow Six Siege, Black Ice, is being released today, 2/2/2016.<!--more-->
+
+Here are the details you need to know about Black Ice:
 
 - A new CTU, [Canadian Special Forces - JTF2]({{< ref "jtf2.md" >}}), is being added to the game
 - Two new operators are being added to the game, [Buck]({{< ref "buck.md" >}}) and [Frost]({{< ref "frost.md" >}})

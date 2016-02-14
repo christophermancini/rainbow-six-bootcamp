@@ -9,6 +9,8 @@ title = "03 High Value Target"
 type = "situation"
 +++
 
+<!--more-->
+
 ## Objective
 
 Disarm a bomb planted at the Consulate.

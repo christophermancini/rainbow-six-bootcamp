@@ -15,10 +15,10 @@ unique = true
   backdrop = ""
   icon = ""
   main = "/images/gear/gadgets/sk-4-12-skeleton-key--1600x900.jpg"
-  thumbnail = "/images/gear/gadgets/sk-4-12-skeleton-key--320x180.jpg"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-AU/game/rainbow6/siege/R6-operators-gadget-buck_237594.png"
 +++
 
-Toggles under-barrel shotgun attachment on his main weapon.<!--more-->
+Under-barrel mounted 12 gauge shotgun with four round capacity, used in tandem with an assault rifle. The Skeleton Key allows the operator to alternate between their standard issue assault rifle and a breaching shotgun with ease and efficiency.<!--more-->
 
 ## Usage
 

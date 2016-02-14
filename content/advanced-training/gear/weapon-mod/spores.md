@@ -6,12 +6,6 @@ tags = ["skin","Tier 2","FBI SWAT"]
 title = "Spores"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/spores-g36c--1600x900.jpg"
-  thumbnail = "/images/gear/skin/spores-th.jpg"
-
 [cost]
   renown = "6000"
   credits = "180"

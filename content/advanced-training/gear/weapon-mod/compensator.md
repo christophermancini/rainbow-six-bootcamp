@@ -6,12 +6,6 @@ tags = ["weapon mod","barrel","recoil"]
 title = "Compensator"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/weapon-attachments/preview/compensator--1600x900.jpg"
-  thumbnail = "/images/gear/weapon-attachments/preview/compensator--320x180.jpg"
-
 [cost]
   renown = "70"
   credits = ""

@@ -6,12 +6,6 @@ tags = ["skin", "Tier 5", "Smoke","FMG-9"]
 title = "Clockwork"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/clockwork-fmg-9--1600x900.jpg"
-  thumbnail = "/images/gear/skin/clockwork-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

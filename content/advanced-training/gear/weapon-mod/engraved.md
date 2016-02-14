@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","SAS"]
 title = "Engraved"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/engraved-590a1--1600x900.jpg"
-  thumbnail = "/images/gear/skin/engraved-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

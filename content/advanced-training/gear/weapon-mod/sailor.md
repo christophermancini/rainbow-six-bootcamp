@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","M1014","Thermite","Castle","Pulse"]
 title = "Sailor"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/sailor-m1014--1600x900.jpg"
-  thumbnail = "/images/gear/skin/sailor-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

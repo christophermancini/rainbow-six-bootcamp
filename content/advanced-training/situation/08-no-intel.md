@@ -10,6 +10,8 @@ title = "08 No Intel"
 type = "situation"
 +++
 
+<!--more-->
+
 ## Objective
 
 Extract the hostage from a heavily fortified location.

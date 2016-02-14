@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","SG-CQB","Doc","Rook"]
 title = "Ombre"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/ombre-sg-cqb--1600x900.jpg"
-  thumbnail = "/images/gear/skin/ombre-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

@@ -6,12 +6,6 @@ tags = ["weapon mod","barrel"]
 title = "Suppressor"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/weapon-attachments/preview/suppressor--1600x900.jpg"
-  thumbnail = "/images/gear/weapon-attachments/preview/suppressor--320x180.jpg"
-
 [cost]
   renown = "250"
   credits = ""

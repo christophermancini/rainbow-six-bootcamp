@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Doc","Rook","MP5"]
 title = "Cramoisi"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/cramoisi-mp5--1600x900.jpg"
-  thumbnail = "/images/gear/skin/cramoisi-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

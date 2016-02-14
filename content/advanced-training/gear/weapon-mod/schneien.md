@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Bandit","MP7"]
 title = "Schneien"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/schneien-mp7--1600x900.jpg"
-  thumbnail = "/images/gear/skin/schneien-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

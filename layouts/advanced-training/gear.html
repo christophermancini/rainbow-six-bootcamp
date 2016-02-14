@@ -51,7 +51,7 @@
               {{ end }}
             </div>
 
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1 "Class" "leaderboard") }}
 
             {{ partial "hAnchor" (dict "text" "Primary Weapons" "page" .) }}
             <table class="table">
@@ -62,9 +62,18 @@
               <th>Fire Rate</th>
               <th>Mobility</th>
               <th>Ammo<br>Capacity</th>
-              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">Marksman<br>Score</th>
-              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">Ninja<br>Score</th>
-              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">Support<br>Score</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">
+                Marksman<br>Score
+                <a href="{{ ref . "weapon-ratings.md#marksman-score" }}"><i class="fa fa-question-circle"></i></a>
+              </th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">
+                Rogue<br>Score
+                <a href="{{ ref . "weapon-ratings.md#rogue-score" }}"><i class="fa fa-question-circle"></i></a>
+              </th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">
+                Support<br>Score
+                <a href="{{ ref . "weapon-ratings.md#support-score" }}"><i class="fa fa-question-circle"></i></a>
+              </th>
             </tr>
             {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
               {{ if in .Params.tags "primary weapon" }}
@@ -82,9 +91,18 @@
               <th>Fire Rate</th>
               <th>Mobility</th>
               <th>Ammo<br>Capacity</th>
-              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">Marksman<br>Score</th>
-              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">Ninja<br>Score</th>
-              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">Support<br>Score</th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.marksmanScore }}">
+                Marksman<br>Score
+                <a href="{{ ref . "weapon-ratings.md#marksman-score" }}"><i class="fa fa-question-circle"></i></a>
+              </th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.ninjaScore }}">
+                Rogue<br>Score
+                <a href="{{ ref . "weapon-ratings.md#rogue-score" }}"><i class="fa fa-question-circle"></i></a>
+              </th>
+              <th data-toggle="tooltip" title="{{ .Site.Data.weapons.lang.supportScore }}">
+                Support<br>Score
+                <a href="{{ ref . "weapon-ratings.md#support-score" }}"><i class="fa fa-question-circle"></i></a>
+              </th>
             </tr>
             {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
               {{ if in .Params.tags "secondary weapon" }}
@@ -110,11 +128,11 @@
             {{ end }}
             </table>
 
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2 "Class" "leaderboard") }}
 
             {{ partial "hAnchor" (dict "text" "Weapon Skins" "page" .) }}
             {{ range where .Site.Pages.ByTitle "Type" "weapon-mod" }}
-              {{ if in .Params.tags "skin" }}
+              {{ if eq (index .Params "mod-types") "skin" }}
                 {{ .Render "gallerySmall" }}
               {{ end }}
             {{ end }}
@@ -127,7 +145,7 @@
 
       <div class="row">
         <div class="col-xs-12">
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd "Class" "leaderboard") }}
         </div>
       </div>
 

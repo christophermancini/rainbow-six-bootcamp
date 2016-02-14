@@ -1,26 +1,26 @@
-<article class="blog-item">
-  <div class="row">
-    <div class="col-md-3">
-      <a href="{{ .Permalink }}">
-        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ if .Params.images.main }}{{ .Params.images.main }}{{ else }}{{ .Site.Params.image }}{{ end }}{{ end }}" class="img-thumbnail center-block" alt="{{ partial "title" . }}">
-      </a>
-    </div>
-    <div class="col-md-9">
-      <p>
-        {{ if .Params.tags }}
-          in
-          {{ $tags := len .Params.tags }}
-          {{ $last := sub $tags 1 }}
-          {{ range $index, $element := sort .Params.tags }}
-            <a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ if ne $index $last }},{{ end }}
-          {{ end }}
+<div class="row">
+  <div class="col-md-12">
+    <h1><a href="{{ .Permalink }}" title="{{ .Render "seoTitle" }}">{{ .Render "seoTitle" }}</a></h1>
+    <p>
+      {{ if .Params.tags }}
+        {{ $tags := len .Params.tags }}
+        {{ $last := sub $tags 1 }}
+        in
+        {{ range $index, $element := sort .Params.tags }}
+          <a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ if ne $index $last }},{{ end }}
         {{ end }}
-        on <time>{{ .Date.Format "Mon, Jan 2, 2006" }}<time>
-      </p>
-      <h1>
-        <a href="{{ .Permalink }}">{{ partial "title" . }}</a>
-      </h1>
-      {{ .Summary }}
-    </div>
+      {{ end }}
+      on <time>{{ .Date.Format "Mon, Jan 2, 2006" }}<time>
+    </p>
   </div>
-</article> <!-- /.blog-item -->
+</div>
+<div class="row">
+  <div class="col-md-3">
+    <a href="{{ .Permalink }}">
+      <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ if .Params.images.main }}{{ .Params.images.main }}{{ else }}{{ .Site.Params.image }}{{ end }}{{ end }}" class="img-thumbnail center-block" alt="{{ partial "title" . }}">
+    </a>
+  </div>
+  <div class="col-md-9">
+    {{ .Summary }}
+  </div>
+</div>

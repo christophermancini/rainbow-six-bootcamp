@@ -6,12 +6,6 @@ tags = ["weapon mod","sight"]
 title = "ACOG Sight"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/weapon-attachments/preview/acog-sight--1600x900.jpg"
-  thumbnail = "/images/gear/weapon-attachments/preview/acog-sight--320x180.jpg"
-
 [cost]
   renown = "250"
   credits = ""

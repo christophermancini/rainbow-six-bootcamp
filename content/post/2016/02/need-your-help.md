@@ -7,7 +7,9 @@ title = "Need Your Help With Content"
   main = "/images/general/help-wanted.jpg"
 +++
 
-In order for [Rainbow Six Bootcamp](/) to be a valuable asset to the [Rainbow Six Siege](http://rainbow6.ubi.com/siege/) community, we need to have great content. Creating great content is very time consuming as it requires collecting digital assets (images, gifs, and video), research, and copywriting. When you are also wearing the hats of front-end developer, back-end developer, server admin, seo specialist, social media manager, information architect, husband, father and full time employee; it leaves very little time to even play the game let alone write content for it. This is why I am asking for your help.<!--more-->
+In order for [Rainbow Six Bootcamp](/) to be a valuable asset to the [Rainbow Six Siege](http://rainbow6.ubi.com/siege/) community, we need to have great content. Creating great content is very time consuming as it requires collecting digital assets (images, gifs, and video), research, and copywriting.<!--more-->
+
+When you are also wearing the hats of front-end developer, back-end developer, server admin, seo specialist, social media manager, information architect, husband, father and full time employee; it leaves very little time to even play the game let alone write content for it. This is why I am asking for your help.
 
 ## Content Bounty Program
 

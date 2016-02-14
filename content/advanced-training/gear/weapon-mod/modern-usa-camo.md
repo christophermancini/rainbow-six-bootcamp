@@ -6,12 +6,6 @@ tags = ["skin","Tier 1"]
 title = "Modern USA Camo"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/modern-usa-camo-g8a1--1600x900.jpg"
-  thumbnail = "/images/gear/skin/modern-usa-camo-th.jpg"
-
 [cost]
   renown = "750"
   credits = ""

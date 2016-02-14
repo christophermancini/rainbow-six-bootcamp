@@ -6,12 +6,6 @@ tags = ["skin","Tier 2","SAS"]
 title = "Waves"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/waves-m590a1--1600x900.jpg"
-  thumbnail = "/images/gear/skin/waves-th.jpg"
-
 [cost]
   renown = ""
   credits = "180"

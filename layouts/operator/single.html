@@ -155,7 +155,7 @@
             {{ .Content }}
           </div>
 
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2) }}
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2 "Class" "skyscraper") }}
 
           {{ if .Params.gallery }}
             {{ partial "hAnchor" (dict "text" "Gallery" "page" .) }}

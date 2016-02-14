@@ -10,6 +10,8 @@ title = "04 Tubular Assault"
 type = "situation"
 +++
 
+<!--more-->
+
 ## Objective
 
 Clear the plane of enemy combatants.

@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","UMP45","Castle","Pulse"]
 title = "Yucca Flats"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/yucca-flats-ump45--1600x900.jpg"
-  thumbnail = "/images/gear/skin/yucca-flats-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

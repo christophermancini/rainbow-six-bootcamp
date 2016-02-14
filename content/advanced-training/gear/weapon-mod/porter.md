@@ -6,12 +6,6 @@ mod-types = "skin"
 tags = ["skin","season pass","special","552 Commando","IQ"]
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/porter-552--1600x900.jpg"
-  thumbnail = "/images/gear/skin/porter-th.jpg"
-
 [cost]
   renown = ""
   credits = ""

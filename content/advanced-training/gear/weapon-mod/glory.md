@@ -6,12 +6,6 @@ tags = ["skin","Tier 4","FBI SWAT"]
 title = "Glory"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/glory-g36c--1600x900.jpg"
-  thumbnail = "/images/gear/skin/glory-th.jpg"
-
 [cost]
   renown = ""
   credits = "480"

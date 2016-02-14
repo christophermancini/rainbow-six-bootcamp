@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","IQ","G8A1"]
 title = "Schar"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/schar-g8a1--1600x900.jpg"
-  thumbnail = "/images/gear/skin/schar-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

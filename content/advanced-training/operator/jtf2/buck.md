@@ -5,7 +5,7 @@ title = "Buck"
 type = "operator"
 video = ""
 references = [
-
+  "http://rainbow6.ubi.com/siege/en-AU/game-info/operator/buck.aspx"
 ]
 
 [menu.main]
@@ -14,8 +14,8 @@ references = [
 [images]
   backdrop = "/images/operator/buck-backdrop.jpg"
   icon = "/images/operator/buck_badge.png"
-  main = ""
-  thumbnail = "https://ubistatic-a.akamaihd.net/0058/prod/img/package/operators/retina/image_operator_26_buck.803f38d6.png"
+  main = "http://static9.cdn.ubi.com/resource/en-AU/game/rainbow6/siege/R6-operators-buck_237593.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-AU/game/rainbow6/siege/R6-operators-list-buck_237599.png"
 
 [info]
   armor = "Medium"
@@ -35,6 +35,8 @@ references = [
 Intro / description paragraph...<!--more-->
 
 ## Bio
+
+Born and Raised in Montreal, Sebastien Côté is a highly pragmatic person who enjoys simple mechanical devices over the high tech arsenal employed by other operators. The Skeleton Key, an under-barrel mounted 12 gauge shotgun, allows Côté to swiftly breach and target hostiles, by changing hand positions on his assault rifle.
 
 ## Tactical Profile
 

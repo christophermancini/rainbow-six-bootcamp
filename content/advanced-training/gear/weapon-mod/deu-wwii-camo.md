@@ -6,12 +6,6 @@ tags = ["skin","Tier 1","GSG 9"]
 title = "DEU WWII Camo"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/deu-wwii-camo-g8a1--1600x900.jpg"
-  thumbnail = "/images/gear/skin/deu-wwii-camo-th.jpg"
-
 [cost]
   renown = "2000"
   credits = ""

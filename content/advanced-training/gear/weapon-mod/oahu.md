@@ -6,12 +6,6 @@ tags = ["skin","Tier 2"]
 title = "Oahu"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/oahu-g8a1--1600x900.jpg"
-  thumbnail = "/images/gear/skin/oahu-th.jpg"
-
 [cost]
   renown = "4000"
   credits = "180"

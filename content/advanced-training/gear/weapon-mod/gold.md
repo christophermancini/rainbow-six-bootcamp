@@ -6,12 +6,6 @@ tags = ["skin","special","season pass"]
 title = "Gold"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/gold-l85a2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/gold-th.jpg"
-
 [cost]
   renown = ""
   credits = ""

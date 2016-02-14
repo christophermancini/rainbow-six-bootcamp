@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Sledge","Thatcher","L85A2"]
 title = "Mod"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/mod-l85a2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/mod-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

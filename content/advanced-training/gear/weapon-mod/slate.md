@@ -6,12 +6,6 @@ mod-types = "skin"
 tags = ["skin","Tier 5","GSG 9","P12"]
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/slate-p12--1600x900.jpg"
-  thumbnail = "/images/gear/skin/slate-th.jpg"
-
 [cost]
   renown = ""
   credits = "575"

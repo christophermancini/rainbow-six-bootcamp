@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","PMM","Spetsnaz"]
 title = "Trek"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/trek-pmm--1600x900--1600x900.jpg"
-  thumbnail = "/images/gear/skin/trek-th.jpg"
-
 [cost]
   renown = ""
   credits = "575"

@@ -37,12 +37,12 @@
             </p>
           </div>
 
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.ContentAd1) }}
+
           {{ $paginator := .Paginate ( first 50 (where .Site.Pages "Type" "post") ) }}
           {{ range $paginator.Pages }}
             {{ .Render "summary" }}
           {{ end }}
-
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
 
           <div class="center-block" style="width: 100%;">
             {{ template "_internal/pagination.html" . }}
@@ -57,61 +57,30 @@
             <div class="white-stone">
               <h2>Counter Terrorist Units</h2>
               {{ range where .Site.Pages.ByTitle "Type" "ctu" }}
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
-                  <a href="{{ .Permalink }}">
-                    <figure style="margin-bottom: 0; padding-bottom: 0;">
-                      <img src="{{ .Params.images.thumbnail }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
-                    </figure>
-                    <figcaption class="figure-caption" style="text-align: center;">{{ .Title }}</figcaption>
-                  </a>
-                </div>
+                {{ .Render "gallerySmall" }}
               {{ end }}
               <div class="clearfix"></div>
             </div>
             <div class="white-stone">
               <h2>Operators</h2>
               {{ range where .Site.Pages.ByTitle "Type" "operator" }}
-                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="margin-bottom: 20px;">
-                  <a href="{{ .Permalink }}">
-                    <figure style="margin-bottom: 0; padding-bottom: 0;">
-                      <img src="{{ .Params.images.icon }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
-                    </figure>
-                    <figcaption class="figure-caption" style="text-align: center;">{{ .Title }}</figcaption>
-                  </a>
-                </div>
+                {{ .Render "galleryTiny" }}
               {{ end }}
               <div class="clearfix"></div>
             </div>
             <div class="white-stone">
               <h2>Maps</h2>
               {{ range where .Site.Pages.ByTitle "Type" "map" }}
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                  <div class="article-gallery-item article-gallery-small-item" style="min-height:100px;">
-                    <a href="{{ .Permalink }}">
-                      <figure>
-                        <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
-                      </figure>
-                      <figcaption class="figure-caption">{{ .Title }}</figcaption>
-                    </a>
-                  </div>
-                </div>
+                {{ .Render "gallery" }}
               {{ end }}
               <div class="clearfix"></div>
             </div>
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.ContentAd1) }}
             <div class="white-stone">
               <h2>Unique Gadgets</h2>
               {{ range where .Site.Pages.ByTitle "Type" "gadget" }}
                 {{ if .Params.unique }}
-                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                    <div class="article-gallery-item article-gallery-small-item" style="min-height:100px;">
-                      <a href="{{ .Permalink }}">
-                        <figure>
-                          <img src="{{ with .Params.images.thumbnail }}{{ . }}{{ else }}{{ .Params.images.main }}{{ end }}" class="figure-img img-fluid" alt="{{ partial "title" . }}">
-                        </figure>
-                        <figcaption class="figure-caption">{{ .Title }}</figcaption>
-                      </a>
-                    </div>
-                  </div>
+                  {{ .Render "gallerySmall" }}
                 {{ end }}
               {{ end }}
               <div class="clearfix"></div>
@@ -122,7 +91,7 @@
 
       <div class="row">
         <div class="col-xs-12">
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd "Class" "leaderboard") }}
         </div>
       </div>
 

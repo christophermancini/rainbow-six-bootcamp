@@ -6,12 +6,6 @@ tags = ["skin","special","IQ","Aug A2","Article 5","Bartlett University"]
 title = "Bartlett University"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/bartlett-university-aug-a2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/bartlett-university-th.jpg"
-
 [cost]
   renown = ""
   credits = ""

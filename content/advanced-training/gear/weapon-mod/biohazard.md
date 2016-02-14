@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","Smoke","FMG-9"]
 title = "Biohazard"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/biohazard-fmg-9--1600x900.jpg"
-  thumbnail = "/images/gear/skin/biohazard-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

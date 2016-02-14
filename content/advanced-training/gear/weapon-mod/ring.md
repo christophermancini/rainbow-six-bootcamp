@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","SASG-12","Kapkan","Tachanka"]
 title = "Ring"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/ring-sasg-12--1600x900.jpg"
-  thumbnail = "/images/gear/skin/ring-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

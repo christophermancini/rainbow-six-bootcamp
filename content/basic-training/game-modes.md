@@ -9,7 +9,7 @@ title = "Game Modes"
 
 There are currently three primary game modes of Rainbow Six Siege; Situation, Multiplayer and Terror Hunt. Within those, is several more secondary modes.
 
-## Situation Mode (PVE)
+## Situation Mode (PVE) {#pve-situations}
 
 Situation mode is a single player mode designed to teach you the important components of game play. There are ten total different situations you are presented with overcoming as a Rainbow Six operator. Each one is supposed to get more difficult and expose you to not only all of the different types of objectives of the game, but also unique gadgets that come along with each of the unlock-able Rainbow Six operators.
 
@@ -27,7 +27,51 @@ Situation mode is a single player mode designed to teach you the important compo
 
 Also situation mode offers three levels of difficulty (Normal, Hard, and Realistic) and three challenges to be completed that earn you extra renown.
 
-## Multiplayer Mode (PVP)
+## Terrorist Hunt Mode (PVE) {#pve-terrorist-hunt}
+
+Terrorist hunt mode allows you to play the scenarios available for multiplayer mode against terrorist bots. There are four different scenarios that you will be ordered to execute as a Rainbow Six Operator on three different difficulties. You can team up with 4 other operators or go Lone Wolf if you have what it takes.
+
+### Terrorists
+
+There are generally three types of terrorists you face in Terrorist Hunt: [Roamer]({{< ref "glossary.md#roamer" >}}), [Bombers]({{< ref "glossary.md#roamer" >}}), and [Ambushers]({{< ref "glossary.md#roamer" >}}).
+
+### Difficulties
+
+There are three different difficulties you can play Terrorist Hunt on: Normal, Hard and Realistic.
+
+#### Normal
+
+Normal difficulty provides you with an infinite amount of time to complete the objective against fairly easy hostiles. Generally there are two [terrorist bombers]({{< ref "glossary.md#bomber" >}}) and around three [terrorist roamers]({{< ref "glossary.md#roamer" >}}). On Normal, the terrorists have less precise shooting and do less damage.
+
+#### Hard
+
+When playing on Hard difficulty, you are limited to a set time frame to complete the objective. Roughly the same number of hostiles that are spawned in Normal can be expected in Hard. Also, enemies have precise shooting ability and do normal damage.
+
+#### Realistic
+
+Like in Hard difficulty, Realistic also requires you to complete the objective within a set time limit. However, there are more hostile terrorists in Realistic mode and they have increased reaction time, accuracy and damage. It has proven to be a worthy challenge for the most seasoned operators and requires effective cooperation amongst the squad.
+
+### Objectives
+
+In each Terrorist Hunt you are tasked to siege a fortified compound filled with hostile terrorists with a specific objective. The four possible objectives are below.
+
+#### Terrorist Hunt Classic {#pve-classic}
+
+The objective of this mode is to eliminate all enemy terrorists that are fortified within the compound.
+
+#### Hostage Extraction {#pve-hostage}
+
+This mode requires you to locate and safely extract the hostage back to a certain location on the map.
+
+#### Protect Asset {#pve-asset}
+
+You and your team have been ordered to protect a high value asset at all costs, you start off within a room and need to fortify defenses before attackers arrive to eliminate your asset.
+
+#### Disarm Bombs {#pve-bomb}
+
+Terrorists have fortified a target location and armed two bombs that are minutes away from detonation. You need to infiltrate their defenses and disarm both bombs.
+
+## Multiplayer Mode (PVP) {#pvp-multiplayer}
 
 Multiplayer mode places you with four other operators playing against five operators via a match making server. There are three types of multiplayer game play, casual, ranked and custom. Essentially multiplayer is team death match with the addition of playing to achieve an [objective]({{< ref "#pvp-objectives" >}}), either as an attacker or a defender. The three different possible scenarios are [Bomb]({{< ref "#pvp-bomb" >}}), [Hostage]({{< ref "#pvp-hostage" >}}), or [Secure Area]({{< ref "#pvp-secure-area" >}}).
 
@@ -106,47 +150,3 @@ Custom multiplayer mode allows you to start your own match with a set rotation o
 * Once the lobby has been created, the server will wait a certain amount of time for it to be filled up to 10 players. If the wait duration goes above a certain limit, the custom game session will be cancelled.
 * Custom games hosted on dedicated servers will not be listed and will be accessed by invitation only, after the lobby is created.
 * Custom matches that aren’t held on dedicated servers (LAN or peer-to-peer) will be listed in a server browser.
-
-## Terrorist Hunt Mode (PVE)
-
-Terrorist hunt mode allows you to play the scenarios available for multiplayer mode against terrorist bots. There are four different scenarios that you will be ordered to execute as a Rainbow Six Operator on three different difficulties. You can team up with 4 other operators or go Lone Wolf if you have what it takes.
-
-### Terrorists
-
-There are generally three types of terrorists you face in Terrorist Hunt: [Roamer]({{< ref "glossary.md#roamer" >}}), [Bombers]({{< ref "glossary.md#roamer" >}}), and [Ambushers]({{< ref "glossary.md#roamer" >}}).
-
-### Difficulties
-
-There are three different difficulties you can play Terrorist Hunt on: Normal, Hard and Realistic.
-
-#### Normal
-
-Normal difficulty provides you with an infinite amount of time to complete the objective against fairly easy hostiles. Generally there are two [terrorist bombers]({{< ref "glossary.md#bomber" >}}) and around three [terrorist roamers]({{< ref "glossary.md#roamer" >}}). On Normal, the terrorists have less precise shooting and do less damage.
-
-#### Hard
-
-When playing on Hard difficulty, you are limited to a set time frame to complete the objective. Roughly the same number of hostiles that are spawned in Normal can be expected in Hard. Also, enemies have precise shooting ability and do normal damage.
-
-#### Realistic
-
-Like in Hard difficulty, Realistic also requires you to complete the objective within a set time limit. However, there are more hostile terrorists in Realistic mode and they have increased reaction time, accuracy and damage. It has proven to be a worthy challenge for the most seasoned operators and requires effective cooperation amongst the squad.
-
-### Objectives
-
-In each Terrorist Hunt you are tasked to siege a fortified compound filled with hostile terrorists with a specific objective. The four possible objectives are below.
-
-#### Terrorist Hunt Classic {#pve-classic}
-
-The objective of this mode is to eliminate all enemy terrorists that are fortified within the compound.
-
-#### Hostage Extraction {#pve-hostage}
-
-This mode requires you to locate and safely extract the hostage back to a certain location on the map.
-
-#### Protect Asset {#pve-asset}
-
-You and your team have been ordered to protect a high value asset at all costs, you start off within a room and need to fortify defenses before attackers arrive to eliminate your asset.
-
-#### Disarm Bombs {#pve-bomb}
-
-Terrorists have fortified a target location and armed two bombs that are minutes away from detonation. You need to infiltrate their defenses and disarm both bombs.

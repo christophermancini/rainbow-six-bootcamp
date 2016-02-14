@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","UMP45","Castle","Pulse"]
 title = "Comet"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/comet-ump45--1600x900.jpg"
-  thumbnail = "/images/gear/skin/comet-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

@@ -6,12 +6,6 @@ tags = ["skin","special","Fuze","AK-12"]
 title = "Guerrilla"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/guerrilla-ak-12--1600x900.jpg"
-  thumbnail = "/images/gear/skin/guerrilla-th.jpg"
-
 [cost]
   renown = ""
   credits = ""

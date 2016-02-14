@@ -6,12 +6,6 @@ tags = ["skin","Tier 2","FBI SWAT"]
 title = "Weave"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/weave-ump45--1600x900.jpg"
-  thumbnail = "/images/gear/skin/weave-th.jpg"
-
 [cost]
   renown = ""
   credits = "180"

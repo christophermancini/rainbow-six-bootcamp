@@ -5,7 +5,7 @@ title = "Frost"
 type = "operator"
 video = ""
 references = [
-
+  "http://rainbow6.ubi.com/siege/en-AU/game-info/operator/frost.aspx"
 ]
 
 [menu.main]
@@ -14,8 +14,8 @@ references = [
 [images]
   backdrop = "/images/operator/frost-backdrop.jpg"
   icon = "/images/operator/frost_badge.png"
-  main = ""
-  thumbnail = "https://ubistatic-a.akamaihd.net/0058/prod/img/package/operators/retina/image_operator_36_frost.9868d732.png"
+  main = "http://static9.cdn.ubi.com/resource/en-AU/game/rainbow6/siege/R6-operators-frost_237596.png"
+  thumbnail = "http://static9.cdn.ubi.com/resource/en-AU/game/rainbow6/siege/R6-operators-list-frost_237600.png"
 
 [info]
   armor = "Medium"
@@ -34,6 +34,8 @@ references = [
 Intro / description paragraph...<!--more-->
 
 ## Bio
+
+A combat systems officer, Tina Lin Tsang is a focused and meticulous planner. She uses the Sterling Mk2 LHT or “Welcome Mat”, a floor mounted, rubber and metallic spring loaded leg-hold trap that provides her with a non-lethal means of immobilising her prey. The sleek design of the “Welcome Mat” allows for seamless deployment in a variety of areas and environments without the need for extensive camouflage.                             
 
 ## Tactical Profile
 

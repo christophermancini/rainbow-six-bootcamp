@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","GIGN"]
 title = "Acier"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/acier-417--1600x900.jpg"
-  thumbnail = "/images/gear/skin/acier-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

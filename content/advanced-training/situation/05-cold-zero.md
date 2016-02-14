@@ -10,6 +10,8 @@ title = "05 Cold Zero"
 type = "situation"
 +++
 
+<!--more-->
+
 ## Objective
 
 Watch out for the bomber and extract the hostage.

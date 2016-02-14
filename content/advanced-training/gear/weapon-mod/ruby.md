@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Mute","MP5K"]
 title = "Ruby"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/ruby-mp5k--1600x900.jpg"
-  thumbnail = "/images/gear/skin/ruby-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

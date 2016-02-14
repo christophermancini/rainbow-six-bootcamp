@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","417","Twitch"]
 title = "Evolution"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/evolution-417--1600x900.jpg"
-  thumbnail = "/images/gear/skin/evolution-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

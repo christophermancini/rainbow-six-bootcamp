@@ -6,12 +6,6 @@ tags = ["skin","GIGN","Tier 5","P9"]
 title = "Jade"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/jade-p9--1600x900.jpg"
-  thumbnail = "/images/gear/skin/jade-th.jpg"
-
 [cost]
   renown = ""
   credits = "575"

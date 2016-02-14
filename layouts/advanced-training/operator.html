@@ -47,61 +47,57 @@
             {{ partial "hAnchor" (dict "text" "FBI SWAT" "page" .) }}
             {{ range where .Site.Pages.ByTitle "Type" "operator" }}
               {{ if in .Params.tags "FBI SWAT" }}
-                {{ .Render "gallerySmall" }}
+                {{ .Render "gallery" }}
               {{ end }}
             {{ end }}
             <div class="clearfix"></div>
+
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1 "Class" "leaderboard") }}
 
             {{ partial "hAnchor" (dict "text" "GIGN" "page" .) }}
             {{ range where .Site.Pages.ByTitle "Type" "operator" }}
               {{ if in .Params.tags "GIGN" }}
-                {{ .Render "gallerySmall" }}
+                {{ .Render "gallery" }}
               {{ end }}
             {{ end }}
             <div class="clearfix"></div>
-
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
 
             {{ partial "hAnchor" (dict "text" "GSG 9" "page" .) }}
             {{ range where .Site.Pages.ByTitle "Type" "operator" }}
               {{ if in .Params.tags "GSG 9" }}
-                {{ .Render "gallerySmall" }}
+                {{ .Render "gallery" }}
               {{ end }}
             {{ end }}
             <div class="clearfix"></div>
+
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd2 "Class" "leaderboard") }}
 
             {{ partial "hAnchor" (dict "text" "JTF2" "page" .) }}
             {{ range where .Site.Pages.ByTitle "Type" "operator" }}
               {{ if in .Params.tags "JTF2" }}
-                {{ .Render "gallerySmall" }}
+                {{ .Render "gallery" }}
               {{ end }}
             {{ end }}
             <div class="clearfix"></div>
-
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1) }}
 
             {{ partial "hAnchor" (dict "text" "SAS" "page" .) }}
             {{ range where .Site.Pages.ByTitle "Type" "operator" }}
               {{ if in .Params.tags "SAS" }}
-                {{ .Render "gallerySmall" }}
+                {{ .Render "gallery" }}
               {{ end }}
             {{ end }}
             <div class="clearfix"></div>
+
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd "Class" "leaderboard") }}
 
             {{ partial "hAnchor" (dict "text" "Spetsnaz" "page" .) }}
             {{ range where .Site.Pages.ByTitle "Type" "operator" }}
               {{ if in .Params.tags "Spetsnaz" }}
-                {{ .Render "gallerySmall" }}
+                {{ .Render "gallery" }}
               {{ end }}
             {{ end }}
             <div class="clearfix"></div>
           </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
         </div>
       </div>
 

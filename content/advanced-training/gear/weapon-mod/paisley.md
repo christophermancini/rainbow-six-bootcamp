@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","Fuze","AK-12"]
 title = "Paisley"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/paisley-ak-12--1600x900.jpg"
-  thumbnail = "/images/gear/skin/paisley-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

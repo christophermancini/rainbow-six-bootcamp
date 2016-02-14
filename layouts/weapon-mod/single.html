@@ -1,10 +1,10 @@
-{{ $skin := (in .Params.tags "skin") }}
+{{ $modType := index .Params "mod-types" }}
+{{ $slug := .Source.BaseFileName }}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-
 <html class="no-js"> <!--<![endif]-->
 <head>
   {{ partial "head.html" . }}
@@ -64,6 +64,9 @@
               </p>
             </div>
             <div class="white-stone">
+              {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1 "Class" "rectangle") }}
+            </div>
+            <div class="white-stone">
 
               <table class="table">
                 <tr>
@@ -107,27 +110,13 @@
       <div class="row">
         <div class="col-xs-12">
 
+          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.contentAd1 "Class" "leaderboard") }}
+
           {{ partial "hAnchor" (dict "text" "Compatible Weapons" "page" .) }}
           {{ range where .Site.Pages.ByTitle "Type" "weapon" }}
-            {{ if eq (index $.Params "mod-types") "skin" }}
-              {{ if in .Params.mods.skin $.Source.BaseFileName }}
-                {{ .Render "gallerySmall" }}
-              {{ end }}
-            {{ end }}
-            {{ if eq (index $.Params "mod-types") "barrel" }}
-              {{ if in .Params.mods.barrel $.Source.BaseFileName }}
-                {{ .Render "gallerySmall" }}
-              {{ end }}
-            {{ end }}
-            {{ if eq (index $.Params "mod-types") "sight" }}
-              {{ if in .Params.mods.sight $.Source.BaseFileName }}
-                {{ .Render "gallerySmall" }}
-              {{ end }}
-            {{ end }}
-            {{ if eq (index $.Params "mod-types") "under-barrel" }}
-              {{ if in (index .Params.mods "under-barrel") $.Source.BaseFileName }}
-                {{ .Render "gallerySmall" }}
-              {{ end }}
+            {{ $specs := index .Site.Data.weapons.specs .Source.BaseFileName }}
+            {{ if in (index $specs.mods $modType) $slug }}
+              {{ .Render "gallerySmall" }}
             {{ end }}
           {{ end }}
           <div  class="clearfix"></div>

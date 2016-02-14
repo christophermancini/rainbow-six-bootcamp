@@ -6,12 +6,6 @@ tags = ["GIGN","Tier 3","skin","LFP586"]
 title = "Belladonna"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/belladonna-lfp586--1600x900.jpg"
-  thumbnail = "/images/gear/skin/belladonna-th.jpg"
-
 [cost]
   renown = "9600"
   credits = "256"

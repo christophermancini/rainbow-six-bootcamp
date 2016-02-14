@@ -1,0 +1,17 @@
+{{ $scores := .Page.Site.Data.weapons.scores }}
+{{ $weapons := where $.Page.Site.Pages "Type" "weapon" }}
+{{ $scoreType := .Get 0 }}
+<p>
+  Top 5 Weapons for a {{ title $scoreType }} Operator:
+  <ol>
+  {{ range first 5 (sort $scores $scoreType "desc") }}
+    {{ $slug := .weapon }}
+    {{ $score := index . $scoreType }}
+    {{ range $weapons }}
+      {{ if eq $slug .Source.BaseFileName }}
+      <li><a href="{{ .Permalink }}">{{ $score }} - {{ .Title }}</a></li>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  </ol>
+</p>

@@ -6,12 +6,6 @@ tags = ["skin","Tier 2"]
 title = "Kamehameha"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/kamehameha-ots-03--1600x900.jpg"
-  thumbnail = "/images/gear/skin/kamehameha-th.jpg"
-
 [cost]
   renown = "4000"
   credits = "180"

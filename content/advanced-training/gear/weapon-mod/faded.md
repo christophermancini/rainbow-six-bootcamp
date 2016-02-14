@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","FBI SWAT"]
 title = "Faded"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/faded-5.7-usg--1600x900.jpg"
-  thumbnail = "/images/gear/skin/faded-th.jpg"
-
 [cost]
   renown = ""
   credits = "575"

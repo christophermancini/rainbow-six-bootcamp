@@ -6,12 +6,6 @@ tags = ["skin","Tier 2","GIGN"]
 title = "Acid Rain"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/acid-rain-f2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/acid-rain-th.jpg"
-
 [cost]
   renown = "6000"
   credits = "180"

@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","IQ","Aug A2"]
 title = "Hauten"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/hauten-aug2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/hauten-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

@@ -6,12 +6,6 @@ mod-types = "skin"
 tags = ["skin","Safari bundle","season pass","special"]
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/leopard-l85a2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/leopard-th.jpg"
-
 [cost]
   renown = ""
   credits = ""

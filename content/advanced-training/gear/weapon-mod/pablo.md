@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","Glaz","OTs-03"]
 title = "Pablo"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/pablo-ots-03--1600x900.jpg"
-  thumbnail = "/images/gear/skin/pablo-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

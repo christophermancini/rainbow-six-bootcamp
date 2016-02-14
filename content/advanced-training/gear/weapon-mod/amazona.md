@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","Mute","MP5K"]
 title = "Amazona"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/amazona-mp5k--1600x900.jpg"
-  thumbnail = "/images/gear/skin/amazona-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Sledge","Smoke","SMG-11"]
 title = "Trafalgar"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/trafalgar-smg-11--1600x900.jpg"
-  thumbnail = "/images/gear/skin/trafalgar-th.jpg"
-
 [cost]
   renown = ""
   credits = "575"

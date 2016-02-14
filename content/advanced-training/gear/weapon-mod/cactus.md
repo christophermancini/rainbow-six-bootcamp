@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","556xi","Thermite"]
 title = "Cactus"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/cactus-556xi--1600x900.jpg"
-  thumbnail = "/images/gear/skin/cactus-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

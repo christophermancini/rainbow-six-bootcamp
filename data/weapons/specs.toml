@@ -10,6 +10,7 @@
   under-barrel = ["laser","vertical-grip"]
   skin = [
     "black-ice",
+    "cobalt",
     "dev-tester",
     "elephant",
     "emerald",
@@ -43,6 +44,7 @@
 [9mm-c1.mods]
   barrel = ["suppressor"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -77,6 +79,7 @@
 [9x19vsn.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -113,6 +116,7 @@
 [416-c-carbine.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -149,6 +153,7 @@
 [417.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -185,6 +190,7 @@
 ["5.7-usg".mods]
   barrel = ["suppressor"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -221,6 +227,7 @@
 [552-commando.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "porter",
     "fire",
     "emerald",
@@ -258,6 +265,7 @@
 [556xi.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -294,6 +302,7 @@
 [ak-12.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "guerrilla",
     "fire",
     "emerald",
@@ -331,6 +340,7 @@
 [ar33.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -367,6 +377,7 @@
 [aug-a2.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "bartlett-university",
     "fire",
     "emerald",
@@ -404,6 +415,7 @@
 [c8-sfw.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -438,6 +450,7 @@
 [camrs.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "emerald",
     "elephant",
@@ -472,6 +485,7 @@
 [f2.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -508,6 +522,7 @@
 [fmg-9.mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -544,6 +559,7 @@
 [g8a1.mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -580,6 +596,7 @@
 [g36c.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -617,6 +634,7 @@
 [gsh-18.mods]
   barrel = ["suppressor","compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -653,6 +671,7 @@
 [l85a2.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -689,6 +708,7 @@
 [lfp586.mods]
   barrel = []
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -725,6 +745,7 @@
 [m45-meusoc.mods]
   barrel = ["suppressor"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -761,6 +782,7 @@
 [m590a1.mods]
   barrel = []
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -797,6 +819,7 @@
 [m870.mods]
   barrel = []
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -833,6 +856,7 @@
 [m1014.mods]
   barrel = []
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -869,6 +893,7 @@
 [mk1-9mm.mods]
   barrel = ["suppressor"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -903,6 +928,7 @@
 [mp5.mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -939,6 +965,7 @@
 [mp5k.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -975,6 +1002,7 @@
 [mp7.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -1011,6 +1039,7 @@
 [ots-03.mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [
+    "cobalt",
     "fire",
     "emerald",
     "elephant",
@@ -1047,6 +1076,7 @@
 [p12.mods]
   barrel = ["suppressor"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -1083,6 +1113,7 @@
 [p226-mk-25.mods]
   barrel = ["suppressor"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -1119,6 +1150,7 @@
 [p9.mods]
   barrel = ["suppressor"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -1155,6 +1187,7 @@
 [p90.mods]
   barrel = ["suppressor", "flash-hider"]
   skin = [
+    "cobalt",
     "splinter-cell",
     "fire",
     "emerald",
@@ -1192,6 +1225,7 @@
 [pmm.mods]
   barrel = ["suppressor"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -1228,6 +1262,7 @@
 [r4-c.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -1264,6 +1299,7 @@
 [sasg-12.mods]
   barrel = ["suppressor"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -1300,6 +1336,7 @@
 [sg-cqb.mods]
   barrel = []
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -1336,6 +1373,7 @@
 [smg-11.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -1372,6 +1410,7 @@
 [super-90.mods]
   barrel = []
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",
@@ -1406,6 +1445,7 @@
 [ump45.mods]
   barrel = ["suppressor", "flash-hider", "compensator"]
   skin = [
+    "cobalt",
     "fire",
     "elephant",
     "emerald",

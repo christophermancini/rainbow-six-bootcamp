@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","FBI SWAT","M45 Meusoc"]
 title = "Gris"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/gris-m45--1600x900.jpg"
-  thumbnail = "/images/gear/skin/gris-th.jpg"
-
 [cost]
   renown = "9600"
   credits = "256"

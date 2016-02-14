@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Twitch","F2"]
 title = "Requin"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/requin-f2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/requin-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

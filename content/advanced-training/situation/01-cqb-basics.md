@@ -9,7 +9,7 @@ title = "01 CQB Basics"
 type = "situation"
 +++
 
-The first solo mission of the Rainbow Six Siege Situations. You are dropped outside the historic [Hereford Base]({{< ref "hereford-base.md" >}}) located outside Credenhill, Herefordshire, United Kingdom.
+The first solo mission of the Rainbow Six Siege Situations. You are dropped outside the historic [Hereford Base]({{< ref "hereford-base.md" >}}) located outside Credenhill, Herefordshire, United Kingdom.<!--more-->
 
 ## Mission Briefing
 

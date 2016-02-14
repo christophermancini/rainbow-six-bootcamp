@@ -12,36 +12,62 @@
 
   {{ partial "header.html" . }}
 
-  <main>
-    <div class="container">
+  <div id="breadcrumb" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ol class="breadcrumb hidden-sm-down">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/community/">COMMUNITY</a></li>
+          <li><a href="/community/clans/">CLANS</a></li>
+          <li class="active">{{ upper .Title }}</li>
+        </ol>
+      </div>
+      <div class="col-md-4 hidden-md-down">
+        {{ partial "socialLinks.html" . }}
+      </div>
+    </div>
+  </div>
+
+  {{ partial "backdrop.html" . }}
+
+  <div class="container">
+    <div class="spacer">
+      <div>
+        <h1 class="display-1">{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="section-wrapper">
       <div class="row">
 
-        <!-- blog-contents -->
-        <section class="col-md-8">
-          <article class="single-blog-item">
-            <h1>{{ partial "title" . }}</h1>
+        <div class="col-md-8">
 
-            {{ .Content }}
+          {{ .Content }}
 
-            <div class="clearfix" style="margin-top: 20px;">
-              {{ range where .Site.Pages.ByTitle "Type" "clan" }}
-                {{ .Render "gallerySmall" }}
-              {{ end }}
-            </div>
-
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
-          </article>
-        </section>
-        <!-- end of blog-contents -->
-
-        {{ partial "sidebar.html" . }}
-
+          <div class="clearfix" style="margin-top: 20px;">
+            {{ range where .Site.Pages.ByTitle "Type" "clan" }}
+              {{ .Render "gallerySmall" }}
+            {{ end }}
+          </div>
+        </div>
       </div>
-    </div> <!-- end of /.container -->
+
+      {{ partial "sectionNav.html" . }}
+
+      <div class="row">
+        <div class="col-xs-12">
+          {{ partial "disqus.html" . }}
+        </div>
+      </div>
+
+    </section>
   </main>
 
   {{ partial "footer.html" . }}
-
   {{ partial "foot.html" . }}
+  {{ partial "structuredDataArticle.html" . }}
+
 </body>
 </html>

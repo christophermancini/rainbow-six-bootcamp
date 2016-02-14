@@ -6,12 +6,6 @@ tags = ["skin","Tier 3","Jäger","Bandit","M870"]
 title = "November"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/november-m870--1600x900.jpg"
-  thumbnail = "/images/gear/skin/november-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

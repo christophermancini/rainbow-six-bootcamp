@@ -42,38 +42,31 @@
     <section class="section-wrapper">
       <div class="row">
 
-        <!-- blog-contents -->
-        <section class="col-md-8">
-          <article class="single-blog-item">
-            <h1>
-              {{ partial "title" . }}
-            </h1>
+        <div class="col-md-8" style="padding-top: 20px">
+          {{ partial "featuredImage" . }}
 
-            {{ partial "tags" . }}
+          {{ partial "tags" . }}
 
-            {{ partial "featuredImage" . }}
+          <div class="pull-right col-md-4 detail-box">
+            <strong>Clan details</strong><br>
+            website: {{ with .Params.website }}<a href="{{ . }}" target="_blank">{{ . }}</a>{{ else }}n/a{{ end }}<br>
+            recruiting: {{ with .Params.recruiting }}Yes{{ else }}No{{ end }}<br>
+            member count: {{ with .Params.size }}{{ . }}{{ else }}n/a{{ end }}<br>
+            platforms: {{ delimit .Params.platforms ", " }}<br>
+          </div>
 
-            <div class="well pull-right col-md-4 detail-box">
-              <strong>Clan details</strong><br>
-              website: {{ with .Params.website }}<a href="{{ . }}" target="_blank">{{ . }}</a>{{ else }}n/a{{ end }}<br>
-              recruiting: {{ with .Params.recruiting }}Yes{{ else }}No{{ end }}<br>
-              member count: {{ with .Params.size }}{{ . }}{{ else }}n/a{{ end }}<br>
-              platforms: {{ delimit .Params.platforms ", " }}<br>
-            </div>
-
+          <div id="content">
             {{ .Content }}
+          </div>
 
-            {{ with .Params.join }}<a href="{{ . }}"><button type="button" class="btn btn-block btn-info">JOIN NOW!</button></a>{{ end }}
-          </article>
-
-          {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}
+          {{ with .Params.join }}
+            <a href="{{ . }}"><button type="button" class="btn btn-block btn-info">JOIN NOW!</button></a>
+          {{ end }}
 
           {{ partial "related.html" . }}
 
-          {{ partial "disqus.html" . }}
-
-        </section>
-        <!-- end of blog-contents -->
+        </div>
+      </div>
 
       {{ partial "sectionNav.html" . }}
 

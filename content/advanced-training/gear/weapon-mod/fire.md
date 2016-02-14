@@ -6,12 +6,6 @@ tags = ["special","skin"]
 title = "Fire"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/fire-l85a2--1600x900.jpg"
-  thumbnail = "/images/gear/skin/fire-th.jpg"
-
 [cost]
   renown = ""
   credits = ""

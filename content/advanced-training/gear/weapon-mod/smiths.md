@@ -6,12 +6,6 @@ tags = ["skin","Tier 5","Thatcher","AR33"]
 title = "Smiths"
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/smiths-ar33--1600x900.jpg"
-  thumbnail = "/images/gear/skin/smiths-th.jpg"
-
 [cost]
   renown = ""
   credits = "720"

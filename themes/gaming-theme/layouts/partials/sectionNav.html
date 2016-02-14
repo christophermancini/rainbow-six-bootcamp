@@ -3,18 +3,18 @@
     {{ with .PrevInSection }}
     <a href="{{ .Permalink }}">
       <div id="prev-page">
-        <h3><i class="fa fa-arrow-left"></i> Previous: {{ .Title }}</h3>
+        <h3><i class="fa fa-arrow-left"></i> Previous:<br>{{ .Title }}</h3>
       </div>
     </a>
     {{ end }}
   </div>
-  <div class="col-xs-12 col-md-6 col-lg-8">{{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd) }}</div>
+  <div class="col-xs-12 col-md-6 col-lg-8">{{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.footerAd "Class" "leaderboard") }}</div>
   <div class="col-xs-12 col-md-3 col-lg-2">
     <div class="pull-right">
       {{ with .NextInSection }}
       <a href="{{ .Permalink }}">
-        <div id="next-page">
-          <h3>Next: {{ .Title }} <i class="fa fa-arrow-right"></i></h3>
+        <div id="next-page" class="text-xs-right">
+          <h3>Next: <i class="fa fa-arrow-right"></i><br>{{ .Title }} </h3>
         </div>
       </a>
       {{ end }}
