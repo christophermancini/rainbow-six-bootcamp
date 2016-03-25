@@ -1,7 +1,10 @@
 +++
+aliases = [
+  "/advanced-training/gear/weapon-mod/dev-tester/"
+]
 date = "2016-01-17T10:17:40-05:00"
-title = "Dev Tester"
-description = "Special skin that was given to all players who participated in the pre-launch technical tests."
+title = "Peacock"
+description = "Peacock is a special weapon skin that was given to all players who participated in the pre-launch open beta."
 mod-types = "skin"
 tags = ["skin","special"]
 type = "weapon-mod"

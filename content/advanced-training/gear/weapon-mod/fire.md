@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T15:45:56-05:00"
-description = "Special skin given to all players who participated in the pre-launch beta."
+description = "Fire is a special weapon skin given to all players who participated in the pre-launch alpha or beta."
 mod-types = "skin"
 tags = ["special","skin"]
 title = "Fire"

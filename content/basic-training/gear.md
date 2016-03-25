@@ -51,7 +51,19 @@ There are three [barrel mods]({{< ref "advanced-training/gear/index.md#weapon-at
 
 #### Skins
 
-There are over 100 in game [weapon skins]({{< ref "advanced-training/gear/index.md#skins">}}) available for you to customize your weapons. The skins are cosmetic only and are visible to all players in the game, not just yourself.
+There are over 100 in game [weapon skins]({{< ref "advanced-training/gear/index.md#weapon-skins">}}) available for you to customize your weapons. The skins are cosmetic only and are visible to all players in the game, not just yourself. Some skins are available for all weapons (e.g. [USA Winter Camo Weapon Skin]({{< ref "usa-winter-camo.md" >}})) but the majority are restricted to either a CTU (e.g. [Glory Weapon Skin]({{< ref "glory.md" >}})) or a specific weapon (e.g. [Red Asphalt Weapon Skin]({{< ref "red-asphalt.md" >}})).
+
+Once you purchase a skin, it is available for the weapon you purchased it for, even if the weapon is usable by multiple operators. For example, if I purchase the [Modern USA Camo weapon skin]({{< ref "modern-usa-camo.md" >}}) for the [M590A1 Shotgun]({{< ref "m590a1.md" >}}) would be available to be applied on any operator within [SAS]({{< ref "sas.md" >}}).
+
+Purchasing skins is done via:
+
+- some skins are gifted for free to players from Ubisoft for participation in specific events (e.g. beta testing or playing during a holiday weekend)
+- the in game [operator]({{< ref "operators.md" >}}) loadout screen using [Renown / Rainbow Credits]({{< ref "renown-rainbow-credits.md" >}})
+- the in game shop, skins can be found in the `HIGHLIGHTS`, `BUNDLES`, `WEAPON SKINS`, and `DIGITAL CONTENT` sections of the store using real currency (e.g. USD, EUR, etc) and [Renown / Rainbow Credits]({{< ref "renown-rainbow-credits.md" >}})
+- the Steam store under DLC for the game
+- the [Rainbow Six Siege Uplay Club page](https://club.ubi.com/#!/en-US/game/rainbow-six-siege), within the Rewards section
+
+[View all weapon skins]({{< ref "advanced-training/gear/index.md#weapon-skins" >}})
 
 ## Gadgets
 

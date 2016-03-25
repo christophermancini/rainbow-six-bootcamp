@@ -221,9 +221,9 @@
           {{ end }}
           <div class="clearfix"></div>
 
-          {{ if isset .Params "images" }}
+          {{ if isset .Params "gallery" }}
             {{ partial "hAnchor" (dict "text" "Gallery" "page" .) }}
-            {{ partial "imageGallery" .Params.images }}
+            {{ partial "imageGallery" .Params.gallery }}
           {{ end }}
           <div class="clearfix"></div>
 

@@ -5,12 +5,6 @@ mod-types = "skin"
 tags = ["skin","Tier 3","weapon","operator"]
 type = "weapon-mod"
 
-[images]
-  backdrop = ""
-  icon = ""
-  main = "/images/gear/skin/preview/--1600x900.jpg"
-  thumbnail = "/images/gear/skin/-th.jpg"
-
 [cost]
   renown = "12000"
   credits = "320"

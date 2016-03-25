@@ -29,7 +29,7 @@
       <div class="row">
 
         <div class="col-md-7">
-          <div id="content">
+          <div id="content" style="margin-top: 0;">
             <h1>Welcome!</h1>
             <p>
               Rainbow Six Bootcamp is a community driven publication providing detailed information about the current release of the Rainbow Six video game series,
@@ -75,7 +75,7 @@
               {{ end }}
               <div class="clearfix"></div>
             </div>
-            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.ContentAd1) }}
+            {{ partial "adsenseTag.html" (dict "Client" .Site.Params.adsense.client "Ad" .Site.Params.adsense.ContentAd2 "Class" "rectangle") }}
             <div class="white-stone">
               <h2>Unique Gadgets</h2>
               {{ range where .Site.Pages.ByTitle "Type" "gadget" }}
